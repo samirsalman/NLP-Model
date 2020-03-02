@@ -1,0 +1,3 @@
+|--------------- Pos annotation agreement -------------------------|
+POS for: ['Claudio Santoro', 'Fabrizio Tafani', 'Francesco Arena', 'Dente', 'tamiano', 'Corridori', 'MM', 'Paolo Cerrito', 'salman', 'giorgioni', 'Volpi']
+POS:  0.394948115719

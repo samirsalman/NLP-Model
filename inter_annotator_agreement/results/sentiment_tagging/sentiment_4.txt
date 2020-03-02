@@ -1,0 +1,990 @@
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Francesco Arena', 'Dente']
+SENTIMENT:  0.203480020233
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Francesco Arena', 'tamiano']
+SENTIMENT:  0.305061814789
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Francesco Arena', 'Corridori']
+SENTIMENT:  0.475415714222
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Francesco Arena', 'MM']
+SENTIMENT:  0.218174024861
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Francesco Arena', 'Paolo Cerrito']
+SENTIMENT:  0.285701250114
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Francesco Arena', 'salman']
+SENTIMENT:  0.453571186326
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Francesco Arena', 'giorgioni']
+SENTIMENT:  0.453571186326
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Francesco Arena', 'Volpi']
+SENTIMENT:  0.418846458712
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Dente', 'tamiano']
+SENTIMENT:  0.188229582251
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Dente', 'Corridori']
+SENTIMENT:  0.256285822699
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Dente', 'MM']
+SENTIMENT:  0.0583867555958
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Dente', 'Paolo Cerrito']
+SENTIMENT:  0.167751399822
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Dente', 'salman']
+SENTIMENT:  0.257518872876
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Dente', 'giorgioni']
+SENTIMENT:  0.257518872876
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Dente', 'Volpi']
+SENTIMENT:  0.182845812637
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'tamiano', 'Corridori']
+SENTIMENT:  0.376793767938
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'tamiano', 'MM']
+SENTIMENT:  0.184729452595
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'tamiano', 'Paolo Cerrito']
+SENTIMENT:  0.321262083517
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'tamiano', 'salman']
+SENTIMENT:  0.372823274355
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'tamiano', 'giorgioni']
+SENTIMENT:  0.372823274355
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'tamiano', 'Volpi']
+SENTIMENT:  0.299832495812
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Corridori', 'MM']
+SENTIMENT:  0.253555709984
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Corridori', 'Paolo Cerrito']
+SENTIMENT:  0.35529958032
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Corridori', 'salman']
+SENTIMENT:  0.529202041135
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Corridori', 'giorgioni']
+SENTIMENT:  0.529202041135
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Corridori', 'Volpi']
+SENTIMENT:  0.46733065892
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.15953939025
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'MM', 'salman']
+SENTIMENT:  0.243132489934
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'MM', 'giorgioni']
+SENTIMENT:  0.243132489934
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'MM', 'Volpi']
+SENTIMENT:  0.174693106704
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.345409802447
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.345409802447
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.284624171807
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'salman', 'giorgioni']
+SENTIMENT:  0.548291233284
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'salman', 'Volpi']
+SENTIMENT:  0.44036123654
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Fabrizio Tafani', 'giorgioni', 'Volpi']
+SENTIMENT:  0.44036123654
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Dente', 'tamiano']
+SENTIMENT:  0.0876350540216
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Dente', 'Corridori']
+SENTIMENT:  0.184224808539
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Dente', 'MM']
+SENTIMENT:  0.00974005031284
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Dente', 'Paolo Cerrito']
+SENTIMENT:  0.0744524944785
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Dente', 'salman']
+SENTIMENT:  0.203606677227
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Dente', 'giorgioni']
+SENTIMENT:  0.203606677227
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Dente', 'Volpi']
+SENTIMENT:  0.13409152114
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'tamiano', 'Corridori']
+SENTIMENT:  0.270333287615
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'tamiano', 'MM']
+SENTIMENT:  0.0970767547288
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'tamiano', 'Paolo Cerrito']
+SENTIMENT:  0.183872699761
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'tamiano', 'salman']
+SENTIMENT:  0.285584005612
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'tamiano', 'giorgioni']
+SENTIMENT:  0.285584005612
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'tamiano', 'Volpi']
+SENTIMENT:  0.22040278562
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Corridori', 'MM']
+SENTIMENT:  0.202710857355
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Corridori', 'Paolo Cerrito']
+SENTIMENT:  0.256707043517
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Corridori', 'salman']
+SENTIMENT:  0.47518786812
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Corridori', 'giorgioni']
+SENTIMENT:  0.47518786812
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Corridori', 'Volpi']
+SENTIMENT:  0.420093259856
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.0814322405197
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'MM', 'salman']
+SENTIMENT:  0.213036528046
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'MM', 'giorgioni']
+SENTIMENT:  0.213036528046
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'MM', 'Volpi']
+SENTIMENT:  0.152173913043
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.266002975169
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.266002975169
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.212398797132
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'salman', 'giorgioni']
+SENTIMENT:  0.515018916086
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'salman', 'Volpi']
+SENTIMENT:  0.414237416365
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Francesco Arena', 'giorgioni', 'Volpi']
+SENTIMENT:  0.414237416365
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'tamiano', 'Corridori']
+SENTIMENT:  0.145487119293
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'tamiano', 'MM']
+SENTIMENT:  0.0211259238136
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'tamiano', 'Paolo Cerrito']
+SENTIMENT:  0.150308456382
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'tamiano', 'salman']
+SENTIMENT:  0.179798490789
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'tamiano', 'giorgioni']
+SENTIMENT:  0.179798490789
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'tamiano', 'Volpi']
+SENTIMENT:  0.082827017434
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'Corridori', 'MM']
+SENTIMENT:  0.0351329269059
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'Corridori', 'Paolo Cerrito']
+SENTIMENT:  0.130199170964
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'Corridori', 'salman']
+SENTIMENT:  0.263406624214
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'Corridori', 'giorgioni']
+SENTIMENT:  0.263406624214
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'Corridori', 'Volpi']
+SENTIMENT:  0.168377697178
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.00351942585053
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'MM', 'salman']
+SENTIMENT:  0.0635474559476
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'MM', 'giorgioni']
+SENTIMENT:  0.0635474559476
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'MM', 'Volpi']
+SENTIMENT:  -0.0278325384208
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.158903204493
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.158903204493
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.0726566833056
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'salman', 'giorgioni']
+SENTIMENT:  0.319517877038
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'salman', 'Volpi']
+SENTIMENT:  0.185121035919
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Dente', 'giorgioni', 'Volpi']
+SENTIMENT:  0.185121035919
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'Corridori', 'MM']
+SENTIMENT:  0.140985246312
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'Corridori', 'Paolo Cerrito']
+SENTIMENT:  0.260916772884
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'Corridori', 'salman']
+SENTIMENT:  0.365583304824
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'Corridori', 'giorgioni']
+SENTIMENT:  0.365583304824
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'Corridori', 'Volpi']
+SENTIMENT:  0.271789202137
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.157034442499
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'MM', 'salman']
+SENTIMENT:  0.168485800288
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'MM', 'giorgioni']
+SENTIMENT:  0.168485800288
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'MM', 'Volpi']
+SENTIMENT:  0.0726566833056
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.289632728963
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.289632728963
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.200497298331
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'salman', 'giorgioni']
+SENTIMENT:  0.424646011496
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'salman', 'Volpi']
+SENTIMENT:  0.283472876944
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'tamiano', 'giorgioni', 'Volpi']
+SENTIMENT:  0.283472876944
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Corridori', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.123006060606
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Corridori', 'MM', 'salman']
+SENTIMENT:  0.256508333913
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Corridori', 'MM', 'giorgioni']
+SENTIMENT:  0.256508333913
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Corridori', 'MM', 'Volpi']
+SENTIMENT:  0.165922619048
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Corridori', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.343757689641
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Corridori', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.343757689641
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Corridori', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.261901520309
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Corridori', 'salman', 'giorgioni']
+SENTIMENT:  0.597612958227
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Corridori', 'salman', 'Volpi']
+SENTIMENT:  0.471150029189
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Corridori', 'giorgioni', 'Volpi']
+SENTIMENT:  0.471150029189
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'MM', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.143196582493
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'MM', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.143196582493
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'MM', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.0615904747905
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'MM', 'salman', 'giorgioni']
+SENTIMENT:  0.310706954986
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'MM', 'salman', 'Volpi']
+SENTIMENT:  0.172006945931
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'MM', 'giorgioni', 'Volpi']
+SENTIMENT:  0.172006945931
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Paolo Cerrito', 'salman', 'giorgioni']
+SENTIMENT:  0.395501919912
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Paolo Cerrito', 'salman', 'Volpi']
+SENTIMENT:  0.267832860863
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'Paolo Cerrito', 'giorgioni', 'Volpi']
+SENTIMENT:  0.267832860863
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Claudio Santoro', 'salman', 'giorgioni', 'Volpi']
+SENTIMENT:  0.507536272714
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Dente', 'tamiano']
+SENTIMENT:  0.14803153123
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Dente', 'Corridori']
+SENTIMENT:  0.230008818885
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Dente', 'MM']
+SENTIMENT:  0.0589426684158
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Dente', 'Paolo Cerrito']
+SENTIMENT:  0.130143394913
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Dente', 'salman']
+SENTIMENT:  0.236372770661
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Dente', 'giorgioni']
+SENTIMENT:  0.236372770661
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Dente', 'Volpi']
+SENTIMENT:  0.172123735621
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'tamiano', 'Corridori']
+SENTIMENT:  0.353129632286
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'tamiano', 'MM']
+SENTIMENT:  0.195626889974
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'tamiano', 'Paolo Cerrito']
+SENTIMENT:  0.287639132982
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'tamiano', 'salman']
+SENTIMENT:  0.35607580825
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'tamiano', 'giorgioni']
+SENTIMENT:  0.35607580825
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'tamiano', 'Volpi']
+SENTIMENT:  0.293092475645
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Corridori', 'MM']
+SENTIMENT:  0.277361172377
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Corridori', 'Paolo Cerrito']
+SENTIMENT:  0.333426638675
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Corridori', 'salman']
+SENTIMENT:  0.522637140958
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Corridori', 'giorgioni']
+SENTIMENT:  0.522637140958
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Corridori', 'Volpi']
+SENTIMENT:  0.470956210903
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.170924472644
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'MM', 'salman']
+SENTIMENT:  0.274027533012
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'MM', 'giorgioni']
+SENTIMENT:  0.274027533012
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'MM', 'Volpi']
+SENTIMENT:  0.216063291773
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.329815684857
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.329815684857
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.279827709978
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'salman', 'giorgioni']
+SENTIMENT:  0.551559426805
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'salman', 'Volpi']
+SENTIMENT:  0.45191871433
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Francesco Arena', 'giorgioni', 'Volpi']
+SENTIMENT:  0.45191871433
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'tamiano', 'Corridori']
+SENTIMENT:  0.21403690963
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'tamiano', 'MM']
+SENTIMENT:  0.100209710387
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'tamiano', 'Paolo Cerrito']
+SENTIMENT:  0.241129051898
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'tamiano', 'salman']
+SENTIMENT:  0.236968311595
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'tamiano', 'giorgioni']
+SENTIMENT:  0.236968311595
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'tamiano', 'Volpi']
+SENTIMENT:  0.140905619203
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'Corridori', 'MM']
+SENTIMENT:  0.092043612462
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'Corridori', 'Paolo Cerrito']
+SENTIMENT:  0.19382989963
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'Corridori', 'salman']
+SENTIMENT:  0.3026951749
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'Corridori', 'giorgioni']
+SENTIMENT:  0.3026951749
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'Corridori', 'Volpi']
+SENTIMENT:  0.212402716707
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.0749879051766
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'MM', 'salman']
+SENTIMENT:  0.107164330975
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'MM', 'giorgioni']
+SENTIMENT:  0.107164330975
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'MM', 'Volpi']
+SENTIMENT:  0.0182590233546
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.210510235258
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.210510235258
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.126716644241
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'salman', 'giorgioni']
+SENTIMENT:  0.34777603349
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'salman', 'Volpi']
+SENTIMENT:  0.215409794788
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Dente', 'giorgioni', 'Volpi']
+SENTIMENT:  0.215409794788
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'Corridori', 'MM']
+SENTIMENT:  0.247524752475
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'Corridori', 'Paolo Cerrito']
+SENTIMENT:  0.373530758663
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'Corridori', 'salman']
+SENTIMENT:  0.443702906351
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'Corridori', 'giorgioni']
+SENTIMENT:  0.443702906351
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'Corridori', 'Volpi']
+SENTIMENT:  0.350519868965
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.31122554068
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'MM', 'salman']
+SENTIMENT:  0.264408271007
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'MM', 'giorgioni']
+SENTIMENT:  0.264408271007
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'MM', 'Volpi']
+SENTIMENT:  0.162672836446
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.39328672078
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.39328672078
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.299108515217
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'salman', 'giorgioni']
+SENTIMENT:  0.494314514127
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'salman', 'Volpi']
+SENTIMENT:  0.349139934914
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'tamiano', 'giorgioni', 'Volpi']
+SENTIMENT:  0.349139934914
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Corridori', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.220512820513
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Corridori', 'MM', 'salman']
+SENTIMENT:  0.324643444534
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Corridori', 'MM', 'giorgioni']
+SENTIMENT:  0.324643444534
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Corridori', 'MM', 'Volpi']
+SENTIMENT:  0.23555297645
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Corridori', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.415016443916
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Corridori', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.415016443916
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Corridori', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.335287276111
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Corridori', 'salman', 'giorgioni']
+SENTIMENT:  0.638789872955
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Corridori', 'salman', 'Volpi']
+SENTIMENT:  0.513059745119
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Corridori', 'giorgioni', 'Volpi']
+SENTIMENT:  0.513059745119
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'MM', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.228512941308
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'MM', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.228512941308
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'MM', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.144525857492
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'MM', 'salman', 'giorgioni']
+SENTIMENT:  0.368906658465
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'MM', 'salman', 'Volpi']
+SENTIMENT:  0.226841063419
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'MM', 'giorgioni', 'Volpi']
+SENTIMENT:  0.226841063419
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Paolo Cerrito', 'salman', 'giorgioni']
+SENTIMENT:  0.457169055548
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Paolo Cerrito', 'salman', 'Volpi']
+SENTIMENT:  0.327739128356
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'Paolo Cerrito', 'giorgioni', 'Volpi']
+SENTIMENT:  0.327739128356
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Fabrizio Tafani', 'salman', 'giorgioni', 'Volpi']
+SENTIMENT:  0.537356731821
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'tamiano', 'Corridori']
+SENTIMENT:  0.118127898199
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'tamiano', 'MM']
+SENTIMENT:  0.0202249536783
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'tamiano', 'Paolo Cerrito']
+SENTIMENT:  0.111624215311
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'tamiano', 'salman']
+SENTIMENT:  0.158383567761
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'tamiano', 'giorgioni']
+SENTIMENT:  0.158383567761
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'tamiano', 'Volpi']
+SENTIMENT:  0.0709168583635
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'Corridori', 'MM']
+SENTIMENT:  0.0493491568874
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'Corridori', 'Paolo Cerrito']
+SENTIMENT:  0.10548630007
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'Corridori', 'salman']
+SENTIMENT:  0.255086071987
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'Corridori', 'giorgioni']
+SENTIMENT:  0.255086071987
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'Corridori', 'Volpi']
+SENTIMENT:  0.1705450668
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.00474147663129
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'MM', 'salman']
+SENTIMENT:  0.0841267650982
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'MM', 'giorgioni']
+SENTIMENT:  0.0841267650982
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'MM', 'Volpi']
+SENTIMENT:  0.00226269686583
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.139560200305
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.139560200305
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.0634808183594
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'salman', 'giorgioni']
+SENTIMENT:  0.318901861786
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'salman', 'Volpi']
+SENTIMENT:  0.192691735713
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Dente', 'giorgioni', 'Volpi']
+SENTIMENT:  0.192691735713
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'Corridori', 'MM']
+SENTIMENT:  0.164380579142
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'Corridori', 'Paolo Cerrito']
+SENTIMENT:  0.239193083573
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'Corridori', 'salman']
+SENTIMENT:  0.362247956077
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'Corridori', 'giorgioni']
+SENTIMENT:  0.362247956077
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'Corridori', 'Volpi']
+SENTIMENT:  0.277961710091
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.176069062437
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'MM', 'salman']
+SENTIMENT:  0.202620062024
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'MM', 'giorgioni']
+SENTIMENT:  0.202620062024
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'MM', 'Volpi']
+SENTIMENT:  0.113897596656
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.276479191597
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.276479191597
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.196386407966
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'salman', 'giorgioni']
+SENTIMENT:  0.432920459633
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'salman', 'Volpi']
+SENTIMENT:  0.297287942842
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'tamiano', 'giorgioni', 'Volpi']
+SENTIMENT:  0.297287942842
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Corridori', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.147455050584
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Corridori', 'MM', 'salman']
+SENTIMENT:  0.301844619655
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Corridori', 'MM', 'giorgioni']
+SENTIMENT:  0.301844619655
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Corridori', 'MM', 'Volpi']
+SENTIMENT:  0.221197482067
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Corridori', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.341714071681
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Corridori', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.341714071681
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Corridori', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.27015958198
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Corridori', 'salman', 'giorgioni']
+SENTIMENT:  0.61349976884
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Corridori', 'salman', 'Volpi']
+SENTIMENT:  0.495908190776
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Corridori', 'giorgioni', 'Volpi']
+SENTIMENT:  0.495908190776
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'MM', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.176872448555
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'MM', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.176872448555
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'MM', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.1041733036
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'MM', 'salman', 'giorgioni']
+SENTIMENT:  0.368906658465
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'MM', 'salman', 'Volpi']
+SENTIMENT:  0.235408609489
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'MM', 'giorgioni', 'Volpi']
+SENTIMENT:  0.235408609489
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Paolo Cerrito', 'salman', 'giorgioni']
+SENTIMENT:  0.403921568627
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Paolo Cerrito', 'salman', 'Volpi']
+SENTIMENT:  0.283174925633
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'Paolo Cerrito', 'giorgioni', 'Volpi']
+SENTIMENT:  0.283174925633
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Francesco Arena', 'salman', 'giorgioni', 'Volpi']
+SENTIMENT:  0.542812788046
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'Corridori', 'MM']
+SENTIMENT:  0.0616586091484
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'Corridori', 'Paolo Cerrito']
+SENTIMENT:  0.1835304424
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'Corridori', 'salman']
+SENTIMENT:  0.231427460132
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'Corridori', 'giorgioni']
+SENTIMENT:  0.231427460132
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'Corridori', 'Volpi']
+SENTIMENT:  0.116448419035
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.174445365
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'MM', 'salman']
+SENTIMENT:  0.11897987143
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'MM', 'giorgioni']
+SENTIMENT:  0.11897987143
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'MM', 'Volpi']
+SENTIMENT:  -0.00125823403153
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.241583103231
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.241583103231
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.127101639798
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'salman', 'giorgioni']
+SENTIMENT:  0.315545399556
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'salman', 'Volpi']
+SENTIMENT:  0.153221915164
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'tamiano', 'giorgioni', 'Volpi']
+SENTIMENT:  0.153221915164
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Corridori', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.0437507475182
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Corridori', 'MM', 'salman']
+SENTIMENT:  0.123996985415
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Corridori', 'MM', 'giorgioni']
+SENTIMENT:  0.123996985415
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Corridori', 'MM', 'Volpi']
+SENTIMENT:  0.0141645517451
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Corridori', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.21023951337
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Corridori', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.21023951337
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Corridori', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.106985301804
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Corridori', 'salman', 'giorgioni']
+SENTIMENT:  0.390612471474
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Corridori', 'salman', 'Volpi']
+SENTIMENT:  0.240094988126
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Corridori', 'giorgioni', 'Volpi']
+SENTIMENT:  0.240094988126
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'MM', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.0923536258287
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'MM', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.0923536258287
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'MM', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  -0.0122448979592
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'MM', 'salman', 'giorgioni']
+SENTIMENT:  0.202791063053
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'MM', 'salman', 'Volpi']
+SENTIMENT:  0.0444115137635
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'MM', 'giorgioni', 'Volpi']
+SENTIMENT:  0.0444115137635
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Paolo Cerrito', 'salman', 'giorgioni']
+SENTIMENT:  0.286478461169
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Paolo Cerrito', 'salman', 'Volpi']
+SENTIMENT:  0.138033251708
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'Paolo Cerrito', 'giorgioni', 'Volpi']
+SENTIMENT:  0.138033251708
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Dente', 'salman', 'giorgioni', 'Volpi']
+SENTIMENT:  0.300905025328
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Corridori', 'MM', 'Paolo Cerrito']
+SENTIMENT:  0.235611845781
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Corridori', 'MM', 'salman']
+SENTIMENT:  0.263287603713
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Corridori', 'MM', 'giorgioni']
+SENTIMENT:  0.263287603713
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Corridori', 'MM', 'Volpi']
+SENTIMENT:  0.140838436175
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Corridori', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.371247303642
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Corridori', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.371247303642
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Corridori', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.258646172037
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Corridori', 'salman', 'giorgioni']
+SENTIMENT:  0.526070897491
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Corridori', 'salman', 'Volpi']
+SENTIMENT:  0.363164069046
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Corridori', 'giorgioni', 'Volpi']
+SENTIMENT:  0.363164069046
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'MM', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.303391384051
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'MM', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.303391384051
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'MM', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.168479931157
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'MM', 'salman', 'giorgioni']
+SENTIMENT:  0.360224482638
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'MM', 'salman', 'Volpi']
+SENTIMENT:  0.1722917876
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'MM', 'giorgioni', 'Volpi']
+SENTIMENT:  0.1722917876
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Paolo Cerrito', 'salman', 'giorgioni']
+SENTIMENT:  0.463328518697
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Paolo Cerrito', 'salman', 'Volpi']
+SENTIMENT:  0.291785723479
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'Paolo Cerrito', 'giorgioni', 'Volpi']
+SENTIMENT:  0.291785723479
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['tamiano', 'salman', 'giorgioni', 'Volpi']
+SENTIMENT:  0.429107981221
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Corridori', 'MM', 'Paolo Cerrito', 'salman']
+SENTIMENT:  0.235053882434
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Corridori', 'MM', 'Paolo Cerrito', 'giorgioni']
+SENTIMENT:  0.235053882434
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Corridori', 'MM', 'Paolo Cerrito', 'Volpi']
+SENTIMENT:  0.129094412331
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Corridori', 'MM', 'salman', 'giorgioni']
+SENTIMENT:  0.424157441574
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Corridori', 'MM', 'salman', 'Volpi']
+SENTIMENT:  0.262693479586
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Corridori', 'MM', 'giorgioni', 'Volpi']
+SENTIMENT:  0.262693479586
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Corridori', 'Paolo Cerrito', 'salman', 'giorgioni']
+SENTIMENT:  0.4948275055
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Corridori', 'Paolo Cerrito', 'salman', 'Volpi']
+SENTIMENT:  0.346996267343
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Corridori', 'Paolo Cerrito', 'giorgioni', 'Volpi']
+SENTIMENT:  0.346996267343
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Corridori', 'salman', 'giorgioni', 'Volpi']
+SENTIMENT:  0.610644656326
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['MM', 'Paolo Cerrito', 'salman', 'giorgioni']
+SENTIMENT:  0.31956801522
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['MM', 'Paolo Cerrito', 'salman', 'Volpi']
+SENTIMENT:  0.152921099645
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['MM', 'Paolo Cerrito', 'giorgioni', 'Volpi']
+SENTIMENT:  0.152921099645
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['MM', 'salman', 'giorgioni', 'Volpi']
+SENTIMENT:  0.323316638843
+|--------------- Sentiment annotation agreement --------------------|
+SENTIMENT for: ['Paolo Cerrito', 'salman', 'giorgioni', 'Volpi']
+SENTIMENT:  0.405131178432

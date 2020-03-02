@@ -1,0 +1,6060 @@
+[ {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscenza ",
+  "secondPhrase" : "Presentazione del corso ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "34-33-0"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Su cosa si basa la programmazione",
+  "secondPhrase" : "Programmazione C++",
+  "voto" : 2,
+  "annotatore" : "Santoro",
+  "id" : "34-33-1"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna",
+  "voto" : 6,
+  "annotatore" : "Santoro",
+  "id" : "33-34-2"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Esercizio con i dizionari",
+  "secondPhrase" : "Lo ?Scrambled code? è utile ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1352-1353-0"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Scrambled Code si serve ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1353-1352-2"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Scrittura di un algoritmo partendo da un codice parzialmente giá scritto",
+  "secondPhrase" : "Esercizio con dizionario",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1391-1392-0"
+}, {
+  "firstId" : 1392,
+  "secondId" : 1391,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Per me è molto utile lo scrambled code.",
+  "secondPhrase" : "Algoritmi con liste e dizionari",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1392-1391-1"
+}, {
+  "firstId" : 1392,
+  "secondId" : 1391,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Nessuno",
+  "voto" : 6,
+  "annotatore" : "Santoro",
+  "id" : "1392-1391-2"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Ciclo ",
+  "secondPhrase" : "cicli con while",
+  "voto" : 6,
+  "annotatore" : "Santoro",
+  "id" : "884-885-0"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Ciclo",
+  "secondPhrase" : "i cicli con while e tutte le funzioni studiate",
+  "voto" : 4,
+  "annotatore" : "Santoro",
+  "id" : "884-885-1"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "tutto sufficientemente chiaro",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 5,
+  "annotatore" : "Santoro",
+  "id" : "885-884-2"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tipi di variabili nel linguaggio Python",
+  "secondPhrase" : "Sintassi e semantica in Python",
+  "voto" : 2,
+  "annotatore" : "Santoro",
+  "id" : "610-611-0"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Operazioni  tra variabili ",
+  "secondPhrase" : "Float, numeri interi e stringhe ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "610-611-1"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "Santoro",
+  "id" : "610-611-2"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Ciclo While, esercizi ed errori",
+  "secondPhrase" : "cicli",
+  "voto" : 2,
+  "annotatore" : "Santoro",
+  "id" : "837-838-0"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Esercizi",
+  "secondPhrase" : "i cicli",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "837-838-1"
+}, {
+  "firstId" : 838,
+  "secondId" : 837,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "l'ultimo esercizio",
+  "secondPhrase" : "Esercizi",
+  "voto" : 6,
+  "annotatore" : "Santoro",
+  "id" : "838-837-2"
+}, {
+  "firstId" : 1295,
+  "secondId" : 1294,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Duplicazione liste, Creazioni di insiemi e dizionari ",
+  "secondPhrase" : "Insiemi; dizionari che sono insiemi di chiavi e valori",
+  "voto" : 2,
+  "annotatore" : "Santoro",
+  "id" : "1295-1294-0"
+}, {
+  "firstId" : 1295,
+  "secondId" : 1294,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Dizionari",
+  "secondPhrase" : "le applicazioni di unione intersezione e differenza sugli insiemi",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1295-1294-1"
+}, {
+  "firstId" : 1295,
+  "secondId" : 1294,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "come si genera una nuova posizione negli insiemi",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1295-1294-2"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "eserzizio con uno dizionario",
+  "secondPhrase" : "Tuple, esercizi",
+  "voto" : 2,
+  "annotatore" : "Santoro",
+  "id" : "1386-1387-0"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Ho trovato postivo il metodo dello scrambled code poichè la mia grande difficoltà è capire cosa fare quando mi trovo davanti il testo dell'esercizio e la maggior parte delle volte sbaglio la risoluzione",
+  "secondPhrase" : "Tuple",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1386-1387-1"
+}, {
+  "firstId" : 1387,
+  "secondId" : 1386,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Le tuple cosa sono di preciso e come si possono usare",
+  "secondPhrase" : "lezione un pò pesante",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1387-1386-2"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Come usare una variabile ",
+  "secondPhrase" : "Variabili, errori e convenzioni nel linguaggio di Python con definizione di stringa",
+  "voto" : 2,
+  "annotatore" : "Santoro",
+  "id" : "653-652-0"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Le stringhe ",
+  "secondPhrase" : "come scrivere un codice",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "653-652-1"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "la forma in cui sono trascritti gli input negli spazi di memoria",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "653-652-2"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Algoritmo",
+  "secondPhrase" : "complessità degli algoritimi ",
+  "voto" : 2,
+  "annotatore" : "Santoro",
+  "id" : "400-399-0"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Somma",
+  "secondPhrase" : "i diversi tipi di algoritmi ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "400-399-1"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "quale tra metodo del pallottoliere e normale sia più complesso",
+  "secondPhrase" : "Trovare la complessità",
+  "voto" : 5,
+  "annotatore" : "Santoro",
+  "id" : "399-400-2"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Imparare alcuni comandi e linguaggi di phyton",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 2,
+  "annotatore" : "Santoro",
+  "id" : "603-602-0"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Imparare le operazioni tra interi e reali",
+  "secondPhrase" : "Stringhe",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "603-602-1"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Tutto abbastanza chiaro",
+  "secondPhrase" : "Nessuna",
+  "voto" : 5,
+  "annotatore" : "Santoro",
+  "id" : "603-602-2"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tipo di Variabili reali float stringhe e usarle",
+  "secondPhrase" : "Iniziare a usare python",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "629-630-0"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Variabili in python",
+  "secondPhrase" : "I vari tipi di variabili ",
+  "voto" : 5,
+  "annotatore" : "Santoro",
+  "id" : "630-629-1"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Come si rappresentano i reali ",
+  "secondPhrase" : "/",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "629-630-2"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Rappresentazione",
+  "secondPhrase" : "La rappresentazione ",
+  "voto" : 6,
+  "annotatore" : "Santoro",
+  "id" : "555-556-0"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Sistema binario",
+  "secondPhrase" : "La somma dei numeri binari",
+  "voto" : 5,
+  "annotatore" : "Santoro",
+  "id" : "555-556-1"
+}, {
+  "firstId" : 556,
+  "secondId" : 555,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "La somma in colonna",
+  "secondPhrase" : "Somma del sistema binario",
+  "voto" : 5,
+  "annotatore" : "Santoro",
+  "id" : "556-555-2"
+}, {
+  "firstId" : 154,
+  "secondId" : 153,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Bisogna imparare ad utilizzare bene Internet e i dispositivi tecnologici",
+  "secondPhrase" : "Informazioni sul corso di informatica ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "154-153-0"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Programmazione di siti",
+  "secondPhrase" : "Programmazione",
+  "voto" : 2,
+  "annotatore" : "Santoro",
+  "id" : "153-154-1"
+}, {
+  "firstId" : 154,
+  "secondId" : 153,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "La spiegazione iniziale è stata un po' confusionaria",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "154-153-2"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "istruzioni",
+  "secondPhrase" : "Variabili matematica Vs variabili informatiche (spazi di memoria)\nDefinizione di algoritmo ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "295-296-0"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Imparare a scrivere gli algoritmi",
+  "secondPhrase" : "algoritmi",
+  "voto" : 5,
+  "annotatore" : "Santoro",
+  "id" : "296-295-1"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Non ce ne sono state",
+  "secondPhrase" : "nessuna",
+  "voto" : 5,
+  "annotatore" : "Santoro",
+  "id" : "296-295-2"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Concetto di funzioni",
+  "secondPhrase" : "definire le funzioni ",
+  "voto" : 2,
+  "annotatore" : "Santoro",
+  "id" : "1110-1109-0"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Come definire una nuova funzione ",
+  "secondPhrase" : "gli esempi oggi sono stati più chiari ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1110-1109-1"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Quando una variabile può assumere lo stesso nome di una funzione che abbiamo definito ",
+  "secondPhrase" : "Esercizio finale ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1109-1110-2"
+}, {
+  "firstId" : 240,
+  "secondId" : 239,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "X in informatica non è incognita, ma memoria ",
+  "secondPhrase" : "L?algoritmo è una sequenza ordintata di operazioni",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "240-239-0"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "L?algoritmo, come possiamo crearne uno",
+  "secondPhrase" : "Algoritmi",
+  "voto" : 5,
+  "annotatore" : "Santoro",
+  "id" : "239-240-1"
+}, {
+  "firstId" : 240,
+  "secondId" : 239,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Niente",
+  "secondPhrase" : "Nessuna",
+  "voto" : 5,
+  "annotatore" : "Santoro",
+  "id" : "240-239-2"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Si",
+  "secondPhrase" : "Numeri binari",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "478-479-0"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "No, tutto ok",
+  "secondPhrase" : "Somma di numeri binari ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "478-479-1"
+}, {
+  "firstId" : 479,
+  "secondId" : 478,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Wow finalmente una lezione in cui mi è tutto chiaro, gg",
+  "voto" : 5,
+  "annotatore" : "Santoro",
+  "id" : "479-478-2"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Logica, dimostrazioni, CPU",
+  "secondPhrase" : "logica e dimostrazioni\n",
+  "voto" : 3,
+  "annotatore" : "Santoro",
+  "id" : "943-944-0"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Logica",
+  "secondPhrase" : "logica",
+  "voto" : 6,
+  "annotatore" : "Santoro",
+  "id" : "943-944-1"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "bit \n",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "943-944-2"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti",
+  "secondPhrase" : "Sistema operativo ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1279-1280-0"
+}, {
+  "firstId" : 1280,
+  "secondId" : 1279,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Capire come funziona la macchina ",
+  "secondPhrase" : "Funzionamente della CPU e gestione della memoria",
+  "voto" : 2,
+  "annotatore" : "Santoro",
+  "id" : "1280-1279-1"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Come funziona la macchina ",
+  "voto" : 1,
+  "annotatore" : "Santoro",
+  "id" : "1279-1280-2"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscenza ",
+  "secondPhrase" : "Presentazione del corso ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "34-33-0"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Su cosa si basa la programmazione",
+  "secondPhrase" : "Programmazione C++",
+  "voto" : 6,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "34-33-1"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "34-33-2"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Esercizio con i dizionari",
+  "secondPhrase" : "Lo ?Scrambled code? è utile ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1352-1353-0"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Le duble",
+  "secondPhrase" : "Gli esercizi ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1352-1353-1"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Scrambled Code si serve ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1352-1353-2"
+}, {
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Scrittura di un algoritmo partendo da un codice parzialmente giá scritto",
+  "secondPhrase" : "Esercizio con dizionario",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1391-1392-0"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Algoritmi con liste e dizionari",
+  "secondPhrase" : "Per me è molto utile lo scrambled code.",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1391-1392-1"
+}, {
+  "firstId" : 1392,
+  "secondId" : 1391,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Nessuno",
+  "voto" : 6,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1392-1391-2"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "cicli con while",
+  "secondPhrase" : "Ciclo ",
+  "voto" : 6,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "885-884-0"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i cicli con while e tutte le funzioni studiate",
+  "secondPhrase" : "Ciclo",
+  "voto" : 4,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "885-884-1"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "tutto sufficientemente chiaro",
+  "voto" : 2,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "884-885-2"
+}, {
+  "firstId" : 611,
+  "secondId" : 610,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Sintassi e semantica in Python",
+  "secondPhrase" : "Tipi di variabili nel linguaggio Python",
+  "voto" : 2,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "611-610-0"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Operazioni  tra variabili ",
+  "secondPhrase" : "Float, numeri interi e stringhe ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "610-611-1"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "610-611-2"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Ciclo While, esercizi ed errori",
+  "secondPhrase" : "cicli",
+  "voto" : 3,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "837-838-0"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Esercizi",
+  "secondPhrase" : "i cicli",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "837-838-1"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Esercizi",
+  "secondPhrase" : "l'ultimo esercizio",
+  "voto" : 5,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "837-838-2"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Insiemi; dizionari che sono insiemi di chiavi e valori",
+  "secondPhrase" : "Duplicazione liste, Creazioni di insiemi e dizionari ",
+  "voto" : 3,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1294-1295-0"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "le applicazioni di unione intersezione e differenza sugli insiemi",
+  "secondPhrase" : "Dizionari",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1294-1295-1"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "come si genera una nuova posizione negli insiemi",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1294-1295-2"
+}, {
+  "firstId" : 1387,
+  "secondId" : 1386,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tuple, esercizi",
+  "secondPhrase" : "eserzizio con uno dizionario",
+  "voto" : 4,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1387-1386-0"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Ho trovato postivo il metodo dello scrambled code poichè la mia grande difficoltà è capire cosa fare quando mi trovo davanti il testo dell'esercizio e la maggior parte delle volte sbaglio la risoluzione",
+  "secondPhrase" : "Tuple",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1386-1387-1"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "lezione un pò pesante",
+  "secondPhrase" : "Le tuple cosa sono di preciso e come si possono usare",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1386-1387-2"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Come usare una variabile ",
+  "secondPhrase" : "Variabili, errori e convenzioni nel linguaggio di Python con definizione di stringa",
+  "voto" : 2,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "653-652-0"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Le stringhe ",
+  "secondPhrase" : "come scrivere un codice",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "653-652-1"
+}, {
+  "firstId" : 652,
+  "secondId" : 653,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "la forma in cui sono trascritti gli input negli spazi di memoria",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "652-653-2"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "complessità degli algoritimi ",
+  "secondPhrase" : "Algoritmo",
+  "voto" : 5,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "399-400-0"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i diversi tipi di algoritmi ",
+  "secondPhrase" : "Somma",
+  "voto" : 2,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "399-400-1"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "quale tra metodo del pallottoliere e normale sia più complesso",
+  "secondPhrase" : "Trovare la complessità",
+  "voto" : 3,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "399-400-2"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Imparare alcuni comandi e linguaggi di phyton",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 2,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "603-602-0"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Stringhe",
+  "secondPhrase" : "Imparare le operazioni tra interi e reali",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "602-603-1"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Tutto abbastanza chiaro",
+  "secondPhrase" : "Nessuna",
+  "voto" : 2,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "603-602-2"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Iniziare a usare python",
+  "secondPhrase" : "Tipo di Variabili reali float stringhe e usarle",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "630-629-0"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "I vari tipi di variabili ",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 6,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "629-630-1"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "/",
+  "secondPhrase" : "Come si rappresentano i reali ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "630-629-2"
+}, {
+  "firstId" : 556,
+  "secondId" : 555,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "La rappresentazione ",
+  "secondPhrase" : "Rappresentazione",
+  "voto" : 5,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "556-555-0"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Sistema binario",
+  "secondPhrase" : "La somma dei numeri binari",
+  "voto" : 3,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "555-556-1"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Somma del sistema binario",
+  "secondPhrase" : "La somma in colonna",
+  "voto" : 3,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "555-556-2"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Informazioni sul corso di informatica ",
+  "secondPhrase" : "Bisogna imparare ad utilizzare bene Internet e i dispositivi tecnologici",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "153-154-0"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Programmazione di siti",
+  "secondPhrase" : "Programmazione",
+  "voto" : 5,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "153-154-1"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "La spiegazione iniziale è stata un po' confusionaria",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "153-154-2"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "istruzioni",
+  "secondPhrase" : "Variabili matematica Vs variabili informatiche (spazi di memoria)\nDefinizione di algoritmo ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "295-296-0"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Imparare a scrivere gli algoritmi",
+  "secondPhrase" : "algoritmi",
+  "voto" : 3,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "296-295-1"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Non ce ne sono state",
+  "secondPhrase" : "nessuna",
+  "voto" : 2,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "296-295-2"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Concetto di funzioni",
+  "secondPhrase" : "definire le funzioni ",
+  "voto" : 6,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1110-1109-0"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "gli esempi oggi sono stati più chiari ",
+  "secondPhrase" : "Come definire una nuova funzione ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1109-1110-1"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Quando una variabile può assumere lo stesso nome di una funzione che abbiamo definito ",
+  "secondPhrase" : "Esercizio finale ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1109-1110-2"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "L?algoritmo è una sequenza ordintata di operazioni",
+  "secondPhrase" : "X in informatica non è incognita, ma memoria ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "239-240-0"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "L?algoritmo, come possiamo crearne uno",
+  "secondPhrase" : "Algoritmi",
+  "voto" : 4,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "239-240-1"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Niente",
+  "voto" : 5,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "239-240-2"
+}, {
+  "firstId" : 479,
+  "secondId" : 478,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Numeri binari",
+  "secondPhrase" : "Si",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "479-478-0"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "No, tutto ok",
+  "secondPhrase" : "Somma di numeri binari ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "478-479-1"
+}, {
+  "firstId" : 479,
+  "secondId" : 478,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Wow finalmente una lezione in cui mi è tutto chiaro, gg",
+  "voto" : 2,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "479-478-2"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "logica e dimostrazioni\n",
+  "secondPhrase" : "Logica, dimostrazioni, CPU",
+  "voto" : 4,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "944-943-0"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "logica",
+  "secondPhrase" : "Logica",
+  "voto" : 6,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "944-943-1"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "bit \n",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "943-944-2"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti",
+  "secondPhrase" : "Sistema operativo ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1279-1280-0"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Funzionamente della CPU e gestione della memoria",
+  "secondPhrase" : "Capire come funziona la macchina ",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1279-1280-1"
+}, {
+  "firstId" : 1280,
+  "secondId" : 1279,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Come funziona la macchina ",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Fabrizio Tafani",
+  "id" : "1280-1279-2"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscenza ",
+  "secondPhrase" : "Presentazione del corso ",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "34-33-0"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Programmazione C++",
+  "secondPhrase" : "Su cosa si basa la programmazione",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "33-34-1"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna",
+  "voto" : 6,
+  "annotatore" : "Dente",
+  "id" : "33-34-2"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Lo ?Scrambled code? è utile ",
+  "secondPhrase" : "Esercizio con i dizionari",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1353-1352-0"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Gli esercizi ",
+  "secondPhrase" : "Le duble",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1353-1352-1"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Scrambled Code si serve ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1352-1353-2"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Scrittura di un algoritmo partendo da un codice parzialmente giá scritto",
+  "secondPhrase" : "Esercizio con dizionario",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1391-1392-0"
+}, {
+  "firstId" : 1392,
+  "secondId" : 1391,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Per me è molto utile lo scrambled code.",
+  "secondPhrase" : "Algoritmi con liste e dizionari",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1392-1391-1"
+}, {
+  "firstId" : 1392,
+  "secondId" : 1391,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Nessuno",
+  "voto" : 5,
+  "annotatore" : "Dente",
+  "id" : "1392-1391-2"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "cicli con while",
+  "secondPhrase" : "Ciclo ",
+  "voto" : 3,
+  "annotatore" : "Dente",
+  "id" : "885-884-0"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i cicli con while e tutte le funzioni studiate",
+  "secondPhrase" : "Ciclo",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "885-884-1"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "tutto sufficientemente chiaro",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "885-884-2"
+}, {
+  "firstId" : 611,
+  "secondId" : 610,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Sintassi e semantica in Python",
+  "secondPhrase" : "Tipi di variabili nel linguaggio Python",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "611-610-0"
+}, {
+  "firstId" : 611,
+  "secondId" : 610,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Float, numeri interi e stringhe ",
+  "secondPhrase" : "Operazioni  tra variabili ",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "611-610-1"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "Dente",
+  "id" : "610-611-2"
+}, {
+  "firstId" : 838,
+  "secondId" : 837,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "cicli",
+  "secondPhrase" : "Ciclo While, esercizi ed errori",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "838-837-0"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Esercizi",
+  "secondPhrase" : "i cicli",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "837-838-1"
+}, {
+  "firstId" : 838,
+  "secondId" : 837,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "l'ultimo esercizio",
+  "secondPhrase" : "Esercizi",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "838-837-2"
+}, {
+  "firstId" : 1295,
+  "secondId" : 1294,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Duplicazione liste, Creazioni di insiemi e dizionari ",
+  "secondPhrase" : "Insiemi; dizionari che sono insiemi di chiavi e valori",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "1295-1294-0"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "le applicazioni di unione intersezione e differenza sugli insiemi",
+  "secondPhrase" : "Dizionari",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1294-1295-1"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "come si genera una nuova posizione negli insiemi",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1294-1295-2"
+}, {
+  "firstId" : 1387,
+  "secondId" : 1386,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tuple, esercizi",
+  "secondPhrase" : "eserzizio con uno dizionario",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1387-1386-0"
+}, {
+  "firstId" : 1387,
+  "secondId" : 1386,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Tuple",
+  "secondPhrase" : "Ho trovato postivo il metodo dello scrambled code poichè la mia grande difficoltà è capire cosa fare quando mi trovo davanti il testo dell'esercizio e la maggior parte delle volte sbaglio la risoluzione",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1387-1386-1"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "lezione un pò pesante",
+  "secondPhrase" : "Le tuple cosa sono di preciso e come si possono usare",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1386-1387-2"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Come usare una variabile ",
+  "secondPhrase" : "Variabili, errori e convenzioni nel linguaggio di Python con definizione di stringa",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "653-652-0"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Le stringhe ",
+  "secondPhrase" : "come scrivere un codice",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "653-652-1"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "la forma in cui sono trascritti gli input negli spazi di memoria",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "653-652-2"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "complessità degli algoritimi ",
+  "secondPhrase" : "Algoritmo",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "399-400-0"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Somma",
+  "secondPhrase" : "i diversi tipi di algoritmi ",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "400-399-1"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Trovare la complessità",
+  "secondPhrase" : "quale tra metodo del pallottoliere e normale sia più complesso",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "400-399-2"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Variabili in python",
+  "secondPhrase" : "Imparare alcuni comandi e linguaggi di phyton",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "602-603-0"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Imparare le operazioni tra interi e reali",
+  "secondPhrase" : "Stringhe",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "603-602-1"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Tutto abbastanza chiaro",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "602-603-2"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Iniziare a usare python",
+  "secondPhrase" : "Tipo di Variabili reali float stringhe e usarle",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "630-629-0"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Variabili in python",
+  "secondPhrase" : "I vari tipi di variabili ",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "630-629-1"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Come si rappresentano i reali ",
+  "secondPhrase" : "/",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "629-630-2"
+}, {
+  "firstId" : 556,
+  "secondId" : 555,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "La rappresentazione ",
+  "secondPhrase" : "Rappresentazione",
+  "voto" : 6,
+  "annotatore" : "Dente",
+  "id" : "556-555-0"
+}, {
+  "firstId" : 556,
+  "secondId" : 555,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "La somma dei numeri binari",
+  "secondPhrase" : "Sistema binario",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "556-555-1"
+}, {
+  "firstId" : 556,
+  "secondId" : 555,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "La somma in colonna",
+  "secondPhrase" : "Somma del sistema binario",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "556-555-2"
+}, {
+  "firstId" : 156,
+  "secondId" : 155,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Introduzione all?informatica ",
+  "secondPhrase" : "è stata una lezione volta a stimolare la nostra curiosità verso la materia",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "156-155-0"
+}, {
+  "firstId" : 155,
+  "secondId" : 154,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Il lavoro svolto in piccoli gruppi",
+  "secondPhrase" : "Programmazione",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "155-154-1"
+}, {
+  "firstId" : 155,
+  "secondId" : 156,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "come sarà verbalizzato il voto finale dopo aver superato sia la parte da 6 crediti che quella da 3",
+  "secondPhrase" : "Niente",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "155-156-2"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "istruzioni",
+  "secondPhrase" : "Variabili matematica Vs variabili informatiche (spazi di memoria)\nDefinizione di algoritmo ",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "295-296-0"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "algoritmi",
+  "secondPhrase" : "Imparare a scrivere gli algoritmi",
+  "voto" : 3,
+  "annotatore" : "Dente",
+  "id" : "295-296-1"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Non ce ne sono state",
+  "secondPhrase" : "nessuna",
+  "voto" : 3,
+  "annotatore" : "Dente",
+  "id" : "296-295-2"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "definire le funzioni ",
+  "secondPhrase" : "Concetto di funzioni",
+  "voto" : 3,
+  "annotatore" : "Dente",
+  "id" : "1109-1110-0"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "gli esempi oggi sono stati più chiari ",
+  "secondPhrase" : "Come definire una nuova funzione ",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1109-1110-1"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Quando una variabile può assumere lo stesso nome di una funzione che abbiamo definito ",
+  "secondPhrase" : "Esercizio finale ",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1109-1110-2"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "L?algoritmo è una sequenza ordintata di operazioni",
+  "secondPhrase" : "X in informatica non è incognita, ma memoria ",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "239-240-0"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "L?algoritmo, come possiamo crearne uno",
+  "secondPhrase" : "Algoritmi",
+  "voto" : 4,
+  "annotatore" : "Dente",
+  "id" : "239-240-1"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Niente",
+  "voto" : 5,
+  "annotatore" : "Dente",
+  "id" : "239-240-2"
+}, {
+  "firstId" : 479,
+  "secondId" : 478,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Numeri binari",
+  "secondPhrase" : "Si",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "479-478-0"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "No, tutto ok",
+  "secondPhrase" : "Somma di numeri binari ",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "478-479-1"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Wow finalmente una lezione in cui mi è tutto chiaro, gg",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "478-479-2"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Logica, dimostrazioni, CPU",
+  "secondPhrase" : "logica e dimostrazioni\n",
+  "voto" : 4,
+  "annotatore" : "Dente",
+  "id" : "943-944-0"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "logica",
+  "secondPhrase" : "Logica",
+  "voto" : 6,
+  "annotatore" : "Dente",
+  "id" : "944-943-1"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "bit \n",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "943-944-2"
+}, {
+  "firstId" : 1280,
+  "secondId" : 1279,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Sistema operativo ",
+  "secondPhrase" : "Conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "1280-1279-0"
+}, {
+  "firstId" : 1280,
+  "secondId" : 1279,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Capire come funziona la macchina ",
+  "secondPhrase" : "Funzionamente della CPU e gestione della memoria",
+  "voto" : 2,
+  "annotatore" : "Dente",
+  "id" : "1280-1279-1"
+}, {
+  "firstId" : 1280,
+  "secondId" : 1279,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Come funziona la macchina ",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Dente",
+  "id" : "1280-1279-2"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Presentazione del corso ",
+  "secondPhrase" : "Conoscenza ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "33-34-0"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Programmazione C++",
+  "secondPhrase" : "Su cosa si basa la programmazione",
+  "voto" : 3,
+  "annotatore" : "Francesco Arena",
+}, {
+  "id" : "33-34-1"
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna",
+  "voto" : 6,
+  "annotatore" : "Francesco Arena",
+  "id" : "33-34-2"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Esercizio con i dizionari",
+  "secondPhrase" : "Lo ?Scrambled code? è utile ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1352-1353-0"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Gli esercizi ",
+  "secondPhrase" : "Le duble",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1353-1352-1"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Scrambled Code si serve ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1353-1352-2"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Scrittura di un algoritmo partendo da un codice parzialmente giá scritto",
+  "secondPhrase" : "Esercizio con dizionario",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1391-1392-0"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Algoritmi con liste e dizionari",
+  "secondPhrase" : "Per me è molto utile lo scrambled code.",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1391-1392-1"
+}, {
+  "firstId" : 1392,
+  "secondId" : 1391,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Nessuno",
+  "voto" : 6,
+  "annotatore" : "Francesco Arena",
+  "id" : "1392-1391-2"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "cicli con while",
+  "secondPhrase" : "Ciclo ",
+  "voto" : 6,
+  "annotatore" : "Francesco Arena",
+  "id" : "885-884-0"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i cicli con while e tutte le funzioni studiate",
+  "secondPhrase" : "Ciclo",
+  "voto" : 4,
+  "annotatore" : "Francesco Arena",
+  "id" : "885-884-1"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "tutto sufficientemente chiaro",
+  "voto" : 2,
+  "annotatore" : "Francesco Arena",
+  "id" : "884-885-2"
+}, {
+  "firstId" : 611,
+  "secondId" : 610,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Sintassi e semantica in Python",
+  "secondPhrase" : "Tipi di variabili nel linguaggio Python",
+  "voto" : 4,
+  "annotatore" : "Francesco Arena",
+  "id" : "611-610-0"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Operazioni  tra variabili ",
+  "secondPhrase" : "Float, numeri interi e stringhe ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "610-611-1"
+}, {
+  "firstId" : 611,
+  "secondId" : 610,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "Francesco Arena",
+  "id" : "611-610-2"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Ciclo While, esercizi ed errori",
+  "secondPhrase" : "cicli",
+  "voto" : 4,
+  "annotatore" : "Francesco Arena",
+  "id" : "837-838-0"
+}, {
+  "firstId" : 838,
+  "secondId" : 837,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i cicli",
+  "secondPhrase" : "Esercizi",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "838-837-1"
+}, {
+  "firstId" : 838,
+  "secondId" : 837,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "l'ultimo esercizio",
+  "secondPhrase" : "Esercizi",
+  "voto" : 6,
+  "annotatore" : "Francesco Arena",
+  "id" : "838-837-2"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Insiemi; dizionari che sono insiemi di chiavi e valori",
+  "secondPhrase" : "Duplicazione liste, Creazioni di insiemi e dizionari ",
+  "voto" : 5,
+  "annotatore" : "Francesco Arena",
+  "id" : "1294-1295-0"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "le applicazioni di unione intersezione e differenza sugli insiemi",
+  "secondPhrase" : "Dizionari",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1294-1295-1"
+}, {
+  "firstId" : 1295,
+  "secondId" : 1294,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "come si genera una nuova posizione negli insiemi",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1295-1294-2"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "eserzizio con uno dizionario",
+  "secondPhrase" : "Tuple, esercizi",
+  "voto" : 2,
+  "annotatore" : "Francesco Arena",
+  "id" : "1386-1387-0"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Ho trovato postivo il metodo dello scrambled code poichè la mia grande difficoltà è capire cosa fare quando mi trovo davanti il testo dell'esercizio e la maggior parte delle volte sbaglio la risoluzione",
+  "secondPhrase" : "Tuple",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1386-1387-1"
+}, {
+  "firstId" : 1387,
+  "secondId" : 1386,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Le tuple cosa sono di preciso e come si possono usare",
+  "secondPhrase" : "lezione un pò pesante",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1387-1386-2"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Come usare una variabile ",
+  "secondPhrase" : "Variabili, errori e convenzioni nel linguaggio di Python con definizione di stringa",
+  "voto" : 2,
+  "annotatore" : "Francesco Arena",
+  "id" : "653-652-0"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Le stringhe ",
+  "secondPhrase" : "come scrivere un codice",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "653-652-1"
+}, {
+  "firstId" : 652,
+  "secondId" : 653,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "la forma in cui sono trascritti gli input negli spazi di memoria",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "652-653-2"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Algoritmo",
+  "secondPhrase" : "complessità degli algoritimi ",
+  "voto" : 3,
+  "annotatore" : "Francesco Arena",
+  "id" : "400-399-0"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Somma",
+  "secondPhrase" : "i diversi tipi di algoritmi ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "400-399-1"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Trovare la complessità",
+  "secondPhrase" : "quale tra metodo del pallottoliere e normale sia più complesso",
+  "voto" : 3,
+  "annotatore" : "Francesco Arena",
+  "id" : "400-399-2"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Imparare alcuni comandi e linguaggi di phyton",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 2,
+  "annotatore" : "Francesco Arena",
+  "id" : "603-602-0"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Stringhe",
+  "secondPhrase" : "Imparare le operazioni tra interi e reali",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "602-603-1"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Tutto abbastanza chiaro",
+  "secondPhrase" : "Nessuna",
+  "voto" : 2,
+  "annotatore" : "Francesco Arena",
+  "id" : "603-602-2"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Iniziare a usare python",
+  "secondPhrase" : "Tipo di Variabili reali float stringhe e usarle",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "630-629-0"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "I vari tipi di variabili ",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 6,
+  "annotatore" : "Francesco Arena",
+  "id" : "629-630-1"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "/",
+  "secondPhrase" : "Come si rappresentano i reali ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "630-629-2"
+}, {
+  "firstId" : 556,
+  "secondId" : 555,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "La rappresentazione ",
+  "secondPhrase" : "Rappresentazione",
+  "voto" : 5,
+  "annotatore" : "Francesco Arena",
+  "id" : "556-555-0"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Sistema binario",
+  "secondPhrase" : "La somma dei numeri binari",
+  "voto" : 3,
+  "annotatore" : "Francesco Arena",
+  "id" : "555-556-1"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Somma del sistema binario",
+  "secondPhrase" : "La somma in colonna",
+  "voto" : 3,
+  "annotatore" : "Francesco Arena",
+  "id" : "555-556-2"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Informazioni sul corso di informatica ",
+  "secondPhrase" : "Bisogna imparare ad utilizzare bene Internet e i dispositivi tecnologici",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "153-154-0"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Programmazione di siti",
+  "secondPhrase" : "Programmazione",
+  "voto" : 5,
+  "annotatore" : "Francesco Arena",
+  "id" : "153-154-1"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "La spiegazione iniziale è stata un po' confusionaria",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "153-154-2"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Variabili matematica Vs variabili informatiche (spazi di memoria)\nDefinizione di algoritmo ",
+  "secondPhrase" : "istruzioni",
+  "voto" : 2,
+  "annotatore" : "Francesco Arena",
+  "id" : "296-295-0"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "algoritmi",
+  "secondPhrase" : "Imparare a scrivere gli algoritmi",
+  "voto" : 6,
+  "annotatore" : "Francesco Arena",
+  "id" : "295-296-1"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Non ce ne sono state",
+  "secondPhrase" : "nessuna",
+  "voto" : 2,
+  "annotatore" : "Francesco Arena",
+  "id" : "296-295-2"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Concetto di funzioni",
+  "secondPhrase" : "definire le funzioni ",
+  "voto" : 6,
+  "annotatore" : "Francesco Arena",
+  "id" : "1110-1109-0"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "gli esempi oggi sono stati più chiari ",
+  "secondPhrase" : "Come definire una nuova funzione ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1109-1110-1"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Quando una variabile può assumere lo stesso nome di una funzione che abbiamo definito ",
+  "secondPhrase" : "Esercizio finale ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1109-1110-2"
+}, {
+  "firstId" : 240,
+  "secondId" : 239,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "X in informatica non è incognita, ma memoria ",
+  "secondPhrase" : "L?algoritmo è una sequenza ordintata di operazioni",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "240-239-0"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "L?algoritmo, come possiamo crearne uno",
+  "secondPhrase" : "Algoritmi",
+  "voto" : 4,
+  "annotatore" : "Francesco Arena",
+  "id" : "239-240-1"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Niente",
+  "voto" : 5,
+  "annotatore" : "Francesco Arena",
+  "id" : "239-240-2"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Si",
+  "secondPhrase" : "Numeri binari",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "478-479-0"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "No, tutto ok",
+  "secondPhrase" : "Somma di numeri binari ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "478-479-1"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Wow finalmente una lezione in cui mi è tutto chiaro, gg",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "478-479-2"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Logica, dimostrazioni, CPU",
+  "secondPhrase" : "logica e dimostrazioni\n",
+  "voto" : 4,
+  "annotatore" : "Francesco Arena",
+  "id" : "943-944-0"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Logica",
+  "secondPhrase" : "logica",
+  "voto" : 6,
+  "annotatore" : "Francesco Arena",
+  "id" : "943-944-1"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "bit \n",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "944-943-2"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti",
+  "secondPhrase" : "Sistema operativo ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1279-1280-0"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Funzionamente della CPU e gestione della memoria",
+  "secondPhrase" : "Capire come funziona la macchina ",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1279-1280-1"
+}, {
+  "firstId" : 1280,
+  "secondId" : 1279,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Come funziona la macchina ",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Francesco Arena",
+  "id" : "1280-1279-2"
+}, {
+    "id": "33-34-0",
+    "firstId": 33,
+    "secondId": 34,
+    "column": "Messaggio docente",
+    "firstPhrase": "Presentazione del corso ",
+    "secondPhrase": "Conoscenza ",
+    "voto": 2,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "33-34-1",
+    "firstId": 33,
+    "secondId": 34,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Programmazione C++",
+    "secondPhrase": "Su cosa si basa la programmazione",
+    "voto": 3,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "33-34-2",
+    "firstId": 33,
+    "secondId": 34,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna ",
+    "secondPhrase": "Nessuna",
+    "voto": 6,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1352-1353-0",
+    "firstId": 1352,
+    "secondId": 1353,
+    "column": "Messaggio docente",
+    "firstPhrase": "Esercizio con i dizionari",
+    "secondPhrase": "Lo 'Scrambled code' è utile ",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1352-1353-1",
+    "firstId": 1352,
+    "secondId": 1353,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Le duble",
+    "secondPhrase": "Gli esercizi ",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1352-1353-2",
+    "firstId": 1352,
+    "secondId": 1353,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Scrambled Code si serve ",
+    "secondPhrase": "Nessuna ",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1391-1392-0",
+    "firstId": 1391,
+    "secondId": 1392,
+    "column": "Messaggio docente",
+    "firstPhrase": "Scrittura di un algoritmo partendo da un codice parzialmente giá scritto",
+    "secondPhrase": "Esercizio con dizionario",
+    "voto": 2,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1391-1392-1",
+    "firstId": 1391,
+    "secondId": 1392,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Algoritmi con liste e dizionari",
+    "secondPhrase": "Per me è molto utile lo scrambled code.",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1391-1392-2",
+    "firstId": 1391,
+    "secondId": 1392,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuno",
+    "secondPhrase": "Nessuna",
+    "voto": 6,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "884-885-0",
+    "firstId": 884,
+    "secondId": 885,
+    "column": "Messaggio docente",
+    "firstPhrase": "Ciclo ",
+    "secondPhrase": "cicli con while",
+    "voto": 6,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "884-885-1",
+    "firstId": 884,
+    "secondId": 885,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Ciclo",
+    "secondPhrase": "i cicli con while e tutte le funzioni studiate",
+    "voto": 5,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "884-885-2",
+    "firstId": 884,
+    "secondId": 885,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna ",
+    "secondPhrase": "tutto sufficientemente chiaro",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "610-611-0",
+    "firstId": 610,
+    "secondId": 611,
+    "column": "Messaggio docente",
+    "firstPhrase": "Tipi di variabili nel linguaggio Python",
+    "secondPhrase": "Sintassi e semantica in Python",
+    "voto": 4,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "610-611-1",
+    "firstId": 610,
+    "secondId": 611,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Operazioni  tra variabili ",
+    "secondPhrase": "Float, numeri interi e stringhe ",
+    "voto": 3,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "610-611-2",
+    "firstId": 610,
+    "secondId": 611,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna ",
+    "secondPhrase": "Nessuna ",
+    "voto": 6,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "837-838-0",
+    "firstId": 837,
+    "secondId": 838,
+    "column": "Messaggio docente",
+    "firstPhrase": "Ciclo While, esercizi ed errori",
+    "secondPhrase": "cicli",
+    "voto": 5,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "837-838-1",
+    "firstId": 837,
+    "secondId": 838,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Esercizi",
+    "secondPhrase": "i cicli",
+    "voto": 3,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "837-838-2",
+    "firstId": 837,
+    "secondId": 838,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Esercizi",
+    "secondPhrase": "l'ultimo esercizio",
+    "voto": 5,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1294-1295-0",
+    "firstId": 1294,
+    "secondId": 1295,
+    "column": "Messaggio docente",
+    "firstPhrase": "Insiemi; dizionari che sono insiemi di chiavi e valori",
+    "secondPhrase": "Duplicazione liste, Creazioni di insiemi e dizionari ",
+    "voto": 5,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1294-1295-1",
+    "firstId": 1294,
+    "secondId": 1295,
+    "column": "Argomento più interessante",
+    "firstPhrase": "le applicazioni di unione intersezione e differenza sugli insiemi",
+    "secondPhrase": "Dizionari",
+    "voto": 3,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1294-1295-2",
+    "firstId": 1294,
+    "secondId": 1295,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "come si genera una nuova posizione negli insiemi",
+    "secondPhrase": "Nessuna",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1386-1387-0",
+    "firstId": 1386,
+    "secondId": 1387,
+    "column": "Messaggio docente",
+    "firstPhrase": "eserzizio con uno dizionario",
+    "secondPhrase": "Tuple, esercizi",
+    "voto": 3,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1386-1387-1",
+    "firstId": 1386,
+    "secondId": 1387,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Ho trovato postivo il metodo dello scrambled code poichè la mia grande difficoltà è capire cosa fare quando mi trovo davanti il testo dell'esercizio e la maggior parte delle volte sbaglio la risoluzione",
+    "secondPhrase": "Tuple",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1386-1387-2",
+    "firstId": 1386,
+    "secondId": 1387,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "lezione un pò pesante",
+    "secondPhrase": "Le tuple cosa sono di preciso e come si possono usare",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "652-653-0",
+    "firstId": 652,
+    "secondId": 653,
+    "column": "Messaggio docente",
+    "firstPhrase": "Variabili, errori e convenzioni nel linguaggio di Python con definizione di stringa",
+    "secondPhrase": "Come usare una variabile ",
+    "voto": 3,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "652-653-1",
+    "firstId": 652,
+    "secondId": 653,
+    "column": "Argomento più interessante",
+    "firstPhrase": "come scrivere un codice",
+    "secondPhrase": "Le stringhe ",
+    "voto": 2,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "652-653-2",
+    "firstId": 652,
+    "secondId": 653,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "la forma in cui sono trascritti gli input negli spazi di memoria",
+    "secondPhrase": "Nessuna ",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "399-400-0",
+    "firstId": 399,
+    "secondId": 400,
+    "column": "Messaggio docente",
+    "firstPhrase": "complessità degli algoritimi ",
+    "secondPhrase": "Algoritmo",
+    "voto": 3,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "399-400-1",
+    "firstId": 399,
+    "secondId": 400,
+    "column": "Argomento più interessante",
+    "firstPhrase": "i diversi tipi di algoritmi ",
+    "secondPhrase": "Somma",
+    "voto": 3,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "399-400-2",
+    "firstId": 399,
+    "secondId": 400,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "quale tra metodo del pallottoliere e normale sia più complesso",
+    "secondPhrase": "Trovare la complessità",
+    "voto": 4,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "602-603-0",
+    "firstId": 602,
+    "secondId": 603,
+    "column": "Messaggio docente",
+    "firstPhrase": "Variabili in python",
+    "secondPhrase": "Imparare alcuni comandi e linguaggi di phyton",
+    "voto": 5,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "602-603-1",
+    "firstId": 602,
+    "secondId": 603,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Stringhe",
+    "secondPhrase": "Imparare le operazioni tra interi e reali",
+    "voto": 2,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "602-603-2",
+    "firstId": 602,
+    "secondId": 603,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna",
+    "secondPhrase": "Tutto abbastanza chiaro",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "629-630-0",
+    "firstId": 629,
+    "secondId": 630,
+    "column": "Messaggio docente",
+    "firstPhrase": "Tipo di Variabili reali float stringhe e usarle",
+    "secondPhrase": "Iniziare a usare python",
+    "voto": 2,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "629-630-1",
+    "firstId": 629,
+    "secondId": 630,
+    "column": "Argomento più interessante",
+    "firstPhrase": "I vari tipi di variabili ",
+    "secondPhrase": "Variabili in python",
+    "voto": 5,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "629-630-2",
+    "firstId": 629,
+    "secondId": 630,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Come si rappresentano i reali ",
+    "secondPhrase": "/",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "555-556-0",
+    "firstId": 555,
+    "secondId": 556,
+    "column": "Messaggio docente",
+    "firstPhrase": "Rappresentazione",
+    "secondPhrase": "La rappresentazione ",
+    "voto": 6,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "555-556-1",
+    "firstId": 555,
+    "secondId": 556,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Sistema binario",
+    "secondPhrase": "La somma dei numeri binari",
+    "voto": 4,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "555-556-2",
+    "firstId": 555,
+    "secondId": 556,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Somma del sistema binario",
+    "secondPhrase": "La somma in colonna",
+    "voto": 3,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "153-154-0",
+    "firstId": 153,
+    "secondId": 154,
+    "column": "Messaggio docente",
+    "firstPhrase": "Informazioni sul corso di informatica ",
+    "secondPhrase": "Bisogna imparare ad utilizzare bene Internet e i dispositivi tecnologici",
+    "voto": 4,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "153-154-1",
+    "firstId": 153,
+    "secondId": 154,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Programmazione di siti",
+    "secondPhrase": "Programmazione",
+    "voto": 4,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "153-154-2",
+    "firstId": 153,
+    "secondId": 154,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "La spiegazione iniziale è stata un po' confusionaria",
+    "secondPhrase": "Nessuna",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "295-296-0",
+    "firstId": 295,
+    "secondId": 296,
+    "column": "Messaggio docente",
+    "firstPhrase": "istruzioni",
+    "secondPhrase": "Variabili matematica Vs variabili informatiche (spazi di memoria)\nDefinizione di algoritmo ",
+    "voto": 2,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "295-296-1",
+    "firstId": 295,
+    "secondId": 296,
+    "column": "Argomento più interessante",
+    "firstPhrase": "algoritmi",
+    "secondPhrase": "Imparare a scrivere gli algoritmi",
+    "voto": 4,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "295-296-2",
+    "firstId": 295,
+    "secondId": 296,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "nessuna",
+    "secondPhrase": "Non ce ne sono state",
+    "voto": 6,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1109-1110-0",
+    "firstId": 1109,
+    "secondId": 1110,
+    "column": "Messaggio docente",
+    "firstPhrase": "definire le funzioni ",
+    "secondPhrase": "Concetto di funzioni",
+    "voto": 5,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1109-1110-1",
+    "firstId": 1109,
+    "secondId": 1110,
+    "column": "Argomento più interessante",
+    "firstPhrase": "gli esempi oggi sono stati più chiari ",
+    "secondPhrase": "Come definire una nuova funzione ",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1109-1110-2",
+    "firstId": 1109,
+    "secondId": 1110,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Quando una variabile può assumere lo stesso nome di una funzione che abbiamo definito ",
+    "secondPhrase": "Esercizio finale ",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "239-240-0",
+    "firstId": 239,
+    "secondId": 240,
+    "column": "Messaggio docente",
+    "firstPhrase": "L'algoritmo è una sequenza ordintata di operazioni",
+    "secondPhrase": "X in informatica non è incognita, ma memoria ",
+    "voto": 2,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "239-240-1",
+    "firstId": 239,
+    "secondId": 240,
+    "column": "Argomento più interessante",
+    "firstPhrase": "L'algoritmo, come possiamo crearne uno",
+    "secondPhrase": "Algoritmi",
+    "voto": 5,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "239-240-2",
+    "firstId": 239,
+    "secondId": 240,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna",
+    "secondPhrase": "Niente",
+    "voto": 6,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "478-479-0",
+    "firstId": 478,
+    "secondId": 479,
+    "column": "Messaggio docente",
+    "firstPhrase": "Si",
+    "secondPhrase": "Numeri binari",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "478-479-1",
+    "firstId": 478,
+    "secondId": 479,
+    "column": "Argomento più interessante",
+    "firstPhrase": "No, tutto ok",
+    "secondPhrase": "Somma di numeri binari ",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "478-479-2",
+    "firstId": 478,
+    "secondId": 479,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Wow finalmente una lezione in cui mi è tutto chiaro, gg",
+    "secondPhrase": "Nessuna",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "943-944-0",
+    "firstId": 943,
+    "secondId": 944,
+    "column": "Messaggio docente",
+    "firstPhrase": "Logica, dimostrazioni, CPU",
+    "secondPhrase": "logica e dimostrazioni\n",
+    "voto": 5,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "943-944-1",
+    "firstId": 943,
+    "secondId": 944,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Logica",
+    "secondPhrase": "logica",
+    "voto": 6,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "943-944-2",
+    "firstId": 943,
+    "secondId": 944,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna",
+    "secondPhrase": "bit \n",
+    "voto": 1,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1279-1280-0",
+    "firstId": 1279,
+    "secondId": 1280,
+    "column": "Messaggio docente",
+    "firstPhrase": "Conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti",
+    "secondPhrase": "Sistema operativo ",
+    "voto": 4,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1279-1280-1",
+    "firstId": 1279,
+    "secondId": 1280,
+    "column": "Argomento più interessante",
+    "firstPhrase": "Funzionamente della CPU e gestione della memoria",
+    "secondPhrase": "Capire come funziona la macchina ",
+    "voto": 4,
+    "annotatore": "tamiano"
+  },
+  {
+    "id": "1279-1280-2",
+    "firstId": 1279,
+    "secondId": 1280,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna",
+    "secondPhrase": "Come funziona la macchina ",
+    "voto": 1,
+    "annotatore": "tamiano"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscenza ",
+  "secondPhrase" : "Presentazione del corso ",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "34-33-0"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscenza ",
+  "secondPhrase" : "Presentazione del corso ",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "34-33-0"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Su cosa si basa la programmazione",
+  "secondPhrase" : "Programmazione C++",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "34-33-1"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "34-33-2"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Lo ?Scrambled code? è utile ",
+  "secondPhrase" : "Esercizio con i dizionari",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "1353-1352-0"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Gli esercizi ",
+  "secondPhrase" : "Le duble",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "1353-1352-1"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Scrambled Code si serve ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "1352-1353-2"
+}, {
+  "firstId" : 1392,
+  "secondId" : 1391,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Esercizio con dizionario",
+  "secondPhrase" : "Scrittura di un algoritmo partendo da un codice parzialmente giá scritto",
+  "voto" : 2,
+  "annotatore" : "Corridori",
+  "id" : "1392-1391-0"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Algoritmi con liste e dizionari",
+  "secondPhrase" : "Per me è molto utile lo scrambled code.",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "1391-1392-1"
+}, {
+  "firstId" : 1392,
+  "secondId" : 1391,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Nessuno",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "1392-1391-2"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "cicli con while",
+  "secondPhrase" : "Ciclo ",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "885-884-0"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i cicli con while e tutte le funzioni studiate",
+  "secondPhrase" : "Ciclo",
+  "voto" : 4,
+  "annotatore" : "Corridori",
+  "id" : "885-884-1"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "tutto sufficientemente chiaro",
+  "voto" : 2,
+  "annotatore" : "Corridori",
+  "id" : "884-885-2"
+}, {
+  "firstId" : 611,
+  "secondId" : 610,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Sintassi e semantica in Python",
+  "secondPhrase" : "Tipi di variabili nel linguaggio Python",
+  "voto" : 4,
+  "annotatore" : "Corridori",
+  "id" : "611-610-0"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Operazioni  tra variabili ",
+  "secondPhrase" : "Float, numeri interi e stringhe ",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "610-611-1"
+}, {
+  "firstId" : 611,
+  "secondId" : 610,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "611-610-2"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Ciclo While, esercizi ed errori",
+  "secondPhrase" : "cicli",
+  "voto" : 4,
+  "annotatore" : "Corridori",
+  "id" : "837-838-0"
+}, {
+  "firstId" : 838,
+  "secondId" : 837,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i cicli",
+  "secondPhrase" : "Esercizi",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "838-837-1"
+}, {
+  "firstId" : 838,
+  "secondId" : 837,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "l'ultimo esercizio",
+  "secondPhrase" : "Esercizi",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "838-837-2"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Insiemi; dizionari che sono insiemi di chiavi e valori",
+  "secondPhrase" : "Duplicazione liste, Creazioni di insiemi e dizionari ",
+  "voto" : 5,
+  "annotatore" : "Corridori",
+  "id" : "1294-1295-0"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "le applicazioni di unione intersezione e differenza sugli insiemi",
+  "secondPhrase" : "Dizionari",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "1294-1295-1"
+}, {
+  "firstId" : 1295,
+  "secondId" : 1294,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "come si genera una nuova posizione negli insiemi",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "1295-1294-2"
+}, {
+  "firstId" : 1387,
+  "secondId" : 1386,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tuple, esercizi",
+  "secondPhrase" : "eserzizio con uno dizionario",
+  "voto" : 4,
+  "annotatore" : "Corridori",
+  "id" : "1387-1386-0"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Ho trovato postivo il metodo dello scrambled code poichè la mia grande difficoltà è capire cosa fare quando mi trovo davanti il testo dell'esercizio e la maggior parte delle volte sbaglio la risoluzione",
+  "secondPhrase" : "Tuple",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "1386-1387-1"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "lezione un pò pesante",
+  "secondPhrase" : "Le tuple cosa sono di preciso e come si possono usare",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "1386-1387-2"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Come usare una variabile ",
+  "secondPhrase" : "Variabili, errori e convenzioni nel linguaggio di Python con definizione di stringa",
+  "voto" : 4,
+  "annotatore" : "Corridori",
+  "id" : "653-652-0"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Le stringhe ",
+  "secondPhrase" : "come scrivere un codice",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "653-652-1"
+}, {
+  "firstId" : 652,
+  "secondId" : 653,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "la forma in cui sono trascritti gli input negli spazi di memoria",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "652-653-2"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Algoritmo",
+  "secondPhrase" : "complessità degli algoritimi ",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "400-399-0"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i diversi tipi di algoritmi ",
+  "secondPhrase" : "Somma",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "399-400-1"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "quale tra metodo del pallottoliere e normale sia più complesso",
+  "secondPhrase" : "Trovare la complessità",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "399-400-2"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Imparare alcuni comandi e linguaggi di phyton",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "603-602-0"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Stringhe",
+  "secondPhrase" : "Imparare le operazioni tra interi e reali",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "602-603-1"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Tutto abbastanza chiaro",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "603-602-2"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Iniziare a usare python",
+  "secondPhrase" : "Tipo di Variabili reali float stringhe e usarle",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "630-629-0"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "I vari tipi di variabili ",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "629-630-1"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "/",
+  "secondPhrase" : "Come si rappresentano i reali ",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "630-629-2"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Rappresentazione",
+  "secondPhrase" : "La rappresentazione ",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "555-556-0"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Sistema binario",
+  "secondPhrase" : "La somma dei numeri binari",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "555-556-1"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Somma del sistema binario",
+  "secondPhrase" : "La somma in colonna",
+  "voto" : 2,
+  "annotatore" : "Corridori",
+  "id" : "555-556-2"
+}, {
+  "firstId" : 154,
+  "secondId" : 153,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Bisogna imparare ad utilizzare bene Internet e i dispositivi tecnologici",
+  "secondPhrase" : "Informazioni sul corso di informatica ",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "154-153-0"
+}, {
+  "firstId" : 154,
+  "secondId" : 153,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Programmazione",
+  "secondPhrase" : "Programmazione di siti",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "154-153-1"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "La spiegazione iniziale è stata un po' confusionaria",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "153-154-2"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Variabili matematica Vs variabili informatiche (spazi di memoria)\nDefinizione di algoritmo ",
+  "secondPhrase" : "istruzioni",
+  "voto" : 2,
+  "annotatore" : "Corridori",
+  "id" : "296-295-0"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "algoritmi",
+  "secondPhrase" : "Imparare a scrivere gli algoritmi",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "295-296-1"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Non ce ne sono state",
+  "secondPhrase" : "nessuna",
+  "voto" : 2,
+  "annotatore" : "Corridori",
+  "id" : "296-295-2"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Concetto di funzioni",
+  "secondPhrase" : "definire le funzioni ",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "1110-1109-0"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "gli esempi oggi sono stati più chiari ",
+  "secondPhrase" : "Come definire una nuova funzione ",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "1109-1110-1"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Quando una variabile può assumere lo stesso nome di una funzione che abbiamo definito ",
+  "secondPhrase" : "Esercizio finale ",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "1109-1110-2"
+}, {
+  "firstId" : 240,
+  "secondId" : 239,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "X in informatica non è incognita, ma memoria ",
+  "secondPhrase" : "L?algoritmo è una sequenza ordintata di operazioni",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "240-239-0"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "L?algoritmo, come possiamo crearne uno",
+  "secondPhrase" : "Algoritmi",
+  "voto" : 4,
+  "annotatore" : "Corridori",
+  "id" : "239-240-1"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Niente",
+  "voto" : 5,
+  "annotatore" : "Corridori",
+  "id" : "239-240-2"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Si",
+  "secondPhrase" : "Numeri binari",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "478-479-0"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "No, tutto ok",
+  "secondPhrase" : "Somma di numeri binari ",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "478-479-1"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Wow finalmente una lezione in cui mi è tutto chiaro, gg",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "478-479-2"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "logica e dimostrazioni\n",
+  "secondPhrase" : "Logica, dimostrazioni, CPU",
+  "voto" : 4,
+  "annotatore" : "Corridori",
+  "id" : "944-943-0"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "logica",
+  "secondPhrase" : "Logica",
+  "voto" : 6,
+  "annotatore" : "Corridori",
+  "id" : "944-943-1"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "bit \n",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "943-944-2"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti",
+  "secondPhrase" : "Sistema operativo ",
+  "voto" : 2,
+  "annotatore" : "Corridori",
+  "id" : "1279-1280-0"
+}, {
+  "firstId" : 1280,
+  "secondId" : 1279,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Capire come funziona la macchina ",
+  "secondPhrase" : "Funzionamente della CPU e gestione della memoria",
+  "voto" : 2,
+  "annotatore" : "Corridori",
+  "id" : "1280-1279-1"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Come funziona la macchina ",
+  "voto" : 1,
+  "annotatore" : "Corridori",
+  "id" : "1279-1280-2"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Presentazione del corso ",
+  "secondPhrase" : "Conoscenza ",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "33-34-0"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Su cosa si basa la programmazione",
+  "secondPhrase" : "Programmazione C++",
+  "voto" : 2,
+  "annotatore" : "MM",
+  "id" : "34-33-1"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "MM",
+  "id" : "34-33-2"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Esercizio con i dizionari",
+  "secondPhrase" : "Lo ?Scrambled code? è utile ",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1352-1353-0"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Gli esercizi ",
+  "secondPhrase" : "Le duble",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1353-1352-1"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Scrambled Code si serve ",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1353-1352-2"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Scrittura di un algoritmo partendo da un codice parzialmente giá scritto",
+  "secondPhrase" : "Esercizio con dizionario",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1391-1392-0"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Algoritmi con liste e dizionari",
+  "secondPhrase" : "Per me è molto utile lo scrambled code.",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1391-1392-1"
+}, {
+  "firstId" : 1392,
+  "secondId" : 1391,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Nessuno",
+  "voto" : 6,
+  "annotatore" : "MM",
+  "id" : "1392-1391-2"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Ciclo ",
+  "secondPhrase" : "cicli con while",
+  "voto" : 2,
+  "annotatore" : "MM",
+  "id" : "884-885-0"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Ciclo",
+  "secondPhrase" : "i cicli con while e tutte le funzioni studiate",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "884-885-1"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "tutto sufficientemente chiaro",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "884-885-2"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tipi di variabili nel linguaggio Python",
+  "secondPhrase" : "Sintassi e semantica in Python",
+  "voto" : 3,
+  "annotatore" : "MM",
+  "id" : "610-611-0"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Operazioni  tra variabili ",
+  "secondPhrase" : "Float, numeri interi e stringhe ",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "610-611-1"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "MM",
+  "id" : "610-611-2"
+}, {
+  "firstId" : 154,
+  "secondId" : 153,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Bisogna imparare ad utilizzare bene Internet e i dispositivi tecnologici",
+  "secondPhrase" : "Informazioni sul corso di informatica ",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "154-153-0"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Programmazione di siti",
+  "secondPhrase" : "Programmazione",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "153-154-1"
+}, {
+  "firstId" : 154,
+  "secondId" : 153,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "La spiegazione iniziale è stata un po' confusionaria",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "154-153-2"
+}, {
+  "firstId" : 838,
+  "secondId" : 837,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "cicli",
+  "secondPhrase" : "Ciclo While, esercizi ed errori",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "838-837-0"
+}, {
+  "firstId" : 838,
+  "secondId" : 837,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i cicli",
+  "secondPhrase" : "Esercizi",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "838-837-1"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Esercizi",
+  "secondPhrase" : "l'ultimo esercizio",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "837-838-2"
+}, {
+  "firstId" : 1295,
+  "secondId" : 1294,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Duplicazione liste, Creazioni di insiemi e dizionari ",
+  "secondPhrase" : "Insiemi; dizionari che sono insiemi di chiavi e valori",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "1295-1294-0"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "le applicazioni di unione intersezione e differenza sugli insiemi",
+  "secondPhrase" : "Dizionari",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1294-1295-1"
+}, {
+  "firstId" : 1295,
+  "secondId" : 1294,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "come si genera una nuova posizione negli insiemi",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1295-1294-2"
+}, {
+  "firstId" : 1387,
+  "secondId" : 1386,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tuple, esercizi",
+  "secondPhrase" : "eserzizio con uno dizionario",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1387-1386-0"
+}, {
+  "firstId" : 1387,
+  "secondId" : 1386,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Tuple",
+  "secondPhrase" : "Ho trovato postivo il metodo dello scrambled code poichè la mia grande difficoltà è capire cosa fare quando mi trovo davanti il testo dell'esercizio e la maggior parte delle volte sbaglio la risoluzione",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1387-1386-1"
+}, {
+  "firstId" : 1387,
+  "secondId" : 1386,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Le tuple cosa sono di preciso e come si possono usare",
+  "secondPhrase" : "lezione un pò pesante",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1387-1386-2"
+}, {
+  "firstId" : 652,
+  "secondId" : 653,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Variabili, errori e convenzioni nel linguaggio di Python con definizione di stringa",
+  "secondPhrase" : "Come usare una variabile ",
+  "voto" : 3,
+  "annotatore" : "MM",
+  "id" : "652-653-0"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Le stringhe ",
+  "secondPhrase" : "come scrivere un codice",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "653-652-1"
+}, {
+  "firstId" : 652,
+  "secondId" : 653,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "la forma in cui sono trascritti gli input negli spazi di memoria",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "652-653-2"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "complessità degli algoritimi ",
+  "secondPhrase" : "Algoritmo",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "399-400-0"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i diversi tipi di algoritmi ",
+  "secondPhrase" : "Somma",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "399-400-1"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "quale tra metodo del pallottoliere e normale sia più complesso",
+  "secondPhrase" : "Trovare la complessità",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "399-400-2"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Variabili in python",
+  "secondPhrase" : "Imparare alcuni comandi e linguaggi di phyton",
+  "voto" : 3,
+  "annotatore" : "MM",
+  "id" : "602-603-0"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Imparare le operazioni tra interi e reali",
+  "secondPhrase" : "Stringhe",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "603-602-1"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Tutto abbastanza chiaro",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "602-603-2"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Iniziare a usare python",
+  "secondPhrase" : "Tipo di Variabili reali float stringhe e usarle",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "630-629-0"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "I vari tipi di variabili ",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "629-630-1"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Come si rappresentano i reali ",
+  "secondPhrase" : "/",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "629-630-2"
+}, {
+  "firstId" : 556,
+  "secondId" : 555,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "La rappresentazione ",
+  "secondPhrase" : "Rappresentazione",
+  "voto" : 6,
+  "annotatore" : "MM",
+  "id" : "556-555-0"
+}, {
+  "firstId" : 556,
+  "secondId" : 555,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "La somma dei numeri binari",
+  "secondPhrase" : "Sistema binario",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "556-555-1"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Somma del sistema binario",
+  "secondPhrase" : "La somma in colonna",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "555-556-2"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "istruzioni",
+  "secondPhrase" : "Variabili matematica Vs variabili informatiche (spazi di memoria)\nDefinizione di algoritmo ",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "295-296-0"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Imparare a scrivere gli algoritmi",
+  "secondPhrase" : "algoritmi",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "296-295-1"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Non ce ne sono state",
+  "secondPhrase" : "nessuna",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "296-295-2"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Non ce ne sono state",
+  "secondPhrase" : "nessuna",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "296-295-2"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "definire le funzioni ",
+  "secondPhrase" : "Concetto di funzioni",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "1109-1110-0"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Come definire una nuova funzione ",
+  "secondPhrase" : "gli esempi oggi sono stati più chiari ",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1110-1109-1"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Esercizio finale ",
+  "secondPhrase" : "Quando una variabile può assumere lo stesso nome di una funzione che abbiamo definito ",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1110-1109-2"
+}, {
+  "firstId" : 240,
+  "secondId" : 239,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "X in informatica non è incognita, ma memoria ",
+  "secondPhrase" : "L?algoritmo è una sequenza ordintata di operazioni",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "240-239-0"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "L?algoritmo, come possiamo crearne uno",
+  "secondPhrase" : "Algoritmi",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "239-240-1"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Niente",
+  "voto" : 6,
+  "annotatore" : "MM",
+  "id" : "239-240-2"
+}, {
+  "firstId" : 479,
+  "secondId" : 478,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Numeri binari",
+  "secondPhrase" : "Si",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "479-478-0"
+}, {
+  "firstId" : 479,
+  "secondId" : 478,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Somma di numeri binari ",
+  "secondPhrase" : "No, tutto ok",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "479-478-1"
+}, {
+  "firstId" : 479,
+  "secondId" : 478,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Wow finalmente una lezione in cui mi è tutto chiaro, gg",
+  "voto" : 2,
+  "annotatore" : "MM",
+  "id" : "479-478-2"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "logica e dimostrazioni\n",
+  "secondPhrase" : "Logica, dimostrazioni, CPU",
+  "voto" : 4,
+  "annotatore" : "MM",
+  "id" : "944-943-0"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "logica",
+  "secondPhrase" : "Logica",
+  "voto" : 6,
+  "annotatore" : "MM",
+  "id" : "944-943-1"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "bit \n",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "944-943-2"
+}, {
+  "firstId" : 1280,
+  "secondId" : 1279,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Sistema operativo ",
+  "secondPhrase" : "Conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1280-1279-0"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Funzionamente della CPU e gestione della memoria",
+  "secondPhrase" : "Capire come funziona la macchina ",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1279-1280-1"
+}, {
+  "firstId" : 1280,
+  "secondId" : 1279,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Come funziona la macchina ",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "MM",
+  "id" : "1280-1279-2"
+}, {
+  "firstId" : 34,
+  "secondId" : 33,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscenza ",
+  "secondPhrase" : "Presentazione del corso ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "34-33-0"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Programmazione C++",
+  "secondPhrase" : "Su cosa si basa la programmazione",
+  "voto" : 2,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "33-34-1"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna",
+  "voto" : 6,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "33-34-2"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Lo ?Scrambled code? è utile ",
+  "secondPhrase" : "Esercizio con i dizionari",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1353-1352-0"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Le duble",
+  "secondPhrase" : "Gli esercizi ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1352-1353-1"
+}, {
+  "firstId" : 1392,
+  "secondId" : 1391,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Esercizio con dizionario",
+  "secondPhrase" : "Scrittura di un algoritmo partendo da un codice parzialmente giá scritto",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1392-1391-0"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Algoritmi con liste e dizionari",
+  "secondPhrase" : "Per me è molto utile lo scrambled code.",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1391-1392-1"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuno",
+  "secondPhrase" : "Nessuna",
+  "voto" : 6,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1391-1392-2"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "cicli con while",
+  "secondPhrase" : "Ciclo ",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "885-884-0"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Ciclo",
+  "secondPhrase" : "i cicli con while e tutte le funzioni studiate",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "884-885-1"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "tutto sufficientemente chiaro",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "885-884-2"
+}, {
+  "firstId" : 611,
+  "secondId" : 610,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Sintassi e semantica in Python",
+  "secondPhrase" : "Tipi di variabili nel linguaggio Python",
+  "voto" : 2,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "611-610-0"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Operazioni  tra variabili ",
+  "secondPhrase" : "Float, numeri interi e stringhe ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "610-611-1"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "610-611-2"
+}, {
+  "firstId" : 838,
+  "secondId" : 837,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "cicli",
+  "secondPhrase" : "Ciclo While, esercizi ed errori",
+  "voto" : 2,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "838-837-0"
+}, {
+  "firstId" : 838,
+  "secondId" : 837,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "i cicli",
+  "secondPhrase" : "Esercizi",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "838-837-1"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Esercizi",
+  "secondPhrase" : "l'ultimo esercizio",
+  "voto" : 2,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "837-838-2"
+}, {
+  "firstId" : 1295,
+  "secondId" : 1294,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Duplicazione liste, Creazioni di insiemi e dizionari ",
+  "secondPhrase" : "Insiemi; dizionari che sono insiemi di chiavi e valori",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1295-1294-0"
+}, {
+  "firstId" : 1295,
+  "secondId" : 1294,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Dizionari",
+  "secondPhrase" : "le applicazioni di unione intersezione e differenza sugli insiemi",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1295-1294-1"
+}, {
+  "firstId" : 1295,
+  "secondId" : 1294,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "come si genera una nuova posizione negli insiemi",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1295-1294-2"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "eserzizio con uno dizionario",
+  "secondPhrase" : "Tuple, esercizi",
+  "voto" : 2,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1386-1387-0"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Ho trovato postivo il metodo dello scrambled code poichè la mia grande difficoltà è capire cosa fare quando mi trovo davanti il testo dell'esercizio e la maggior parte delle volte sbaglio la risoluzione",
+  "secondPhrase" : "Tuple",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1386-1387-1"
+}, {
+  "firstId" : 1387,
+  "secondId" : 1386,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Le tuple cosa sono di preciso e come si possono usare",
+  "secondPhrase" : "lezione un pò pesante",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1387-1386-2"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Come usare una variabile ",
+  "secondPhrase" : "Variabili, errori e convenzioni nel linguaggio di Python con definizione di stringa",
+  "voto" : 2,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "653-652-0"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Le stringhe ",
+  "secondPhrase" : "come scrivere un codice",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "653-652-1"
+}, {
+  "firstId" : 652,
+  "secondId" : 653,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "la forma in cui sono trascritti gli input negli spazi di memoria",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "652-653-2"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Algoritmo",
+  "secondPhrase" : "complessità degli algoritimi ",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "400-399-0"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Somma",
+  "secondPhrase" : "i diversi tipi di algoritmi ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "400-399-1"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Trovare la complessità",
+  "secondPhrase" : "quale tra metodo del pallottoliere e normale sia più complesso",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "400-399-2"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Imparare alcuni comandi e linguaggi di phyton",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 2,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "603-602-0"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Stringhe",
+  "secondPhrase" : "Imparare le operazioni tra interi e reali",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "602-603-1"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Tutto abbastanza chiaro",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "602-603-2"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tipo di Variabili reali float stringhe e usarle",
+  "secondPhrase" : "Iniziare a usare python",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "629-630-0"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "I vari tipi di variabili ",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "629-630-1"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "/",
+  "secondPhrase" : "Come si rappresentano i reali ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "630-629-2"
+}, {
+  "firstId" : 556,
+  "secondId" : 555,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "La rappresentazione ",
+  "secondPhrase" : "Rappresentazione",
+  "voto" : 5,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "556-555-0"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Sistema binario",
+  "secondPhrase" : "La somma dei numeri binari",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "555-556-1"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Somma del sistema binario",
+  "secondPhrase" : "La somma in colonna",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "555-556-2"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Informazioni sul corso di informatica ",
+  "secondPhrase" : "Bisogna imparare ad utilizzare bene Internet e i dispositivi tecnologici",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "153-154-0"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Programmazione di siti",
+  "secondPhrase" : "Programmazione",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "153-154-1"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "La spiegazione iniziale è stata un po' confusionaria",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "153-154-2"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "istruzioni",
+  "secondPhrase" : "Variabili matematica Vs variabili informatiche (spazi di memoria)\nDefinizione di algoritmo ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "295-296-0"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Imparare a scrivere gli algoritmi",
+  "secondPhrase" : "algoritmi",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "296-295-1"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "nessuna",
+  "secondPhrase" : "Non ce ne sono state",
+  "voto" : 2,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "295-296-2"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Concetto di funzioni",
+  "secondPhrase" : "definire le funzioni ",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1110-1109-0"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Come definire una nuova funzione ",
+  "secondPhrase" : "gli esempi oggi sono stati più chiari ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1110-1109-1"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Esercizio finale ",
+  "secondPhrase" : "Quando una variabile può assumere lo stesso nome di una funzione che abbiamo definito ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1110-1109-2"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "L?algoritmo è una sequenza ordintata di operazioni",
+  "secondPhrase" : "X in informatica non è incognita, ma memoria ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "239-240-0"
+}, {
+  "firstId" : 240,
+  "secondId" : 239,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Algoritmi",
+  "secondPhrase" : "L?algoritmo, come possiamo crearne uno",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "240-239-1"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Niente",
+  "voto" : 3,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "239-240-2"
+}, {
+  "firstId" : 479,
+  "secondId" : 478,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Numeri binari",
+  "secondPhrase" : "Si",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "479-478-0"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "No, tutto ok",
+  "secondPhrase" : "Somma di numeri binari ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "478-479-1"
+}, {
+  "firstId" : 479,
+  "secondId" : 478,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Wow finalmente una lezione in cui mi è tutto chiaro, gg",
+  "voto" : 2,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "479-478-2"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Logica, dimostrazioni, CPU",
+  "secondPhrase" : "logica e dimostrazioni\n",
+  "voto" : 4,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "943-944-0"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Logica",
+  "secondPhrase" : "logica",
+  "voto" : 6,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "943-944-1"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "bit \n",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "944-943-2"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti",
+  "secondPhrase" : "Sistema operativo ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1279-1280-0"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Argomento pi� interessante",
+  "firstPhrase" : "Funzionamente della CPU e gestione della memoria",
+  "secondPhrase" : "Capire come funziona la macchina ",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1279-1280-1"
+}, {
+  "firstId" : 1280,
+  "secondId" : 1279,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Come funziona la macchina ",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Paolo Cerrito",
+  "id" : "1280-1279-2"
+}, {
+    "firstId": 33,
+    "secondId": 34,
+    "column": "Messaggio docente",
+    "firstPhrase": "Presentazione del corso ",
+    "secondPhrase": "Conoscenza ",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "33-34-0"
+  },
+  {
+    "firstId": 33,
+    "secondId": 34,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Programmazione C++",
+    "secondPhrase": "Su cosa si basa la programmazione",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "33-34-1"
+  },
+  {
+    "firstId": 33,
+    "secondId": 34,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna ",
+    "secondPhrase": "Nessuna",
+    "voto": 6,
+    "annotatore": "salman",
+    "id": "33-34-2"
+  },
+  {
+    "firstId": 1352,
+    "secondId": 1353,
+    "column": "Messaggio docente",
+    "firstPhrase": "Esercizio con i dizionari",
+    "secondPhrase": "Lo ?Scrambled code? � utile ",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1352-1353-0"
+  },
+  {
+    "firstId": 1352,
+    "secondId": 1353,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Le duble",
+    "secondPhrase": "Gli esercizi ",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1352-1353-1"
+  },
+  {
+    "firstId": 1352,
+    "secondId": 1353,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Scrambled Code si serve ",
+    "secondPhrase": "Nessuna ",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1352-1353-2"
+  },
+  {
+    "firstId": 1391,
+    "secondId": 1392,
+    "column": "Messaggio docente",
+    "firstPhrase": "Scrittura di un algoritmo partendo da un codice parzialmente gi� scritto",
+    "secondPhrase": "Esercizio con dizionario",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "1391-1392-0"
+  },
+  {
+    "firstId": 1391,
+    "secondId": 1392,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Algoritmi con liste e dizionari",
+    "secondPhrase": "Per me � molto utile lo scrambled code.",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1391-1392-1"
+  },
+  {
+    "firstId": 1391,
+    "secondId": 1392,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuno",
+    "secondPhrase": "Nessuna",
+    "voto": 6,
+    "annotatore": "salman",
+    "id": "1391-1392-2"
+  },
+  {
+    "firstId": 884,
+    "secondId": 885,
+    "column": "Messaggio docente",
+    "firstPhrase": "Ciclo ",
+    "secondPhrase": "cicli con while",
+    "voto": 5,
+    "annotatore": "salman",
+    "id": "884-885-0"
+  },
+  {
+    "firstId": 884,
+    "secondId": 885,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Ciclo",
+    "secondPhrase": "i cicli con while e tutte le funzioni studiate",
+    "voto": 3,
+    "annotatore": "salman",
+    "id": "884-885-1"
+  },
+  {
+    "firstId": 884,
+    "secondId": 885,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna ",
+    "secondPhrase": "tutto sufficientemente chiaro",
+    "voto": 3,
+    "annotatore": "salman",
+    "id": "884-885-2"
+  },
+  {
+    "firstId": 610,
+    "secondId": 611,
+    "column": "Messaggio docente",
+    "firstPhrase": "Tipi di variabili nel linguaggio Python",
+    "secondPhrase": "Sintassi e semantica in Python",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "610-611-0"
+  },
+  {
+    "firstId": 610,
+    "secondId": 611,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Operazioni  tra variabili ",
+    "secondPhrase": "Float, numeri interi e stringhe ",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "610-611-1"
+  },
+  {
+    "firstId": 610,
+    "secondId": 611,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna ",
+    "secondPhrase": "Nessuna ",
+    "voto": 6,
+    "annotatore": "salman",
+    "id": "610-611-2"
+  },
+  {
+    "firstId": 837,
+    "secondId": 838,
+    "column": "Messaggio docente",
+    "firstPhrase": "Ciclo While, esercizi ed errori",
+    "secondPhrase": "cicli",
+    "voto": 3,
+    "annotatore": "salman",
+    "id": "837-838-0"
+  },
+  {
+    "firstId": 837,
+    "secondId": 838,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Esercizi",
+    "secondPhrase": "i cicli",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "837-838-1"
+  },
+  {
+    "firstId": 837,
+    "secondId": 838,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Esercizi",
+    "secondPhrase": "l'ultimo esercizio",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "837-838-2"
+  },
+  {
+    "firstId": 1294,
+    "secondId": 1295,
+    "column": "Messaggio docente",
+    "firstPhrase": "Insiemi; dizionari che sono insiemi di chiavi e valori",
+    "secondPhrase": "Duplicazione liste, Creazioni di insiemi e dizionari ",
+    "voto": 3,
+    "annotatore": "salman",
+    "id": "1294-1295-0"
+  },
+  {
+    "firstId": 1294,
+    "secondId": 1295,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "le applicazioni di unione intersezione e differenza sugli insiemi",
+    "secondPhrase": "Dizionari",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1294-1295-1"
+  },
+  {
+    "firstId": 1294,
+    "secondId": 1295,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "come si genera una nuova posizione negli insiemi",
+    "secondPhrase": "Nessuna",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1294-1295-2"
+  },
+  {
+    "firstId": 1386,
+    "secondId": 1387,
+    "column": "Messaggio docente",
+    "firstPhrase": "eserzizio con uno dizionario",
+    "secondPhrase": "Tuple, esercizi",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1386-1387-0"
+  },
+  {
+    "firstId": 1386,
+    "secondId": 1387,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Ho trovato postivo il metodo dello scrambled code poich� la mia grande difficolt� � capire cosa fare quando mi trovo davanti il testo dell'esercizio e la maggior parte delle volte sbaglio la risoluzione",
+    "secondPhrase": "Tuple",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1386-1387-1"
+  },
+  {
+    "firstId": 1386,
+    "secondId": 1387,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "lezione un p� pesante",
+    "secondPhrase": "Le tuple cosa sono di preciso e come si possono usare",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1386-1387-2"
+  },
+  {
+    "firstId": 652,
+    "secondId": 653,
+    "column": "Messaggio docente",
+    "firstPhrase": "Variabili, errori e convenzioni nel linguaggio di Python con definizione di stringa",
+    "secondPhrase": "Come usare una variabile ",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "652-653-0"
+  },
+  {
+    "firstId": 652,
+    "secondId": 653,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "come scrivere un codice",
+    "secondPhrase": "Le stringhe ",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "652-653-1"
+  },
+  {
+    "firstId": 652,
+    "secondId": 653,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "la forma in cui sono trascritti gli input negli spazi di memoria",
+    "secondPhrase": "Nessuna ",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "652-653-2"
+  },
+  {
+    "firstId": 399,
+    "secondId": 400,
+    "column": "Messaggio docente",
+    "firstPhrase": "complessit� degli algoritimi ",
+    "secondPhrase": "Algoritmo",
+    "voto": 5,
+    "annotatore": "salman",
+    "id": "399-400-0"
+  },
+  {
+    "firstId": 399,
+    "secondId": 400,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "i diversi tipi di algoritmi ",
+    "secondPhrase": "Somma",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "399-400-1"
+  },
+  {
+    "firstId": 399,
+    "secondId": 400,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "quale tra metodo del pallottoliere e normale sia pi� complesso",
+    "secondPhrase": "Trovare la complessit�",
+    "voto": 3,
+    "annotatore": "salman",
+    "id": "399-400-2"
+  },
+  {
+    "firstId": 602,
+    "secondId": 603,
+    "column": "Messaggio docente",
+    "firstPhrase": "Variabili in python",
+    "secondPhrase": "Imparare alcuni comandi e linguaggi di phyton",
+    "voto": 3,
+    "annotatore": "salman",
+    "id": "602-603-0"
+  },
+  {
+    "firstId": 602,
+    "secondId": 603,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Stringhe",
+    "secondPhrase": "Imparare le operazioni tra interi e reali",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "602-603-1"
+  },
+  {
+    "firstId": 602,
+    "secondId": 603,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna",
+    "secondPhrase": "Tutto abbastanza chiaro",
+    "voto": 5,
+    "annotatore": "salman",
+    "id": "602-603-2"
+  },
+  {
+    "firstId": 629,
+    "secondId": 630,
+    "column": "Messaggio docente",
+    "firstPhrase": "Tipo di Variabili reali float stringhe e usarle",
+    "secondPhrase": "Iniziare a usare python",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "629-630-0"
+  },
+  {
+    "firstId": 629,
+    "secondId": 630,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "I vari tipi di variabili ",
+    "secondPhrase": "Variabili in python",
+    "voto": 5,
+    "annotatore": "salman",
+    "id": "629-630-1"
+  },
+  {
+    "firstId": 629,
+    "secondId": 630,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Come si rappresentano i reali ",
+    "secondPhrase": "/",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "629-630-2"
+  },
+  {
+    "firstId": 555,
+    "secondId": 556,
+    "column": "Messaggio docente",
+    "firstPhrase": "Rappresentazione",
+    "secondPhrase": "La rappresentazione ",
+    "voto": 6,
+    "annotatore": "salman",
+    "id": "555-556-0"
+  },
+  {
+    "firstId": 555,
+    "secondId": 556,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Sistema binario",
+    "secondPhrase": "La somma dei numeri binari",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "555-556-1"
+  },
+  {
+    "firstId": 555,
+    "secondId": 556,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Somma del sistema binario",
+    "secondPhrase": "La somma in colonna",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "555-556-2"
+  },
+  {
+    "firstId": 153,
+    "secondId": 154,
+    "column": "Messaggio docente",
+    "firstPhrase": "Informazioni sul corso di informatica ",
+    "secondPhrase": "Bisogna imparare ad utilizzare bene Internet e i dispositivi tecnologici",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "153-154-0"
+  },
+  {
+    "firstId": 153,
+    "secondId": 154,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Programmazione di siti",
+    "secondPhrase": "Programmazione",
+    "voto": 5,
+    "annotatore": "salman",
+    "id": "153-154-1"
+  },
+  {
+    "firstId": 153,
+    "secondId": 154,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "La spiegazione iniziale � stata un po' confusionaria",
+    "secondPhrase": "Nessuna",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "153-154-2"
+  },
+  {
+    "firstId": 295,
+    "secondId": 296,
+    "column": "Messaggio docente",
+    "firstPhrase": "istruzioni",
+    "secondPhrase": "Variabili matematica Vs variabili informatiche (spazi di memoria)\nDefinizione di algoritmo ",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "295-296-0"
+  },
+  {
+    "firstId": 295,
+    "secondId": 296,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "algoritmi",
+    "secondPhrase": "Imparare a scrivere gli algoritmi",
+    "voto": 5,
+    "annotatore": "salman",
+    "id": "295-296-1"
+  },
+  {
+    "firstId": 295,
+    "secondId": 296,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "nessuna",
+    "secondPhrase": "Non ce ne sono state",
+    "voto": 5,
+    "annotatore": "salman",
+    "id": "295-296-2"
+  },
+  {
+    "firstId": 1109,
+    "secondId": 1110,
+    "column": "Messaggio docente",
+    "firstPhrase": "definire le funzioni ",
+    "secondPhrase": "Concetto di funzioni",
+    "voto": 5,
+    "annotatore": "salman",
+    "id": "1109-1110-0"
+  },
+  {
+    "firstId": 1109,
+    "secondId": 1110,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "gli esempi oggi sono stati pi� chiari ",
+    "secondPhrase": "Come definire una nuova funzione ",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1109-1110-1"
+  },
+  {
+    "firstId": 1109,
+    "secondId": 1110,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Quando una variabile pu� assumere lo stesso nome di una funzione che abbiamo definito ",
+    "secondPhrase": "Esercizio finale ",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1109-1110-2"
+  },
+  {
+    "firstId": 239,
+    "secondId": 240,
+    "column": "Messaggio docente",
+    "firstPhrase": "L?algoritmo � una sequenza ordintata di operazioni",
+    "secondPhrase": "X in informatica non � incognita, ma memoria ",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "239-240-0"
+  },
+  {
+    "firstId": 239,
+    "secondId": 240,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "L?algoritmo, come possiamo crearne uno",
+    "secondPhrase": "Algoritmi",
+    "voto": 5,
+    "annotatore": "salman",
+    "id": "239-240-1"
+  },
+  {
+    "firstId": 239,
+    "secondId": 240,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna",
+    "secondPhrase": "Niente",
+    "voto": 5,
+    "annotatore": "salman",
+    "id": "239-240-2"
+  },
+  {
+    "firstId": 478,
+    "secondId": 479,
+    "column": "Messaggio docente",
+    "firstPhrase": "Si",
+    "secondPhrase": "Numeri binari",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "478-479-0"
+  },
+  {
+    "firstId": 478,
+    "secondId": 479,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "No, tutto ok",
+    "secondPhrase": "Somma di numeri binari ",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "478-479-1"
+  },
+  {
+    "firstId": 478,
+    "secondId": 479,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Wow finalmente una lezione in cui mi � tutto chiaro, gg",
+    "secondPhrase": "Nessuna",
+    "voto": 3,
+    "annotatore": "salman",
+    "id": "478-479-2"
+  },
+  {
+    "firstId": 943,
+    "secondId": 944,
+    "column": "Messaggio docente",
+    "firstPhrase": "Logica, dimostrazioni, CPU",
+    "secondPhrase": "logica e dimostrazioni\n",
+    "voto": 4,
+    "annotatore": "salman",
+    "id": "943-944-0"
+  },
+  {
+    "firstId": 943,
+    "secondId": 944,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Logica",
+    "secondPhrase": "logica",
+    "voto": 6,
+    "annotatore": "salman",
+    "id": "943-944-1"
+  },
+  {
+    "firstId": 943,
+    "secondId": 944,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna",
+    "secondPhrase": "bit \n",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "943-944-2"
+  },
+  {
+    "firstId": 1279,
+    "secondId": 1280,
+    "column": "Messaggio docente",
+    "firstPhrase": "Conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti",
+    "secondPhrase": "Sistema operativo ",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "1279-1280-0"
+  },
+  {
+    "firstId": 1279,
+    "secondId": 1280,
+    "column": "Argomento pi� interessante",
+    "firstPhrase": "Funzionamente della CPU e gestione della memoria",
+    "secondPhrase": "Capire come funziona la macchina ",
+    "voto": 2,
+    "annotatore": "salman",
+    "id": "1279-1280-1"
+  },
+  {
+    "firstId": 1279,
+    "secondId": 1280,
+    "column": "Argomento meno chiaro",
+    "firstPhrase": "Nessuna",
+    "secondPhrase": "Come funziona la macchina ",
+    "voto": 1,
+    "annotatore": "salman",
+    "id": "1279-1280-2"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Presentazione del corso ",
+  "secondPhrase" : "Conoscenza ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "33-34-0"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Programmazione C++",
+  "secondPhrase" : "Su cosa si basa la programmazione",
+  "voto" : 2,
+  "annotatore" : "giorgioni",
+  "id" : "33-34-1"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna",
+  "voto" : 6,
+  "annotatore" : "giorgioni",
+  "id" : "33-34-2"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Esercizio con i dizionari",
+  "secondPhrase" : "Lo ?Scrambled code? è utile ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1352-1353-0"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Le duble",
+  "secondPhrase" : "Gli esercizi ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1352-1353-1"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Scrambled Code si serve ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1352-1353-2"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Scrittura di un algoritmo partendo da un codice parzialmente giá scritto",
+  "secondPhrase" : "Esercizio con dizionario",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1391-1392-0"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Algoritmi con liste e dizionari",
+  "secondPhrase" : "Per me è molto utile lo scrambled code.",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1391-1392-1"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuno",
+  "secondPhrase" : "Nessuna",
+  "voto" : 6,
+  "annotatore" : "giorgioni",
+  "id" : "1391-1392-2"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Ciclo ",
+  "secondPhrase" : "cicli con while",
+  "voto" : 5,
+  "annotatore" : "giorgioni",
+  "id" : "884-885-0"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Ciclo",
+  "secondPhrase" : "i cicli con while e tutte le funzioni studiate",
+  "voto" : 3,
+  "annotatore" : "giorgioni",
+  "id" : "884-885-1"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "tutto sufficientemente chiaro",
+  "voto" : 3,
+  "annotatore" : "giorgioni",
+  "id" : "884-885-2"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tipi di variabili nel linguaggio Python",
+  "secondPhrase" : "Sintassi e semantica in Python",
+  "voto" : 2,
+  "annotatore" : "giorgioni",
+  "id" : "610-611-0"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Operazioni  tra variabili ",
+  "secondPhrase" : "Float, numeri interi e stringhe ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "610-611-1"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "giorgioni",
+  "id" : "610-611-2"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Ciclo While, esercizi ed errori",
+  "secondPhrase" : "cicli",
+  "voto" : 3,
+  "annotatore" : "giorgioni",
+  "id" : "837-838-0"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Esercizi",
+  "secondPhrase" : "i cicli",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "837-838-1"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Esercizi",
+  "secondPhrase" : "l'ultimo esercizio",
+  "voto" : 5,
+  "annotatore" : "giorgioni",
+  "id" : "837-838-2"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Insiemi; dizionari che sono insiemi di chiavi e valori",
+  "secondPhrase" : "Duplicazione liste, Creazioni di insiemi e dizionari ",
+  "voto" : 3,
+  "annotatore" : "giorgioni",
+  "id" : "1294-1295-0"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "le applicazioni di unione intersezione e differenza sugli insiemi",
+  "secondPhrase" : "Dizionari",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1294-1295-1"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "come si genera una nuova posizione negli insiemi",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1294-1295-2"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "eserzizio con uno dizionario",
+  "secondPhrase" : "Tuple, esercizi",
+  "voto" : 3,
+  "annotatore" : "giorgioni",
+  "id" : "1386-1387-0"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Ho trovato postivo il metodo dello scrambled code poichè la mia grande difficoltà è capire cosa fare quando mi trovo davanti il testo dell'esercizio e la maggior parte delle volte sbaglio la risoluzione",
+  "secondPhrase" : "Tuple",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1386-1387-1"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "lezione un pò pesante",
+  "secondPhrase" : "Le tuple cosa sono di preciso e come si possono usare",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1386-1387-2"
+}, {
+  "firstId" : 652,
+  "secondId" : 653,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Variabili, errori e convenzioni nel linguaggio di Python con definizione di stringa",
+  "secondPhrase" : "Come usare una variabile ",
+  "voto" : 3,
+  "annotatore" : "giorgioni",
+  "id" : "652-653-0"
+}, {
+  "firstId" : 652,
+  "secondId" : 653,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "come scrivere un codice",
+  "secondPhrase" : "Le stringhe ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "652-653-1"
+}, {
+  "firstId" : 652,
+  "secondId" : 653,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "la forma in cui sono trascritti gli input negli spazi di memoria",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "652-653-2"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "complessità degli algoritimi ",
+  "secondPhrase" : "Algoritmo",
+  "voto" : 5,
+  "annotatore" : "giorgioni",
+  "id" : "399-400-0"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i diversi tipi di algoritmi ",
+  "secondPhrase" : "Somma",
+  "voto" : 2,
+  "annotatore" : "giorgioni",
+  "id" : "399-400-1"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "quale tra metodo del pallottoliere e normale sia più complesso",
+  "secondPhrase" : "Trovare la complessità",
+  "voto" : 3,
+  "annotatore" : "giorgioni",
+  "id" : "399-400-2"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Variabili in python",
+  "secondPhrase" : "Imparare alcuni comandi e linguaggi di phyton",
+  "voto" : 3,
+  "annotatore" : "giorgioni",
+  "id" : "602-603-0"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Stringhe",
+  "secondPhrase" : "Imparare le operazioni tra interi e reali",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "602-603-1"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Tutto abbastanza chiaro",
+  "voto" : 5,
+  "annotatore" : "giorgioni",
+  "id" : "602-603-2"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tipo di Variabili reali float stringhe e usarle",
+  "secondPhrase" : "Iniziare a usare python",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "629-630-0"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "I vari tipi di variabili ",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 5,
+  "annotatore" : "giorgioni",
+  "id" : "629-630-1"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Come si rappresentano i reali ",
+  "secondPhrase" : "/",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "629-630-2"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Rappresentazione",
+  "secondPhrase" : "La rappresentazione ",
+  "voto" : 6,
+  "annotatore" : "giorgioni",
+  "id" : "555-556-0"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Sistema binario",
+  "secondPhrase" : "La somma dei numeri binari",
+  "voto" : 2,
+  "annotatore" : "giorgioni",
+  "id" : "555-556-1"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Somma del sistema binario",
+  "secondPhrase" : "La somma in colonna",
+  "voto" : 5,
+  "annotatore" : "giorgioni",
+  "id" : "555-556-2"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Informazioni sul corso di informatica ",
+  "secondPhrase" : "Bisogna imparare ad utilizzare bene Internet e i dispositivi tecnologici",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "153-154-0"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Programmazione di siti",
+  "secondPhrase" : "Programmazione",
+  "voto" : 5,
+  "annotatore" : "giorgioni",
+  "id" : "153-154-1"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "La spiegazione iniziale è stata un po' confusionaria",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "153-154-2"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "istruzioni",
+  "secondPhrase" : "Variabili matematica Vs variabili informatiche (spazi di memoria)\nDefinizione di algoritmo ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "295-296-0"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "algoritmi",
+  "secondPhrase" : "Imparare a scrivere gli algoritmi",
+  "voto" : 5,
+  "annotatore" : "giorgioni",
+  "id" : "295-296-1"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "nessuna",
+  "secondPhrase" : "Non ce ne sono state",
+  "voto" : 5,
+  "annotatore" : "giorgioni",
+  "id" : "295-296-2"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "definire le funzioni ",
+  "secondPhrase" : "Concetto di funzioni",
+  "voto" : 5,
+  "annotatore" : "giorgioni",
+  "id" : "1109-1110-0"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "gli esempi oggi sono stati più chiari ",
+  "secondPhrase" : "Come definire una nuova funzione ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1109-1110-1"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Quando una variabile può assumere lo stesso nome di una funzione che abbiamo definito ",
+  "secondPhrase" : "Esercizio finale ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1109-1110-2"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "L?algoritmo è una sequenza ordintata di operazioni",
+  "secondPhrase" : "X in informatica non è incognita, ma memoria ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "239-240-0"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "L?algoritmo, come possiamo crearne uno",
+  "secondPhrase" : "Algoritmi",
+  "voto" : 4,
+  "annotatore" : "giorgioni",
+  "id" : "239-240-1"
+}, {
+  "firstId" : 239,
+  "secondId" : 240,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Niente",
+  "voto" : 5,
+  "annotatore" : "giorgioni",
+  "id" : "239-240-2"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Si",
+  "secondPhrase" : "Numeri binari",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "478-479-0"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "No, tutto ok",
+  "secondPhrase" : "Somma di numeri binari ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "478-479-1"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Wow finalmente una lezione in cui mi è tutto chiaro, gg",
+  "secondPhrase" : "Nessuna",
+  "voto" : 3,
+  "annotatore" : "giorgioni",
+  "id" : "478-479-2"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Logica, dimostrazioni, CPU",
+  "secondPhrase" : "logica e dimostrazioni\n",
+  "voto" : 4,
+  "annotatore" : "giorgioni",
+  "id" : "943-944-0"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Logica",
+  "secondPhrase" : "logica",
+  "voto" : 6,
+  "annotatore" : "giorgioni",
+  "id" : "943-944-1"
+}, {
+  "firstId" : 943,
+  "secondId" : 944,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "bit \n",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "943-944-2"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti",
+  "secondPhrase" : "Sistema operativo ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1279-1280-0"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Funzionamente della CPU e gestione della memoria",
+  "secondPhrase" : "Capire come funziona la macchina ",
+  "voto" : 2,
+  "annotatore" : "giorgioni",
+  "id" : "1279-1280-1"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Come funziona la macchina ",
+  "voto" : 1,
+  "annotatore" : "giorgioni",
+  "id" : "1279-1280-2"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Presentazione del corso ",
+  "secondPhrase" : "Conoscenza ",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "33-34-0"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Programmazione C++",
+  "secondPhrase" : "Su cosa si basa la programmazione",
+  "voto" : 3,
+  "annotatore" : "Volpi",
+  "id" : "33-34-1"
+}, {
+  "firstId" : 33,
+  "secondId" : 34,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna",
+  "voto" : 6,
+  "annotatore" : "Volpi",
+  "id" : "33-34-2"
+}, {
+  "firstId" : 1352,
+  "secondId" : 1353,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Esercizio con i dizionari",
+  "secondPhrase" : "Lo ?Scrambled code? è utile ",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1352-1353-0"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Gli esercizi ",
+  "secondPhrase" : "Le duble",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1353-1352-1"
+}, {
+  "firstId" : 1353,
+  "secondId" : 1352,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Scrambled Code si serve ",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1353-1352-2"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Scrittura di un algoritmo partendo da un codice parzialmente giá scritto",
+  "secondPhrase" : "Esercizio con dizionario",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1391-1392-0"
+}, {
+  "firstId" : 1391,
+  "secondId" : 1392,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Algoritmi con liste e dizionari",
+  "secondPhrase" : "Per me è molto utile lo scrambled code.",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1391-1392-1"
+}, {
+  "firstId" : 1392,
+  "secondId" : 1391,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Nessuno",
+  "voto" : 6,
+  "annotatore" : "Volpi",
+  "id" : "1392-1391-2"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Ciclo ",
+  "secondPhrase" : "cicli con while",
+  "voto" : 4,
+  "annotatore" : "Volpi",
+  "id" : "884-885-0"
+}, {
+  "firstId" : 885,
+  "secondId" : 884,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i cicli con while e tutte le funzioni studiate",
+  "secondPhrase" : "Ciclo",
+  "voto" : 4,
+  "annotatore" : "Volpi",
+  "id" : "885-884-1"
+}, {
+  "firstId" : 884,
+  "secondId" : 885,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "tutto sufficientemente chiaro",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "884-885-2"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tipi di variabili nel linguaggio Python",
+  "secondPhrase" : "Sintassi e semantica in Python",
+  "voto" : 3,
+  "annotatore" : "Volpi",
+  "id" : "610-611-0"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Operazioni  tra variabili ",
+  "secondPhrase" : "Float, numeri interi e stringhe ",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "610-611-1"
+}, {
+  "firstId" : 610,
+  "secondId" : 611,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna ",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 6,
+  "annotatore" : "Volpi",
+  "id" : "610-611-2"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Ciclo While, esercizi ed errori",
+  "secondPhrase" : "cicli",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "837-838-0"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Esercizi",
+  "secondPhrase" : "i cicli",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "837-838-1"
+}, {
+  "firstId" : 837,
+  "secondId" : 838,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Esercizi",
+  "secondPhrase" : "l'ultimo esercizio",
+  "voto" : 5,
+  "annotatore" : "Volpi",
+  "id" : "837-838-2"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Insiemi; dizionari che sono insiemi di chiavi e valori",
+  "secondPhrase" : "Duplicazione liste, Creazioni di insiemi e dizionari ",
+  "voto" : 3,
+  "annotatore" : "Volpi",
+  "id" : "1294-1295-0"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "le applicazioni di unione intersezione e differenza sugli insiemi",
+  "secondPhrase" : "Dizionari",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1294-1295-1"
+}, {
+  "firstId" : 1294,
+  "secondId" : 1295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "come si genera una nuova posizione negli insiemi",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1294-1295-2"
+}, {
+  "firstId" : 1387,
+  "secondId" : 1386,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Tuple, esercizi",
+  "secondPhrase" : "eserzizio con uno dizionario",
+  "voto" : 3,
+  "annotatore" : "Volpi",
+  "id" : "1387-1386-0"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Ho trovato postivo il metodo dello scrambled code poichè la mia grande difficoltà è capire cosa fare quando mi trovo davanti il testo dell'esercizio e la maggior parte delle volte sbaglio la risoluzione",
+  "secondPhrase" : "Tuple",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1386-1387-1"
+}, {
+  "firstId" : 1386,
+  "secondId" : 1387,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "lezione un pò pesante",
+  "secondPhrase" : "Le tuple cosa sono di preciso e come si possono usare",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1386-1387-2"
+}, {
+  "firstId" : 652,
+  "secondId" : 653,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Variabili, errori e convenzioni nel linguaggio di Python con definizione di stringa",
+  "secondPhrase" : "Come usare una variabile ",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "652-653-0"
+}, {
+  "firstId" : 653,
+  "secondId" : 652,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Le stringhe ",
+  "secondPhrase" : "come scrivere un codice",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "653-652-1"
+}, {
+  "firstId" : 652,
+  "secondId" : 653,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "la forma in cui sono trascritti gli input negli spazi di memoria",
+  "secondPhrase" : "Nessuna ",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "652-653-2"
+}, {
+  "firstId" : 400,
+  "secondId" : 399,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Algoritmo",
+  "secondPhrase" : "complessità degli algoritimi ",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "400-399-0"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "i diversi tipi di algoritmi ",
+  "secondPhrase" : "Somma",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "399-400-1"
+}, {
+  "firstId" : 399,
+  "secondId" : 400,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "quale tra metodo del pallottoliere e normale sia più complesso",
+  "secondPhrase" : "Trovare la complessità",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "399-400-2"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Imparare alcuni comandi e linguaggi di phyton",
+  "secondPhrase" : "Variabili in python",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "603-602-0"
+}, {
+  "firstId" : 602,
+  "secondId" : 603,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Stringhe",
+  "secondPhrase" : "Imparare le operazioni tra interi e reali",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "602-603-1"
+}, {
+  "firstId" : 603,
+  "secondId" : 602,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Tutto abbastanza chiaro",
+  "secondPhrase" : "Nessuna",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "603-602-2"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Iniziare a usare python",
+  "secondPhrase" : "Tipo di Variabili reali float stringhe e usarle",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "630-629-0"
+}, {
+  "firstId" : 630,
+  "secondId" : 629,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Variabili in python",
+  "secondPhrase" : "I vari tipi di variabili ",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "630-629-1"
+}, {
+  "firstId" : 629,
+  "secondId" : 630,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Come si rappresentano i reali ",
+  "secondPhrase" : "/",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "629-630-2"
+}, {
+  "firstId" : 556,
+  "secondId" : 555,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "La rappresentazione ",
+  "secondPhrase" : "Rappresentazione",
+  "voto" : 6,
+  "annotatore" : "Volpi",
+  "id" : "556-555-0"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Sistema binario",
+  "secondPhrase" : "La somma dei numeri binari",
+  "voto" : 3,
+  "annotatore" : "Volpi",
+  "id" : "555-556-1"
+}, {
+  "firstId" : 555,
+  "secondId" : 556,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Somma del sistema binario",
+  "secondPhrase" : "La somma in colonna",
+  "voto" : 3,
+  "annotatore" : "Volpi",
+  "id" : "555-556-2"
+}, {
+  "firstId" : 153,
+  "secondId" : 154,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Informazioni sul corso di informatica ",
+  "secondPhrase" : "Bisogna imparare ad utilizzare bene Internet e i dispositivi tecnologici",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "153-154-0"
+}, {
+  "firstId" : 154,
+  "secondId" : 153,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Programmazione",
+  "secondPhrase" : "Programmazione di siti",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "154-153-1"
+}, {
+  "firstId" : 154,
+  "secondId" : 153,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "La spiegazione iniziale è stata un po' confusionaria",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "154-153-2"
+}, {
+  "firstId" : 295,
+  "secondId" : 296,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "istruzioni",
+  "secondPhrase" : "Variabili matematica Vs variabili informatiche (spazi di memoria)\nDefinizione di algoritmo ",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "295-296-0"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Imparare a scrivere gli algoritmi",
+  "secondPhrase" : "algoritmi",
+  "voto" : 3,
+  "annotatore" : "Volpi",
+  "id" : "296-295-1"
+}, {
+  "firstId" : 296,
+  "secondId" : 295,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Non ce ne sono state",
+  "secondPhrase" : "nessuna",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "296-295-2"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Concetto di funzioni",
+  "secondPhrase" : "definire le funzioni ",
+  "voto" : 5,
+  "annotatore" : "Volpi",
+  "id" : "1110-1109-0"
+}, {
+  "firstId" : 1109,
+  "secondId" : 1110,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "gli esempi oggi sono stati più chiari ",
+  "secondPhrase" : "Come definire una nuova funzione ",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1109-1110-1"
+}, {
+  "firstId" : 1110,
+  "secondId" : 1109,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Esercizio finale ",
+  "secondPhrase" : "Quando una variabile può assumere lo stesso nome di una funzione che abbiamo definito ",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1110-1109-2"
+}, {
+  "firstId" : 240,
+  "secondId" : 239,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "X in informatica non è incognita, ma memoria ",
+  "secondPhrase" : "L?algoritmo è una sequenza ordintata di operazioni",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "240-239-0"
+}, {
+  "firstId" : 240,
+  "secondId" : 239,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Algoritmi",
+  "secondPhrase" : "L?algoritmo, come possiamo crearne uno",
+  "voto" : 4,
+  "annotatore" : "Volpi",
+  "id" : "240-239-1"
+}, {
+  "firstId" : 240,
+  "secondId" : 239,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Niente",
+  "secondPhrase" : "Nessuna",
+  "voto" : 5,
+  "annotatore" : "Volpi",
+  "id" : "240-239-2"
+}, {
+  "firstId" : 479,
+  "secondId" : 478,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Numeri binari",
+  "secondPhrase" : "Si",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "479-478-0"
+}, {
+  "firstId" : 478,
+  "secondId" : 479,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "No, tutto ok",
+  "secondPhrase" : "Somma di numeri binari ",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "478-479-1"
+}, {
+  "firstId" : 479,
+  "secondId" : 478,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Wow finalmente una lezione in cui mi è tutto chiaro, gg",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "479-478-2"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "logica e dimostrazioni\n",
+  "secondPhrase" : "Logica, dimostrazioni, CPU",
+  "voto" : 4,
+  "annotatore" : "Volpi",
+  "id" : "944-943-0"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "logica",
+  "secondPhrase" : "Logica",
+  "voto" : 6,
+  "annotatore" : "Volpi",
+  "id" : "944-943-1"
+}, {
+  "firstId" : 944,
+  "secondId" : 943,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "bit \n",
+  "secondPhrase" : "Nessuna",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "944-943-2"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Messaggio docente",
+  "firstPhrase" : "Conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti",
+  "secondPhrase" : "Sistema operativo ",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "1279-1280-0"
+}, {
+  "firstId" : 1280,
+  "secondId" : 1279,
+  "column" : "Argomento più interessante",
+  "firstPhrase" : "Capire come funziona la macchina ",
+  "secondPhrase" : "Funzionamente della CPU e gestione della memoria",
+  "voto" : 2,
+  "annotatore" : "Volpi",
+  "id" : "1280-1279-1"
+}, {
+  "firstId" : 1279,
+  "secondId" : 1280,
+  "column" : "Argomento meno chiaro",
+  "firstPhrase" : "Nessuna",
+  "secondPhrase" : "Come funziona la macchina ",
+  "voto" : 1,
+  "annotatore" : "Volpi",
+  "id" : "1279-1280-2"
+} ]

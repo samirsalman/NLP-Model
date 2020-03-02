@@ -1,0 +1,167 @@
+|--------------- Semantical annotation agreement ------------------|
+11
+Semantic for: ('Santoro', 'Fabrizio Tafani')
+Tau     is: 0.7713390759592795
+Z-value is: 8.707594865963998
+Semantic for: ('Santoro', 'Dente')
+Tau     is: 0.6947094535993061
+Z-value is: 7.842528221424276
+Semantic for: ('Santoro', 'Francesco Arena')
+Tau     is: 0.755591054313099
+Z-value is: 8.52981651049195
+Semantic for: ('Santoro', 'tamiano')
+Tau     is: 0.5613793103448276
+Z-value is: 6.33737321623142
+Semantic for: ('Santoro', 'Corridori')
+Tau     is: 0.7184703010577705
+Z-value is: 8.110762827693854
+Semantic for: ('Santoro', 'MM')
+Tau     is: 0.7606837606837606
+Z-value is: 8.587307729631709
+Semantic for: ('Santoro', 'salman')
+Tau     is: 0.7991561181434599
+Z-value is: 9.021619581239879
+Semantic for: ('Santoro', 'giorgioni')
+Tau     is: 0.7228915662650602
+Z-value is: 8.160674192773062
+Semantic for: ('Santoro', 'Volpi')
+Tau     is: 0.86875
+Z-value is: 9.80726022521071
+Semantic for: ('Santoro', 'Paolo Cerrito')
+Tau     is: 0.7959183673469388
+Z-value is: 8.98506883061442
+Semantic for: ('Fabrizio Tafani', 'Dente')
+Tau     is: 0.7588898525585429
+Z-value is: 8.567056421655732
+Semantic for: ('Fabrizio Tafani', 'Francesco Arena')
+Tau     is: 0.8610223642172524
+Z-value is: 9.720023465444315
+Semantic for: ('Fabrizio Tafani', 'tamiano')
+Tau     is: 0.5889655172413794
+Z-value is: 6.6487920474958635
+Semantic for: ('Fabrizio Tafani', 'Corridori')
+Tau     is: 0.8405207485760781
+Z-value is: 9.488582107596548
+Semantic for: ('Fabrizio Tafani', 'MM')
+Tau     is: 0.8347578347578347
+Z-value is: 9.423524961730678
+Semantic for: ('Fabrizio Tafani', 'salman')
+Tau     is: 0.849789029535865
+Z-value is: 9.593211106978414
+Semantic for: ('Fabrizio Tafani', 'giorgioni')
+Tau     is: 0.7289156626506024
+Z-value is: 8.228679811046169
+Semantic for: ('Fabrizio Tafani', 'Volpi')
+Tau     is: 0.8640625
+Z-value is: 9.754343353491945
+Semantic for: ('Fabrizio Tafani', 'Paolo Cerrito')
+Tau     is: 0.8053375196232339
+Z-value is: 9.09140100612465
+Semantic for: ('Dente', 'Francesco Arena')
+Tau     is: 0.6900958466453674
+Z-value is: 7.79044552332457
+Semantic for: ('Dente', 'tamiano')
+Tau     is: 0.6275862068965518
+Z-value is: 7.084778411266084
+Semantic for: ('Dente', 'Corridori')
+Tau     is: 0.6729048006509357
+Z-value is: 7.59637696319685
+Semantic for: ('Dente', 'MM')
+Tau     is: 0.8043684710351378
+Z-value is: 9.080461481895204
+Semantic for: ('Dente', 'salman')
+Tau     is: 0.7468354430379747
+Z-value is: 8.430975004643392
+Semantic for: ('Dente', 'giorgioni')
+Tau     is: 0.6460843373493976
+Z-value is: 7.293602559790924
+Semantic for: ('Dente', 'Volpi')
+Tau     is: 0.7421875
+Z-value is: 8.378504688804114
+Semantic for: ('Dente', 'Paolo Cerrito')
+Tau     is: 0.750392464678179
+Z-value is: 8.471129982314977
+Semantic for: ('Francesco Arena', 'tamiano')
+Tau     is: 0.6482758620689655
+Z-value is: 7.318342534714416
+Semantic for: ('Francesco Arena', 'Corridori')
+Tau     is: 0.8909682668836453
+Z-value is: 10.058080743289661
+Semantic for: ('Francesco Arena', 'MM')
+Tau     is: 0.8518518518518519
+Z-value is: 9.616498169138131
+Semantic for: ('Francesco Arena', 'salman')
+Tau     is: 0.8379746835443038
+Z-value is: 9.459839750972755
+Semantic for: ('Francesco Arena', 'giorgioni')
+Tau     is: 0.7484939759036144
+Z-value is: 8.449698070433772
+Semantic for: ('Francesco Arena', 'Volpi')
+Tau     is: 0.8046875
+Z-value is: 9.084062978387617
+Semantic for: ('Francesco Arena', 'Paolo Cerrito')
+Tau     is: 0.8021978021978022
+Z-value is: 9.055956947621242
+Semantic for: ('tamiano', 'Corridori')
+Tau     is: 0.7640358014646054
+Z-value is: 8.62514869219086
+Semantic for: ('tamiano', 'MM')
+Tau     is: 0.7910731244064577
+Z-value is: 8.930371209467184
+Semantic for: ('tamiano', 'salman')
+Tau     is: 0.760337552742616
+Z-value is: 8.583399411507003
+Semantic for: ('tamiano', 'giorgioni')
+Tau     is: 0.6927710843373494
+Z-value is: 7.820646101407517
+Semantic for: ('tamiano', 'Volpi')
+Tau     is: 0.6734375
+Z-value is: 7.6023905702622585
+Semantic for: ('tamiano', 'Paolo Cerrito')
+Tau     is: 0.717425431711146
+Z-value is: 8.098967368029173
+Semantic for: ('Corridori', 'MM')
+Tau     is: 0.8005698005698005
+Z-value is: 9.037578546915768
+Semantic for: ('Corridori', 'salman')
+Tau     is: 0.8059071729957806
+Z-value is: 9.097831784671683
+Semantic for: ('Corridori', 'giorgioni')
+Tau     is: 0.697289156626506
+Z-value is: 7.8716503151123485
+Semantic for: ('Corridori', 'Volpi')
+Tau     is: 0.7046875
+Z-value is: 7.95516971505401
+Semantic for: ('Corridori', 'Paolo Cerrito')
+Tau     is: 0.6687598116169545
+Z-value is: 7.549584461226319
+Semantic for: ('MM', 'salman')
+Tau     is: 0.7654008438818566
+Z-value is: 8.640558564080855
+Semantic for: ('MM', 'giorgioni')
+Tau     is: 0.6536144578313253
+Z-value is: 7.378609582632309
+Semantic for: ('MM', 'Volpi')
+Tau     is: 0.6765625
+Z-value is: 7.637668484741432
+Semantic for: ('MM', 'Paolo Cerrito')
+Tau     is: 0.7299843014128728
+Z-value is: 8.240743602042812
+Semantic for: ('salman', 'giorgioni')
+Tau     is: 0.7424698795180723
+Z-value is: 8.381692452160665
+Semantic for: ('salman', 'Volpi')
+Tau     is: 0.76875
+Z-value is: 8.678366961877105
+Semantic for: ('salman', 'Paolo Cerrito')
+Tau     is: 0.7880690737833596
+Z-value is: 8.896458684355897
+Semantic for: ('giorgioni', 'Volpi')
+Tau     is: 0.85
+Z-value is: 9.595592738335657
+Semantic for: ('giorgioni', 'Paolo Cerrito')
+Tau     is: 0.750392464678179
+Z-value is: 8.471129982314977
+Semantic for: ('Volpi', 'Paolo Cerrito')
+Tau     is: 0.7723704866562009
+Z-value is: 8.719238391838847
