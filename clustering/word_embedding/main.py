@@ -39,7 +39,7 @@ def load_phrases(path):
                             f2 = clean_phrases(corpusJSON[el+1]["messaggio"])
                             sim = vectors_similarity(phrase2vec(f1), phrase2vec(f2))
                             print("Phrase 1: ", f1, "\nPhrase 2:", f2, "\n", "Similarity: ", sim)
-                            results.write(str(f1) + "," + str(f2) + ","+str(sim) + "\n")
+                            results.write(str(f1.strip()) + "," + str(f2.strip()) + ","+str(sim) + "\n")
                      except Exception as e:
                             i += 1
                             print(e)
