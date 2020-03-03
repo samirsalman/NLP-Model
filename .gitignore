@@ -128,3 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea/workspace.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/NLP-Model.iml
+.idea/vcs.xml
+clustering/word_embedding/skipgram_wiki_window10_size300_neg-samples10.tar.gz
