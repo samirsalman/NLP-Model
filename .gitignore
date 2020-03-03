@@ -134,3 +134,7 @@ dmypy.json
 .idea/NLP-Model.iml
 .idea/vcs.xml
 clustering/word_embedding/skipgram_wiki_window10_size300_neg-samples10.tar.gz
+clustering/word_embedding/wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m
+clustering/word_embedding/wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m.syn0.npy
+clustering/word_embedding/wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m.syn1neg.npy
+clustering/word_embedding/wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m.table.npy

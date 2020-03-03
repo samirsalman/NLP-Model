@@ -6,11 +6,12 @@ from gensim.models.keyedvectors import Word2VecKeyedVectors
 
 model = Word2Vec.load('./wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m')
 
+
+
 def phrase2vec(s):
        s = s.split(" ")
-       vector = Word2VecKeyedVectors(len(s))
        vector = model.wv[s[0]]
-       for i in range(1,len(s)):
+       for i in range(1, len(s)):
               vector = vector + model.wv[s[i]]
        return vector/len(s)
 
@@ -28,19 +29,42 @@ def clean_phrases(s):
 
 def load_phrases(path):
        i = 0
+       results = open("./results.csv","a+")
+       results.write("f1,f2,sim\n")
        with open(path, 'r') as dataset:
               corpusJSON = json.load(dataset)
               for el in range(len(corpusJSON)):
                      try:
                             f1 = clean_phrases(corpusJSON[el]["messaggio"])
                             f2 = clean_phrases(corpusJSON[el+1]["messaggio"])
-                            print(f1, f2)
-                            vectors_similarity(phrase2vec(f1), phrase2vec(f2))
+                            sim = vectors_similarity(phrase2vec(f1), phrase2vec(f2))
+                            print("Phrase 1: ", f1, "\nPhrase 2:", f2, "\n", "Similarity: ", sim)
+                            results.write(str(f1) + "," + str(f2) + ","+str(sim) + "\n")
                      except Exception as e:
                             i += 1
                             print(e)
        print("Number of errors: ", i)
+       results.close()
 
+
+def create_our_vocab():
+       i = 0
+       sentences = []
+       with open("./dataset.json", 'r') as dataset:
+              corpusJSON = json.load(dataset)
+              for el in range(len(corpusJSON)):
+                     try:
+                            sentences.append(clean_phrases(corpusJSON[el]["messaggio"]).split(" "))
+                            sentences.append(clean_phrases(corpusJSON[el]["argomento"]).split(" "))
+                            sentences.append(clean_phrases(corpusJSON[el]["chiarimenti"]).split(" "))
+
+                     except Exception as e:
+                            i += 1
+                            print(e)
+       print("Number of errors: ", i)
+       return sentences
+
+#model.build_vocab(sentences=create_our_vocab(), update=True)
 
 load_phrases("./dataset.json")
 
