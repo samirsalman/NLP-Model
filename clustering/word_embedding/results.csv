@@ -1,55 +1,55 @@
 f1,f2,sim
-approccio positivo all informatica,interessare,0.28390244
-interessare,approccio positivo all informatica,0.28390244
-approccio positivo all informatica,grazie,0.60831416
+approccio positivo all informatica,interessare,0.28904277
+interessare,approccio positivo all informatica,0.28904277
+approccio positivo all informatica,grazie,0.46162912
 grazie,conoscenza,0.3658007
-conoscenza,bella,0.29297656
-bella,motivazione,0.25360188
+conoscenza,bella,0.27929455
+bella,motivazione,0.22068095
 motivazione,la programmazione essere fondamentale per il nostro futuro,0.4602136
 la programmazione essere fondamentale per il nostro futuro,motivazionale,0.4803672
 motivazionale,interessante,0.2449813
 interessante,capire il livello al quale sono di informatica,0.39290807
-capire il livello al quale sono di informatica,presentazione del corso,0.7610685
-presentazione del corso,introduzione,0.43877167
+capire il livello al quale sono di informatica,presentazione del corso,0.7152507
+presentazione del corso,introduzione,0.4617922
 introduzione,motivazione,0.23391405
-motivazione,motivazione,0.81260294
-motivazione,imparare a programmare per conoscere la tecnologia,0.5725196
+motivazione,motivazione,0.99999994
+motivazione,imparare a programmare per conoscere la tecnologia,0.41193265
 imparare a programmare per conoscere la tecnologia,conoscenza generale,0.59634066
 conoscenza generale,descrizione programma ecc,0.50570244
 descrizione programma ecc,presentazione del corso,0.6107521
 presentazione del corso,lezione motivazionale,0.45762333
-lezione motivazionale,interessante,0.3490504
-interessante,conoscenza,0.30368
-conoscenza,motivazionale,0.4058212
-motivazionale,conoscenza basilare del corso e motivazione,0.6663829
+lezione motivazionale,interessante,0.35289517
+interessante,conoscenza,0.28457123
+conoscenza,motivazionale,0.40230632
+motivazionale,conoscenza basilare del corso e motivazione,0.51319456
 conoscenza basilare del corso e motivazione,lezione coinvolgente,0.551569
 lezione coinvolgente,introduzione al corso,0.42705464
-introduzione al corso,bisogna studiare,0.5970393
-bisogna studiare,conoscersi,0.3754375
-conoscersi,introduzione e stimolo allo studio,0.26956198
-introduzione e stimolo allo studio,presentazione,0.72665197
-presentazione,incitamento allo studio dell informatica,0.61577976
-incitamento allo studio dell informatica,informativo e motivazionale,0.6318945
-informativo e motivazionale,scopi e argomenti del corso,0.6183692
-scopi e argomenti del corso,presentazione del corso,0.82738465
-presentazione del corso,conoscenza,0.7261798
-conoscenza,programmazione,0.33725297
+introduzione al corso,bisogna studiare,0.423291
+bisogna studiare,conoscersi,0.39493316
+conoscersi,introduzione e stimolo allo studio,0.28642502
+introduzione e stimolo allo studio,presentazione,0.44984117
+presentazione,incitamento allo studio dell informatica,0.3689693
+incitamento allo studio dell informatica,informativo e motivazionale,0.6291281
+informativo e motivazionale,scopi e argomenti del corso,0.6278696
+scopi e argomenti del corso,presentazione del corso,0.74374676
+presentazione del corso,conoscenza,0.37206534
+conoscenza,programmazione,0.2800389
 programmazione,introduzione,0.23169418
 introduzione,conoscenza di preparazione all esame e questionario di conoscenza dello studente,0.40069914
-conoscenza di preparazione all esame e questionario di conoscenza dello studente,studiare,0.68617934
-studiare,lezione motivazionale,0.3739607
+conoscenza di preparazione all esame e questionario di conoscenza dello studente,studiare,0.5268192
+studiare,lezione motivazionale,0.37457782
 lezione motivazionale,introduzione al mondo della programmazione,0.49839902
 introduzione al mondo della programmazione,motivazione,0.35702875
 motivazione,lezione motivazionale e di introduzione,0.4604707
 lezione motivazionale e di introduzione,introduzione,0.61466956
 introduzione,l importanza dei dati,0.3892026
 l importanza dei dati,introduzione,0.3892026
-chi sa programmare,abbiamo in mano il mondo  internet,0.48774436
-abbiamo in mano il mondo  internet,impostazione,0.2835003
-impostazione,interessante,0.3933885
-interessante,la programmazione,0.45991135
-la programmazione,studiare,0.4622877
-studiare,conoscenza ed introduzione,0.5602473
+chi sa programmare,abbiamo in mano il mondo  internet,0.5154702
+abbiamo in mano il mondo  internet,impostazione,0.2909122
+impostazione,interessante,0.39976904
+interessante,la programmazione,0.24140704
+la programmazione,studiare,0.2783639
+studiare,conoscenza ed introduzione,0.42708758
 conoscenza ed introduzione,motivazione,0.41541603
 motivazione,introduzione,0.23391405
 introduzione,governi o vieni governato,0.30588886
@@ -68,140 +68,140 @@ motivazione,introduzione,0.23391405
 introduzione,l informatica come divertimento,0.36907977
 l informatica come divertimento,dobbiamo imparare la programmazione per dare comandi alle macchine e farle lavorare per noi,0.64960206
 dobbiamo imparare la programmazione per dare comandi alle macchine e farle lavorare per noi,presentazione del corso,0.6100633
-presentazione del corso,introduzione,0.6431635
-introduzione,approccio divertente all informatica,0.6001936
-approccio divertente all informatica,motivazione,0.43744007
+presentazione del corso,introduzione,0.4617922
+introduzione,approccio divertente all informatica,0.4097477
+approccio divertente all informatica,motivazione,0.44035217
 motivazione,motivazionale,0.43814623
-motivazionale,introduzione alla materia  con esempio di programmazione per un datore di lavoro,0.41359776
-introduzione alla materia  con esempio di programmazione per un datore di lavoro,introduzione al corso,0.8404202
-introduzione al corso,inizio del programma,0.7752607
+motivazionale,introduzione alla materia  con esempio di programmazione per un datore di lavoro,0.4336082
+introduzione alla materia  con esempio di programmazione per un datore di lavoro,introduzione al corso,0.76563656
+introduzione al corso,inizio del programma,0.74561244
 inizio del programma,conoscenza,0.3336399
 conoscenza,inizio,0.26535064
-inizio,presentazione del corso,0.6046847
-presentazione del corso,essere necessario avere competenze informatica,0.4962934
+inizio,presentazione del corso,0.60417074
+presentazione del corso,essere necessario avere competenze informatica,0.50442415
 essere necessario avere competenze informatica,motivante,0.5977656
 motivante,motivazione,0.49424517
 motivazione,introduzione e spiegazione del corso,0.46912226
 introduzione e spiegazione del corso,l importanza dell informatica nel mondo per la gestione dei dati,0.7584436
 l importanza dell informatica nel mondo per la gestione dei dati,non l ho carpito,0.61852646
-non l ho carpito,motivazione,0.5256582
-motivazione,introduzione e dare un ottica positiva del corso,0.63988584
+non l ho carpito,motivazione,0.38581368
+motivazione,introduzione e dare un ottica positiva del corso,0.40562868
 introduzione e dare un ottica positiva del corso,conoscenza e introduzione della materia,0.81121796
 conoscenza e introduzione della materia,conoscenza,0.6623811
 conoscenza,internet essere il mondo,0.45495293
 internet essere il mondo,messaggio motivazionale,0.5265739
 messaggio motivazionale,conoscenza e motivazione,0.5750436
-conoscenza e motivazione,conoscenza e motivazione,0.9451924
-conoscenza e motivazione,introduzione,0.6476932
-introduzione,studiare,0.62844574
+conoscenza e motivazione,conoscenza e motivazione,1.0
+conoscenza e motivazione,introduzione,0.33761823
+introduzione,studiare,0.24546462
 presentare in modo semplice quello che andremo a studiare,messaggio motivante,0.5920262
 messaggio motivante,capire il livello degli studenti riguardo l informatica,0.5759564
-i telefonini pc  pur contenendo molte informazioni  non programmano da soli,lezione motivazionale,0.63249373
-lezione motivazionale,internet mondo,0.5135301
+i telefonini pc  pur contenendo molte informazioni  non programmano da soli,lezione motivazionale,0.43215483
+lezione motivazionale,internet mondo,0.43359563
 internet mondo,non so nulla di programmazione,0.5379777
-motivazione per approcciare meglio all informatica,introduzione,0.5270524
-introduzione,incoraggiamento,0.64360374
-incoraggiamento,molto originale,0.6165086
-molto originale,motivazionale,0.5723684
-motivazionale,introduzione,0.5998805
-introduzione,motivazione nell apprendimento,0.4034708
+motivazione per approcciare meglio all informatica,introduzione,0.4163794
+introduzione,incoraggiamento,0.26140383
+incoraggiamento,molto originale,0.27353194
+molto originale,motivazionale,0.24290042
+motivazionale,introduzione,0.2420414
+introduzione,motivazione nell apprendimento,0.35038134
 motivazione nell apprendimento,motivazione e introduzione,0.71378154
 motivazione e introduzione,a cosa serve saper programmare,0.5459189
 a cosa serve saper programmare,introduzione,0.3284111
 introduzione,motivazionale,0.2420414
-motivazionale,conoscenza con il professore,0.344616
-conoscenza con il professore,importanza dell informatica,0.72301316
-importanza dell informatica,approccio al mondo dell informatica,0.8522289
+motivazionale,conoscenza con il professore,0.3767454
+conoscenza con il professore,importanza dell informatica,0.5899678
+importanza dell informatica,approccio al mondo dell informatica,0.8258534
 approccio al mondo dell informatica,introduzione,0.43849966
-introduzione,non farsi gestire dalla tecnologia ma gestire quest u,0.3817724
-non farsi gestire dalla tecnologia ma gestire quest u,il computer essere una macchina stupida che funziona bene solo nelle mani di una persona intelligente,0.8440735
-il computer essere una macchina stupida che funziona bene solo nelle mani di una persona intelligente,bisogna portare il computer a lezione,0.8819157
-bisogna portare il computer a lezione,il computer essere una macchina stupida che funziona bene solo nelle mani di una persona intelligente,0.8819157
-il computer essere una macchina stupida che funziona bene solo nelle mani di una persona intelligente,introdurre l informatica attraverso una sua applicazione pratica nel mondo del lavoro,0.8362213
+introduzione,non farsi gestire dalla tecnologia ma gestire quest u,0.37477466
+non farsi gestire dalla tecnologia ma gestire quest u,il computer essere una macchina stupida che funziona bene solo nelle mani di una persona intelligente,0.8205471
+il computer essere una macchina stupida che funziona bene solo nelle mani di una persona intelligente,bisogna portare il computer a lezione,0.8593052
+bisogna portare il computer a lezione,il computer essere una macchina stupida che funziona bene solo nelle mani di una persona intelligente,0.8593052
+il computer essere una macchina stupida che funziona bene solo nelle mani di una persona intelligente,introdurre l informatica attraverso una sua applicazione pratica nel mondo del lavoro,0.82561004
 introdurre l informatica attraverso una sua applicazione pratica nel mondo del lavoro,motivazionale,0.48684776
-motivazionale,introduzione,0.23679309
-introduzione,presentazione del corso,0.75827086
-presentazione del corso,presentazione e avvicinamento all informatica,0.70736897
+motivazionale,introduzione,0.2420414
+introduzione,presentazione del corso,0.4617922
+presentazione del corso,presentazione e avvicinamento all informatica,0.70613956
 presentazione e avvicinamento all informatica,human s brain control who controls who  l importanza della conoscenza e dell apprendimento dell informatica,0.7694272
 human s brain control who controls who  l importanza della conoscenza e dell apprendimento dell informatica,motivazione,0.3779098
 motivazione,imparare ad utilizzare gli strumenti informatici essere utile per un maggiore controllo dei dati,0.40760478
 imparare ad utilizzare gli strumenti informatici essere utile per un maggiore controllo dei dati,conoscenza e consapevolezza,0.691296
 conoscenza e consapevolezza,imparare,0.4439042
 imparare,abbiamo il mondo in mano,0.33753523
-abbiamo il mondo in mano,farci rendere conto che sappiamo poco della tecnologia che abbiamo a disposizione,0.83372784
-farci rendere conto che sappiamo poco della tecnologia che abbiamo a disposizione,motivazione   verifica conoscenze pregresse,0.74093276
+abbiamo il mondo in mano,farci rendere conto che sappiamo poco della tecnologia che abbiamo a disposizione,0.8178748
+farci rendere conto che sappiamo poco della tecnologia che abbiamo a disposizione,motivazione   verifica conoscenze pregresse,0.7130837
 motivazione   verifica conoscenze pregresse,motivazionale,0.47652072
-introduzione al corso,introduzione del corso,0.9819515
-introduzione del corso,presentazione corso,0.86233234
-presentazione corso,non tutte la conoscenza si trova su internet,0.6602733
+introduzione al corso,introduzione del corso,0.9681224
+introduzione del corso,presentazione corso,0.7408688
+presentazione corso,non tutte la conoscenza si trova su internet,0.55165416
 non tutte la conoscenza si trova su internet,imparare a gestire le macchine invece che farsi controllare da esse,0.8139975
-imparare a gestire le macchine invece che farsi controllare da esse,introduzione,0.5557456
-introduzione,informazioni sul corso di informatica,0.63940626
-informazioni sul corso di informatica,bisogna imparare ad utilizzare bene internet e i dispositivi tecnologici,0.69012743
-introduzione all informatica,motivazione del corso di studio,0.6407184
-motivazione del corso di studio,presentare il corso e valutare il livello generale di conoscenza relativo all informatica,0.8688777
-interessante,la lezione essere stata motivazionale e introduttiva e serviva al professore per capire le nostre conoscenze sulla programmazione,0.7064079
-la lezione essere stata motivazionale e introduttiva e serviva al professore per capire le nostre conoscenze sulla programmazione,motivazione,0.71427196
-motivazione,comunicare,0.32038066
-comunicare,interessante,0.25500062
-interessante,incitamento allo studio dell informatica,0.6346332
-incitamento allo studio dell informatica,variabili e algoritmi,0.5376765
+imparare a gestire le macchine invece che farsi controllare da esse,introduzione,0.39068538
+introduzione,informazioni sul corso di informatica,0.3392015
+informazioni sul corso di informatica,bisogna imparare ad utilizzare bene internet e i dispositivi tecnologici,0.6904404
+introduzione all informatica,motivazione del corso di studio,0.5381459
+motivazione del corso di studio,presentare il corso e valutare il livello generale di conoscenza relativo all informatica,0.8689886
+interessante,la lezione essere stata motivazionale e introduttiva e serviva al professore per capire le nostre conoscenze sulla programmazione,0.47871646
+la lezione essere stata motivazionale e introduttiva e serviva al professore per capire le nostre conoscenze sulla programmazione,motivazione,0.51541007
+motivazione,comunicare,0.34097975
+comunicare,interessante,0.25213358
+interessante,incitamento allo studio dell informatica,0.3566863
+incitamento allo studio dell informatica,variabili e algoritmi,0.51253885
 variabili e algoritmi,la variabile matematica essere diversa da quella informatica  gli algoritmi sono sequenze di operazioni per risolvere un problema o ottenere un risultato e li usiamo spesso nella vita quotidiana senza saperlo,0.7589219
-la variabile matematica essere diversa da quella informatica  gli algoritmi sono sequenze di operazioni per risolvere un problema o ottenere un risultato e li usiamo spesso nella vita quotidiana senza saperlo,cos essere un algoritmo  cos essere una variabile,0.83254683
-cos essere un algoritmo  cos essere una variabile,cosa si intende per  variabile informatica  e per  algoritmo,0.8582981
+la variabile matematica essere diversa da quella informatica  gli algoritmi sono sequenze di operazioni per risolvere un problema o ottenere un risultato e li usiamo spesso nella vita quotidiana senza saperlo,cos essere un algoritmo  cos essere una variabile,0.8178871
+cos essere un algoritmo  cos essere una variabile,cosa si intende per  variabile informatica  e per  algoritmo,0.8210021
 cosa si intende per  variabile informatica  e per  algoritmo,introduzione a variabili ed algoritmi,0.81824774
 introduzione a variabili ed algoritmi,concetto di variabile e algoritmo,0.8883644
-concetto di variabile e algoritmo,variabile,0.77051896
-variabile,definizioni di algoritmo e variabile in informatica procedurale,0.7424389
-definizioni di algoritmo e variabile in informatica procedurale,definizione di variabile informatica e algoritmo,0.9651721
-definizione di variabile informatica e algoritmo,variabili e algoritmo,0.92438245
-variabili e algoritmo,descrizione di variabile informatica e del concetto di algoritmo,0.8810703
+concetto di variabile e algoritmo,variabile,0.7049479
+variabile,definizioni di algoritmo e variabile in informatica procedurale,0.61701536
+definizioni di algoritmo e variabile in informatica procedurale,definizione di variabile informatica e algoritmo,0.9590753
+definizione di variabile informatica e algoritmo,variabili e algoritmo,0.8974499
+variabili e algoritmo,descrizione di variabile informatica e del concetto di algoritmo,0.83966416
 descrizione di variabile informatica e del concetto di algoritmo,variabile e algoritmo,0.8615938
 variabile e algoritmo,basi di informatica,0.5463241
 spiegazione variabile e definizione di algoritmo,variabili e algoritmi,0.8446722
-variabili e algoritmi,spiegazione di concetto di variabile informatica e di algoritmo,0.8127805
-spiegazione di concetto di variabile informatica e di algoritmo,variabile e algoritmo,0.849403
+variabili e algoritmi,spiegazione di concetto di variabile informatica e di algoritmo,0.8279841
+spiegazione di concetto di variabile informatica e di algoritmo,variabile e algoritmo,0.86566323
 variabile e algoritmo,algoritmo e variabile informatica,0.9417513
 algoritmo e variabile informatica,algoritmi e variabili,0.86768776
 algoritmi e variabili,concetto di variabile informatica e di algoritmo,0.8545327
-concetto di variabile informatica e di algoritmo,algoritmo e variabili differenti da matematica,0.9118785
-algoritmo e variabili differenti da matematica,concetto di variabile informatica e algoritmo,0.9224567
-concetto di variabile informatica e algoritmo,variabili e algoritmi,0.85031044
-variabili e algoritmi,algoritmo  variabili,0.86285174
-algoritmo  variabili,algoritmi e significato di x,0.7504088
+concetto di variabile informatica e di algoritmo,algoritmo e variabili differenti da matematica,0.90554154
+algoritmo e variabili differenti da matematica,concetto di variabile informatica e algoritmo,0.90483403
+concetto di variabile informatica e algoritmo,variabili e algoritmi,0.86412156
+variabili e algoritmi,algoritmo  variabili,0.9050238
+algoritmo  variabili,algoritmi e significato di x,0.7231252
 algoritmi e significato di x,che cos essere un algoritmo,0.7769738
-che cos essere un algoritmo,algoritmo,0.7980263
-algoritmo,spiegazione algoritmo,0.81312793
+che cos essere un algoritmo,algoritmo,0.70990205
+algoritmo,spiegazione algoritmo,0.88747907
 spiegazione algoritmo,variabile e algoritmo,0.7739102
 variabile e algoritmo,basi di informatica  variabili e algoritmi,0.8071717
 basi di informatica  variabili e algoritmi,algoritmi e argomenti introduttivi,0.77113193
-algoritmi e argomenti introduttivi,spiegazione del significato di variabile in informatica e di algoritmo,0.7146615
-spiegazione del significato di variabile in informatica e di algoritmo,variabili  algoritmi,0.7932295
-variabili  algoritmi,variabili e algoritmi,0.9817148
+algoritmi e argomenti introduttivi,spiegazione del significato di variabile in informatica e di algoritmo,0.7298654
+spiegazione del significato di variabile in informatica e di algoritmo,variabili  algoritmi,0.7885271
+variabili  algoritmi,variabili e algoritmi,0.97283006
 variabili e algoritmi,algoritmi e variabili,1.0
-algoritmi e variabili,variabili e algoritmi,0.96540135
+algoritmi e variabili,variabili e algoritmi,1.0
 variabili e algoritmi,variabile matematica e informatica e algoritmo,0.85323334
-variabile matematica e informatica e algoritmo,variabili e algoritmi,0.8548068
-variabili e algoritmi,comprensiva,0.55441886
-comprensiva,base della programmazione,0.66755444
-base della programmazione,concetto di variabile e algoritmo,0.73445547
-concetto di variabile e algoritmo,cosa si intende per variabile informatica e algoritmo,0.8909158
+variabile matematica e informatica e algoritmo,variabili e algoritmi,0.85323334
+variabili e algoritmi,comprensiva,0.2762785
+comprensiva,base della programmazione,0.3718041
+base della programmazione,concetto di variabile e algoritmo,0.6303674
+concetto di variabile e algoritmo,cosa si intende per variabile informatica e algoritmo,0.9033267
 cosa si intende per variabile informatica e algoritmo,algoritmo,0.68436867
 algoritmo,la definizione di variabile e algoritmo,0.68062276
-la definizione di variabile e algoritmo,spiegazione della variabile informatica e algoritmo,0.9289564
-spiegazione della variabile informatica e algoritmo,diretta,0.37078848
-diretta,definizione di variabile e algoritmo,0.38852507
-definizione di variabile e algoritmo,apprendere u concetti principali dell informatica,0.6763021
-apprendere u concetti principali dell informatica,concetto di variabile informatica e differenze da quella matematica   concetto di algoritmo ed esempi,0.8032896
-concetto di variabile informatica e differenze da quella matematica   concetto di algoritmo ed esempi,algoritmo e variabili,0.7583233
+la definizione di variabile e algoritmo,spiegazione della variabile informatica e algoritmo,0.91495943
+spiegazione della variabile informatica e algoritmo,diretta,0.3401879
+diretta,definizione di variabile e algoritmo,0.3596998
+definizione di variabile e algoritmo,apprendere u concetti principali dell informatica,0.59819543
+apprendere u concetti principali dell informatica,concetto di variabile informatica e differenze da quella matematica   concetto di algoritmo ed esempi,0.74374723
+concetto di variabile informatica e differenze da quella matematica   concetto di algoritmo ed esempi,algoritmo e variabili,0.7721113
 algoritmo e variabili,concetto di algoritmo e variabile informatica,0.8943181
 concetto di algoritmo e variabile informatica,variabile e algoritmo in programmazione procedurale,0.88998973
 variabile e algoritmo in programmazione procedurale,gli algoritmi,0.72806513
 gli algoritmi,variabili e algoritmi,0.8513326
-variabili e algoritmi,definizione di variabile in informatica procedurale  algoritmo,0.8260084
-definizione di variabile in informatica procedurale  algoritmo,elementi informatici,0.5682459
-elementi informatici,variabile e algoritmo,0.42264703
-variabile e algoritmo,definizioni di variabile informatica e algoritmo,0.89895904
+variabili e algoritmi,definizione di variabile in informatica procedurale  algoritmo,0.8432846
+definizione di variabile in informatica procedurale  algoritmo,elementi informatici,0.58847463
+elementi informatici,variabile e algoritmo,0.425715
+variabile e algoritmo,definizioni di variabile informatica e algoritmo,0.9043273
 definizioni di variabile informatica e algoritmo,gli algoritmi sono dappertutto,0.7451908
 gli algoritmi sono dappertutto,definizioni di variabile informatica e algoritmo,0.7451908
 definizioni di variabile informatica e algoritmo,prime nozioni di informatica,0.7621751
@@ -213,44 +213,44 @@ concetto di variabile informata e di algoritmo,imparare termini quali variabile 
 imparare termini quali variabile e algoritmo in informatica,definizione,0.48637456
 definizione,variabile e algoritmo,0.42851478
 variabile e algoritmo,variabili e algoritmi,0.8785419
-x in informatica non essere incognita  ma memoria,algoritmi e variabili,0.7631061
-algoritmi e variabili,introdurre concetti base dell informatica,0.73694736
-introdurre concetti base dell informatica,variabile e algoritmi,0.6710412
+x in informatica non essere incognita  ma memoria,algoritmi e variabili,0.6636944
+algoritmi e variabili,introdurre concetti base dell informatica,0.6600728
+introdurre concetti base dell informatica,variabile e algoritmi,0.64597446
 algoritmi,concetto di algoritmo,0.7546371
-concetto di algoritmo,differenza tra variabile matematica e informatica  algoritmo,0.8029687
-differenza tra variabile matematica e informatica  algoritmo,il concetto di algoritmo e il concetto di variabile,0.8915486
-il concetto di algoritmo e il concetto di variabile,concetto di variabile e algoritmo,0.9337544
+concetto di algoritmo,differenza tra variabile matematica e informatica  algoritmo,0.81990683
+differenza tra variabile matematica e informatica  algoritmo,il concetto di algoritmo e il concetto di variabile,0.8686337
+il concetto di algoritmo e il concetto di variabile,concetto di variabile e algoritmo,0.953728
 concetto di variabile e algoritmo,definizione di variabile e algoritmo,0.9754638
 definizione di variabile e algoritmo,spiegare cosa vuol dire variabile informatica e introduzione agli algoritmi,0.8158731
 spiegare cosa vuol dire variabile informatica e introduzione agli algoritmi,differenza tra variabile matematica e variabile informatica definizione del concetto di algoritmo,0.8779695
-differenza tra variabile matematica e variabile informatica definizione del concetto di algoritmo,definizione variabile informatica  e algoritmo,0.9393301
-definizione variabile informatica  e algoritmo,definizione variabile e algoritmo,0.9641261
-definizione variabile e algoritmo,algoritmo,0.7255057
-algoritmo,interessante,0.24911982
-interessante,variabile algoritmo,0.36956167
+differenza tra variabile matematica e variabile informatica definizione del concetto di algoritmo,definizione variabile informatica  e algoritmo,0.95356786
+definizione variabile informatica  e algoritmo,definizione variabile e algoritmo,0.9459644
+definizione variabile e algoritmo,algoritmo,0.7769916
+algoritmo,interessante,0.2059681
+interessante,variabile algoritmo,0.31014746
 variabile algoritmo,gli algoritmi e l esser procedurali,0.63550967
 gli algoritmi e l esser procedurali,algoritmi e variabili,0.77245814
-algoritmi e variabili,concetto di variabile e algoritmo,0.84300315
-concetto di variabile e algoritmo,variabile ed algoritmo,0.90509003
+algoritmi e variabili,concetto di variabile e algoritmo,0.8672942
+concetto di variabile e algoritmo,variabile ed algoritmo,0.9386851
 variabile ed algoritmo,insegnare e apprendere le prime nozioni di informatica,0.50263387
 insegnare e apprendere le prime nozioni di informatica,come usare gli algoritmi,0.6898685
-come usare gli algoritmi,introduzione argomenti di base,0.6545759
-introduzione argomenti di base,algoritmi,0.38034317
+come usare gli algoritmi,introduzione argomenti di base,0.64565915
+introduzione argomenti di base,algoritmi,0.39386025
 algoritmi,variabile,0.32348996
 variabile,variabili informatiche e algoritmi,0.5393185
 variabili informatiche e algoritmi,interessante,0.30307534
-interessante,la variabile informatica procedurale essere una memoria con nome ed essere diversa dalla variabile matematica che essere un incognita   un algoritmo essere una sequenza di informazioni fornite per risolvere un problema,0.44064617
-la variabile informatica procedurale essere una memoria con nome ed essere diversa dalla variabile matematica che essere un incognita   un algoritmo essere una sequenza di informazioni fornite per risolvere un problema,gli algoritmi sono presenti ovunque,0.8012457
-gli algoritmi sono presenti ovunque,definizione di algoritmo e variabile,0.7548771
-definizione di algoritmo e variabile,variabili e algoritmi,0.8878615
-variabili e algoritmi,definizione di incognita informatica e di algoritmo,0.84373766
+interessante,la variabile informatica procedurale essere una memoria con nome ed essere diversa dalla variabile matematica che essere un incognita   un algoritmo essere una sequenza di informazioni fornite per risolvere un problema,0.44743216
+la variabile informatica procedurale essere una memoria con nome ed essere diversa dalla variabile matematica che essere un incognita   un algoritmo essere una sequenza di informazioni fornite per risolvere un problema,gli algoritmi sono presenti ovunque,0.73367196
+gli algoritmi sono presenti ovunque,definizione di algoritmo e variabile,0.724282
+definizione di algoritmo e variabile,variabili e algoritmi,0.87253445
+variabili e algoritmi,definizione di incognita informatica e di algoritmo,0.8161747
 definizione di incognita informatica e di algoritmo,apprendere le nozioni basilari dell informatica,0.7008148
 concetto di variabile in informatica procedurale e concetto di algoritmo,significato e applicazione di variabile e algoritmo,0.9299961
-significato e applicazione di variabile e algoritmo,che cosa essere l algoritmo e come si calcola,0.85036516
-cosa sono una variabile informatica e un algoritmo,differenza tra le variabili matematiche e informatiche,0.8383491
-differenza tra le variabili matematiche e informatiche,algoritmi e variabili,0.80402404
+significato e applicazione di variabile e algoritmo,che cosa essere l algoritmo e come si calcola,0.8512892
+cosa sono una variabile informatica e un algoritmo,differenza tra le variabili matematiche e informatiche,0.8268209
+differenza tra le variabili matematiche e informatiche,algoritmi e variabili,0.8168153
 algoritmi e variabili,algoritmo,0.71682525
-variabili e algoritmi,algoritmi e variabili,0.96540135
+variabili e algoritmi,algoritmi e variabili,1.0
 algoritmi e variabili,variabili,0.7948336
 variabili,concetto di variabile e algoritmo,0.6718232
 concetto di variabile e algoritmo,variabili e algoritmi,0.8672942
@@ -258,126 +258,126 @@ variabili e algoritmi,concetto di algoritmo e di variabile informatica  differen
 concetto di algoritmo e di variabile informatica  differenza tra variabile informatica e variabile matematica,variabili,0.64883673
 variabili,conoscere il significato di variabile in ambito informatico e il significato di algoritmo,0.4904497
 conoscere il significato di variabile in ambito informatico e il significato di algoritmo,istruzioni,0.3345858
-istruzioni,variabili matematica vs variabili informatiche  spazi di memoria  definizione di algoritmo,0.35273698
-variabili matematica vs variabili informatiche  spazi di memoria  definizione di algoritmo,capire i concetti base della programmazione,0.8138925
-capire i concetti base della programmazione,concetto di incognita e algoritmo,0.7051123
+istruzioni,variabili matematica vs variabili informatiche  spazi di memoria  definizione di algoritmo,0.36085445
+variabili matematica vs variabili informatiche  spazi di memoria  definizione di algoritmo,capire i concetti base della programmazione,0.7671537
+capire i concetti base della programmazione,concetto di incognita e algoritmo,0.69189835
 concetto di incognita e algoritmo,algoritmo e variabile,0.82604057
-algoritmo e variabile,variabile informatica e algoritmo,0.9300224
-variabile informatica e algoritmo,algoritmo e variabile informatica,0.9781373
+algoritmo e variabile,variabile informatica e algoritmo,0.94175124
+variabile informatica e algoritmo,algoritmo e variabile informatica,1.0
 algoritmo e variabile informatica,introduzione al corso,0.48016357
-introduzione al corso,introduzione ai concetti base dell informatica,0.7580107
-introduzione ai concetti base dell informatica,variabili e algoritmi,0.6715621
+introduzione al corso,introduzione ai concetti base dell informatica,0.7193462
+introduzione ai concetti base dell informatica,variabili e algoritmi,0.66738784
 variabili e algoritmi,variabili informatiche e algoritmi,0.9458646
-variabili informatiche e algoritmi,variazione e spiegazione del linguaggio in informatica procedurale,0.743344
+variabili informatiche e algoritmi,variazione e spiegazione del linguaggio in informatica procedurale,0.746586
 nozioni di base,una variabile informatica essere diversa da una variabile matematica,0.66566086
 una variabile informatica essere diversa da una variabile matematica,definizione di algoritmo  concetto di variabile informatica e memoria,0.8620323
-definizione di algoritmo  concetto di variabile informatica e memoria,definizione variabile e algoritmo,0.9311881
-definizione variabile e algoritmo,concetti base di informatica e di programmazione  variabile informatica e algoritmo,0.8810685
-concetti base di informatica e di programmazione  variabile informatica e algoritmo,il concetto di algoritmo e lo spazio di memoria,0.8570735
+definizione di algoritmo  concetto di variabile informatica e memoria,definizione variabile e algoritmo,0.8950724
+definizione variabile e algoritmo,concetti base di informatica e di programmazione  variabile informatica e algoritmo,0.8238388
+concetti base di informatica e di programmazione  variabile informatica e algoritmo,il concetto di algoritmo e lo spazio di memoria,0.85623336
 il concetto di algoritmo e lo spazio di memoria,spiegare come si giunge agli algoritmi partendo dalla variabile informatica,0.8203499
 spiegare come si giunge agli algoritmi partendo dalla variabile informatica,cos essere una variabile e cos essere un algoritmo,0.7909172
 cos essere una variabile e cos essere un algoritmo,in matematica la variabile essere un incognita da individuare  che assume un unico valore nell equazione  o sistema  considerato  in informatica  invece  la variabile essere uno spazio di memoria  in cui riporre informazioni  le quali variano nel corso dell esecuzione,0.81049967
-cos essere un algoritmo,motivazione,0.47313035
-motivazione,gli argomenti spiegati sono stati le variabili e gli algoritmi,0.6098115
-gli argomenti spiegati sono stati le variabili e gli algoritmi,programmazione procedurale e algoritmi,0.69249576
-programmazione procedurale e algoritmi,interessante in parte,0.42605823
-interessante in parte,concetto di variabile informatica e algoritmo,0.5640366
+cos essere un algoritmo,motivazione,0.31139264
+motivazione,gli argomenti spiegati sono stati le variabili e gli algoritmi,0.389891
+gli argomenti spiegati sono stati le variabili e gli algoritmi,programmazione procedurale e algoritmi,0.6962831
+programmazione procedurale e algoritmi,interessante in parte,0.40836874
+interessante in parte,concetto di variabile informatica e algoritmo,0.5340783
 concetto di variabile informatica e algoritmo,spiegazione di variabile e algoritmo,0.91731834
-spiegazione di variabile e algoritmo,il concetto di variabile in informatica procedurale e il concetto di algoritmo,0.8764087
-il concetto di variabile in informatica procedurale e il concetto di algoritmo,modello naturale e modello pallottoliere,0.72957826
-algoritmi,capire la complessita degli algoritmi,0.7970467
+spiegazione di variabile e algoritmo,il concetto di variabile in informatica procedurale e il concetto di algoritmo,0.8837032
+il concetto di variabile in informatica procedurale e il concetto di algoritmo,modello naturale e modello pallottoliere,0.7288043
+algoritmi,capire la complessita degli algoritmi,0.76404124
 algoritmo,criterio tra algoritmi  significato di processo e struttura del procedimento,0.52542573
-tipi di algoritmi per la somma e complessita,l apparenza inganna,0.6117584
-l apparenza inganna,algoritmo,0.33953708
-spiegare nuove nozioni relative l algoritmo,la differenza tra il metodo del pallottoliere e il metodo normale,0.70457065
+tipi di algoritmi per la somma e complessita,l apparenza inganna,0.5072579
+l apparenza inganna,algoritmo,0.32938737
+spiegare nuove nozioni relative l algoritmo,la differenza tra il metodo del pallottoliere e il metodo normale,0.6376649
 differenza tra algoritmo e processo,capire quale algoritmo sia migliore,0.8094501
-algoritmo,sistema binario,0.35696718
-sistema binario,numeri,0.32101
+algoritmo,sistema binario,0.35310134
+sistema binario,numeri,0.2733313
 numeri,interessante,0.17130208
 interessante,si,0.29835513
 si,numeri binari,0.26706275
-rappresentazione numerica e codifica,rappresentazioni,0.67892385
-rappresentazioni,rappresentazione,0.66877985
-rappresentazione,concetti della rappresentanzione dell informazione,0.42585295
-concetti della rappresentanzione dell informazione,rappresentazione dell informazione e metodi ottimali per la rappresentazione numerica,0.8351886
+rappresentazione numerica e codifica,rappresentazioni,0.5012537
+rappresentazioni,rappresentazione,0.77782935
+rappresentazione,concetti della rappresentanzione dell informazione,0.45412406
+concetti della rappresentanzione dell informazione,rappresentazione dell informazione e metodi ottimali per la rappresentazione numerica,0.8325638
 rappresentazione dell informazione e metodi ottimali per la rappresentazione numerica,rappresentazioni numeriche,0.6353148
-rappresentazioni numeriche,rappresentazione,0.61074543
-rappresentazione,rappresentazione numerica,0.6486417
-molto interessante,vari modi per descrivere i numeri  significato e significante,0.75300646
-vari modi per descrivere i numeri  significato e significante,simboli,0.4008576
-rappresentazione dell informazione,rappresentazione dell informazione,0.949205
+rappresentazioni numeriche,rappresentazione,0.67583036
+rappresentazione,rappresentazione numerica,0.7050345
+molto interessante,vari modi per descrivere i numeri  significato e significante,0.54898983
+vari modi per descrivere i numeri  significato e significante,simboli,0.42648456
+rappresentazione dell informazione,rappresentazione dell informazione,1.0
 rappresentazione dell informazione,il codice binario,0.4394685
-rappresentazione dell informazione,l uso dei numeri,0.64753383
-l uso dei numeri,la rappresentazione degli algoritmi,0.6202551
+rappresentazione dell informazione,l uso dei numeri,0.49240112
+l uso dei numeri,la rappresentazione degli algoritmi,0.6002507
 rappresentazione dell informazione,la rappresentazione degli algoritmi,0.7343191
-la rappresentazione degli algoritmi,rappresentazione e numeri binari,0.6899894
+la rappresentazione degli algoritmi,rappresentazione e numeri binari,0.67036724
 rappresentazione e le sue caratteristiche,rappresentazione,0.59952366
-rappresentazione,la rappresentazione di qualcosa,0.63764215
-la rappresentazione di qualcosa,scoperta di un nuovo mondo,0.81149733
-scoperta di un nuovo mondo,la rappresentazione,0.7320839
-la rappresentazione,simboli significati e alfabeti,0.48396808
-simboli significati e alfabeti,rappresentazione dell informazione,0.487812
-rappresentazione dell informazione,la rappresentazione dell informazione,0.9633609
-la rappresentazione dell informazione,rappresentazione,0.7603714
-rappresentazione,rappresentazione e rappresentazione dei numeri,0.8648636
+rappresentazione,la rappresentazione di qualcosa,0.7255949
+la rappresentazione di qualcosa,scoperta di un nuovo mondo,0.756026
+scoperta di un nuovo mondo,la rappresentazione,0.607164
+la rappresentazione,simboli significati e alfabeti,0.5143917
+simboli significati e alfabeti,rappresentazione dell informazione,0.48724213
+rappresentazione dell informazione,la rappresentazione dell informazione,0.9724373
+la rappresentazione dell informazione,rappresentazione,0.6801645
+rappresentazione,rappresentazione e rappresentazione dei numeri,0.83392704
 rappresentazione e rappresentazione dei numeri,efficienza degli algoritmi,0.48958346
 efficienza degli algoritmi,rappresentazione numeri,0.40962908
-rappresentazione dei numeri,introduzione ai numeri binari,0.7336962
+rappresentazione dei numeri,introduzione ai numeri binari,0.7211582
 introduzione ai numeri binari,rappresentazione,0.33413118
 rappresentazione,significato  significante  rappresentazione decimale  numeri decimali posizionali,0.50552267
-significato   significante,rappresentazione,0.6527919
-rappresentazione,rappresentazione   significato e significante,0.8441608
-rappresentazione   significato e significante,la rappresentazione,0.8751863
-la rappresentazione,la rappresentazione dell informazione,0.812921
-spiegare nuovi concetti relativi l algoritmo,rappresentazione,0.3832642
-rappresentazione,il sistema binario e la rappresentazione dell inform,0.49077705
-rappresentazione,rappresentazione delle informazioni,0.72133416
-rappresentazione delle informazioni,rappresentazione delle informazioni,0.9520639
-rappresentazione delle informazioni,serve una rappresentazione corretta per ogni algoritmo,0.7616305
-serve una rappresentazione corretta per ogni algoritmo,rappresentazione informatica,0.7545931
+significato   significante,rappresentazione,0.33266482
+rappresentazione,rappresentazione   significato e significante,0.52367055
+rappresentazione   significato e significante,la rappresentazione,0.7173915
+la rappresentazione,la rappresentazione dell informazione,0.8361824
+spiegare nuovi concetti relativi l algoritmo,rappresentazione,0.38747346
+rappresentazione,il sistema binario e la rappresentazione dell inform,0.5206791
+rappresentazione,rappresentazione delle informazioni,0.6871167
+rappresentazione delle informazioni,rappresentazione delle informazioni,0.99999994
+rappresentazione delle informazioni,serve una rappresentazione corretta per ogni algoritmo,0.693344
+serve una rappresentazione corretta per ogni algoritmo,rappresentazione informatica,0.66142935
 codice binario,la rappresentazione e il codice binario,0.80711484
-la rappresentazione e il codice binario,rappresentazione giusta dei numeri per procedere ad un algoritmo efficiente atto alla risoluzione del problema,0.78872585
-rappresentazione giusta dei numeri per procedere ad un algoritmo efficiente atto alla risoluzione del problema,rappresentazione di un algoritmo,0.85650986
+la rappresentazione e il codice binario,rappresentazione giusta dei numeri per procedere ad un algoritmo efficiente atto alla risoluzione del problema,0.77524
+rappresentazione giusta dei numeri per procedere ad un algoritmo efficiente atto alla risoluzione del problema,rappresentazione di un algoritmo,0.85386723
 rappresentazione di un algoritmo,rappresentazione dell informazione,0.6921751
 rappresentazione corretta,l efficienza dei logaritmi con il sistema decimale posizionale e l importanza della rappresentazione,0.60040563
 l efficienza dei logaritmi con il sistema decimale posizionale e l importanza della rappresentazione,rappresentazioni dell informazione,0.61365914
 i numeri sono simboli e possono avere significante diverso in base al sistema utilizzato,la rappresentazione,0.6382084
-la rappresentazione,come rappresentare l informazione,0.62121785
-come rappresentare l informazione,rappresentazione,0.40744758
-rappresentazione,la rappresentazione,0.71095777
-chiarire i concetti base,rappresentazione,0.49116555
-rappresentazione,rappresentazione dei numeri naturali,0.71499544
+la rappresentazione,come rappresentare l informazione,0.63567317
+come rappresentare l informazione,rappresentazione,0.4507469
+rappresentazione,la rappresentazione,0.88581145
+chiarire i concetti base,rappresentazione,0.38395533
+rappresentazione,rappresentazione dei numeri naturali,0.6753652
 rappresentazione dei numeri naturali,come si possono scrivere i numeri,0.75218093
-come si possono scrivere i numeri,capire l importanza di una corretta rappresentazione dei dati,0.7634728
-capire l importanza di una corretta rappresentazione dei dati,la rappresentazione,0.7457384
+come si possono scrivere i numeri,capire l importanza di una corretta rappresentazione dei dati,0.74856657
+capire l importanza di una corretta rappresentazione dei dati,la rappresentazione,0.75153285
 la rappresentazione,rappresentazione numerica,0.6943827
 rappresentazione numerica,significati e significanti  calcolo binario e algoritmi,0.5136268
-significati e significanti  calcolo binario e algoritmi,rappresentazione dell informazione,0.6588553
-rappresentazione dell informazione,caratteristiche della rappresentazione  linguaggio naturale e codice binario,0.74353254
+significati e significanti  calcolo binario e algoritmi,rappresentazione dell informazione,0.575085
+rappresentazione dell informazione,caratteristiche della rappresentazione  linguaggio naturale e codice binario,0.6577945
 rappresentazione di numeri,rappresentazione dell informazione,0.70002633
-rappresentazione dell informazione,rappresentazione dell informazione e diversi tipologie di rappresentazione,0.85782367
-rappresentazione dell informazione e diversi tipologie di rappresentazione,numeri,0.38084623
-la rappresentazione dell informazione,rappresentazione dell informazione,0.9127376
-rappresentazione dell informazione,definizioni di variabili,0.5146894
-definizioni di variabili,basi di python,0.5409639
+rappresentazione dell informazione,rappresentazione dell informazione e diversi tipologie di rappresentazione,0.882943
+rappresentazione dell informazione e diversi tipologie di rappresentazione,numeri,0.37011766
+la rappresentazione dell informazione,rappresentazione dell informazione,0.9724373
+rappresentazione dell informazione,definizioni di variabili,0.48963368
+definizioni di variabili,basi di python,0.50639546
 basi di python,significato  significante  rappresentazione decimale  numeri decimali posizionali,0.48354918
-significato  significante  rappresentazione decimale  numeri decimali posizionali,variabili in python,0.6316969
-variabili in python,basi del linguaggio python,0.79559875
+significato  significante  rappresentazione decimale  numeri decimali posizionali,variabili in python,0.54408306
+variabili in python,basi del linguaggio python,0.8079061
 basi del linguaggio python,i tipi di variabili   float int stringa,0.5916989
 i tipi di variabili   float int stringa,variabili in python,0.71312654
 variabili in python,variabili in python,1.0
-variabili in python,spiegazione del concetto delle variabili in python,0.85728127
-spiegazione del concetto delle variabili in python,operazioni,0.36165327
+variabili in python,spiegazione del concetto delle variabili in python,0.8771976
+spiegazione del concetto delle variabili in python,operazioni,0.35337168
 operazioni,linguaggio python,0.18927285
 variabili in python,i primi linguaggi di programmazione,0.63328433
 i primi linguaggi di programmazione,operazioni con con stringhe e numeri interi e razionali,0.66453093
-operazioni con con stringhe e numeri interi e razionali,variabili intere  float e stringhe,0.8248607
+operazioni con con stringhe e numeri interi e razionali,variabili intere  float e stringhe,0.8362236
 variabili in python,imparare alcuni comandi e linguaggi di phyton,0.62397254
-imparare alcuni comandi e linguaggi di phyton,cominciare ad usare python,0.7387962
-cominciare ad usare python,python,0.74987984
+imparare alcuni comandi e linguaggi di phyton,cominciare ad usare python,0.698236
+cominciare ad usare python,python,0.7986237
 python,tipi di variabile,0.25280458
-tipi di variabile,tipi delle variabili e operazioni,0.83224475
-tipi delle variabili e operazioni,variabili python,0.56277543
+tipi di variabile,tipi delle variabili e operazioni,0.83932376
+tipi delle variabili e operazioni,variabili python,0.5871368
 variabili python,concetto di variabile e sue tipologie,0.5376249
 concetto di variabile e sue tipologie,tipi di variabili nel linguaggio python,0.7766211
 tipi di variabili nel linguaggio python,sintassi e semantica in python,0.8464045
@@ -386,13 +386,13 @@ tipi di variabili nel linguaggio python,variabili python,0.8725095
 variabili python,linguaggio python,0.84263754
 linguaggio python,stringhe,0.34178117
 stringhe,si,0.11299945
-si,tipi di variabili e operazioni,0.5586463
-tipi di variabili e operazioni,tipi di variabile e operazioni tra variabili,0.9773923
-tipi di variabile e operazioni tra variabili,tipi di variabile e operazioni tra variabili,0.9999999
-descrivere le variabili in python,le variabili in phyton,0.78905374
-le variabili in phyton,stringhe  variabili,0.8289772
-stringhe  variabili,struttura delle frasi che si possono usare per dare comandi in python,0.6554058
-struttura delle frasi che si possono usare per dare comandi in python,variabili e stringhe,0.6030933
+si,tipi di variabili e operazioni,0.51811296
+tipi di variabili e operazioni,tipi di variabile e operazioni tra variabili,0.97256196
+tipi di variabile e operazioni tra variabili,tipi di variabile e operazioni tra variabili,1.0000001
+descrivere le variabili in python,le variabili in phyton,0.8220808
+le variabili in phyton,stringhe  variabili,0.7810682
+stringhe  variabili,struttura delle frasi che si possono usare per dare comandi in python,0.6155301
+struttura delle frasi che si possono usare per dare comandi in python,variabili e stringhe,0.6003554
 variabili e stringhe,variabili in python,0.6822237
 variabili in python,variabili int  float  stringa,0.68936706
 variabili int  float  stringa,linguaggio python,0.46764022
@@ -402,39 +402,39 @@ iniziare a usare python,primi approcci a python,0.83960086
 primi approcci a python,primi passi per utilizzare python,0.8863213
 primi passi per utilizzare python,linguaggio informatico,0.5113247
 linguaggio informatico,variabili in python,0.49202406
-variabili in python,come utilizzare la variabile durante una programmazione,0.66931784
-come utilizzare la variabile durante una programmazione,variabili  operazioni stringhe operazioni stringa valore,0.71332693
-variabili  operazioni stringhe operazioni stringa valore,linguaggio in python,0.49427173
+variabili in python,come utilizzare la variabile durante una programmazione,0.6813414
+come utilizzare la variabile durante una programmazione,variabili  operazioni stringhe operazioni stringa valore,0.6611541
+variabili  operazioni stringhe operazioni stringa valore,linguaggio in python,0.48134723
 linguaggio in python,variabili,0.38064557
 variabili,sintassi e semantica in python,0.45318177
 sintassi e semantica in python,tipi di variabili e come usarle su phyton,0.59055644
 utilizzo python,tipi di variabili,0.44175258
 gestione delle variabili su phyton,come utilizzare le variabili attraverso python,0.7782738
-come utilizzare le variabili attraverso python,programmazione python,0.73625416
-programmazione python,variabili e la programmazione,0.72616243
+come utilizzare le variabili attraverso python,programmazione python,0.69235736
+programmazione python,variabili e la programmazione,0.64137685
 variabili e la programmazione,prime istruzioni di python,0.6392347
 prime istruzioni di python,stringhe,0.36481038
-variabili  errori e convenzioni nel linguaggio di python con definizione di stringa,come usare una variabile,0.8147067
-come usare una variabile,assegnazione e operazioni tra variabili con il linguaggio python,0.777935
-come definire le variabili e abbiamo iniziato a fare la programmazione python,concetti di base di programmazione,0.8655841
-concetti di base di programmazione,stringa e prime operazioni con python,0.77526855
-stringa e prime operazioni con python,tipi di variabili e operazioni su phyton,0.8090479
-tipi di variabili e operazioni su phyton,python,0.28508866
+variabili  errori e convenzioni nel linguaggio di python con definizione di stringa,come usare una variabile,0.77475744
+come usare una variabile,assegnazione e operazioni tra variabili con il linguaggio python,0.7515818
+come definire le variabili e abbiamo iniziato a fare la programmazione python,concetti di base di programmazione,0.8371334
+concetti di base di programmazione,stringa e prime operazioni con python,0.7098539
+stringa e prime operazioni con python,tipi di variabili e operazioni su phyton,0.7588181
+tipi di variabili e operazioni su phyton,python,0.29080132
 python,inizio uso python,0.8498027
-inizio uso python,uso delle variabili,0.57095414
-uso delle variabili,linguaggio phyton,0.55968523
+inizio uso python,uso delle variabili,0.56897914
+uso delle variabili,linguaggio phyton,0.5729749
 linguaggio phyton,operazioni in python,0.53513545
 operazioni in python,comincia ad usare python,0.7977325
-comincia ad usare python,concetti di base di variabili e stringhe nel linguaggio python  operazioni ed errori,0.7108351
-concetti di base di variabili e stringhe nel linguaggio python  operazioni ed errori,introduzione al linguaggio di python  le variabili,0.92736137
+comincia ad usare python,concetti di base di variabili e stringhe nel linguaggio python  operazioni ed errori,0.7254104
+concetti di base di variabili e stringhe nel linguaggio python  operazioni ed errori,introduzione al linguaggio di python  le variabili,0.92404574
 introduzione al linguaggio di python  le variabili,variabili con python   stringhe somma numeri interi e reali float,0.8498413
 variabili con python   stringhe somma numeri interi e reali float,inizio programmazione,0.5421923
 inizio programmazione,variabili  tipi diversi  operazioni diverse,0.5000872
 variabili  tipi diversi  operazioni diverse,variabile  diversi tipi di variabili interi float  stringhe   semantica e sintassi  in python non sono specificati i tipi delle variabili  operazioni delle variabili  somma delle stringhe  concatenazione   moltiplicazione tra numero e stringa,0.90531635
-variabile  diversi tipi di variabili interi float  stringhe   semantica e sintassi  in python non sono specificati i tipi delle variabili  operazioni delle variabili  somma delle stringhe  concatenazione   moltiplicazione tra numero e stringa,distinzione tra variabili numeriche  intere o reali  e stringhe,0.95258784
-distinzione tra variabili numeriche  intere o reali  e stringhe,dichiarazione e tipi di variabili in python,0.8127201
-dichiarazione e tipi di variabili in python,vari tipi variabili per il programma python,0.93581736
-vari tipi variabili per il programma python,calcoli,0.3943485
+variabile  diversi tipi di variabili interi float  stringhe   semantica e sintassi  in python non sono specificati i tipi delle variabili  operazioni delle variabili  somma delle stringhe  concatenazione   moltiplicazione tra numero e stringa,distinzione tra variabili numeriche  intere o reali  e stringhe,0.9376948
+distinzione tra variabili numeriche  intere o reali  e stringhe,dichiarazione e tipi di variabili in python,0.8111182
+dichiarazione e tipi di variabili in python,vari tipi variabili per il programma python,0.9317084
+vari tipi variabili per il programma python,calcoli,0.40090647
 calcoli,python  le prime istruzioni,0.3900184
 python  le prime istruzioni,operazioni tra stringhe e spazi,0.60701984
 operazioni tra stringhe e spazi,caratteristiche principali e convenzioni del linguaggio python,0.65517104
@@ -442,112 +442,112 @@ caratteristiche principali e convenzioni del linguaggio python,linguaggio phyton
 linguaggio phyton,linguaggio python,0.73184985
 linguaggio python,introduzione del linguaggio python,0.91609114
 introduzione del linguaggio python,vari modi di rappresentare una stessa informazione,0.5617809
-vari modi di rappresentare una stessa informazione,variabili in python  interi  float  stringhe,0.65264004
-variabili in python  interi  float  stringhe,tipi di variabili,0.72224337
+vari modi di rappresentare una stessa informazione,variabili in python  interi  float  stringhe,0.6446365
+variabili in python  interi  float  stringhe,tipi di variabili,0.73382705
 tipi di variabili,primi approcci con python  operazioni con i numeri e definizione di stringa,0.7175795
-primi approcci con python  operazioni con i numeri e definizione di stringa,primi approcci con python,0.89427733
-primi approcci con python,primo approccio con python,0.933809
-primo approccio con python,variabili in python  tipi int float e stringhe,0.7764246
-variabili in python  tipi int float e stringhe,differenza tra sintassi e semantica  come utilizzare le variabili in phyton  tipi di di variabili,0.83597326
-differenza tra sintassi e semantica  come utilizzare le variabili in phyton  tipi di di variabili,variabili in python  stringa  numeri reali  numeri interi,0.8341007
+primi approcci con python  operazioni con i numeri e definizione di stringa,primi approcci con python,0.8360804
+primi approcci con python,primo approccio con python,0.91329366
+primo approccio con python,variabili in python  tipi int float e stringhe,0.7551685
+variabili in python  tipi int float e stringhe,differenza tra sintassi e semantica  come utilizzare le variabili in phyton  tipi di di variabili,0.84246594
+differenza tra sintassi e semantica  come utilizzare le variabili in phyton  tipi di di variabili,variabili in python  stringa  numeri reali  numeri interi,0.82341564
 variabili in python  stringa  numeri reali  numeri interi,fondamenti sulla scrittura delle variabili in python in base al loro tipo  numeri interi o reali  stringe   operazioni tra tipi diversi di variabili  osservazione degli errori comuni e delle convenzioni per la scrittura,0.8616301
 fondamenti sulla scrittura delle variabili in python in base al loro tipo  numeri interi o reali  stringe   operazioni tra tipi diversi di variabili  osservazione degli errori comuni e delle convenzioni per la scrittura,cosa sono le variabili e come utilizzarle per fare delle operazioni con esse,0.9151931
 cosa sono le variabili e come utilizzarle per fare delle operazioni con esse,oggi abbiamo utilizzato il web per vedere le variabili e le stringhe avevo il pc e devo dire che la lezione essere stata oltre che interessantissima anche molto produttiva in quanto si entra nel vivo  preferisco questo tipo di metodo di insegnamento alla tradizionale spiegazione che essere meno interattiva  grazie prof,0.90407115
-oggi abbiamo utilizzato il web per vedere le variabili e le stringhe avevo il pc e devo dire che la lezione essere stata oltre che interessantissima anche molto produttiva in quanto si entra nel vivo  preferisco questo tipo di metodo di insegnamento alla tradizionale spiegazione che essere meno interattiva  grazie prof,variabili in python e vari esempi di stringhe,0.8256599
-variabili in python e vari esempi di stringhe,iniziare a prendere dimestichezza con python,0.7451046
+oggi abbiamo utilizzato il web per vedere le variabili e le stringhe avevo il pc e devo dire che la lezione essere stata oltre che interessantissima anche molto produttiva in quanto si entra nel vivo  preferisco questo tipo di metodo di insegnamento alla tradizionale spiegazione che essere meno interattiva  grazie prof,variabili in python e vari esempi di stringhe,0.79259944
+variabili in python e vari esempi di stringhe,iniziare a prendere dimestichezza con python,0.736616
 iniziare a prendere dimestichezza con python,variabili in python,0.7155951
 variabili in python,interessante  ma in certi casi noiosa,0.5417591
-interessante  ma in certi casi noiosa,linguaggio e struttura semantica e sintattica,0.6537631
-linguaggio e struttura semantica e sintattica,programma online python tutor,0.5066681
-programma online python tutor,capire come definire le variabili in python,0.66571087
-capire come definire le variabili in python,linguaggio di programmazione python,0.75648534
+interessante  ma in certi casi noiosa,linguaggio e struttura semantica e sintattica,0.5956737
+linguaggio e struttura semantica e sintattica,programma online python tutor,0.48772758
+programma online python tutor,capire come definire le variabili in python,0.67231023
+capire come definire le variabili in python,linguaggio di programmazione python,0.7650854
 linguaggio di programmazione python,sintassi e semantica  errori  convenzioni  operatori matematici  stringhe,0.6657472
-sintassi e semantica  errori  convenzioni  operatori matematici  stringhe,concetti iniziali di python,0.7658993
-concetti iniziali di python,sintassi semantica e variabili in python,0.8052969
-calcoli si payton,condizioni,0.39162156
+sintassi e semantica  errori  convenzioni  operatori matematici  stringhe,concetti iniziali di python,0.6866714
+concetti iniziali di python,sintassi semantica e variabili in python,0.81136274
+calcoli si payton,condizioni,0.39573967
 condizioni,le condizioni per il funzionamento di un programma,0.58366436
 le condizioni per il funzionamento di un programma,le condizioni,0.77978027
-le condizioni,condizioni,0.83075464
+le condizioni,condizioni,0.8745572
 condizioni,condizioni,1.0000001
-condizioni,condizioni e linguaggio informatico,0.626031
-condizioni e linguaggio informatico,le condizioni,0.6466676
-le condizioni,le condizioni,0.9100376
+condizioni,condizioni e linguaggio informatico,0.5625237
+condizioni e linguaggio informatico,le condizioni,0.6339713
+le condizioni,le condizioni,1.0000001
 le condizioni,condizioni,0.8745572
 condizioni,inizio uso python,0.26881784
-inizio uso python,le condizioni,0.40805697
-condizione and or e not,condizioni,0.5088692
-condizioni,condizioni nelle programmazione,0.6808904
+inizio uso python,le condizioni,0.36613703
+condizione and or e not,condizioni,0.35172614
+condizioni,condizioni nelle programmazione,0.61577934
 condizioni nelle programmazione,condizioni per python,0.66178626
-condizioni,condizioni e asserzioni,0.8366015
-condizioni e asserzioni,condizioni,0.8366015
-condizioni,condizioni,0.8087593
-condizioni,condizioni and or e not,0.45976594
-condizioni and or e not,condizioni e funzioni di interpretazione,0.6394972
-condizioni e funzioni di interpretazione,le condizioni,0.87063485
-le condizioni,condizioni,0.73431295
+condizioni,condizioni e asserzioni,0.7119243
+condizioni e asserzioni,condizioni,0.7119243
 condizioni,condizioni,1.0000001
-condizioni,il concetto di condizione e asserzione,0.42113936
-il concetto di condizione e asserzione,condizioni,0.42113936
-condizioni,condizioni e asserzioni,0.64914656
-condizioni  if  else  and  or  logica,le diverse condizioni in python  come inserirle e dividerle in blocchi   i connettivi logici,0.81396085
-le diverse condizioni in python  come inserirle e dividerle in blocchi   i connettivi logici,condizioni,0.7446416
-condizioni,logica e condizioni,0.73279744
-logica e condizioni,scrittura condizioni,0.73053783
-scrittura condizioni,condizioni e connettivi logici,0.5748177
+condizioni,condizioni and or e not,0.45976594
+condizioni and or e not,condizioni e funzioni di interpretazione,0.62079185
+condizioni e funzioni di interpretazione,le condizioni,0.7882006
+le condizioni,condizioni,0.8745572
+condizioni,condizioni,1.0000001
+condizioni,il concetto di condizione e asserzione,0.43951535
+il concetto di condizione e asserzione,condizioni,0.43951535
+condizioni,condizioni e asserzioni,0.7119243
+condizioni  if  else  and  or  logica,le diverse condizioni in python  come inserirle e dividerle in blocchi   i connettivi logici,0.78690934
+le diverse condizioni in python  come inserirle e dividerle in blocchi   i connettivi logici,condizioni,0.45920113
+condizioni,logica e condizioni,0.7117534
+logica e condizioni,scrittura condizioni,0.6969201
+scrittura condizioni,condizioni e connettivi logici,0.5655832
 programmazione in python  if else  and  or  not,le condizioni,0.38789913
-le condizioni,le condizioni di programmazione,0.7633799
-le condizioni di programmazione,condizioni,0.8311381
-condizioni,condizioni con uso di if then else  uso di and or not,0.5856391
+le condizioni,le condizioni di programmazione,0.80290014
+le condizioni di programmazione,condizioni,0.6389059
+condizioni,condizioni con uso di if then else  uso di and or not,0.3699994
 condizioni con uso di if then else  uso di and or not,condizioni e parole   e o no,0.73005265
 condizioni e parole   e o no,le condizioni,0.65509236
 le condizioni,basi di python,0.43737793
 basi di python,gli if else,0.39439517
 gli if else,le condizioni e la logica applicata a queste,0.45022812
 le condizioni e la logica applicata a queste,condizioni e logica,0.8853465
-condizioni e logica,le condizioni,0.7548404
-le condizioni,condizioni e diagrammi di flusso,0.7413231
+condizioni e logica,le condizioni,0.7764483
+le condizioni,condizioni e diagrammi di flusso,0.73226935
 condizioni e diagrammi di flusso,capire le condizioni,0.7244252
 capire le condizioni,condizioni,0.7877558
 condizioni,le condizioni e il linguaggio logico,0.5549663
 le condizioni e il linguaggio logico,condizioni dei codici,0.6679304
-condizioni dei codici,print in python e prime condizioni,0.59096736
-print in python e prime condizioni,le condizioni e i connettivi logici,0.6673195
+condizioni dei codici,print in python e prime condizioni,0.5866047
+print in python e prime condizioni,le condizioni e i connettivi logici,0.6631089
 le condizioni e i connettivi logici,le condizioni e i connettivi logici,0.9999999
 le condizioni e i connettivi logici,programmare con linguaggio python,0.5578114
-programmare con linguaggio python,il concetto di condizione e asserzione,0.55540854
-il concetto di condizione e asserzione,le condizioni,0.5930651
+programmare con linguaggio python,il concetto di condizione e asserzione,0.55642754
+il concetto di condizione e asserzione,le condizioni,0.5917308
 le condizioni,condizioni  if  else   logica  and  or  not  xor,0.46665537
 condizioni  if  else   logica  and  or  not  xor,condizioni nel linguaggio di programmazione,0.6782698
 condizioni nel linguaggio di programmazione,imparare le condizioni if,0.65786153
 imparare le condizioni if,condizioni di esistenza e logica,0.6553302
 condizioni di esistenza e logica,variabili  tipi diversi  operazioni diverse,0.69698405
-variabili  tipi diversi  operazioni diverse,condizione,0.679021
-condizione,espressioni condizionali e connettivi logici,0.5381363
+variabili  tipi diversi  operazioni diverse,condizione,0.36297792
+condizione,espressioni condizionali e connettivi logici,0.42893562
 espressioni condizionali e connettivi logici,condizioni,0.34138024
-condizioni  if  else  tabelle di verita  dei connettivi logici,condizioni  nessi logici  codici con if e else,0.94451445
+condizioni  if  else  tabelle di verita  dei connettivi logici,condizioni  nessi logici  codici con if e else,0.9287203
 l importanza delle condizioni,condizione  operatori logici  importanza dell aggregazione delle condizioni in python,0.73838717
 condizione  operatori logici  importanza dell aggregazione delle condizioni in python,if  else,0.52690417
 primi passi in python,primi passi in python,1.0000001
-primi passi in python,le condizioni,0.48890886
-le condizioni,le condizioni,0.9999999
-le condizioni,condizioni,0.9437066
+primi passi in python,le condizioni,0.39723787
+le condizioni,le condizioni,1.0000001
+le condizioni,condizioni,0.8745572
 condizioni,condizioni,1.0000001
 condizioni,condizioni,1.0000001
-condizioni,cicli,0.24769641
+condizioni,cicli,0.26083362
 cicli  funzione while e definizioni di altre funzioni,cicli,0.537067
-cicli,cicli,0.8495278
-cicli,i cicli,0.8835122
+cicli,cicli,0.9999999
+cicli,i cicli,0.8903388
 i cicli,i cicli,0.99999994
-i cicli,i cicli,0.9201761
-i cicli,i cicli,0.9201761
-i cicli,i cicli,0.9201761
-i cicli,cicli,0.73992795
+i cicli,i cicli,0.99999994
+i cicli,i cicli,0.99999994
+i cicli,i cicli,0.99999994
+i cicli,cicli,0.8903388
 cicli,linguaggio python,0.2426247
 linguaggio python,cicli con while,0.40450442
 cicli con while,condizioni e decisioni  cicli funzioni,0.6447636
 condizioni e decisioni  cicli funzioni,i cicli,0.6841485
-i cicli,cicli,0.8835122
-cicli,i cicli,0.8835122
+i cicli,cicli,0.8903388
+cicli,i cicli,0.8903388
 i cicli,cicli,0.8903388
 cicli,ciclo while,0.62925684
 ciclo while,cicli,0.62925684
@@ -556,20 +556,20 @@ base di programmazione,i cicli,0.47828925
 i cicli,cicli,0.8903388
 cicli,cicli,0.9999999
 cicli,concetto di cicli,0.823054
-concetto di cicli,ciclo while,0.66091585
-ciclo while,ciclo,0.82211703
-ciclo,ciclo,1.0
-ciclo,cicli,0.6415432
+concetto di cicli,ciclo while,0.62718266
+ciclo while,ciclo,0.73580784
+ciclo,ciclo,0.9999999
+ciclo,cicli,0.7611917
 cicli,while,0.27000296
 while,i cicli,0.3268746
-i cicli,i cicli,0.9201761
-i cicli,cicli,0.9458226
-cicli,imparare a conoscere il linguaggio della programmazione,0.6024347
-imparare a conoscere il linguaggio della programmazione,ciclo while,0.60574186
-ciclo while,cicli,0.57560533
+i cicli,i cicli,0.99999994
+i cicli,cicli,0.8903388
+cicli,imparare a conoscere il linguaggio della programmazione,0.35175115
+imparare a conoscere il linguaggio della programmazione,ciclo while,0.45893806
+ciclo while,cicli,0.62925684
 cicli,cicli,0.9999999
-cicli,cicli  loops,0.53834426
-cicli  loops,cicli,0.53834426
+cicli,cicli  loops,0.6392138
+cicli  loops,cicli,0.6392138
 cicli,ciclo while,0.62925684
 ciclo while,ciclo while  esercizi ed errori,0.7579016
 ciclo while  esercizi ed errori,cicli,0.53513354
@@ -579,20 +579,20 @@ i cicli,cicli,0.8903388
 cicli,spiegare il funzionamento dei cicli,0.70425487
 spiegare il funzionamento dei cicli,cicli,0.70425487
 cicli,cicli,0.9999999
-cicli,spiegazione dei cicli,0.70204556
-spiegazione dei cicli,funzione del while,0.65401226
-funzione del while,capire come funzionano i cicli,0.5959931
+cicli,spiegazione dei cicli,0.786332
+spiegazione dei cicli,funzione del while,0.49808407
+funzione del while,capire come funzionano i cicli,0.5888914
 capire come funzionano i cicli,i cicli e l uso di while,0.78639734
-i cicli e l uso di while,cicli,0.7672733
-cicli,cicli,0.8495278
+i cicli e l uso di while,cicli,0.5956877
+cicli,cicli,0.9999999
 cicli,cicli,0.9999999
 cicli,cicli while,0.75355613
 cicli while,programmi con somma e media,0.3924918
 programmi con somma e media,cicli,0.3321375
 cicli,spiegazione dei cicli,0.786332
 spiegazione dei cicli,cicli,0.786332
-i cicli  while,e  stato la spiegazione dei cicli,0.78124917
-e  stato la spiegazione dei cicli,cicli,0.4718014
+i cicli  while,e  stato la spiegazione dei cicli,0.7826797
+e  stato la spiegazione dei cicli,cicli,0.52676195
 cicli,cicli,0.9999999
 cicli,i cicli,0.8903388
 i cicli,ciclo while,0.6227139
@@ -610,19 +610,19 @@ ciclo while e riconoscimento codice esatto,cicli  importanza delle condizioni ne
 cicli  importanza delle condizioni nel ciclo  istruzioni in python,i cicli,0.73966306
 i cicli,inizio programmazione,0.41934136
 inizio programmazione,struttura del corpo dei cicli e funzionamento  while  dizionario funzioni e esempi di problemi e soluzioni,0.5502567
-ciclo while spiegato bene,primi esercizi,0.3989506
-primi esercizi,ciclo,0.33241507
-ciclo,cicli con while,0.6460734
+ciclo while spiegato bene,primi esercizi,0.33804396
+primi esercizi,ciclo,0.22297767
+ciclo,cicli con while,0.5897034
 cicli con while,imparare a programmare,0.47741264
 imparare a programmare,cicli,0.30016437
-cicli,cicli e relativi esercizi,0.6487533
-cicli e relativi esercizi,i cicli con while,0.7346338
+cicli,cicli e relativi esercizi,0.7091386
+cicli e relativi esercizi,i cicli con while,0.702478
 i cicli con while,cicli loops    while,0.86090964
 condizioni e formule logiche  if  else  and  or  not,cicli  while    funzione print e funzione input,0.8489826
-cicli  while    funzione print e funzione input,spiegare i cicli  loops,0.85172004
-spiegare i cicli  loops,ciclo loops,0.6425539
-ciclo loops,i cicli  while,0.54475707
-i cicli  while,cicli while,0.7186363
+cicli  while    funzione print e funzione input,spiegare i cicli  loops,0.8289179
+spiegare i cicli  loops,ciclo loops,0.70269144
+ciclo loops,i cicli  while,0.5940554
+i cicli  while,cicli while,0.800642
 cicli while,utilizzo dei cicli  ricerca e conteggio nelle stringhe di caratteri,0.5565977
 utilizzo dei cicli  ricerca e conteggio nelle stringhe di caratteri,esercizi con i cicli,0.75238043
 esercizi con i cicli,tutoraggio,0.35851493
@@ -630,57 +630,57 @@ tutoraggio,esercitazione,0.19993967
 esercitazione,descrizione di alcune funzioni,0.32509845
 descrizione di alcune funzioni,esercitazione,0.32509845
 esercitazione,esercitazione su loop python,0.59660965
-esercitazione su loop python,meccanismo della dimostrazione,0.5081909
-meccanismo della dimostrazione,logica e struttura di un elaboratore,0.7413885
+esercitazione su loop python,meccanismo della dimostrazione,0.48589516
+meccanismo della dimostrazione,logica e struttura di un elaboratore,0.69783556
 logica e struttura di un elaboratore,cenni di logica,0.7609531
 concetto di dimostrazione  calcolatore von neumann,logica dietro le dimostrazioni,0.6529272
-logica dietro le dimostrazioni,tavole di verita e la memoria,0.60035187
-tavole di verita e la memoria,logica memoria e algoritmo vitale,0.64514333
+logica dietro le dimostrazioni,tavole di verita e la memoria,0.6037768
+tavole di verita e la memoria,logica memoria e algoritmo vitale,0.6692758
 logica e organizzazione della memoria,la logica dietro le dimostrazioni  architettura e funzionamento di un elaboratore  organizzazione della memoria  cpu e algoritmo vitale,0.8789587
-logica e regole di inferenza,algoritmi vitali  la logica  elaborazioni,0.8360067
+logica e regole di inferenza,algoritmi vitali  la logica  elaborazioni,0.75989485
 algoritmi vitali  la logica  elaborazioni,von neumann memoria e cpu,0.6469553
-von neumann memoria e cpu,condizioni  if  else  and  or  logica,0.51905787
-condizioni  if  else  and  or  logica,principi di logica e funzionamento della macchina di von neumann introduzione alla memoria,0.6912676
+von neumann memoria e cpu,condizioni  if  else  and  or  logica,0.52636796
+condizioni  if  else  and  or  logica,principi di logica e funzionamento della macchina di von neumann introduzione alla memoria,0.6951837
 principi di logica e funzionamento della macchina di von neumann introduzione alla memoria,logica  cpu  algoritmo vitale,0.741439
-algoritmi vitali,algoritmo vitale,0.77327317
-algoritmo vitale,logica e rappresentazione dei numeri,0.6186736
+algoritmi vitali,algoritmo vitale,0.7013556
+algoritmo vitale,logica e rappresentazione dei numeri,0.52346617
 logica e rappresentazione dei numeri,connettivi memoria cpu algoritmo vitale,0.6063894
-connettivi memoria cpu algoritmo vitale,logica e algoritmo vitale,0.8121384
-logica e algoritmo vitale,logica  organizzazione della memoria  algoritmo vitale,0.9367717
-logica  organizzazione della memoria  algoritmo vitale,riassunto,0.6263419
-riassunto,tabella di verita,0.5772471
+connettivi memoria cpu algoritmo vitale,logica e algoritmo vitale,0.84994286
+logica e algoritmo vitale,logica  organizzazione della memoria  algoritmo vitale,0.87307745
+logica  organizzazione della memoria  algoritmo vitale,riassunto,0.3698765
+riassunto,tabella di verita,0.39479986
 tabella di verita,modus ponens e bit,0.53368837
-logica  dimostrazioni  cpu,logica e dimostrazioni,0.88946307
-logica e dimostrazioni,modus ponens  algoritmo vitale  bit e byte,0.66010416
-principi di logica,logica,0.809625
-logica,cenni di logica,0.8595893
-algoritmo vitale,principi di logica  memoria bit e byte,0.72367907
-principi di logica  memoria bit e byte,algoritmo vitale,0.72367907
-algoritmo vitale,logica memoria e algoritmi,0.76636934
-logica memoria e algoritmi,logica  semantica e sintassi  cpu  memoria  algoritmo vitale,0.9166793
+logica  dimostrazioni  cpu,logica e dimostrazioni,0.8166977
+logica e dimostrazioni,modus ponens  algoritmo vitale  bit e byte,0.58683014
+principi di logica,logica,0.7938167
+logica,cenni di logica,0.7151942
+algoritmo vitale,principi di logica  memoria bit e byte,0.61318463
+principi di logica  memoria bit e byte,algoritmo vitale,0.61318463
+algoritmo vitale,logica memoria e algoritmi,0.6856706
+logica memoria e algoritmi,logica  semantica e sintassi  cpu  memoria  algoritmo vitale,0.86251146
 algoritmo vitale  macchina di von neumann  sintassi  numeri reali,capire gli algoritmi per svolgere i programmi,0.7543355
 l utilizzo della logica proposizione  l architettura di un elaboratore  macchina di von neumann  e algoritmo vitale,logica,0.5434217
-cenni di logica,introduzione alla logica,0.7590603
-introduzione alla logica,cenni di logica  modus ponendo  algoritmo vitale,0.80794066
+cenni di logica,introduzione alla logica,0.74612
+introduzione alla logica,cenni di logica  modus ponendo  algoritmo vitale,0.72823095
 cenni di logica  modus ponendo  algoritmo vitale,spiegazione degli connettivi logici,0.62648314
 spiegazione degli connettivi logici,concetti di logica,0.7326024
 concetti di logica,dimostrazione,0.49443638
 dimostrazione,i sistemi logici,0.42377204
-i sistemi logici,cenni di logica e rappresentazione numerica,0.6049376
-chiarimento and   or   architettura di un elaboratore   organizzazione della memoria   operazioni della memoria cpu algoritmo vitale,architettura macchina von neumann,0.5638966
+i sistemi logici,cenni di logica e rappresentazione numerica,0.61235774
+chiarimento and   or   architettura di un elaboratore   organizzazione della memoria   operazioni della memoria cpu algoritmo vitale,architettura macchina von neumann,0.5849208
 logica e macchina di von neumann,logica e algoritmo vitale,0.68853277
 logica e algoritmo vitale,sintassi   semantica  assiomi  cpu,0.67903924
 sintassi   semantica  assiomi  cpu,principi di logica,0.6421617
-principi di logica,ciclo for,0.42686656
-ciclo for,ciclo for e cicli innestati,0.8971428
-ciclo for e cicli innestati,ciclo for,0.8598029
-ciclo for,ciclo for e cicli innestati,0.8598029
-ciclo for e cicli innestati,ciclo for,0.8598029
+principi di logica,ciclo for,0.35769174
+ciclo for,ciclo for e cicli innestati,0.8722426
+ciclo for e cicli innestati,ciclo for,0.8722426
+ciclo for,ciclo for e cicli innestati,0.8722426
+ciclo for e cicli innestati,ciclo for,0.8722426
 ciclo for,ciclo for e ciclo innestato,0.9038055
 ciclo for e ciclo innestato,ciclo for,0.9038055
 ciclo for,ciclo  for,0.83522254
-ciclo  for,ciclo for,0.9745857
-ciclo for,i cicli in particolare il ciclo for,0.88646585
+ciclo  for,ciclo for,0.83522254
+ciclo for,i cicli in particolare il ciclo for,0.8439307
 i cicli in particolare il ciclo for,cicli for,0.84160113
 cicli for,i cicli,0.7655502
 i cicli,cicli,0.8903388
@@ -688,8 +688,8 @@ cicli,ciclo for,0.6274866
 ciclo for,ciclo for,1.0
 ciclo for,ciclo for,1.0
 ciclo for,cicli for,0.89042413
-cicli for,ciclo for,0.82970953
-ciclo for,cicli for,0.82970953
+cicli for,ciclo for,0.89042413
+ciclo for,cicli for,0.89042413
 cicli for,cicli for,1.0
 cicli for,ciclo for,0.89042413
 ciclo for,ciclo for,1.0
@@ -698,26 +698,26 @@ ciclo for,cicli while e for,0.8332476
 cicli while e for,ciclo for,0.8332476
 ciclo for,ciclo for,1.0
 ciclo for,cicli for,0.89042413
-cicli for,ciclo for,0.82970953
-ciclo for,for,0.72933
+cicli for,ciclo for,0.89042413
+ciclo for,for,0.74395365
 for,cicli for e nested loops,0.706316
 cicli for e nested loops,ciclo for,0.7917695
-ciclo for,il ciclo for,0.8771857
-il ciclo for,ciclo for,0.8771857
-ciclo for,costrutto for e esercizi,0.575834
-costrutto for e esercizi,ciclo for,0.575834
+ciclo for,il ciclo for,0.958182
+il ciclo for,ciclo for,0.958182
+ciclo for,costrutto for e esercizi,0.56414366
+costrutto for e esercizi,ciclo for,0.56414366
 ciclo for,ciclo for,1.0
 ciclo for,ciclo for,1.0
 ciclo for,ciclo for,1.0
 ciclo for,ciclo for,1.0
 ciclo for,ciclo for,1.0
 ciclo for,ciclo for,1.0
-ciclo for,ciclo for e concetto di range,0.7844419
-ciclo for e concetto di range,cicli for,0.725645
+ciclo for,ciclo for e concetto di range,0.81651294
+ciclo for e concetto di range,cicli for,0.76070714
 cicli for,cicli,0.78739005
-cicli,ciclo for,0.55126816
-ciclo for,range e ci lo for,0.7551835
-range e ci lo for,cicli for,0.5919788
+cicli,ciclo for,0.6274866
+ciclo for,range e ci lo for,0.6216394
+range e ci lo for,cicli for,0.61777335
 cicli for,ciclo for,0.89042413
 ciclo for,ciclo for,1.0
 ciclo for,ciclo di for,0.9589899
@@ -741,38 +741,38 @@ ciclo for,cicli,0.6274866
 cicli,ciclo for,0.6274866
 ciclo for,spiegazione sul ciclo for,0.8629602
 spiegazione sul ciclo for,utilizzo dei cicli for  funzione range e le sue funzioni,0.71888137
-utilizzo dei cicli for  funzione range e le sue funzioni,ciclo for,0.7825759
-ciclo for,il ciclo for,0.97855425
-il ciclo for,ciclo for,0.8771857
+utilizzo dei cicli for  funzione range e le sue funzioni,ciclo for,0.6541023
 ciclo for,il ciclo for,0.958182
-il ciclo for,funzioni round e main,0.5532333
-funzioni round e main,ciclo for,0.5941827
-ciclo for,funzioni,0.24742205
+il ciclo for,ciclo for,0.958182
+ciclo for,il ciclo for,0.958182
+il ciclo for,funzioni round e main,0.50411034
+funzioni round e main,ciclo for,0.40693623
+ciclo for,funzioni,0.2211338
 funzioni,funzioni round e come definire una funzione con def e infine un esercizio _ _ _ _ _ _ _ _ _,0.35156462
-funzioni round e come definire una funzione con def e infine un esercizio _ _ _ _ _ _ _ _ _,definizione delle funzioni  funzione main,0.6018251
-definizione delle funzioni  funzione main,funzioni,0.5715013
-funzioni,funzioni,0.83931136
-funzioni,le funzioni,0.946763
-le funzioni,main   def,0.6676394
-main   def,concetto di funzioni,0.42373288
-concetto di funzioni,funzioni,0.8340185
-funzioni,funzioni,0.83931136
+funzioni round e come definire una funzione con def e infine un esercizio _ _ _ _ _ _ _ _ _,definizione delle funzioni  funzione main,0.592128
+definizione delle funzioni  funzione main,funzioni,0.66955787
 funzioni,funzioni,1.0
-funzioni,funzione def,0.43409908
-funzione def,funzioni,0.65367556
-funzioni,funzioni come scatole nere  differenza tra return value e print  a schermo   funzione round,0.7421956
+funzioni,le funzioni,0.8897979
+le funzioni,main   def,0.3498729
+main   def,concetto di funzioni,0.41938785
+concetto di funzioni,funzioni,0.8153047
+funzioni,funzioni,1.0
+funzioni,funzioni,1.0
+funzioni,funzione def,0.44089124
+funzione def,funzioni,0.44089124
+funzioni,funzioni come scatole nere  differenza tra return value e print  a schermo   funzione round,0.42692292
 funzioni come scatole nere  differenza tra return value e print  a schermo   funzione round,come scrivere una funzione,0.7426831
 come scrivere una funzione,definizione di funzione,0.7503033
-funzioni nel campo informatico,funzioni e concetto di ripetizione,0.8004189
-funzioni e concetto di ripetizione,esempi sulle funzioni,0.82690185
-esempi sulle funzioni,le funzioni,0.88138473
-le funzioni,scrivere delle funzioni dall inizio,0.85432184
-scrivere delle funzioni dall inizio,concetto di funzione,0.7798414
-concetto di funzione,funzioni,0.5601247
+funzioni nel campo informatico,funzioni e concetto di ripetizione,0.72448957
+funzioni e concetto di ripetizione,esempi sulle funzioni,0.74265176
+esempi sulle funzioni,le funzioni,0.83248407
+le funzioni,scrivere delle funzioni dall inizio,0.7620678
+scrivere delle funzioni dall inizio,concetto di funzione,0.6701503
+concetto di funzione,funzioni,0.62753546
 funzioni,le funzioni,0.8897979
 le funzioni,funzioni,0.8897979
-funzioni,def  main,0.14252909
-def  main,funzioni,0.14252909
+funzioni,def  main,0.115917616
+def  main,funzioni,0.115917616
 funzioni,creazione di funzioni,0.7970015
 creazione di funzioni,main  programmazione in python,0.49775827
 main  programmazione in python,funzioni,0.28087002
@@ -782,112 +782,112 @@ funzioni,funzioni,1.0
 funzioni,definizione di una funzione e il loro spazio di memoria a parte,0.4644059
 definizione di una funzione e il loro spazio di memoria a parte,concetto di funzioni,0.7507297
 concetto di funzioni,cicli,0.34816152
-cicli,confusionaria,0.15675937
-confusionaria,le funzioni,0.3865825
+cicli,confusionaria,0.13232231
+confusionaria,le funzioni,0.24299088
 le funzioni,le funzioni,1.0000001
 le funzioni,le funzioni,1.0000001
 le funzioni,funzioni,0.8897979
 funzioni,funzione,0.7422057
 funzione,funzioni main e spazi di memoria,0.5663012
-funzioni main e spazi di memoria,le funzioni,0.77106184
-le funzioni,funzioni in python,0.67476296
-funzioni in python,le funzioni,0.67476296
-funzione main,definire le funzioni,0.5169388
-definire le funzioni,concetto di funzioni,0.8701245
+funzioni main e spazi di memoria,le funzioni,0.7152836
+le funzioni,funzioni in python,0.6803531
+funzioni in python,le funzioni,0.6803531
+funzione main,definire le funzioni,0.4761006
+definire le funzioni,concetto di funzioni,0.87384164
 concetto di funzioni,funzioni,0.8153047
 funzioni,funzioni,1.0
 funzioni,funzioni,1.0
-funzioni,ciclo for   funzioni,0.49637917
-ciclo for   funzioni,definire funzioni,0.5143821
-definire funzioni,le funzioni in python,0.6115366
-le funzioni in python,definizione di funzione  uso dei commenti  funzione main,0.78047353
+funzioni,ciclo for   funzioni,0.5496537
+ciclo for   funzioni,definire funzioni,0.5646491
+definire funzioni,le funzioni in python,0.646132
+le funzioni in python,definizione di funzione  uso dei commenti  funzione main,0.69921637
 definizione di funzione  uso dei commenti  funzione main,funzioni,0.5011963
-funzioni,le funzioni,0.75950253
-le funzioni,funzioni def e main  come e da dove partire per creare un algoritmo,0.79325885
+funzioni,le funzioni,0.8897979
+le funzioni,funzioni def e main  come e da dove partire per creare un algoritmo,0.6181531
 funzioni def e main  come e da dove partire per creare un algoritmo,funzioni,0.4194002
-funzioni,esercitazione,0.2718258
-esercitazione,esercizi if  else e elif,0.5114678
+funzioni,esercitazione,0.23586088
+esercitazione,esercizi if  else e elif,0.28989655
 esercizi if  else e elif,esercitazione funzioni cicli e condizioni,0.47118607
 esercitazione funzioni cicli e condizioni,esercizi e chiarimenti,0.51208204
-esercizi e chiarimenti,main   def,0.37762728
-main   def,programmare,0.71228653
-programmare,esercitazione,0.31249952
+esercizi e chiarimenti,main   def,0.3789565
+main   def,programmare,0.2813042
+programmare,esercitazione,0.2710076
 esercitazione,esercitazione,1.0
 esercitazione,condizione,0.19674633
 condizione,esercitazioni,0.1695211
 esercitazione,esercitazione,1.0
 esercitazione,esercizi,0.18616049
-esercizi,esercitazione,0.22081546
+esercizi,esercitazione,0.18616049
 esercizi sulle condizioni,esercitazione if  else  not  and or,0.3498564
-esercitazione if  else  not  and or,esercitazione,0.6598898
-esercitazione,esercitazione,0.86867255
+esercitazione if  else  not  and or,esercitazione,0.4339315
 esercitazione,esercitazione,1.0
 esercitazione,esercitazione,1.0
-esercitazione,esercizi,0.50188327
-esercizi,esercizi,0.9999999
-ripasso teoria e svolgimento di alcuni esercizi,if e operatori booleani,0.57091695
+esercitazione,esercitazione,1.0
+esercitazione,esercizi,0.18616049
+esercizi,esercizi,1.0000001
+ripasso teoria e svolgimento di alcuni esercizi,if e operatori booleani,0.55758095
 if e operatori booleani,range,0.38155612
-le liste,le liste,0.93659365
+le liste,le liste,1.0
 le liste,liste,0.9110802
-liste,differenza tra lista e stringa,0.48521978
-differenza tra lista e stringa,liste  esercizi,0.700423
-liste  esercizi,liste,0.8610144
-liste,liste,0.89115155
+liste,differenza tra lista e stringa,0.49051753
+differenza tra lista e stringa,liste  esercizi,0.61465305
+liste  esercizi,liste,0.66176444
+liste,liste,1.0000001
 liste,le liste,0.9110802
 le liste,liste,0.9110802
 liste,liste,1.0000001
-liste,le liste,0.8113859
-le liste,liste,0.8113859
+liste,le liste,0.9110802
+le liste,liste,0.9110802
 liste,le liste,0.9110802
 le liste,le liste,1.0
-le liste,liste,0.89112914
-liste,le liste,0.9528917
-le liste,liste,0.9528917
-liste,le liste,0.9528917
-le liste,le liste e nuovi comandi,0.8297828
-le liste e nuovi comandi,liste,0.74540037
-liste,le liste,0.89112914
+le liste,liste,0.9110802
+liste,le liste,0.9110802
+le liste,liste,0.9110802
+liste,le liste,0.9110802
+le liste,le liste e nuovi comandi,0.814878
+le liste e nuovi comandi,liste,0.66131276
+liste,le liste,0.9110802
 le liste,liste,0.9110802
 liste,liste,1.0000001
-liste,liste in python  differenze tra liste e stringhe,0.6934858
-liste in python  differenze tra liste e stringhe,liste,0.6934858
+liste,liste in python  differenze tra liste e stringhe,0.7163235
+liste in python  differenze tra liste e stringhe,liste,0.7163235
 liste,liste,1.0000001
 liste,le liste,0.9110802
 le liste,liste,0.9110802
 liste,liste,1.0000001
 liste,liste  differenza tra liste e stringe  index     pop,0.5979701
-liste  differenza tra liste e stringe  index     pop,liste,0.8587377
-liste,liste,0.89115155
+liste  differenza tra liste e stringe  index     pop,liste,0.5979701
+liste,liste,1.0000001
 liste,spiegare le liste,0.7901351
-spiegare le liste,le liste,0.8388776
-le liste,liste,0.9528917
-liste,le liste,0.89112914
-liste,liste,0.9999999
-liste,liste,0.89115155
+spiegare le liste,le liste,0.8907928
+le liste,liste,0.9110802
+liste,le liste,0.9110802
+liste,liste,1.0000001
+liste,liste,1.0000001
 liste,liste,1.0000001
 liste,utilizzo delle liste,0.8006372
 utilizzo delle liste,liste,0.8006372
-liste,le liste,0.8113859
-le liste,le liste,0.93659365
-le liste,le liste e gli annessi comandi,0.7630076
-le liste e gli annessi comandi,liste  index  pop,0.70768833
+liste,le liste,0.9110802
+le liste,le liste,1.0
+le liste,le liste e gli annessi comandi,0.7698357
+le liste e gli annessi comandi,liste  index  pop,0.6387678
 liste  index  pop,liste,0.63888973
-liste,liste,0.89115155
-liste,liste,0.89115155
+liste,liste,1.0000001
+liste,liste,1.0000001
 liste,come usare le liste,0.7462395
 come usare le liste,liste,0.7462395
-liste,liste,0.89115155
-liste,le liste,0.89112914
+liste,liste,1.0000001
+liste,le liste,0.9110802
 le liste,spiegare le liste,0.8907928
-spiegare le liste,utilizzo delle liste,0.79869807
+spiegare le liste,utilizzo delle liste,0.82798797
 liste,apprendere il concetto di lista in python,0.44952404
 apprendere il concetto di lista in python,introduzione liste,0.5715829
-introduzione liste,le liste,0.7812717
-le liste,le liste e i codici loro relativi,0.821147
+introduzione liste,le liste,0.8395005
+le liste,le liste e i codici loro relativi,0.79854476
 le liste e i codici loro relativi,liste e puntatori e le differenze con le stringhe,0.83156174
 liste e puntatori e le differenze con le stringhe,liste,0.5759421
-liste,liste,0.89115155
-liste,liste di elementi e funzione a loro collegate,0.71042126
+liste,liste,1.0000001
+liste,liste di elementi e funzione a loro collegate,0.5872731
 liste di elementi e funzione a loro collegate,le liste,0.7549749
 le liste,creare una lista,0.6425406
 creare una lista,liste in python,0.58415586
@@ -907,82 +907,82 @@ le liste e le operazioni sulle liste,funzioni,0.41810346
 funzioni,esercitazione  esercizi con liste nei cicli for e while,0.36768392
 esercitazione  esercizi con liste nei cicli for e while,liste,0.489329
 liste,esercizi sulle liste,0.69664603
-esercizi sulle liste,esercitazione,0.34108528
-esercitazione,esercitazione  le liste,0.8038117
+esercizi sulle liste,esercitazione,0.21944375
+esercitazione,esercitazione  le liste,0.6165371
 esercitazione  le liste,esercitazione sui cicli e le funzioni,0.7452157
 esercitazione sui cicli e le funzioni,sistemi operativi,0.5720928
-sistemi operativi,sistema operativo e file system,0.6983227
-sistemi operativi,i sistemi operativi,0.88858753
-i sistemi operativi,il sistema operativo,0.78087276
+sistemi operativi,sistema operativo e file system,0.72237825
+sistemi operativi,i sistemi operativi,0.9582129
+i sistemi operativi,il sistema operativo,0.74776256
 il sistema operativo,i sistemi operativi,0.74776256
 i sistemi operativi,sistemi operativi,0.9582129
 sistemi operativi,sistemi operativi,1.0
-sistemi operativi,il sistema operativo,0.66282564
-il sistema operativo,sistemi operativi,0.81123966
-sistemi operativi  cpu  processi,il sistema operativo,0.79695183
-il sistema operativo,cpu,0.42509487
+sistemi operativi,il sistema operativo,0.72146314
+il sistema operativo,sistemi operativi,0.72146314
+sistemi operativi  cpu  processi,il sistema operativo,0.76309615
+il sistema operativo,cpu,0.450962
 cpu,file,0.21763691
 file,il funzionamento e le componenti del sistema operativo,0.3754391
 il funzionamento e le componenti del sistema operativo,sistema operativo e file sistem,0.8473998
-sistemi operativi,sistemi operativi,0.94236916
+sistemi operativi,sistemi operativi,1.0
 sistemi operativi,il sistema operativo,0.72146314
-il sistema operativo,funzionamento di cpu  sistema operativo,0.8814256
-processi,file e processi,0.7838684
+il sistema operativo,funzionamento di cpu  sistema operativo,0.8905539
+processi,file e processi,0.7275018
 file e processi,sistemi operativi e cpu,0.5962019
 sistemi operativi e cpu,sistemi operativi,0.885588
 sistemi operativi,cpu  processi  file system,0.6452651
-cpu  processi  file system,i sistemi operativi,0.773158
-i sistemi operativi,memorie e sistemi operativi,0.8871958
-memorie e sistemi operativi,cpu file,0.6482453
-cpu file,il sistema operativo ed i processi,0.62271154
+cpu  processi  file system,i sistemi operativi,0.6981843
+i sistemi operativi,memorie e sistemi operativi,0.9012077
+memorie e sistemi operativi,cpu file,0.6021834
+cpu file,il sistema operativo ed i processi,0.5218082
 il sistema operativo ed i processi,sistema operativo  linguaggio evoluto  cpu  processo  schedulazione  file system,0.8396455
 sistema operativo  linguaggio evoluto  cpu  processo  schedulazione  file system,il sistema operativo,0.81409353
 il sistema operativo,sistemi operativi,0.72146314
 sistemi operativi,conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti,0.51438004
-conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti,sistema operativo,0.6688625
-sistema operativo,sistemi operativi,0.8317051
-sistemi operativi,sistema operativo,0.8317051
-sistema operativo,sistemi operativi,0.8317051
-sistemi operativi,insiemi e dizionari,0.48157653
+conoscere e comprendere la costruzione ed il funzionamento del calcolatore e dei suoi componenti,sistema operativo,0.5469722
+sistema operativo,sistemi operativi,0.76357216
+sistemi operativi,sistema operativo,0.76357216
+sistema operativo,sistemi operativi,0.76357216
+sistemi operativi,insiemi e dizionari,0.43851757
 insiemi e dizionari,insiemi e dizionari,0.9999999
 insiemi e dizionari,insiemi,0.8110378
 insiemi,insiemi e dizionari,0.8110378
 insiemi e dizionari,duplicare una lista,0.4669613
 duplicare una lista,insiemi  e dizionari,0.53474706
-insiemi  e dizionari,come duplicare le liste  gli insiemi e le funzioni da utilizzare per operare con essi il dizionario,0.79279226
-come duplicare le liste  gli insiemi e le funzioni da utilizzare per operare con essi il dizionario,concetto di insieme e dizionario,0.8703575
-concetto di insieme e dizionario,la duplicazione delle liste  insiemi e dizionari,0.7708518
+insiemi  e dizionari,come duplicare le liste  gli insiemi e le funzioni da utilizzare per operare con essi il dizionario,0.7899248
+come duplicare le liste  gli insiemi e le funzioni da utilizzare per operare con essi il dizionario,concetto di insieme e dizionario,0.82438976
+concetto di insieme e dizionario,la duplicazione delle liste  insiemi e dizionari,0.74731547
 la duplicazione delle liste  insiemi e dizionari,dizionario,0.4292896
 dizionario,insiemi  dizionari che sono insiemi di chiavi e valori,0.40546414
-insiemi  dizionari che sono insiemi di chiavi e valori,duplicazione liste  creazioni di insiemi e dizionari,0.8882292
-duplicazione liste  creazioni di insiemi e dizionari,insiemi,0.6068628
-insiemi,insiemi  operazioni sugli insiemi  e duplicare una lista,0.6691776
-insiemi  operazioni sugli insiemi  e duplicare una lista,cosa sono gli insieme e i dizionari,0.7481382
+insiemi  dizionari che sono insiemi di chiavi e valori,duplicazione liste  creazioni di insiemi e dizionari,0.8885995
+duplicazione liste  creazioni di insiemi e dizionari,insiemi,0.6439192
+insiemi,insiemi  operazioni sugli insiemi  e duplicare una lista,0.71126294
+insiemi  operazioni sugli insiemi  e duplicare una lista,cosa sono gli insieme e i dizionari,0.74230367
 cosa sono gli insieme e i dizionari,insiemi e relative operazioni  dizionari  esempi,0.7943356
 insiemi e relative operazioni  dizionari  esempi,slicing delle liste  insiemi e dizionario,0.8765423
 slicing delle liste  insiemi e dizionario,insiemi e dizionari,0.8217199
 insiemi e dizionari,duplicazione insiemi e dizionari,0.91640866
 duplicazione insiemi e dizionari,operazioni con le liste e insiemi,0.6950712
-operazioni con le liste e insiemi,insiemi  dizionari,0.74112755
-insiemi  dizionari,insiemi e dizionari,0.9090105
+operazioni con le liste e insiemi,insiemi  dizionari,0.7080594
+insiemi  dizionari,insiemi e dizionari,0.97312146
 insiemi e dizionari,insiemi e dizionari,0.9999999
-insiemi e dizionari,dizionari ed insiemi,0.95651346
-dizionari ed insiemi,dizionari e insiemi,0.9912556
-dizionari e insiemi,liste insiemi dizionari,0.85610694
+insiemi e dizionari,dizionari ed insiemi,0.98863006
+dizionari ed insiemi,dizionari e insiemi,0.98863006
+dizionari e insiemi,liste insiemi dizionari,0.90206075
 liste insiemi dizionari,insiemi  liste  dizionario,0.8430232
 insiemi  liste  dizionario,parentesi quadra  liste che sono ordinate graffe  insieme non ordinati  duplicare le varie liste  come aggiungere numeri negli insiemi  intersezione  differenza e dizionario,0.8653016
 parentesi quadra  liste che sono ordinate graffe  insieme non ordinati  duplicare le varie liste  come aggiungere numeri negli insiemi  intersezione  differenza e dizionario,insiemi,0.4949389
 insiemi,ripasso sullo slicing  insiemi e dizionari,0.66296136
-ripasso sullo slicing  insiemi e dizionari,insiemi e dizionari,0.90103173
-insiemi e dizionari,insiemi e dizionario,0.88856715
+ripasso sullo slicing  insiemi e dizionari,insiemi e dizionari,0.863839
+insiemi e dizionari,insiemi e dizionario,0.906843
 insiemi e dizionario,insieme  dizionari  liste,0.6386336
 insieme  dizionari  liste,insiemi e dizionari,0.68348813
 insiemi e dizionari,come duplicare le varie liste  gli insiemi e  il dizionario,0.736557
-come duplicare le varie liste  gli insiemi e  il dizionario,insiemi e chiavi,0.8162876
-insiemi e chiavi,dizionari insiemi,0.7675468
-dizionari insiemi,insiemi e dizionari,0.97312146
-insiemi e dizionari,liste  insiemi  unione  intersezione  differenza e dizionari,0.72129166
-liste  insiemi  unione  intersezione  differenza e dizionari,insiemi e dizionari,0.72129166
+come duplicare le varie liste  gli insiemi e  il dizionario,insiemi e chiavi,0.7070799
+insiemi e chiavi,dizionari insiemi,0.69891715
+dizionari insiemi,insiemi e dizionari,0.97151047
+insiemi e dizionari,liste  insiemi  unione  intersezione  differenza e dizionari,0.752038
+liste  insiemi  unione  intersezione  differenza e dizionari,insiemi e dizionari,0.752038
 insiemi e dizionari,insiemi  unire insiemi  duplicare liste,0.7902779
 insiemi  unire insiemi  duplicare liste,insiemi,0.80329835
 insiemi,insiemi e dizionari,0.8110378
@@ -992,49 +992,49 @@ definizione insiemi e dizionario,introduzione duplicazione lista e insiemi,0.751
 introduzione duplicazione lista e insiemi,insiemi e dizionari,0.74012405
 liste e insiemi  dizionari,gli insiemi,0.7551177
 gli insiemi,gli insiemi e i dizionari,0.8530932
-gli insiemi e i dizionari,insiemi,0.7920267
-insiemi,insiemi  dizionari,0.8721048
-,esercizi,0.6116241
-esercizi,esercitazione usando scramble code,0.28569502
-esercitazione usando scramble code,creazione dizionario,0.39328077
-creazione dizionario,scrambled code e dizionario,0.77860284
+gli insiemi e i dizionari,insiemi,0.7096709
+insiemi,insiemi  dizionari,0.79908335
+,esercizi,0.15595704
+esercizi,esercitazione usando scramble code,0.18547158
+esercitazione usando scramble code,creazione dizionario,0.33811572
+creazione dizionario,scrambled code e dizionario,0.7420532
 scrambled code e dizionario,scrambled code   utile,0.674086
-scrambled code   utile,esercizi,0.6144119
-esercizi,scramble code,0.37705833
-scramble code,cosa sono le tuple e esercizi sull indice analitico,0.49200246
+scrambled code   utile,esercizi,0.22325423
+esercizi,scramble code,0.101935476
+scramble code,cosa sono le tuple e esercizi sull indice analitico,0.39922613
 cosa sono le tuple e esercizi sull indice analitico,tupla  esercizio,0.7246624
-che cosa sono le tuple  esercizi sull indice analitico,tuple,0.7891725
-tuple,esercitazione,0.25047976
+che cosa sono le tuple  esercizi sull indice analitico,tuple,0.63597816
+tuple,esercitazione,0.18392664
 esercitazione,esercizio con i dizionari,0.28554666
-esercizio con i dizionari,lo  scrambled code  essere utile,0.6380372
-lo  scrambled code  essere utile,funzione indice analitico,0.4426625
+esercizio con i dizionari,lo  scrambled code  essere utile,0.6457822
+lo  scrambled code  essere utile,funzione indice analitico,0.46815732
 funzione indice analitico,tuple ed esercizio con dizionari,0.6036131
 tuple ed esercizio con dizionari,tupla,0.6529436
 tupla,esercitazione,0.18689036
 esercitazione,esercizio dizionario utilissimo lo scrambled code,0.28388035
-esercizio dizionario utilissimo lo scrambled code,esercizi,0.5087607
-esercizi,tuple  dizionari,0.47775212
+esercizio dizionario utilissimo lo scrambled code,esercizi,0.4168586
+esercizi,tuple  dizionari,0.29711688
 tuple  dizionari,le tuple  lo scrambled code essere molto utile,0.70963687
 le tuple  lo scrambled code essere molto utile,esercizio su tuple,0.6977725
-esercizio su tuple,tuple,0.7670677
-tuple,tuple,0.862458
-scrambled code utile  anche per le prossime volte  e tuple,esercizio sul dizionario,0.6712264
-esercizio sul dizionario,tupla,0.3541797
+esercizio su tuple,tuple,0.74447924
+tuple,tuple,0.9999999
+scrambled code utile  anche per le prossime volte  e tuple,esercizio sul dizionario,0.5161182
+esercizio sul dizionario,tupla,0.34615684
 tupla,esercizio su dizionario e liste,0.44280034
 esercizio su dizionario e liste,l esercizio,0.57115924
 l esercizio,tuple e dizionari,0.35857725
 tuple e dizionari,esercizi,0.31411824
 creare la funzione indice analitico,tuple ed esercizio sul dizionario inizialmente lo scrambled code potrebbe essere utile,0.7449299
-esercizio con scrambled code,i dizionari,0.5230438
-i dizionari,esercizi,0.5467936
-esercizi,esercizio sull indice analitico,0.5132395
-esercizio sull indice analitico,esercizio in classe,0.5522666
-esercizio in classe,tuple,0.34406802
+esercizio con scrambled code,i dizionari,0.4399469
+i dizionari,esercizi,0.2745449
+esercizi,esercizio sull indice analitico,0.47149822
+esercizio sull indice analitico,esercizio in classe,0.56871027
+esercizio in classe,tuple,0.35259575
 tuple,introduzione delle tuple,0.7959021
 introduzione delle tuple,esercizi con scrambled code,0.58628744
-tuple  esercizi,uso del dizionario,0.570411
-uso del dizionario,esercizio su codice che restituisse in uscita un dizionario,0.81588364
-esercizio su codice che restituisse in uscita un dizionario,tuple ed esercizi,0.72307676
+tuple  esercizi,uso del dizionario,0.47859234
+uso del dizionario,esercizio su codice che restituisse in uscita un dizionario,0.7609622
+esercizio su codice che restituisse in uscita un dizionario,tuple ed esercizi,0.6447677
 esercizio con dizionario,esame,0.31900492
 esame,simulazione esame,0.7892821
 simulazione esame,simulazione d esame,0.89515877
@@ -1046,24 +1046,24 @@ esercitazione liste e insiemi,esercitazioni sui dizionari,0.62258375
 esercitazioni sui dizionari,risoluzione degli esami,0.4719628
 risoluzione degli esami,simulazione esame,0.6562789
 simulazione esame,preparazione e simulazione di esame,0.77701586
-preparazione e simulazione di esame,algoritmi di ordinamento,0.7047597
+preparazione e simulazione di esame,algoritmi di ordinamento,0.60984993
 algoritmi di ordinamento,algoritmi di ordinamento,1.0
-algoritmi di ordinamento,dizionari insiemi,0.6541547
-dizionari insiemi,algoritmi di ordinamento,0.6541547
-algoritmi di ordinamento,algoritmi di ordinamento,0.9652575
-algoritmi di ordinamento,algoritmi di ordinamento,0.9652575
-algoritmi di ordinamento,selection sort e bubble sort,0.5586245
+algoritmi di ordinamento,dizionari insiemi,0.5463661
+dizionari insiemi,algoritmi di ordinamento,0.5463661
+algoritmi di ordinamento,algoritmi di ordinamento,1.0
+algoritmi di ordinamento,algoritmi di ordinamento,1.0
+algoritmi di ordinamento,selection sort e bubble sort,0.5569869
 selection sort e bubble sort,algoritmi di ordinamento,0.5569869
-algoritmi di ordinamento,algoritmi di ordinamento,0.9652575
-algoritmi di ordinamento,algoritmi fi ordinamento,0.8969904
-algoritmi fi ordinamento,algoritmo di ordinamento,0.8624823
-algoritmo di ordinamento,algoritmi di ordinamento,0.95069283
-algoritmi di ordinamento,algoritmi di ordinamento,0.9652575
-risolvere il problema d ordinamento  bubble sort  selection sort,selection sort,0.88488543
-selection sort,algoritmo selection e bubble sort,0.88611865
+algoritmi di ordinamento,algoritmi di ordinamento,1.0
+algoritmi di ordinamento,algoritmi fi ordinamento,0.86804503
+algoritmi fi ordinamento,algoritmo di ordinamento,0.82328594
+algoritmo di ordinamento,algoritmi di ordinamento,0.9337767
+algoritmi di ordinamento,algoritmi di ordinamento,1.0
+risolvere il problema d ordinamento  bubble sort  selection sort,selection sort,0.8201833
+selection sort,algoritmo selection e bubble sort,0.8913963
 algoritmo selection e bubble sort,algoritmi di ordinamento,0.6776417
 algoritmi di ordinamento,algoritmi di ordinamento,1.0
-algoritmi di ordinamento,vari algoritmi per uno stesso problema,0.76940984
+algoritmi di ordinamento,vari algoritmi per uno stesso problema,0.7796948
 algoritmi di ordinazione,spiegazione bubble sort e select sort,0.48574919
 spiegazione bubble sort e select sort,algoritmi di ordinamento,0.580725
-algoritmi di ordinamento,algoritmi di ordinamento,0.9652575
+algoritmi di ordinamento,algoritmi di ordinamento,1.0

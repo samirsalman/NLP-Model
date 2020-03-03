@@ -29,14 +29,14 @@ def clean_phrases(s):
 
 def load_phrases(path):
        i = 0
-       results = open("./results.csv","a+")
+       results = open("./results.csv","w+")
        results.write("f1,f2,sim\n")
        with open(path, 'r') as dataset:
               corpusJSON = json.load(dataset)
-              for el in range(len(corpusJSON)):
+              for el in range(len(corpusJSON)-1):
                      try:
-                            f1 = clean_phrases(corpusJSON[el]["messaggio"])
-                            f2 = clean_phrases(corpusJSON[el+1]["messaggio"])
+                            f1 = clean_phrases(corpusJSON[el]["messaggio"].strip())
+                            f2 = clean_phrases(corpusJSON[el+1]["messaggio"].strip())
                             sim = vectors_similarity(phrase2vec(f1), phrase2vec(f2))
                             print("Phrase 1: ", f1, "\nPhrase 2:", f2, "\n", "Similarity: ", sim)
                             results.write(str(f1.strip()) + "," + str(f2.strip()) + ","+str(sim) + "\n")
