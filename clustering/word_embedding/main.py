@@ -7,7 +7,6 @@ from gensim.models.keyedvectors import Word2VecKeyedVectors
 model = Word2Vec.load('./wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m')
 
 
-
 def phrase2vec(s):
        s = s.split(" ")
        vector = model.wv[s[0]]
