@@ -134,7 +134,7 @@ for i in k_means.labels_:
        k+=1
 
 file = open("./clusters_results.txt","w+")
-file.write(results)
+file.write(str(results))
 print(results)
 
 
