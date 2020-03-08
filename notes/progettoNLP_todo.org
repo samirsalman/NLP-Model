@@ -1,4 +1,15 @@
- #+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+#+TITLE: Progetto NLP 
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+
+In questo file sono descritte le cose da fare relative al progetto di
+Natural Language Processing dell'anno 2019/2020. 
+
+* Risorse
+  Account gmail
+  #+BEGIN_EXAMPLE
+  email: torvergatanlp1920@gmail
+  password: nlpisbad
+  #+END_EXAMPLE
 
 * Annotazione automatica del dataset
   [2020-03-02 lun 17:22]
@@ -83,6 +94,15 @@
    Ottenere l'accesso al drive e capire il formato dei file excel in
    cui sono riportate le risposte degli studenti alle tre domande
    per ogni lezione.
+   
+   ---------------------------
+   [2020-03-08 dom 14:25]
+   
+   Al fine di accere al drive è stato creato un account gmail comune i
+   cui dati per adesso sono 
+   
+   e-mail: torvergatanlp1920@gmail.com
+   password: nlpisbad
 
 ** TODO Finalizzare chain di pre-processing
    [2020-03-08 dom 14:21]
@@ -142,8 +162,4 @@
   
   - Calcolare il numero di volte in cui la persona è finita tra i
     cluster più grandi per quanto riguarda i tre clustering.  
-* Extra
-  [2020-03-02 lun 17:53]
 
-  
-  

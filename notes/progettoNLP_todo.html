@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-03-08 dom 14:23 -->
+<!-- 2020-03-08 dom 14:28 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>&lrm;</title>
+<title>Progetto NLP</title>
 <meta name="generator" content="Org mode" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
@@ -234,43 +234,61 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
+<h1 class="title">Progetto NLP</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org3a50448">1. Annotazione automatica del dataset</a>
+<li><a href="#org7194a52">1. Risorse</a></li>
+<li><a href="#orgd68d2ea">2. Annotazione automatica del dataset</a>
 <ul>
-<li><a href="#org9d8e656">1.1. <span class="todo TODO">TODO</span> Spacy - Vedere script Luca</a></li>
-<li><a href="#org7388e4f">1.2. <span class="todo TODO">TODO</span> Repustate - Analisi e implementazione</a></li>
+<li><a href="#org1bc583f">2.1. <span class="todo TODO">TODO</span> Spacy - Vedere script Luca</a></li>
+<li><a href="#org039a99c">2.2. <span class="todo TODO">TODO</span> Repustate - Analisi e implementazione</a></li>
 </ul>
 </li>
-<li><a href="#org33083fa">2. Clustering</a>
+<li><a href="#org3abe4ce">3. Clustering</a>
 <ul>
-<li><a href="#org940b8b6">2.1. <span class="todo TODO">TODO</span> Test del "Italian Word Embeddings"</a></li>
-<li><a href="#orgf8db4e4">2.2. <span class="todo TODO">TODO</span> Applicazione algoritmo di clustering</a></li>
+<li><a href="#orgeaf45aa">3.1. <span class="todo TODO">TODO</span> Test del "Italian Word Embeddings"</a></li>
+<li><a href="#orge7b26d4">3.2. <span class="todo TODO">TODO</span> Applicazione algoritmo di clustering</a></li>
 </ul>
 </li>
-<li><a href="#org9826a20">3. Testing del clustering</a></li>
-<li><a href="#org0041d62">4. Back end</a>
+<li><a href="#orgbd08c1a">4. Testing del clustering</a></li>
+<li><a href="#org601bb14">5. Back end</a>
 <ul>
-<li><a href="#org49cad43">4.1. <span class="todo TODO">TODO</span> Accesso drive e gestione file excel</a></li>
-<li><a href="#org62f3f03">4.2. <span class="todo TODO">TODO</span> Finalizzare chain di pre-processing</a></li>
-<li><a href="#org9589e1f">4.3. <span class="todo TODO">TODO</span> Definire formato json per clusters</a></li>
-<li><a href="#org5231ef4">4.4. <span class="todo TODO">TODO</span> Finalizzare chain di processing</a></li>
-<li><a href="#orge25cab0">4.5. <span class="todo TODO">TODO</span> Definire schema memorizzazione clusters</a></li>
-<li><a href="#org3c37618">4.6. <span class="todo TODO">TODO</span> Definire statistihe da calcolare per studente</a></li>
+<li><a href="#org8797aed">5.1. <span class="todo TODO">TODO</span> Accesso drive e gestione file excel</a></li>
+<li><a href="#org8fca6c0">5.2. <span class="todo TODO">TODO</span> Finalizzare chain di pre-processing</a></li>
+<li><a href="#orgcdaa771">5.3. <span class="todo TODO">TODO</span> Definire formato json per clusters</a></li>
+<li><a href="#org2aee53a">5.4. <span class="todo TODO">TODO</span> Finalizzare chain di processing</a></li>
+<li><a href="#orga94c75c">5.5. <span class="todo TODO">TODO</span> Definire schema memorizzazione clusters</a></li>
+<li><a href="#org5d7b05c">5.6. <span class="todo TODO">TODO</span> Definire statistihe da calcolare per studente</a></li>
 </ul>
 </li>
-<li><a href="#org5610033">5. Front end</a></li>
-<li><a href="#org3a0aa56">6. Output finale richiesto</a></li>
-<li><a href="#org44fe26a">7. Extra</a></li>
+<li><a href="#org4e3bf8d">6. Front end</a></li>
+<li><a href="#orgfae3ab9">7. Output finale richiesto</a></li>
 </ul>
+</div>
+</div>
+<p>
+In questo file sono descritte le cose da fare relative al progetto di
+Natural Language Processing dell'anno 2019/2020. 
+</p>
+
+<div id="outline-container-org7194a52" class="outline-2">
+<h2 id="org7194a52"><span class="section-number-2">1</span> Risorse</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Account gmail
+</p>
+<pre class="example">
+email: torvergatanlp1920@gmail
+password: nlpisbad
+</pre>
 </div>
 </div>
 
-<div id="outline-container-org3a50448" class="outline-2">
-<h2 id="org3a50448"><span class="section-number-2">1</span> Annotazione automatica del dataset</h2>
-<div class="outline-text-2" id="text-1">
+<div id="outline-container-orgd68d2ea" class="outline-2">
+<h2 id="orgd68d2ea"><span class="section-number-2">2</span> Annotazione automatica del dataset</h2>
+<div class="outline-text-2" id="text-2">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-02 lun 17:22]</span></span>
 </p>
@@ -281,9 +299,9 @@ automaticamente il dataset.
 </p>
 </div>
 
-<div id="outline-container-org9d8e656" class="outline-3">
-<h3 id="org9d8e656"><span class="section-number-3">1.1</span> <span class="todo TODO">TODO</span> Spacy - Vedere script Luca</h3>
-<div class="outline-text-3" id="text-1-1">
+<div id="outline-container-org1bc583f" class="outline-3">
+<h3 id="org1bc583f"><span class="section-number-3">2.1</span> <span class="todo TODO">TODO</span> Spacy - Vedere script Luca</h3>
+<div class="outline-text-3" id="text-2-1">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-02 lun 17:22]</span></span>
 </p>
@@ -295,9 +313,9 @@ sensato.
 </div>
 </div>
 
-<div id="outline-container-org7388e4f" class="outline-3">
-<h3 id="org7388e4f"><span class="section-number-3">1.2</span> <span class="todo TODO">TODO</span> Repustate - Analisi e implementazione</h3>
-<div class="outline-text-3" id="text-1-2">
+<div id="outline-container-org039a99c" class="outline-3">
+<h3 id="org039a99c"><span class="section-number-3">2.2</span> <span class="todo TODO">TODO</span> Repustate - Analisi e implementazione</h3>
+<div class="outline-text-3" id="text-2-2">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-02 lun 17:23]</span></span>
 </p>
@@ -310,17 +328,17 @@ delle frasi.
 </div>
 </div>
 
-<div id="outline-container-org33083fa" class="outline-2">
-<h2 id="org33083fa"><span class="section-number-2">2</span> Clustering</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-org3abe4ce" class="outline-2">
+<h2 id="org3abe4ce"><span class="section-number-2">3</span> Clustering</h2>
+<div class="outline-text-2" id="text-3">
 <p>
 Il calcolo del clustering deve essere fatto per lezione.
 </p>
 </div>
 
-<div id="outline-container-org940b8b6" class="outline-3">
-<h3 id="org940b8b6"><span class="section-number-3">2.1</span> <span class="todo TODO">TODO</span> Test del "Italian Word Embeddings"</h3>
-<div class="outline-text-3" id="text-2-1">
+<div id="outline-container-orgeaf45aa" class="outline-3">
+<h3 id="orgeaf45aa"><span class="section-number-3">3.1</span> <span class="todo TODO">TODO</span> Test del "Italian Word Embeddings"</h3>
+<div class="outline-text-3" id="text-3-1">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-02 lun 17:23]</span></span>
 </p>
@@ -333,9 +351,9 @@ dei punti di uno spazio vettoriale.
 </div>
 </div>
 
-<div id="outline-container-orgf8db4e4" class="outline-3">
-<h3 id="orgf8db4e4"><span class="section-number-3">2.2</span> <span class="todo TODO">TODO</span> Applicazione algoritmo di clustering</h3>
-<div class="outline-text-3" id="text-2-2">
+<div id="outline-container-orge7b26d4" class="outline-3">
+<h3 id="orge7b26d4"><span class="section-number-3">3.2</span> <span class="todo TODO">TODO</span> Applicazione algoritmo di clustering</h3>
+<div class="outline-text-3" id="text-3-2">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-02 lun 17:23]</span></span>
 </p>
@@ -352,9 +370,9 @@ cluster.
 </div>
 </div>
 
-<div id="outline-container-org9826a20" class="outline-2">
-<h2 id="org9826a20"><span class="section-number-2">3</span> Testing del clustering</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-orgbd08c1a" class="outline-2">
+<h2 id="orgbd08c1a"><span class="section-number-2">4</span> Testing del clustering</h2>
+<div class="outline-text-2" id="text-4">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-02 lun 18:00]</span></span>
 </p>
@@ -366,9 +384,9 @@ vengono messe nello stesso cluster.
 </div>
 </div>
 
-<div id="outline-container-org0041d62" class="outline-2">
-<h2 id="org0041d62"><span class="section-number-2">4</span> Back end</h2>
-<div class="outline-text-2" id="text-4">
+<div id="outline-container-org601bb14" class="outline-2">
+<h2 id="org601bb14"><span class="section-number-2">5</span> Back end</h2>
+<div class="outline-text-2" id="text-5">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-02 lun 17:53]</span></span>
 </p>
@@ -440,9 +458,9 @@ seguenti cose:
 </ul>
 </div>
 
-<div id="outline-container-org49cad43" class="outline-3">
-<h3 id="org49cad43"><span class="section-number-3">4.1</span> <span class="todo TODO">TODO</span> Accesso drive e gestione file excel</h3>
-<div class="outline-text-3" id="text-4-1">
+<div id="outline-container-org8797aed" class="outline-3">
+<h3 id="org8797aed"><span class="section-number-3">5.1</span> <span class="todo TODO">TODO</span> Accesso drive e gestione file excel</h3>
+<div class="outline-text-3" id="text-5-1">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-08 dom 14:21]</span></span>
 </p>
@@ -452,12 +470,27 @@ Ottenere l'accesso al drive e capire il formato dei file excel in
 cui sono riportate le risposte degli studenti alle tre domande
 per ogni lezione.
 </p>
+
+<hr />
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2020-03-08 dom 14:25]</span></span>
+</p>
+
+<p>
+Al fine di accere al drive è stato creato un account gmail comune i
+cui dati per adesso sono 
+</p>
+
+<p>
+e-mail: torvergatanlp1920@gmail.com
+password: nlpisbad
+</p>
 </div>
 </div>
 
-<div id="outline-container-org62f3f03" class="outline-3">
-<h3 id="org62f3f03"><span class="section-number-3">4.2</span> <span class="todo TODO">TODO</span> Finalizzare chain di pre-processing</h3>
-<div class="outline-text-3" id="text-4-2">
+<div id="outline-container-org8fca6c0" class="outline-3">
+<h3 id="org8fca6c0"><span class="section-number-3">5.2</span> <span class="todo TODO">TODO</span> Finalizzare chain di pre-processing</h3>
+<div class="outline-text-3" id="text-5-2">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-08 dom 14:21]</span></span>
 </p>
@@ -470,9 +503,9 @@ le funzioni da eseguire e quali sono le tecnologie da utilizzare
 </div>
 </div>
 
-<div id="outline-container-org9589e1f" class="outline-3">
-<h3 id="org9589e1f"><span class="section-number-3">4.3</span> <span class="todo TODO">TODO</span> Definire formato json per clusters</h3>
-<div class="outline-text-3" id="text-4-3">
+<div id="outline-container-orgcdaa771" class="outline-3">
+<h3 id="orgcdaa771"><span class="section-number-3">5.3</span> <span class="todo TODO">TODO</span> Definire formato json per clusters</h3>
+<div class="outline-text-3" id="text-5-3">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-08 dom 14:21]</span></span>
 </p>
@@ -484,9 +517,9 @@ tre cluster per ogni lezione.
 </div>
 </div>
 
-<div id="outline-container-org5231ef4" class="outline-3">
-<h3 id="org5231ef4"><span class="section-number-3">4.4</span> <span class="todo TODO">TODO</span> Finalizzare chain di processing</h3>
-<div class="outline-text-3" id="text-4-4">
+<div id="outline-container-org2aee53a" class="outline-3">
+<h3 id="org2aee53a"><span class="section-number-3">5.4</span> <span class="todo TODO">TODO</span> Finalizzare chain di processing</h3>
+<div class="outline-text-3" id="text-5-4">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-08 dom 14:22]</span></span>
 </p>
@@ -498,9 +531,9 @@ i clusters.
 </div>
 </div>
 
-<div id="outline-container-orge25cab0" class="outline-3">
-<h3 id="orge25cab0"><span class="section-number-3">4.5</span> <span class="todo TODO">TODO</span> Definire schema memorizzazione clusters</h3>
-<div class="outline-text-3" id="text-4-5">
+<div id="outline-container-orga94c75c" class="outline-3">
+<h3 id="orga94c75c"><span class="section-number-3">5.5</span> <span class="todo TODO">TODO</span> Definire schema memorizzazione clusters</h3>
+<div class="outline-text-3" id="text-5-5">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-08 dom 14:22] </span></span> 
 </p>
@@ -516,9 +549,9 @@ Una possibile idea è quella di utilizzare mongoDB come database.
 </div>
 </div>
 
-<div id="outline-container-org3c37618" class="outline-3">
-<h3 id="org3c37618"><span class="section-number-3">4.6</span> <span class="todo TODO">TODO</span> Definire statistihe da calcolare per studente</h3>
-<div class="outline-text-3" id="text-4-6">
+<div id="outline-container-org5d7b05c" class="outline-3">
+<h3 id="org5d7b05c"><span class="section-number-3">5.6</span> <span class="todo TODO">TODO</span> Definire statistihe da calcolare per studente</h3>
+<div class="outline-text-3" id="text-5-6">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-08 dom 14:22]</span></span>
 </p>
@@ -531,9 +564,9 @@ studente al fine di rispondere alla seconda tipologia di query.
 </div>
 </div>
 
-<div id="outline-container-org5610033" class="outline-2">
-<h2 id="org5610033"><span class="section-number-2">5</span> Front end</h2>
-<div class="outline-text-2" id="text-5">
+<div id="outline-container-org4e3bf8d" class="outline-2">
+<h2 id="org4e3bf8d"><span class="section-number-2">6</span> Front end</h2>
+<div class="outline-text-2" id="text-6">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-02 lun 17:59]</span></span>
 </p>
@@ -548,9 +581,9 @@ Da vedere successivamente per specifiche sul front end.
 </div>
 </div>
 
-<div id="outline-container-org3a0aa56" class="outline-2">
-<h2 id="org3a0aa56"><span class="section-number-2">6</span> Output finale richiesto</h2>
-<div class="outline-text-2" id="text-6">
+<div id="outline-container-orgfae3ab9" class="outline-2">
+<h2 id="orgfae3ab9"><span class="section-number-2">7</span> Output finale richiesto</h2>
+<div class="outline-text-2" id="text-7">
 <p>
 <span class="timestamp-wrapper"><span class="timestamp">[2020-03-02 lun 17:28]</span></span>
 </p>
@@ -584,17 +617,9 @@ cluster più grandi per quanto riguarda i tre clustering.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org44fe26a" class="outline-2">
-<h2 id="org44fe26a"><span class="section-number-2">7</span> Extra</h2>
-<div class="outline-text-2" id="text-7">
-<p>
-<span class="timestamp-wrapper"><span class="timestamp">[2020-03-02 lun 17:53]</span></span>
-</p>
-</div>
-</div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2020-03-08 dom 14:23</p>
+<p class="date">Created: 2020-03-08 dom 14:28</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
