@@ -4,11 +4,8 @@ import numpy
 import progressbar
 from gensim.models import Word2Vec
 from pre_processing import speel_checker
-from sklearn.datasets.samples_generator import make_blobs
 from sklearn.cluster import KMeans
-from copy import deepcopy
 import numpy as np
-import pandas as pd
 from matplotlib import pyplot as plt
 
 model = Word2Vec.load('./wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m')
@@ -98,40 +95,40 @@ def load_phrases(path):
        results.close()
 
 
-NUMBER_OF_CLUSTERS = 3
-load_phrases("./dataset.json")
-X = []
-for el in multi_dim:
-       X.append(np.resize(el,2))
-X=np.array(X)
-print(X[:,0])
-plt.scatter(X[:, 0],X[:, 1], label='True Position')
-plt.show()
-k_means = KMeans(n_clusters=NUMBER_OF_CLUSTERS ,init='random',
-    n_init=10, max_iter=300,
-    tol=1e-04, random_state=0).fit(X)
-plt.scatter(X[:,0], X[:,1], c=k_means.labels_, cmap='rainbow')
-plt.show()
+def make_clusters(K):
+       load_phrases("./dataset.json")
+       X = []
+       for el in multi_dim:
+              X.append(np.resize(el,2))
+       X=np.array(X)
+       print(X[:,0])
+       plt.scatter(X[:, 0],X[:, 1], label='True Position')
+       plt.show()
+       k_means = KMeans(n_clusters=K ,init='random',
+           n_init=10, max_iter=300,
+           tol=1e-04, random_state=0).fit(X)
+       plt.scatter(X[:,0], X[:,1], c=k_means.labels_, cmap='rainbow')
+       plt.show()
 
-plt.scatter(X[:,0], X[:,1], c=k_means.labels_, cmap='rainbow')
-plt.scatter(k_means.cluster_centers_[:,0] ,k_means.cluster_centers_[:,1], s=250, marker='*',
-    c='red', edgecolor='black',
-    label='centroids')
-plt.show()
+       plt.scatter(X[:,0], X[:,1], c=k_means.labels_, cmap='rainbow')
+       plt.scatter(k_means.cluster_centers_[:,0] ,k_means.cluster_centers_[:,1], s=250, marker='*',
+           c='red', edgecolor='black',
+           label='centroids')
+       plt.show()
 
-results = []
-global phrases
-k = 0
-for i in k_means.labels_:
-       results.append([i, phrases[k]])
-       k+=1
+       results = []
+       global phrases
+       k = 0
+       for i in k_means.labels_:
+              results.append([i, phrases[k]])
+              k+=1
 
-file = open("./clusters_results.txt","w+")
-file.write(str(results))
-print(results)
+       file = open("./clusters_results.txt","w+")
+       file.write(str(results))
+       print(results)
 
 
-
+make_clusters(3)
 
 
 
