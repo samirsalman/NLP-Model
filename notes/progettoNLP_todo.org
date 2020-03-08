@@ -1,0 +1,149 @@
+ #+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+
+* Annotazione automatica del dataset
+  [2020-03-02 lun 17:22]
+  
+  Utilizzo di tool automatici come Spacy e Repustate per annotazione
+  automaticamente il dataset.
+
+** TODO Spacy - Vedere script Luca
+   [2020-03-02 lun 17:22]
+
+   Vedere come funziona spacy e vedere se lo script scritto da luca è
+   sensato.
+
+** TODO Repustate - Analisi e implementazione 
+   [2020-03-02 lun 17:23]
+
+   Vedere se ha senso utilizzare repustate per analizzare il sentiment
+   delle frasi.
+  
+* Clustering
+  Il calcolo del clustering deve essere fatto per lezione.
+
+** TODO Test del "Italian Word Embeddings"
+   [2020-03-02 lun 17:23]
+
+   Provare la risorsa trovata in
+   http://hlt.isti.cnr.it/wordembeddings/ per passare dalle frasi a
+   dei punti di uno spazio vettoriale.
+
+** TODO Applicazione algoritmo di clustering
+   [2020-03-02 lun 17:23]
+
+   Applicazione dell'algoritmo di clustering k-means per trovare
+   cluster.
+
+   https://mubaris.com/posts/kmeans-clustering/
+   
+* Testing del clustering
+  [2020-03-02 lun 18:00]
+  
+  Utilizzare annotazione semantica svolta per capire se frasi simili
+  vengono messe nello stesso cluster.
+  
+* Back end
+  [2020-03-02 lun 17:53]
+
+  Utilizzare nodejs per fornire seguenti API:
+
+  Parte di processing:
+  
+  - Prende un file contenente corpus della giornata tramite file
+    excel, elabora i dati, eventualmente PULENDOLI, e li memorizza
+    internamente in un oracolo interno che contiene, per ogni lezione,
+    i relativi cluster.
+
+    In formato grafico 
+    
+    [[./images/processing_work.png]]
+
+  Parte di querying:
+  
+  - Ritorna json con cluster di frasi per ogni "colonna" (meno chiaro,
+    interessante, msg docente) data una lezione. Opzionale di
+    specificare la colonna da ritornare, di default torna tutte e tre
+    le colonne.
+    
+    In formato grafico
+    
+    [[./images/querying_work_1.png]]
+    
+  - Ritorna json con statistiche "interessanti" dato l'id dello
+    studente rispetto all'intero corso.
+    
+    [[./images/querying_work_2.png]]
+
+    Al fine di implementare la parte di back-end dobbiamo fare le
+    seguenti cose:
+
+** TODO Accesso drive e gestione file excel
+   [2020-03-08 dom 14:21]
+
+   Ottenere l'accesso al drive e capire il formato dei file excel in
+   cui sono riportate le risposte degli studenti alle tre domande
+   per ogni lezione.
+
+** TODO Finalizzare chain di pre-processing
+   [2020-03-08 dom 14:21]
+
+   Finalizzare la chain di pre-processing, ovvero capire quali sono
+   le funzioni da eseguire e quali sono le tecnologie da utilizzare
+   (es: python, java, etc.)
+
+** TODO Definire formato json per clusters
+   [2020-03-08 dom 14:21]
+
+   Definire il formato del file json nel quale andremo a memorizzare i
+   tre cluster per ogni lezione.
+
+** TODO Finalizzare chain di processing     
+   [2020-03-08 dom 14:22]
+
+   Finalizzare la chain di processing necessaria al fine di ottenere
+   i clusters.
+     
+** TODO Definire schema memorizzazione clusters
+   [2020-03-08 dom 14:22] 
+
+   Definire come memorizzare i cluster ottenuti (scritti nel file
+   json), all'interno del DB per poterli ottenere successivamente.
+   
+   Una possibile idea è quella di utilizzare mongoDB come database.
+
+** TODO Definire statistihe da calcolare per studente      
+   [2020-03-08 dom 14:22]
+
+   Definire le statitiche che bisogna calcolare per ogni singolo
+   studente al fine di rispondere alla seconda tipologia di query.
+
+* Front end
+  [2020-03-02 lun 17:59]
+  
+  Sviluppare in react una dashboard semplice.
+  
+  Da vedere successivamente per specifiche sul front end.
+  
+* Output finale richiesto
+  [2020-03-02 lun 17:28]
+  
+  Aggregati per stessa lezione:
+  
+  - Argomento meno chiaro.
+
+  - Argomento più interessante.
+
+  - Quanti hanno capito il messaggio del docente. 
+    
+    Per fare quest'ultimo punto dobbiamo generare il messaggio del
+    docente da quelli più comuni.
+
+  Aggregato per persona:
+  
+  - Calcolare il numero di volte in cui la persona è finita tra i
+    cluster più grandi per quanto riguarda i tre clustering.  
+* Extra
+  [2020-03-02 lun 17:53]
+
+  
+  
