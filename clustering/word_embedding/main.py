@@ -70,7 +70,7 @@ def load_phrases(path):
 
        with open(path, 'r') as dataset:
               corpusJSON = json.load(dataset)
-              for el in range(140):
+              for el in range(len(corpusJSON)):
                      if(el==0):
                             first = corpusJSON[el]["data"]
                      if(el!=0):
@@ -79,6 +79,7 @@ def load_phrases(path):
                      if el/len(corpusJSON)%8 == 0:
                             bar.update(i + 1)
                      try:
+                            print(first)
                             f1 = clean_phrases(corpusJSON[el]["messaggio"])
                             f2 = clean_phrases(corpusJSON[el+1]["messaggio"])
                             v1 = phrase2vec(f1)
@@ -95,14 +96,6 @@ def load_phrases(path):
        bar.finish()
        dataset.close()
        results.close()
-
-
-#calculate 2d indicators
-def indic(data):
-    #alternatively you can calulate any other indicators
-    max = np.max(data, axis=1)
-    min = np.min(data, axis=1)
-    return max, min
 
 
 NUMBER_OF_CLUSTERS = 3
