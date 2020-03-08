@@ -112,7 +112,7 @@ def write_json(k_means, centroids):
               results["cendroids"].append({"cluster": i, "phrase": str(phrases[centroids[i]])})
 
        for i in range(len(k_means.labels_)):
-              results["elements"].append({"phrase": phrases[i], "cluster": k_means.labels_[i]})
+              results["elements"].append({"phrase": phrases[i], "cluster": int(k_means.labels_[i])})
 
        file = open("./clusters_results.json", "w+")
        to_json = json.dumps(results)
