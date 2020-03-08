@@ -5,7 +5,6 @@ def speel_checker(word):
 
     if(len(request['matches']) > 0):                                        #è stato trovato un errore grammaticale
         list_of_new_values = request['matches'][0]['replacements']
-
         return list_of_new_values[0]['value']
     else:
         return 0
@@ -20,5 +19,5 @@ def check_into_string(sentence):
 
     
     return sentence.lower()
-        
-        
+
+
