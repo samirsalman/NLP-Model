@@ -14,6 +14,7 @@ model = Word2Vec.load('./wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-s
 global multi_dim  # global variable that represents list of phrases vector
 global phrases  # global variable that represents list of phrases
 global jsonResponse  # global variable that represents jsonBuilder
+global persons  # global variable that represents jsonBuilder
 jsonResponse = []
 
 
@@ -99,8 +100,8 @@ cols = ["messaggio", "argomento", "chiarimenti"]
 # load all phrases from dataset, passing date and column
 def load_phrases(path, date_value, col):
     i = 0
-    global multi_dim, phrases
-    multi_dim, phrases = [], []
+    global multi_dim, phrases,persons
+    multi_dim, phrases,persons = [], [], []
     results = open("./results.csv", "w+", encoding='utf-8')
     results.write("f1,f2,v1,v2,sim\n")
     dataset_output = open("./data.csv", "w+", encoding='utf-8')
@@ -118,6 +119,7 @@ def load_phrases(path, date_value, col):
                     v2 = phrase2vec(f2)
                     multi_dim.append(v1)
                     phrases.append(f1)
+                    persons.append(corpusJSON[el]["codice"])
                     sim = vectors_similarity(v1, v2)
                     results.write(str(f1) + "," + str(f2) + "," + str(v1) + "," + str(v2) + "," + str(sim) + "\n")
                     dataset_output.write(str(f1) + "," + str(v1).rstrip() + "\n")
@@ -134,18 +136,19 @@ def load_phrases(path, date_value, col):
 # create the json structure of response
 def write_json(k_means, centroids, date_value, col):
     results = {}
-    global phrases
-    results["id"] = date_value
+    global phrases,persons
+    results["id"] = date_value +"-" + str(col)
     results["col"] = col
+    results["date"] = date_value
     results["cendroids"] = []
     results["elements"] = []
 
     for i in range(len(k_means.cluster_centers_)):
         print(i)
-        results["cendroids"].append({"cluster": i, "phrase": str(phrases[centroids[i]])})
+        results["cendroids"].append({"cluster": i, "phrase": str(phrases[centroids[i]]), "person_id" : str(persons[centroids[i]])})
 
     for i in range(len(k_means.labels_)):
-        results["elements"].append({"phrase": phrases[i], "cluster": int(k_means.labels_[i])})
+        results["elements"].append({"phrase": phrases[i], "cluster": int(k_means.labels_[i]),"person_id":persons[i]})
 
     global jsonResponse
     jsonResponse.append(results)
@@ -195,17 +198,17 @@ def make_clusters(K, date_value, col):
 
 all_dates = []
 getDates("./dataset.json")
-all_dates.append(list(getDates("./dates.json").keys()))
-print(all_dates[0])
-# make_clusters(3, "3/5/2019", 0)
+all_dates.append(getDates("./dates.json").keys())
+print(all_dates)
+make_clusters(3, "3/5/2019", 0)
 # make_clusters(3, "3/5/2019", 1)
 # make_clusters(3, "3/5/2019", 2)
 # create_json()
 # writeAllDates("./dataset.json")
-# for date in all_dates[0]:
+# for date in all_dates:
+#     for col_index in range(2):
+#         make_clusters(3, date, col_index)
 
-for col_index in range(2):
-    make_clusters(3, all_dates[0][0], col_index)
 create_json()
 
 
