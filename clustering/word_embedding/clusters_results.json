@@ -1,1 +1,776 @@
-{"id": "3/4/2019", "cendroids": [{"cluster": 0, "phrase": "bella"}, {"cluster": 1, "phrase": "interessare"}, {"cluster": 2, "phrase": "approccio positivo all informatica"}], "elements": [{"phrase": "approccio positivo all informatica", "cluster": 2}, {"phrase": "interessare", "cluster": 1}, {"phrase": "approccio positivo all informatica", "cluster": 2}, {"phrase": "grazie", "cluster": 2}, {"phrase": "conoscenza", "cluster": 1}, {"phrase": "bella", "cluster": 0}, {"phrase": "motivazione", "cluster": 2}, {"phrase": "la programmazione essere fondamentale per il nostro futuro", "cluster": 2}, {"phrase": "motivazionale", "cluster": 2}, {"phrase": "interessante", "cluster": 0}, {"phrase": "capire il livello al quale sono di informatica", "cluster": 2}, {"phrase": "presentazione del corso", "cluster": 2}, {"phrase": "introduzione", "cluster": 2}, {"phrase": "motivazione", "cluster": 2}, {"phrase": "motivazione", "cluster": 2}, {"phrase": "imparare a programmare per conoscere la tecnologia", "cluster": 1}, {"phrase": "conoscenza generale", "cluster": 1}, {"phrase": "descrizione programma ecc", "cluster": 2}, {"phrase": "presentazione del corso", "cluster": 2}, {"phrase": "lezione motivazionale", "cluster": 1}, {"phrase": "interessante", "cluster": 0}, {"phrase": "conoscenza", "cluster": 1}, {"phrase": "motivazionale", "cluster": 2}, {"phrase": "conoscenza basilare del corso e motivazione", "cluster": 2}, {"phrase": "lezione coinvolgente", "cluster": 1}, {"phrase": "introduzione al corso", "cluster": 2}, {"phrase": "bisogna studiare", "cluster": 1}, {"phrase": "conoscersi", "cluster": 2}, {"phrase": "introduzione e stimolo allo studio", "cluster": 2}, {"phrase": "presentazione", "cluster": 2}, {"phrase": "incitamento allo studio dell informatica", "cluster": 2}, {"phrase": "informativo e motivazionale", "cluster": 2}, {"phrase": "scopi e argomenti del corso", "cluster": 2}, {"phrase": "presentazione del corso", "cluster": 2}, {"phrase": "conoscenza", "cluster": 1}]}
+[
+  {
+    "id": "3/5/2019",
+    "col": 0,
+    "cendroids": [
+      {
+        "cluster": 0,
+        "phrase": "la variabile matematica essere diversa da quella informatica  gli algoritmi sono sequenze di operazioni per risolvere un problema o ottenere un risultato e li usiamo spesso nella vita quotidiana senza saperlo"
+      },
+      { "cluster": 1, "phrase": "variabile" },
+      { "cluster": 2, "phrase": "variabili e algoritmi" }
+    ],
+    "elements": [
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      {
+        "phrase": "la variabile matematica essere diversa da quella informatica  gli algoritmi sono sequenze di operazioni per risolvere un problema o ottenere un risultato e li usiamo spesso nella vita quotidiana senza saperlo",
+        "cluster": 0
+      },
+      {
+        "phrase": "cos essere un algoritmo  cos essere una variabile",
+        "cluster": 0
+      },
+      {
+        "phrase": "cosa si intende per  variabile informatica  e per  algoritmo",
+        "cluster": 0
+      },
+      { "phrase": "introduzione a variabili ed algoritmi", "cluster": 0 },
+      { "phrase": "concetto di variabile e algoritmo", "cluster": 2 },
+      { "phrase": "variabile", "cluster": 1 },
+      {
+        "phrase": "definizioni di algoritmo e variabile in informatica procedurale",
+        "cluster": 2
+      },
+      {
+        "phrase": "definizione di variabile informatica e algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "variabili e algoritmo", "cluster": 2 },
+      {
+        "phrase": "descrizione di variabile informatica e del concetto di algoritmo",
+        "cluster": 0
+      },
+      {
+        "phrase": "spiegazione variabile e definizione di algoritmo",
+        "cluster": 0
+      },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      {
+        "phrase": "spiegazione di concetto di variabile informatica e di algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "variabile e algoritmo", "cluster": 1 },
+      { "phrase": "algoritmo e variabile informatica", "cluster": 1 },
+      { "phrase": "algoritmi e variabili", "cluster": 2 },
+      {
+        "phrase": "concetto di variabile informatica e di algoritmo",
+        "cluster": 2
+      },
+      {
+        "phrase": "algoritmo e variabili differenti da matematica",
+        "cluster": 2
+      },
+      {
+        "phrase": "concetto di variabile informatica e algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      { "phrase": "algoritmo  variabili", "cluster": 2 },
+      { "phrase": "algoritmi e significato di x", "cluster": 0 },
+      { "phrase": "che cos essere un algoritmo", "cluster": 0 },
+      { "phrase": "algoritmo", "cluster": 1 },
+      { "phrase": "spiegazione algoritmo", "cluster": 0 },
+      { "phrase": "variabile e algoritmo", "cluster": 1 },
+      { "phrase": "basi di informatica  variabili e algoritmi", "cluster": 2 },
+      { "phrase": "algoritmi e argomenti introduttivi", "cluster": 2 },
+      {
+        "phrase": "spiegazione del significato di variabile in informatica e di algoritmo",
+        "cluster": 0
+      },
+      { "phrase": "variabili  algoritmi", "cluster": 2 },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      { "phrase": "algoritmi e variabili", "cluster": 2 },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      {
+        "phrase": "variabile matematica e informatica e algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      { "phrase": "base della programmazione", "cluster": 2 },
+      { "phrase": "concetto di variabile e algoritmo", "cluster": 2 },
+      {
+        "phrase": "cosa si intende per variabile informatica e algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "algoritmo", "cluster": 1 },
+      { "phrase": "la definizione di variabile e algoritmo", "cluster": 2 },
+      {
+        "phrase": "spiegazione della variabile informatica e algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "diretta", "cluster": 2 },
+      { "phrase": "definizione di variabile e algoritmo", "cluster": 2 },
+      {
+        "phrase": "apprendere u concetti principali dell informatica",
+        "cluster": 2
+      },
+      {
+        "phrase": "concetto di variabile informatica e differenze da quella matematica   concetto di algoritmo ed esempi",
+        "cluster": 0
+      },
+      { "phrase": "algoritmo e variabili", "cluster": 2 },
+      {
+        "phrase": "concetto di algoritmo e variabile informatica",
+        "cluster": 2
+      },
+      {
+        "phrase": "variabile e algoritmo in programmazione procedurale",
+        "cluster": 1
+      },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      {
+        "phrase": "definizione di variabile in informatica procedurale  algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "elementi informatici", "cluster": 2 },
+      { "phrase": "variabile e algoritmo", "cluster": 1 },
+      {
+        "phrase": "definizioni di variabile informatica e algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "gli algoritmi sono dappertutto", "cluster": 0 },
+      {
+        "phrase": "definizioni di variabile informatica e algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "prime nozioni di informatica", "cluster": 0 },
+      { "phrase": "algoritmi ed i due tipi di variabili", "cluster": 2 },
+      { "phrase": "introduzione alle variabili e algoritmi", "cluster": 0 },
+      {
+        "phrase": "comprendere cosa essere una variabile informatica",
+        "cluster": 2
+      },
+      {
+        "phrase": "concetto di variabile informata e di algoritmo",
+        "cluster": 2
+      },
+      {
+        "phrase": "imparare termini quali variabile e algoritmo in informatica",
+        "cluster": 2
+      },
+      { "phrase": "definizione", "cluster": 0 },
+      { "phrase": "variabile e algoritmo", "cluster": 1 },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      {
+        "phrase": "l algoritmo essere una sequenza ordintata di operazioni",
+        "cluster": 2
+      },
+      {
+        "phrase": "x in informatica non essere incognita  ma memoria",
+        "cluster": 0
+      },
+      { "phrase": "algoritmi e variabili", "cluster": 2 },
+      { "phrase": "introdurre concetti base dell informatica", "cluster": 2 },
+      { "phrase": "variabile e algoritmi", "cluster": 2 },
+      {
+        "phrase": "basi dell informatica  defininizioni di sequenza  variabili informatiche ed algoritmo",
+        "cluster": 0
+      },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "concetto di algoritmo", "cluster": 2 },
+      {
+        "phrase": "differenza tra variabile matematica e informatica  algoritmo",
+        "cluster": 2
+      },
+      {
+        "phrase": "il concetto di algoritmo e il concetto di variabile",
+        "cluster": 0
+      },
+      { "phrase": "concetto di variabile e algoritmo", "cluster": 2 },
+      { "phrase": "definizione di variabile e algoritmo", "cluster": 2 },
+      {
+        "phrase": "spiegare cosa vuol dire variabile informatica e introduzione agli algoritmi",
+        "cluster": 0
+      },
+      {
+        "phrase": "differenza tra variabile matematica e variabile informatica definizione del concetto di algoritmo",
+        "cluster": 2
+      },
+      {
+        "phrase": "definizione variabile informatica  e algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "definizione variabile e algoritmo", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 1 },
+      { "phrase": "interessante", "cluster": 2 },
+      { "phrase": "variabile algoritmo", "cluster": 1 },
+      { "phrase": "gli algoritmi e l esser procedurali", "cluster": 2 },
+      { "phrase": "algoritmi e variabili", "cluster": 2 },
+      { "phrase": "concetto di variabile e algoritmo", "cluster": 2 },
+      { "phrase": "variabile ed algoritmo", "cluster": 1 },
+      {
+        "phrase": "insegnare e apprendere le prime nozioni di informatica",
+        "cluster": 0
+      },
+      { "phrase": "come usare gli algoritmi", "cluster": 0 },
+      { "phrase": "introduzione argomenti di base", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "variabile", "cluster": 1 },
+      { "phrase": "variabili informatiche e algoritmi", "cluster": 2 },
+      { "phrase": "interessante", "cluster": 2 },
+      {
+        "phrase": "la variabile informatica procedurale essere una memoria con nome ed essere diversa dalla variabile matematica che essere un incognita   un algoritmo essere una sequenza di informazioni fornite per risolvere un problema",
+        "cluster": 0
+      },
+      { "phrase": "gli algoritmi sono presenti ovunque", "cluster": 0 },
+      { "phrase": "definizione di algoritmo e variabile", "cluster": 2 },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      {
+        "phrase": "definizione di incognita informatica e di algoritmo",
+        "cluster": 2
+      },
+      {
+        "phrase": "apprendere le nozioni basilari dell informatica",
+        "cluster": 0
+      },
+      {
+        "phrase": "valori che vengono assegnati ad una variabile  la quale variabile essere diversa da quella matematica rispetto che all informatica  definizione di algoritmo che consiste nel dare una sequenza di istruzioni per risolvere un problema dato  un algoritmo viene creato da un pensatore  ed eseguito da un esecutore cos\u00ec come una ricetta viene creata da un cuoco e eseguita da un altra persona",
+        "cluster": 0
+      },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      {
+        "phrase": "algoritmi  gi\u00e0 conosciuti e presenti nella vita senza sapere cosa fossero",
+        "cluster": 0
+      },
+      {
+        "phrase": "concetto di variabile in informatica procedurale e concetto di algoritmo",
+        "cluster": 2
+      },
+      {
+        "phrase": "significato e applicazione di variabile e algoritmo",
+        "cluster": 2
+      },
+      {
+        "phrase": "che cosa essere l algoritmo e come si calcola",
+        "cluster": 0
+      },
+      {
+        "phrase": "le varibili informatica procedurale sono diverse da quelle matematiche le quali sono uniche  mentre le prime sono degli spazi con nome  il logaritmo essere una sequenza di istruzioni dove troviamo l esecutore che prende input per restituire output attraverso  ricette  svolte da pensatori",
+        "cluster": 0
+      },
+      {
+        "phrase": "cosa sono una variabile informatica e un algoritmo",
+        "cluster": 2
+      },
+      {
+        "phrase": "differenza tra le variabili matematiche e informatiche",
+        "cluster": 0
+      },
+      { "phrase": "algoritmi e variabili", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 1 },
+      {
+        "phrase": "definizione variabile e algoritmo con esempi di algoritmi gi\u00e0 appresi",
+        "cluster": 0
+      },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      { "phrase": "algoritmi e variabili", "cluster": 2 },
+      { "phrase": "variabili", "cluster": 2 },
+      { "phrase": "concetto di variabile e algoritmo", "cluster": 2 },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      {
+        "phrase": "concetto di algoritmo e di variabile informatica  differenza tra variabile informatica e variabile matematica",
+        "cluster": 2
+      },
+      { "phrase": "variabili", "cluster": 2 },
+      {
+        "phrase": "conoscere il significato di variabile in ambito informatico e il significato di algoritmo",
+        "cluster": 0
+      },
+      { "phrase": "istruzioni", "cluster": 0 },
+      {
+        "phrase": "variabili matematica vs variabili informatiche  spazi di memoria  definizione di algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "capire i concetti base della programmazione", "cluster": 0 },
+      { "phrase": "concetto di incognita e algoritmo", "cluster": 2 },
+      { "phrase": "algoritmo e variabile", "cluster": 1 },
+      { "phrase": "variabile informatica e algoritmo", "cluster": 1 },
+      { "phrase": "algoritmo e variabile informatica", "cluster": 1 },
+      {
+        "phrase": "introduzione ai concetti base dell informatica",
+        "cluster": 2
+      },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      { "phrase": "variabili informatiche e algoritmi", "cluster": 2 },
+      {
+        "phrase": "variazione e spiegazione del linguaggio in informatica procedurale",
+        "cluster": 0
+      },
+      {
+        "phrase": "in questa lezione i messaggi principali sono stati 2   la spiegazione della sostanziale differenza tra variabile matematica e informatica e la definizione di algoritmo",
+        "cluster": 0
+      },
+      { "phrase": "nozioni di base", "cluster": 0 },
+      {
+        "phrase": "una variabile informatica essere diversa da una variabile matematica",
+        "cluster": 2
+      },
+      {
+        "phrase": "definizione di algoritmo  concetto di variabile informatica e memoria",
+        "cluster": 2
+      },
+      { "phrase": "definizione variabile e algoritmo", "cluster": 2 },
+      {
+        "phrase": "concetti base di informatica e di programmazione  variabile informatica e algoritmo",
+        "cluster": 2
+      },
+      {
+        "phrase": "il concetto di algoritmo e lo spazio di memoria",
+        "cluster": 0
+      },
+      {
+        "phrase": "spiegare come si giunge agli algoritmi partendo dalla variabile informatica",
+        "cluster": 2
+      },
+      {
+        "phrase": "cos essere una variabile e cos essere un algoritmo",
+        "cluster": 0
+      },
+      { "phrase": "cos essere un algoritmo", "cluster": 0 },
+      {
+        "phrase": "gli argomenti spiegati sono stati le variabili e gli algoritmi",
+        "cluster": 0
+      },
+      { "phrase": "programmazione procedurale e algoritmi", "cluster": 1 },
+      { "phrase": "interessante in parte", "cluster": 0 },
+      {
+        "phrase": "concetto di variabile informatica e algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "spiegazione di variabile e algoritmo", "cluster": 2 },
+      {
+        "phrase": "il concetto di variabile in informatica procedurale e il concetto di algoritmo",
+        "cluster": 2
+      }
+    ]
+  },
+  {
+    "id": "3/5/2019",
+    "col": 1,
+    "cendroids": [
+      { "cluster": 0, "phrase": "l algoritmo" },
+      { "cluster": 1, "phrase": "algoritmi" },
+      {
+        "cluster": 2,
+        "phrase": "il concetto di algoritmo e la sua utilit\u00e0"
+      }
+    ],
+    "elements": [
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "l algoritmo", "cluster": 0 },
+      {
+        "phrase": "il concetto di algoritmo e la sua utilit\u00e0",
+        "cluster": 2
+      },
+      {
+        "phrase": "esercizio pratico sullo svolgimento matematico dell algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "spiegazione algoritmo", "cluster": 2 },
+      { "phrase": "variabile", "cluster": 0 },
+      { "phrase": "variabile informatica", "cluster": 0 },
+      { "phrase": "variabile informatica", "cluster": 0 },
+      { "phrase": "variabili e algoritmi", "cluster": 2 },
+      { "phrase": "formulazione di algoritmi", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "procedimento di un algoritmo", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      {
+        "phrase": "gli algoritmi gi\u00e0 conosciuti nella vita quotidiana",
+        "cluster": 2
+      },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "varibili", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "gli algoritmi ed il loro funzionamento", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "la somma di numeri", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "funzionamento della calcolatrice", "cluster": 2 },
+      {
+        "phrase": "gli algoritmi che apprendiamo senza accorgercene",
+        "cluster": 2
+      },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmi  si", "cluster": 2 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "riempimento spazi e uso calcolatrice", "cluster": 2 },
+      { "phrase": "la definzione di algoritmo e variabile", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "variabile informatica", "cluster": 0 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "scrivere un algoritmo", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      {
+        "phrase": "le variabili informatiche e la loro differenza dalle variabili matematiche",
+        "cluster": 2
+      },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "variabili", "cluster": 2 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      {
+        "phrase": "il concetto di variabile informatica e la sua differenza da quella algebrica",
+        "cluster": 2
+      },
+      {
+        "phrase": "imprarare cose nuove scoprire cosa significa variabile in informatica",
+        "cluster": 2
+      },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "variabile e algoritmo", "cluster": 1 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "l algoritmo  come possiamo crearne uno", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "il concetto di variabile informatica", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "tutto", "cluster": 2 },
+      { "phrase": "algoritmi e variabili", "cluster": 2 },
+      { "phrase": "algoritmo della somma", "cluster": 2 },
+      {
+        "phrase": "differenza della variabile matematica e informatica",
+        "cluster": 2
+      },
+      {
+        "phrase": "l algoritmo come processo di trasformazione di input in output",
+        "cluster": 2
+      },
+      { "phrase": "algoritmo", "cluster": 0 },
+      {
+        "phrase": "l adozione degli algoritmi nella risoluzione di problemi",
+        "cluster": 2
+      },
+      { "phrase": "gli algptmi", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "entrambi", "cluster": 1 },
+      { "phrase": "l algotitmo", "cluster": 0 },
+      { "phrase": "variabili", "cluster": 2 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "linguaggio informatico", "cluster": 2 },
+      { "phrase": "definizione di algoritmo", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      {
+        "phrase": "altri algoritmi che gi\u00e0 conosciamo senza saperlo",
+        "cluster": 2
+      },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "la formulazione di algoritmi", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "l algoritmo", "cluster": 0 },
+      { "phrase": "erano cose che gi\u00e0 conoscevo", "cluster": 2 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "variabili", "cluster": 2 },
+      { "phrase": "variabili", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      {
+        "phrase": "la parte sugli algoritmi e la loro presenza nella vita di tutti i giorni",
+        "cluster": 2
+      },
+      { "phrase": "le applicazioni degli algoritmi", "cluster": 2 },
+      {
+        "phrase": "vorrei sapere di pi\u00f9 dove si trova l algoritmo nella vita e in noi",
+        "cluster": 2
+      },
+      { "phrase": "input e output", "cluster": 2 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmo della somma", "cluster": 2 },
+      {
+        "phrase": "scoprire esempi di algoritmi che avevo gi\u00e0 appreso senza sapere cosa che fossero tali",
+        "cluster": 2
+      },
+      { "phrase": "entrambi gli argomenti", "cluster": 1 },
+      { "phrase": "variabili", "cluster": 2 },
+      { "phrase": "\u00e8 stato tutto molto interessante", "cluster": 2 },
+      { "phrase": "variabili", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "\u00e8 stato tutto molto interessante", "cluster": 2 },
+      { "phrase": "tutti quelli trattati", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "imparare a scrivere gli algoritmi", "cluster": 2 },
+      { "phrase": "scoprire che cosa sono i logaritmi", "cluster": 2 },
+      {
+        "phrase": "concetto di incognita e differenze rispetto al suo equivalente matematico",
+        "cluster": 2
+      },
+      { "phrase": "variabile informatica", "cluster": 0 },
+      { "phrase": "variabile informatica", "cluster": 0 },
+      { "phrase": "variabile informatica", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      {
+        "phrase": "scrivere come successioni di operazioni calcoli all apparenza banali",
+        "cluster": 2
+      },
+      {
+        "phrase": "come si utilizza l algoritmo nella programmazione",
+        "cluster": 2
+      },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "i l concetto di algoritmo", "cluster": 2 },
+      { "phrase": "il concetto di algoritmo", "cluster": 2 },
+      { "phrase": "la variabile come spazio", "cluster": 2 },
+      { "phrase": "n d", "cluster": 1 },
+      { "phrase": "l algotitmo", "cluster": 0 },
+      { "phrase": "funzione e creazioni di algoritmi", "cluster": 2 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      {
+        "phrase": "risoluzione di algoritmi in termini informatici",
+        "cluster": 2
+      },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "argoritmo", "cluster": 0 },
+      { "phrase": "cos essere una variabile in informatica", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 0 },
+      { "phrase": "il concetto di algoritmo", "cluster": 2 }
+    ]
+  },
+  {
+    "id": "3/5/2019",
+    "col": 2,
+    "cendroids": [
+      { "cluster": 0, "phrase": "nessuna" },
+      { "cluster": 1, "phrase": "algoritmo" },
+      {
+        "cluster": 2,
+        "phrase": "la lezione essere leggera e scorrevole  a tratti ricreativa  ma si potrebbe essere pi\u00f9 concreti e trasmettere pi\u00f9 concetti mantenendo la sua bellissima metodologia  un esempio potrebbe essere una pi\u00f9 ampliata e specifica esposizione degli algoritmi  apprezzo tantissimo la possibilit\u00e0 di esprimere un parere in merito e lunge da me sapere come si svolge il suo lavoro"
+      }
+    ],
+    "elements": [
+      {
+        "phrase": "la lezione essere leggera e scorrevole  a tratti ricreativa  ma si potrebbe essere pi\u00f9 concreti e trasmettere pi\u00f9 concetti mantenendo la sua bellissima metodologia  un esempio potrebbe essere una pi\u00f9 ampliata e specifica esposizione degli algoritmi  apprezzo tantissimo la possibilit\u00e0 di esprimere un parere in merito e lunge da me sapere come si svolge il suo lavoro",
+        "cluster": 2
+      },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuno", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      {
+        "phrase": "la lezione essere molto piacevole  per\u00f2 io sono un perito informatico e alcune spiegazioni banali come la soluzione della  somma della calcolatrice  spiegate in modo misto sia con parole normali che termini informatici mi ha mandato in confusione  una nota negativa essere il modo di parlare un po  troppo lento a parere mio  capisco per\u00f2 che il tutto serve per far capire a tutti i nuovi argomenti  a parte ci\u00f2 mi piace il suo metodo di spiegazione e di approccio coinvolgente con gli studenti",
+        "cluster": 2
+      },
+      { "phrase": "nulla", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 1 },
+      { "phrase": "nessuna in particolare", "cluster": 2 },
+      { "phrase": "\u00e8 stato tutto chiaro", "cluster": 2 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "tutto abbastanza chiaro", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nulla", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "algoritmi", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "per ora nulla", "cluster": 2 },
+      {
+        "phrase": "perch\u00e9 una ricetta viene considerata un algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "nulla", "cluster": 2 },
+      { "phrase": "nulla", "cluster": 2 },
+      { "phrase": "impostare una sequenza", "cluster": 2 },
+      { "phrase": "", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "la parte finale sulla somma in colonna", "cluster": 0 },
+      { "phrase": "nulla", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "addizione degli algoritmi", "cluster": 2 },
+      { "phrase": "nulla", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "la consegna dell esercizio", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna in particolare", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "algoritmo", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "quella sopra indicata", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nulla tutto chiaro", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "variabili", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "tutto abbastanza chiaro", "cluster": 2 },
+      { "phrase": "gli spazi", "cluster": 2 },
+      { "phrase": "tutto chiaro", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "gli spazi di memoria", "cluster": 2 },
+      { "phrase": "nessuna in particolare", "cluster": 2 },
+      {
+        "phrase": "\u00e8 stato tutto piuttosto chiaro  ma si potrebbe procedere in maniera pi\u00f9 veloce e concreta",
+        "cluster": 2
+      },
+      {
+        "phrase": "il procedimento di calcolo dell algoritmo iniziale",
+        "cluster": 2
+      },
+      { "phrase": "gli algoritmi", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "la somma negli algoritmi", "cluster": 2 },
+      {
+        "phrase": "differenza tra variabili matematiche e informatiche",
+        "cluster": 2
+      },
+      { "phrase": "nessuna", "cluster": 0 },
+      {
+        "phrase": "la differenza tra spazio di visualizzazione e spazio di memoria",
+        "cluster": 2
+      },
+      { "phrase": "bho", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "niente", "cluster": 2 },
+      { "phrase": "la domanda a cui ha chiesto di riapondere", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "niente", "cluster": 2 },
+      { "phrase": "nessuno", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nulla", "cluster": 2 },
+      { "phrase": "spazio di memoria", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "le risposte del quesito", "cluster": 0 },
+      { "phrase": "la domanda a cui dovevamo rispondere", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "come impostare un algoritmo", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "bo", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "esempi sequenza", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "", "cluster": 2 },
+      { "phrase": "algoritmo", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "la parte sulle variabili", "cluster": 2 },
+      { "phrase": "definizione di variabile informatica", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "era molto chiara quindi nulla", "cluster": 2 },
+      {
+        "phrase": "in che modo dare la sequenza di istruzioni per l algoritmo",
+        "cluster": 2
+      },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "forse non c essere stata", "cluster": 2 },
+      { "phrase": "parte finale degli algoritmi", "cluster": 0 },
+      { "phrase": "uguale e uguale uguale", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "concetto di variabile", "cluster": 1 },
+      { "phrase": "nessuno per oggi", "cluster": 2 },
+      { "phrase": "nulla", "cluster": 2 },
+      {
+        "phrase": "l esecuzione pratica dell algoritmo della somma",
+        "cluster": 2
+      },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "", "cluster": 2 },
+      { "phrase": "nessuna in particolare", "cluster": 2 },
+      { "phrase": "nessun problema", "cluster": 0 },
+      {
+        "phrase": "tutto abbastanza chiaro in teoria ora bisogna vedere se in pratica diventa la stessa cosa",
+        "cluster": 2
+      },
+      { "phrase": "", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "", "cluster": 2 },
+      {
+        "phrase": "tutto abbastanza chiaro in teoria ora bisogna vedere se in pratica diventa la stessa cosa",
+        "cluster": 2
+      },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "non ce ne sono state", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "come sviluppare la somma", "cluster": 0 },
+      { "phrase": "l algoritmo", "cluster": 1 },
+      { "phrase": "algoritmo", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      {
+        "phrase": "come riscrivere l operazione di somma di pi\u00f9 numeri",
+        "cluster": 2
+      },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna  tutto fin troppo chiaro", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "la memoria della spazio", "cluster": 2 },
+      { "phrase": "n d", "cluster": 1 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna in particolare", "cluster": 2 },
+      { "phrase": "come si descrivono le sequenze", "cluster": 2 },
+      { "phrase": "nessuno", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "\u00e8 stato tutto chiaro", "cluster": 2 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      {
+        "phrase": "argoritmo  perch\u00e9 secondo me non essere stato spiegato chiaramente",
+        "cluster": 2
+      },
+      { "phrase": "nessuna  lezione chiara", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 },
+      { "phrase": "nessuna", "cluster": 0 }
+    ]
+  }
+]
