@@ -43,9 +43,8 @@ def getDates(dates_file):
     dates = {}
     file = open(dates_file, "r")
     json_data = json.load(file)
-    for el in json_data:
-        dates[el] = json_data[el]
-    return dates
+    i = 0
+    return json_data
 
 
 # from phrase to vector with word embedding
@@ -87,6 +86,7 @@ def clean_phrases(s):
     s = re.sub(r'[^\w]', ' ', s)
     s = s.replace("è", "essere")
     s = s.replace("sarà", "diventa")
+    s = s.replace("variabile ne", "variabile")
     s = s.replace("morivazione", "motivazione")
     s = s.strip()
     return s.lower()
@@ -193,16 +193,17 @@ def make_clusters(K, date_value, col):
 
 
 all_dates = []
+getDates("./dataset.json")
 all_dates.append(list(getDates("./dates.json").keys()))
-print(all_dates)
+print(all_dates[0])
 # make_clusters(3, "3/5/2019", 0)
 # make_clusters(3, "3/5/2019", 1)
 # make_clusters(3, "3/5/2019", 2)
 # create_json()
 # writeAllDates("./dataset.json")
-for date in all_dates:
+for date in all_dates[0]:
        for col_index in range(2):
-              make_clusters(3,date,col_index)
+              make_clusters(3, date, col_index)
 create_json()
 
 
