@@ -1,1 +1,516 @@
-[]
+[
+  {
+    "id": "3/4/2019",
+    "col": 0,
+    "cendroids": [
+      { "cluster": 0, "phrase": "grazie" },
+      { "cluster": 1, "phrase": "approccio positivo all informatica" },
+      { "cluster": 2, "phrase": "interessare" }
+    ],
+    "elements": [
+      { "phrase": "approccio positivo all informatica", "cluster": 1 },
+      { "phrase": "interessare", "cluster": 2 },
+      { "phrase": "approccio positivo all informatica", "cluster": 1 },
+      { "phrase": "grazie", "cluster": 0 },
+      { "phrase": "conoscenza", "cluster": 1 },
+      { "phrase": "bella", "cluster": 0 },
+      { "phrase": "motivazione", "cluster": 1 },
+      {
+        "phrase": "la programmazione essere fondamentale per il nostro futuro",
+        "cluster": 0
+      },
+      { "phrase": "motivazionale", "cluster": 0 },
+      { "phrase": "interessante", "cluster": 0 },
+      {
+        "phrase": "capire il livello al quale sono di informatica",
+        "cluster": 0
+      },
+      { "phrase": "presentazione del corso", "cluster": 0 },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "motivazione", "cluster": 1 },
+      { "phrase": "motivazione", "cluster": 1 },
+      {
+        "phrase": "imparare a programmare per conoscere la tecnologia",
+        "cluster": 2
+      },
+      { "phrase": "conoscenza generale", "cluster": 1 },
+      { "phrase": "descrizione programma ecc", "cluster": 0 },
+      { "phrase": "presentazione del corso", "cluster": 0 },
+      { "phrase": "lezione motivazionale", "cluster": 1 },
+      { "phrase": "interessante", "cluster": 0 },
+      { "phrase": "conoscenza", "cluster": 1 },
+      { "phrase": "motivazionale", "cluster": 0 },
+      { "phrase": "conoscenza basilare del corso e motivazione", "cluster": 1 },
+      { "phrase": "lezione coinvolgente", "cluster": 2 },
+      { "phrase": "introduzione al corso", "cluster": 0 },
+      { "phrase": "bisogna studiare", "cluster": 2 },
+      { "phrase": "conoscersi", "cluster": 1 },
+      { "phrase": "introduzione e stimolo allo studio", "cluster": 1 },
+      { "phrase": "presentazione", "cluster": 1 },
+      { "phrase": "incitamento allo studio dell informatica", "cluster": 0 },
+      { "phrase": "informativo e motivazionale", "cluster": 1 },
+      { "phrase": "scopi e argomenti del corso", "cluster": 0 },
+      { "phrase": "presentazione del corso", "cluster": 0 },
+      { "phrase": "conoscenza", "cluster": 1 },
+      { "phrase": "introduzione", "cluster": 1 },
+      {
+        "phrase": "conoscenza di preparazione all esame e questionario di conoscenza dello studente",
+        "cluster": 1
+      },
+      { "phrase": "studiare", "cluster": 2 },
+      { "phrase": "lezione motivazionale", "cluster": 1 },
+      { "phrase": "introduzione al mondo della programmazione", "cluster": 1 },
+      { "phrase": "motivazione", "cluster": 1 },
+      { "phrase": "lezione motivazionale e di introduzione", "cluster": 1 },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "l importanza dei dati", "cluster": 0 },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "coniscerci", "cluster": 2 },
+      { "phrase": "chi sa programmare", "cluster": 2 },
+      { "phrase": "abbiamo in mano il mondo  internet", "cluster": 2 },
+      { "phrase": "impostazione", "cluster": 0 },
+      { "phrase": "interessante", "cluster": 0 },
+      { "phrase": "la programmazione", "cluster": 0 },
+      { "phrase": "studiare", "cluster": 2 },
+      { "phrase": "conoscenza ed introduzione", "cluster": 1 },
+      { "phrase": "motivazione", "cluster": 1 },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "governi o vieni governato", "cluster": 0 },
+      {
+        "phrase": "metodi interessanti e alternativi  forse per un qualcuno che sta gi\u00e0 avanti con le conoscenze  vengo da un tecnico inf   pu\u00f2 risultare un po  basilare ma essere comprensibile  si presenta interessante",
+        "cluster": 2
+      },
+      { "phrase": "messaggio motivazionale", "cluster": 1 },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "approccio all informatica", "cluster": 1 },
+      { "phrase": "motivazionale", "cluster": 0 },
+      { "phrase": "lezione motivazionale", "cluster": 1 },
+      {
+        "phrase": "l obiettivo del corso essere quello di imparare un linguaggio per programmare e quindi controllare le macchine",
+        "cluster": 1
+      },
+      { "phrase": "imparare a ragionare", "cluster": 2 },
+      { "phrase": "introduzione", "cluster": 1 },
+      {
+        "phrase": "imparare a governare le macchine prima che governano noi",
+        "cluster": 2
+      },
+      { "phrase": "presentazione corso", "cluster": 0 },
+      {
+        "phrase": "perch\u00e9 essere utile l informatica e la programmazione",
+        "cluster": 0
+      },
+      { "phrase": "", "cluster": 2 },
+      { "phrase": "motivazioni iniziali", "cluster": 2 },
+      { "phrase": "motivazione", "cluster": 1 },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "l informatica come divertimento", "cluster": 0 },
+      {
+        "phrase": "dobbiamo imparare la programmazione per dare comandi alle macchine e farle lavorare per noi",
+        "cluster": 1
+      },
+      { "phrase": "presentazione del corso", "cluster": 0 },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "approccio divertente all informatica", "cluster": 0 },
+      { "phrase": "motivazione", "cluster": 1 },
+      { "phrase": "motivazionale", "cluster": 0 },
+      {
+        "phrase": "introduzione alla materia  con esempio di programmazione per un datore di lavoro",
+        "cluster": 0
+      },
+      { "phrase": "introduzione al corso", "cluster": 0 },
+      { "phrase": "inizio del programma", "cluster": 1 },
+      { "phrase": "conoscenza", "cluster": 1 },
+      { "phrase": "inizio", "cluster": 1 },
+      { "phrase": "presentazione del corso", "cluster": 0 },
+      {
+        "phrase": "essere necessario avere competenze informatica",
+        "cluster": 0
+      },
+      { "phrase": "motivante", "cluster": 1 },
+      { "phrase": "motivazione", "cluster": 1 },
+      { "phrase": "introduzione e spiegazione del corso", "cluster": 2 },
+      {
+        "phrase": "l importanza dell informatica nel mondo per la gestione dei dati",
+        "cluster": 0
+      },
+      { "phrase": "non l ho carpito", "cluster": 0 },
+      { "phrase": "motivazione", "cluster": 1 },
+      {
+        "phrase": "introduzione e dare un ottica positiva del corso",
+        "cluster": 2
+      },
+      { "phrase": "conoscenza e introduzione della materia", "cluster": 1 },
+      { "phrase": "conoscenza", "cluster": 1 },
+      { "phrase": "internet essere il mondo", "cluster": 2 },
+      { "phrase": "messaggio motivazionale", "cluster": 1 },
+      { "phrase": "conoscenza e motivazione", "cluster": 1 },
+      { "phrase": "conoscenza e motivazione", "cluster": 1 },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "studiare", "cluster": 2 },
+      {
+        "phrase": "spiegazione del corso  descrizione delle modalit\u00e0 di esame  esercizio di lavoro di gruppo",
+        "cluster": 1
+      },
+      { "phrase": "l informatica \u00e9 importante", "cluster": 0 },
+      {
+        "phrase": "presentare in modo semplice quello che andremo a studiare",
+        "cluster": 2
+      },
+      { "phrase": "messaggio motivante", "cluster": 1 },
+      {
+        "phrase": "capire il livello degli studenti riguardo l informatica",
+        "cluster": 0
+      },
+      { "phrase": "\u00e8 stata una lezione motivazionale", "cluster": 2 },
+      {
+        "phrase": "i telefonini pc  pur contenendo molte informazioni  non programmano da soli",
+        "cluster": 2
+      },
+      { "phrase": "lezione motivazionale", "cluster": 1 },
+      { "phrase": "internet mondo", "cluster": 2 },
+      { "phrase": "non so nulla di programmazione", "cluster": 0 },
+      {
+        "phrase": "l importanza delle capacit\u00e0 di base di programmazione",
+        "cluster": 0
+      },
+      {
+        "phrase": "motivazione per approcciare meglio all informatica",
+        "cluster": 1
+      },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "molto originale", "cluster": 2 },
+      { "phrase": "motivazionale", "cluster": 0 },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "motivazione nell apprendimento", "cluster": 1 },
+      { "phrase": "motivazione e introduzione", "cluster": 1 },
+      { "phrase": "a cosa serve saper programmare", "cluster": 2 },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "motivazionale", "cluster": 0 },
+      { "phrase": "conoscenza con il professore", "cluster": 1 },
+      { "phrase": "importanza dell informatica", "cluster": 0 },
+      { "phrase": "approccio al mondo dell informatica", "cluster": 1 },
+      { "phrase": "introduzione", "cluster": 1 },
+      {
+        "phrase": "non farsi gestire dalla tecnologia ma gestire quest u",
+        "cluster": 0
+      },
+      {
+        "phrase": "il computer essere una macchina stupida che funziona bene solo nelle mani di una persona intelligente",
+        "cluster": 2
+      },
+      { "phrase": "bisogna portare il computer a lezione", "cluster": 1 },
+      {
+        "phrase": "il computer essere una macchina stupida che funziona bene solo nelle mani di una persona intelligente",
+        "cluster": 2
+      },
+      {
+        "phrase": "introdurre l informatica attraverso una sua applicazione pratica nel mondo del lavoro",
+        "cluster": 0
+      },
+      { "phrase": "motivazionale", "cluster": 0 },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "presentazione del corso", "cluster": 0 },
+      {
+        "phrase": "presentazione e avvicinamento all informatica",
+        "cluster": 1
+      },
+      {
+        "phrase": "human s brain control who controls who  l importanza della conoscenza e dell apprendimento dell informatica",
+        "cluster": 0
+      },
+      { "phrase": "motivazione", "cluster": 1 },
+      {
+        "phrase": "imparare ad utilizzare gli strumenti informatici essere utile per un maggiore controllo dei dati",
+        "cluster": 0
+      },
+      { "phrase": "conoscenza e consapevolezza", "cluster": 2 },
+      { "phrase": "imparare", "cluster": 2 },
+      { "phrase": "abbiamo il mondo in mano", "cluster": 2 },
+      {
+        "phrase": "farci rendere conto che sappiamo poco della tecnologia che abbiamo a disposizione",
+        "cluster": 2
+      },
+      { "phrase": "motivazione   verifica conoscenze pregresse", "cluster": 1 },
+      { "phrase": "motivazionale", "cluster": 0 },
+      {
+        "phrase": "il mondo tecnologico informatico costituisce un mezzo tanto potente quanto inutile se non si hanno le capacit\u00e0 di manovrarlo",
+        "cluster": 2
+      },
+      { "phrase": "introduzione al corso", "cluster": 0 },
+      { "phrase": "introduzione del corso", "cluster": 0 },
+      { "phrase": "presentazione corso", "cluster": 0 },
+      {
+        "phrase": "non tutte la conoscenza si trova su internet",
+        "cluster": 2
+      },
+      {
+        "phrase": "imparare a gestire le macchine invece che farsi controllare da esse",
+        "cluster": 1
+      },
+      { "phrase": "introduzione", "cluster": 1 },
+      { "phrase": "informazioni sul corso di informatica", "cluster": 0 },
+      {
+        "phrase": "bisogna imparare ad utilizzare bene internet e i dispositivi tecnologici",
+        "cluster": 2
+      },
+      {
+        "phrase": "essere stata una lezione volta a stimolare la nostra curiosit\u00e0 verso la materia",
+        "cluster": 2
+      },
+      { "phrase": "introduzione all informatica", "cluster": 1 },
+      { "phrase": "motivazione del corso di studio", "cluster": 0 },
+      {
+        "phrase": "presentare il corso e valutare il livello generale di conoscenza relativo all informatica",
+        "cluster": 0
+      },
+      {
+        "phrase": "nonostante il mondo sia nelle mie mani  apprendo da qualcuno che mi ha insegnato",
+        "cluster": 2
+      },
+      {
+        "phrase": "occorre imparare a gestire ci\u00f2 che oramai gestisce il mondo",
+        "cluster": 1
+      },
+      { "phrase": "interessante", "cluster": 0 },
+      {
+        "phrase": "la lezione essere stata motivazionale e introduttiva e serviva al professore per capire le nostre conoscenze sulla programmazione",
+        "cluster": 1
+      },
+      { "phrase": "motivazione", "cluster": 1 },
+      { "phrase": "comunicare", "cluster": 2 },
+      { "phrase": "interessante", "cluster": 0 },
+      { "phrase": "incitamento allo studio dell informatica", "cluster": 0 },
+      { "phrase": "introduzione al corso", "cluster": 0 },
+      { "phrase": "\u00e8 importante studiare informatica", "cluster": 1 },
+      { "phrase": "motivazione", "cluster": 1 }
+    ]
+  },
+  {
+    "id": "3/4/2019",
+    "col": 1,
+    "cendroids": [
+      { "cluster": 0, "phrase": "python" },
+      { "cluster": 1, "phrase": "pat" },
+      { "cluster": 2, "phrase": "programmazione" }
+    ],
+    "elements": [
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "la programmazione", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "pat", "cluster": 1 },
+      { "phrase": "python", "cluster": 0 },
+      { "phrase": "tutto", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "", "cluster": 1 },
+      { "phrase": "pyton", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "", "cluster": 1 },
+      { "phrase": "la lezione essere stata interessante", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "come programmare", "cluster": 1 },
+      { "phrase": "esercizio proposto dal prof", "cluster": 1 },
+      { "phrase": "", "cluster": 1 },
+      { "phrase": "esercizio", "cluster": 2 },
+      { "phrase": "la programmazione", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "test", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "analisi dei dati di vendita", "cluster": 1 },
+      { "phrase": "introduzioni alla programmazione", "cluster": 1 },
+      { "phrase": "esercizio database", "cluster": 2 },
+      { "phrase": "l  algoritmo finale", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      {
+        "phrase": "come poter programmare per elaborare dati statistici",
+        "cluster": 1
+      },
+      {
+        "phrase": "vorrei conoscere qualcosa in pi\u00f9 sulla programmazione",
+        "cluster": 1
+      },
+      { "phrase": "come programmare", "cluster": 1 },
+      { "phrase": "come diventa strutturato il corso di studio", "cluster": 1 },
+      { "phrase": "intelligenza artificiale", "cluster": 2 },
+      { "phrase": "programmazione c", "cluster": 2 },
+      { "phrase": "su cosa si basa la programmazione", "cluster": 1 },
+      { "phrase": "come programmare", "cluster": 1 },
+      { "phrase": "nessuno in particolare", "cluster": 1 },
+      { "phrase": "l esercizio finale", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      {
+        "phrase": "la simpatia dato che non essere stato detto molto",
+        "cluster": 1
+      },
+      { "phrase": "programmazione web", "cluster": 2 },
+      { "phrase": "programmazione python", "cluster": 0 },
+      { "phrase": "introduzione alla materia", "cluster": 1 },
+      { "phrase": "python", "cluster": 0 },
+      {
+        "phrase": "non abbiamo ricevuto molte nozioni  confido che le prossime siano pi\u00f9 argomentate",
+        "cluster": 1
+      },
+      { "phrase": "nessuna in particolare", "cluster": 1 },
+      { "phrase": "la programmazione", "cluster": 2 },
+      { "phrase": "nessuno in particolare", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "programmazioni", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "c", "cluster": 2 },
+      { "phrase": "come programmare", "cluster": 1 },
+      { "phrase": "nessuno", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "programmazione  solo accenno", "cluster": 1 },
+      { "phrase": "l esercizio in classe", "cluster": 2 },
+      { "phrase": "imparare a programmare per controllare", "cluster": 1 },
+      { "phrase": "il linguaggio della programmazione", "cluster": 1 },
+      { "phrase": "ragionare con la mentalit\u00e0 lavorativa", "cluster": 1 },
+      { "phrase": "", "cluster": 1 },
+      {
+        "phrase": "trovare la soluzione al problema posto attraverso le nostre conoscenze o con il supporto di internet",
+        "cluster": 1
+      },
+      { "phrase": "ogni cosa", "cluster": 1 },
+      { "phrase": "nessuno in particolare", "cluster": 1 },
+      { "phrase": "", "cluster": 1 },
+      { "phrase": "usare linguaggio da programmazione", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "come possiamo fare a programmare", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "non lo so ancora", "cluster": 1 },
+      { "phrase": "la programmazione", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "approccio alla materia", "cluster": 1 },
+      { "phrase": "la varie modalit\u00e0 di programmazione", "cluster": 1 },
+      { "phrase": "la ricerca a gruppi", "cluster": 2 },
+      { "phrase": "codice", "cluster": 1 },
+      { "phrase": "esempio svolto", "cluster": 2 },
+      { "phrase": "intelligenza artificiale", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "utilit\u00e0 della programmazione", "cluster": 1 },
+      {
+        "phrase": "il concetto di passivit\u00e0 uomo cellulare",
+        "cluster": 1
+      },
+      {
+        "phrase": "come sono strutturati i 2 esami  in particolare quello del sito web",
+        "cluster": 1
+      },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      {
+        "phrase": "nessun argomento essere stato trattato in modo concreto",
+        "cluster": 1
+      },
+      { "phrase": "la programmazione", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "python", "cluster": 0 },
+      { "phrase": "vari esempi proposti dal docente", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "la programmazione", "cluster": 2 },
+      { "phrase": "la programmazione", "cluster": 2 },
+      { "phrase": "l esercizio svolto durante la lezione", "cluster": 2 },
+      { "phrase": "esercizio di gruppo proposto dal professore", "cluster": 1 },
+      { "phrase": "la storia di pat", "cluster": 1 },
+      { "phrase": "quesito", "cluster": 1 },
+      { "phrase": "intelligenza artificiale", "cluster": 2 },
+      {
+        "phrase": "l esercizio dato  si ne vorrei sapere di pi\u00f9",
+        "cluster": 1
+      },
+      { "phrase": "non ne ho idea", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "imparare ad analizzare dati", "cluster": 1 },
+      { "phrase": "le diverse programmazione", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      {
+        "phrase": "utilizzare programmi e funzioni per ottenere informazioni che a me costerebbero molto pi\u00f9 tempo  o che non sarei in grado di ottenere",
+        "cluster": 1
+      },
+      { "phrase": "essere stato tutto interessante", "cluster": 1 },
+      { "phrase": "programmazione python e c c", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "programmazione python e c c", "cluster": 2 },
+      { "phrase": "nessuno", "cluster": 1 },
+      { "phrase": "un po  tutto", "cluster": 1 },
+      { "phrase": "come si programma", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "non ce n essere uno in particolare", "cluster": 1 },
+      { "phrase": "programmare", "cluster": 1 },
+      {
+        "phrase": "averci messo alla prova con un problema di informatica",
+        "cluster": 1
+      },
+      { "phrase": "scopo del corso", "cluster": 1 },
+      { "phrase": "programmare", "cluster": 1 },
+      { "phrase": "la simulazione di lavoro", "cluster": 2 },
+      { "phrase": "python", "cluster": 0 },
+      { "phrase": "la simulazione di lavoro", "cluster": 2 },
+      {
+        "phrase": "vorrei approfondire il linguaggio di programmazione",
+        "cluster": 1
+      },
+      { "phrase": "gli esempi", "cluster": 1 },
+      {
+        "phrase": "algoritmi  imparare a programmare e saperli scrivere",
+        "cluster": 1
+      },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "approfondire il linguaggio phyton", "cluster": 1 },
+      {
+        "phrase": "il modo in cui il professore essere arrivato al messaggio che ci voleva trasmettere  grande oratore",
+        "cluster": 1
+      },
+      { "phrase": "i grafici visualizzati", "cluster": 1 },
+      { "phrase": "python", "cluster": 0 },
+      { "phrase": "l esercizio", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "n d", "cluster": 2 },
+      { "phrase": "non essere un paese per vecchi", "cluster": 1 },
+      {
+        "phrase": "i vari metodi di programmazione citati nel questionario iniziale",
+        "cluster": 1
+      },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "", "cluster": 1 },
+      {
+        "phrase": "modalit\u00e0 di utilizzo dei dispositivi informatici",
+        "cluster": 1
+      },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "la riflessione sul potere dei cellulari", "cluster": 1 },
+      { "phrase": "programmare", "cluster": 1 },
+      { "phrase": "programmazione di siti", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "il lavoro svolto in piccoli gruppi", "cluster": 1 },
+      {
+        "phrase": "il metodo per risolvere il problema richiesto",
+        "cluster": 1
+      },
+      { "phrase": "imparare a programmare", "cluster": 1 },
+      {
+        "phrase": "come l approccio informatico sia costantemente presente nella vita di tutti i giorni",
+        "cluster": 1
+      },
+      { "phrase": "il programma c", "cluster": 2 },
+      { "phrase": "introduzione al corso", "cluster": 1 },
+      { "phrase": "la presentazione del corso", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "programmazione", "cluster": 2 },
+      { "phrase": "tutti", "cluster": 1 },
+      { "phrase": "la presentazione del corso", "cluster": 1 },
+      { "phrase": "come programmare", "cluster": 1 },
+      { "phrase": "l esercizio svolto", "cluster": 2 },
+      { "phrase": "scrittura di algoritmi", "cluster": 1 },
+      { "phrase": "programmazione", "cluster": 2 }
+    ]
+  }
+]

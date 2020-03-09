@@ -85,6 +85,7 @@ def vectors_similarity(a, b):
 def clean_phrases(s):
     s = re.sub(r'[^\w]', ' ', s)
     s = s.replace("è", "essere")
+    s = s.replace("età", "eta")
     s = s.replace("sarà", "diventa")
     s = s.replace("variabile ne", "variabile")
     s = s.replace("morivazione", "motivazione")
@@ -201,9 +202,10 @@ print(all_dates[0])
 # make_clusters(3, "3/5/2019", 2)
 # create_json()
 # writeAllDates("./dataset.json")
-for date in all_dates[0]:
-       for col_index in range(2):
-              make_clusters(3, date, col_index)
+# for date in all_dates[0]:
+
+for col_index in range(2):
+    make_clusters(3, all_dates[0][0], col_index)
 create_json()
 
 
