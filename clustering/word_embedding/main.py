@@ -192,9 +192,17 @@ def make_clusters(K, date_value, col):
         print(e)
 
 
-make_clusters(3, "3/5/2019", 0)
-make_clusters(3, "3/5/2019", 1)
-make_clusters(3, "3/5/2019", 2)
-create_json()
+all_dates = []
+all_dates.append(list(getDates("./dates.json").keys()))
+print(all_dates)
+# make_clusters(3, "3/5/2019", 0)
+# make_clusters(3, "3/5/2019", 1)
+# make_clusters(3, "3/5/2019", 2)
+# create_json()
 # writeAllDates("./dataset.json")
-# print(getDates("./dates.json"))
+for date in all_dates:
+       for col_index in range(2):
+              make_clusters(3,date,col_index)
+create_json()
+
+
