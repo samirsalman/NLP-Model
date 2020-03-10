@@ -1,14 +1,14 @@
 // ----- Google drive -----
-const fs = require('fs');
-const readline = require('readline');
-const {google} = require('googleapis');
+const fs = require("fs");
+const readline = require("readline");
+const { google } = require("googleapis");
 
 // If modifying these scopes, delete token.json.
-const SCOPES = ['https://www.googleapis.com/auth/drive.metadata.readonly'];
+const SCOPES = ["https://www.googleapis.com/auth/drive.metadata.readonly"];
 // The file token.json stores the user's access and refresh tokens, and is
 // created automatically when the authorization flow completes for the first
 // time.
-const TOKEN_PATH = 'google_drive_api/token.json';
+const TOKEN_PATH = "google_drive_api/token.json";
 
 /**
  * Create an OAuth2 client with the given credentials, and then execute the
@@ -17,9 +17,12 @@ const TOKEN_PATH = 'google_drive_api/token.json';
  * @param {function} callback The callback to call with the authorized client.
  */
 function authorize(credentials, callback) {
-  const {client_secret, client_id, redirect_uris} = credentials.installed;
+  const { client_secret, client_id, redirect_uris } = credentials.installed;
   const oAuth2Client = new google.auth.OAuth2(
-      client_id, client_secret, redirect_uris[0]);
+    client_id,
+    client_secret,
+    redirect_uris[0]
+  );
 
   // Check if we have previously stored a token.
   fs.readFile(TOKEN_PATH, (err, token) => {
@@ -37,23 +40,23 @@ function authorize(credentials, callback) {
  */
 function getAccessToken(oAuth2Client, callback) {
   const authUrl = oAuth2Client.generateAuthUrl({
-    access_type: 'offline',
-    scope: SCOPES,
+    access_type: "offline",
+    scope: SCOPES
   });
-  console.log('Authorize this app by visiting this url:', authUrl);
+  console.log("Authorize this app by visiting this url:", authUrl);
   const rl = readline.createInterface({
     input: process.stdin,
-    output: process.stdout,
+    output: process.stdout
   });
-  rl.question('Enter the code from that page here: ', (code) => {
+  rl.question("Enter the code from that page here: ", code => {
     rl.close();
     oAuth2Client.getToken(code, (err, token) => {
-      if (err) return console.error('Error retrieving access token', err);
+      if (err) return console.error("Error retrieving access token", err);
       oAuth2Client.setCredentials(token);
       // Store the token to disk for later program executions
-      fs.writeFile(TOKEN_PATH, JSON.stringify(token), (err) => {
+      fs.writeFile(TOKEN_PATH, JSON.stringify(token), err => {
         if (err) return console.error(err);
-        console.log('Token stored to', TOKEN_PATH);
+        console.log("Token stored to", TOKEN_PATH);
       });
       callback(oAuth2Client);
     });
@@ -61,28 +64,45 @@ function getAccessToken(oAuth2Client, callback) {
 }
 
 // Load client secrets from a local file.
-fs.readFile('google_drive_api/credentials.json', (err, content) => {
-  if (err) return console.log('Error loading client secret file:', err);
+fs.readFile("google_drive_api/credentials.json", (err, content) => {
+  if (err) return console.log("Error loading client secret file:", err);
   // Authorize a client with credentials, then call the Google Drive API.
 
   authorize(JSON.parse(content), processFiles);
 });
 
-function processFiles(auth)
-{
-  const drive = google.drive({version: 'v3', auth});
+function processFiles(auth) {
+  const drive = google.drive({ version: "v3", auth });
 
   // TODO: Download available files
 }
 
 // ----- RESTful web interface  -----
 
-const express = require('express');
+const express = require("express");
 const app = express();
 
-app.get("/", function(req, res) {
-    res.end("Hello World!")
-})
+const PORT = process.env.PORT || 3000;
 
-// Listen using PORT env variable, or 3000 if not defined
-app.listen(process.env.PORT || 3000);
+app.listen(PORT, function() {
+  console.log(`I'm listening on port : `, PORT);
+});
+
+/*Let's include the module that enable the backend to receive and send http request
+not simple (example http request with json in the body)*/
+var cors = require("cors");
+app.use(cors());
+
+/*Let's include the module that enable the backend to parse the json received in the
+body of the http request*/
+const bodyParser = require("body-parser");
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+/*Let's define the other routes to access to our server*/
+const lessonsRoute = require("./api/routes/lessons");
+app.use("/lessons", lessonsRoute);
+
+app.get("/", function(req, res) {
+  res.end("Hello World!");
+});
