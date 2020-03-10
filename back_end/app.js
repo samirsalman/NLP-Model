@@ -4,7 +4,8 @@ const readline = require("readline");
 const { google } = require("googleapis");
 
 // If modifying these scopes, delete token.json.
-const SCOPES = ["https://www.googleapis.com/auth/drive.metadata.readonly"];
+const SCOPES = ['https://www.googleapis.com/auth/drive.readonly',
+		'https://www.googleapis.com/auth/drive.metadata.readonly'];
 // The file token.json stores the user's access and refresh tokens, and is
 // created automatically when the authorization flow completes for the first
 // time.
@@ -63,17 +64,81 @@ function getAccessToken(oAuth2Client, callback) {
   });
 }
 
+
+/**
+ * Lists the names and IDs of up to 10 files.
+ * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
+ */
+function listFiles(auth) {
+  const drive = google.drive({version: 'v3', auth});
+  drive.files.list({
+    pageSize: 10,
+    fields: 'nextPageToken, files(id, name)',
+  }, (err, res) => {
+    if (err) return console.log('The API returned an error: ' + err);
+    const files = res.data.files;
+    if (files.length) {
+      console.log('Files:');
+      files.map((file) => {
+        console.log(`${file.name} (${file.id})`);
+      });
+    } else {
+      console.log('No files found.');
+    }
+  });
+}
+
 // Load client secrets from a local file.
 fs.readFile("google_drive_api/credentials.json", (err, content) => {
   if (err) return console.log("Error loading client secret file:", err);
   // Authorize a client with credentials, then call the Google Drive API.
 
-  authorize(JSON.parse(content), processFiles);
+  authorize(JSON.parse(content), downloadFile);
 });
 
-function processFiles(auth) {
+function downloadFile(auth) {
   const drive = google.drive({ version: "v3", auth });
 
+    var fileId = '1vC5zkPNIh2IGq0CL8mPoiPW2TU6mLavHvRd0jdOrFeI';
+    var dest = fs.createWriteStream("./test.xlsx");
+
+    /*
+    drive.files.get(
+	{fileId: fileId, mimeType: 'application/vnd.google-apps.spreadsheet'},
+	{responseType:'stream'},
+	function(err, res) {
+	    console.log(res.data)
+	    
+	    res.data
+		.on('end', () => {
+		    console.log('Done');
+		})
+		.on('error', err => {
+		    console.log('Error', err);
+		})
+		.pipe(dest);
+	})
+	*/
+
+    // drive.files.export({fileId: fileId, mimeType: 'application/vnd.google-apps.spreadsheet'})
+
+    const res = drive.files.export({
+	fileId: '1vC5zkPNIh2IGq0CL8mPoiPW2TU6mLavHvRd0jdOrFeI', // A Google Doc
+	mimeType: 'application/vnd.google-apps.spreadsheet'
+    }, function(err, res) {
+	console.log(res.data)
+	
+	res.data
+	    .on('end', () => {
+		console.log('Done');
+	    })
+	    .on('error', err => {
+		console.log('Error', err);
+	    })
+	    .pipe(dest);
+    });
+			
+    
   // TODO: Download available files
 }
 
