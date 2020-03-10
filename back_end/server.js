@@ -26,6 +26,7 @@ const bodyParser = require("body-parser");
 
 // To access other routes to our server
 const lessonsRoute = require("./api/routes/lessons");
+const clustersRoute = require("./api/routes/clusters");
 
 // ----------------- Global variables -----------------
 
@@ -270,30 +271,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use("/lessons", lessonsRoute);
-
-app.get("/clusters", function(req, res) {
-  console.log(`GET REQUEST AT "/" from ${req.host} `);
-  var struct = "";
-  var response = pythonInvoke.getResults();
-
-  response.on("message", function(message) {
-    struct += message;
-  });
-
-  response.on("close", function(result) {
-    fs.readFile("./tmp_data/clusters_results.json", "utf8", (err, text) => {
-      if (err) {
-        console.log(err);
-      }
-      var result = {
-        message:
-          "Clusters created, file ready at './tmp_data/clusters_results.json'",
-        clusters: JSON.parse(text)
-      };
-      res.send(result);
-    });
-  });
-});
+app.use("/clusters", clustersRoute);
 
 app.get("/", (req, res) => {
   res.send(`Homepage, request from ${req.host}`);
