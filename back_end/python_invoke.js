@@ -13,7 +13,10 @@ function getResults() {
     - dates.json: contiene tutte le date contenute nel dataset
 
   ])*/
-  PythonShell.run("./py_process/main.py", options, function(err, results) {
+  return PythonShell.run("./py_process/main.py", options, function(
+    err,
+    results
+  ) {
     if (err) throw err;
     // results is an array consisting of messages collected during execution
     console.log("results: %j", results);
