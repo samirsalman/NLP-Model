@@ -159,7 +159,9 @@ ui/nlp_teach_ui/src/logo.svg
 ui/nlp_teach_ui/src/serviceWorker.js
 ui/nlp_teach_ui/src/setupTests.js
 ui/nlp_teach_ui/yarn.lock
-ui/node_modules/react-loading/index.d.ts
-ui/node_modules/react-loading/jest.setup.js
-ui/node_modules/react-loading/README.md
+ui/node_modules/
 back_end/node_modules/
+back_end/py_process/wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m
+back_end/py_process/wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m.syn0.npy
+back_end/py_process/wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m.syn1neg.npy
+back_end/py_process/wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m.table.npy

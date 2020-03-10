@@ -1,20 +1,22 @@
-const spawn = require("child_process").spawn;
+const { PythonShell } = require("python-shell");
 
 function getResults() {
-  var python = spawn("python", ["./script1.py"]);
+  var options = {
+    mode: "text",
+    args: ["./tmp_data/rows_to_process.json"]
+  };
 
-  var dataToSend;
-  // spawn new child process to call the python script
-  // collect data from script
-  python.stdout.on("data", function(data) {
-    console.log("Pipe data from python script ...");
-    dataToSend = data.toString();
-  });
-  // in close event we are sure that stream from child process is closed
-  python.on("close", code => {
-    console.log(`child process close all stdio with code ${code}`);
-    // send data to browser
-    console.log(dataToSend);
+  /*lo script prende in input il path del dataset e crea 4 file 
+    - cluster_results.json: rappresenta il file risultante con i clustet
+    - data.csv: contiene informazioni riguardanti frasi e vettori e similarità tra frasi
+    - results.csv: contiene informazioni riguardanti frasi e vettori
+    - dates.json: contiene tutte le date contenute nel dataset
+
+  ])*/
+  PythonShell.run("./py_process/main.py", options, function(err, results) {
+    if (err) throw err;
+    // results is an array consisting of messages collected during execution
+    console.log("results: %j", results);
   });
 }
 
