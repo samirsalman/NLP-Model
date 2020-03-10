@@ -1,22 +1,13 @@
-const { spawn } = require("child_process");
+const spawn = require("child_process").spawn;
 
-class PythonInvoke {
-  constructor() {}
+function getResults() {
+  var python = spawn("python", ["./script1.py"]);
 
-  python = spawn("python", ["script1.py"]);
+  process.stdout.on("data", function(chunk) {
+    var textChunk = chunk.toString("utf8"); // buffer to string
 
-  getResults = function() {
-    python.stdout.on("data", function(data) {
-      console.log("Pipe data from python script ...");
-      dataToSend = data.toString();
-    });
-    // in close event we are sure that stream from child process is closed
-    python.on("close", code => {
-      console.log(`child process close all stdio with code ${code}`);
-      // send data to browser
-      res.send(dataToSend);
-    });
-  };
+    util.log(textChunk);
+  });
 }
 
-module.exports = PythonInvoke;
+module.exports = { getResults };

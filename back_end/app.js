@@ -107,12 +107,12 @@ const converter = require("./converter");
 var jsonDataFromXLS = converter("test.xlsx");
 console.log(jsonDataFromXLS);
 
-//To invoke python script
-const pythonInvoke = require("./python_invoke");
-pythonInvoke.getResults;
-
 app.use("/lessons", lessonsRoute);
 
 app.get("/", function(req, res) {
   res.send("Hello World!");
 });
+
+//To invoke python script
+const pythonInvoke = require("./python_invoke");
+pythonInvoke.getResults();
