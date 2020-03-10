@@ -101,8 +101,18 @@ app.use(bodyParser.json());
 
 /*Let's define the other routes to access to our server*/
 const lessonsRoute = require("./api/routes/lessons");
+
+//To convert xlsx or xls to JSON
+const converter = require("./converter");
+var jsonDataFromXLS = converter("test.xlsx");
+console.log(jsonDataFromXLS);
+
+//To invoke python script
+const pythonInvoke = require("./python_invoke");
+pythonInvoke.getResults;
+
 app.use("/lessons", lessonsRoute);
 
 app.get("/", function(req, res) {
-  res.end("Hello World!");
+  res.send("Hello World!");
 });
