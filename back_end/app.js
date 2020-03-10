@@ -4,8 +4,10 @@ const readline = require("readline");
 const { google } = require("googleapis");
 
 // If modifying these scopes, delete token.json.
-const SCOPES = ['https://www.googleapis.com/auth/drive.readonly',
-		'https://www.googleapis.com/auth/drive.metadata.readonly'];
+const SCOPES = [
+  "https://www.googleapis.com/auth/drive.readonly",
+  "https://www.googleapis.com/auth/drive.metadata.readonly"
+];
 // The file token.json stores the user's access and refresh tokens, and is
 // created automatically when the authorization flow completes for the first
 // time.
@@ -64,28 +66,30 @@ function getAccessToken(oAuth2Client, callback) {
   });
 }
 
-
 /**
  * Lists the names and IDs of up to 10 files.
  * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
  */
 function listFiles(auth) {
-  const drive = google.drive({version: 'v3', auth});
-  drive.files.list({
-    pageSize: 10,
-    fields: 'nextPageToken, files(id, name)',
-  }, (err, res) => {
-    if (err) return console.log('The API returned an error: ' + err);
-    const files = res.data.files;
-    if (files.length) {
-      console.log('Files:');
-      files.map((file) => {
-        console.log(`${file.name} (${file.id})`);
-      });
-    } else {
-      console.log('No files found.');
+  const drive = google.drive({ version: "v3", auth });
+  drive.files.list(
+    {
+      pageSize: 10,
+      fields: "nextPageToken, files(id, name)"
+    },
+    (err, res) => {
+      if (err) return console.log("The API returned an error: " + err);
+      const files = res.data.files;
+      if (files.length) {
+        console.log("Files:");
+        files.map(file => {
+          console.log(`${file.name} (${file.id})`);
+        });
+      } else {
+        console.log("No files found.");
+      }
     }
-  });
+  );
 }
 
 // Load client secrets from a local file.
@@ -96,13 +100,14 @@ fs.readFile("google_drive_api/credentials.json", (err, content) => {
   authorize(JSON.parse(content), downloadFile);
 });
 
-function downloadFile(auth) {
+async function downloadFile(auth) {
   const drive = google.drive({ version: "v3", auth });
 
-    var fileId = '1vC5zkPNIh2IGq0CL8mPoiPW2TU6mLavHvRd0jdOrFeI';
-    var dest = fs.createWriteStream("./test.xlsx");
+  fileId = "1vC5zkPNIh2IGq0CL8mPoiPW2TU6mLavHvRd0jdOrFeI"; // A Google Doc
 
-    /*
+  var dest = fs.createWriteStream("./test.xlsx");
+
+  /*
     drive.files.get(
 	{fileId: fileId, mimeType: 'application/vnd.google-apps.spreadsheet'},
 	{responseType:'stream'},
@@ -120,25 +125,8 @@ function downloadFile(auth) {
 	})
 	*/
 
-    // drive.files.export({fileId: fileId, mimeType: 'application/vnd.google-apps.spreadsheet'})
+  // drive.files.export({fileId: fileId, mimeType: 'application/vnd.google-apps.spreadsheet'})
 
-    const res = drive.files.export({
-	fileId: '1vC5zkPNIh2IGq0CL8mPoiPW2TU6mLavHvRd0jdOrFeI', // A Google Doc
-	mimeType: 'application/vnd.google-apps.spreadsheet'
-    }, function(err, res) {
-	console.log(res.data)
-	
-	res.data
-	    .on('end', () => {
-		console.log('Done');
-	    })
-	    .on('error', err => {
-		console.log('Error', err);
-	    })
-	    .pipe(dest);
-    });
-			
-    
   // TODO: Download available files
 }
 
@@ -168,9 +156,9 @@ app.use(bodyParser.json());
 const lessonsRoute = require("./api/routes/lessons");
 
 //To convert xlsx or xls to JSON
-const converter = require("./converter");
-var jsonDataFromXLS = converter("test.xlsx");
-console.log(jsonDataFromXLS);
+//const converter = require("./converter");
+//var jsonDataFromXLS = converter("test.xlsx");
+//console.log(jsonDataFromXLS);
 
 app.use("/lessons", lessonsRoute);
 
@@ -180,4 +168,5 @@ app.get("/", function(req, res) {
 
 //To invoke python script
 const pythonInvoke = require("./python_invoke");
+
 pythonInvoke.getResults();
