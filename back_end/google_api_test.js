@@ -10,6 +10,8 @@ const SCOPES = ['https://www.googleapis.com/auth/drive.readonly'];
 // time.
 const TOKEN_PATH = "google_drive_api/token.json";
 
+const DATA_FOLDER = "./tmp_data/";
+
 /**
  * Get and store new token after prompting for user authorization, and then
  * execute the given callback with the authorized OAuth2 client.
@@ -41,16 +43,30 @@ function getAccessToken(oAuth2Client) {
   });
 }
 
-// This function downloads the file with
-// fileId = 1vC5zkPNIh2IGq0CL8mPoiPW2TU6mLavHvRd0jdOrFeI
-async function downloadFile(auth)
-{
+
+async function listFiles(auth, list) {
   const drive = google.drive({
     version: 'v3',
     auth: auth
   });
 
-  const fileId = '1vC5zkPNIh2IGq0CL8mPoiPW2TU6mLavHvRd0jdOrFeI';
+  var response = await drive.files.list({
+    pageSize: 20,
+    fields: 'nextPageToken, files(id, name)',
+  });
+
+  return response;
+}
+
+
+// This function downloads the file with
+// fileId = 1vC5zkPNIh2IGq0CL8mPoiPW2TU6mLavHvRd0jdOrFeI
+async function downloadFile(auth, fileName, fileId)
+{
+  const drive = google.drive({
+    version: 'v3',
+    auth: auth
+  });
 
   var response = await drive.files.export(
     { fileId,  mimeType: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'},
@@ -58,7 +74,7 @@ async function downloadFile(auth)
   );
 
   return new Promise((resolve, reject) => {
-    const dest = fs.createWriteStream("./test.xlsx");
+    const dest = fs.createWriteStream(DATA_FOLDER + fileName + ".xlsx");
 
     response.data
       .on("end", () => {
@@ -95,7 +111,20 @@ fs.readFile("google_drive_api/credentials.json", (err, content) => {
       return getAccessToken(oAuth2Client);
     } else {
       oAuth2Client.setCredentials(JSON.parse(token));
-      downloadFile(oAuth2Client).then().catch(console.error);
+      
+      // We have the token and we are ready to download the
+      // files. Before downloading we have to list them though.
+      listFiles(oAuth2Client).then((response) => {
+
+	response.data['files'].forEach(file => {
+	  const fileId = file.id;
+	  const fileName = file.name;
+
+	  // Download the file
+	  downloadFile(oAuth2Client, fileName, fileId).then().catch(console.error);
+	});
+	
+      }).catch(console.error);
     }
   });
 
