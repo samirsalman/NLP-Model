@@ -1,7 +1,7 @@
 // ----------------- Modules used -----------------
 
 // To convert xlsx or xls to JSON
-const readXlsxFile = require('read-excel-file/node'); 
+const readXlsxFile = require("read-excel-file/node");
 
 // To invoke python script
 const pythonInvoke = require("./python_invoke");
@@ -26,6 +26,7 @@ const bodyParser = require("body-parser");
 
 // To access other routes to our server
 const lessonsRoute = require("./api/routes/lessons");
+const clustersRoute = require("./api/routes/clusters");
 
 // ----------------- Global variables -----------------
 
@@ -34,36 +35,36 @@ const DATA_FOLDER = "./tmp_data/";
 
 // schema used to convert .xlsx document into json format.
 const schema = {
-  'Timestamp': {
-    prop:'timestamp',
+  Timestamp: {
+    prop: "timestamp",
     type: Date
   },
   'Codice (Inserire il "vostro codice personale" fornito per il corso)': {
-    prop: 'codice',
+    prop: "codice",
     type: String
   },
-  'Data della lezione': {
-    prop: 'dataLezione',
+  "Data della lezione": {
+    prop: "dataLezione",
     type: Date
   },
-  'Descrivi il messaggio principale di questa lezione': {
-    prop: 'messaggio',
+  "Descrivi il messaggio principale di questa lezione": {
+    prop: "messaggio",
     type: String
   },
-  'Quale argomento ti ha interessato di più di questa lezione e ne vorresti sapere di più?': {
-    prop: 'argomento',
+  "Quale argomento ti ha interessato di più di questa lezione e ne vorresti sapere di più?": {
+    prop: "argomento",
     type: String
   },
-  'Qual è stata la parte meno chiara di questa lezione?': {
-    prop: 'chiarimenti',
+  "Qual è stata la parte meno chiara di questa lezione?": {
+    prop: "chiarimenti",
     type: String
   }
-}
+};
 
 // ----------------- Google drive code -----------------
 
 // If modifying these scopes, delete token.json.
-const SCOPES = ['https://www.googleapis.com/auth/drive.readonly'];
+const SCOPES = ["https://www.googleapis.com/auth/drive.readonly"];
 // The file token.json stores the user's access and refresh tokens, and is
 // created automatically when the authorization flow completes for the first
 // time.
@@ -100,35 +101,36 @@ function getAccessToken(oAuth2Client) {
   });
 }
 
-
 // This function list all avaiable files in google drive using google
 // drive APIS.
 async function listFiles(auth, list) {
   const drive = google.drive({
-    version: 'v3',
+    version: "v3",
     auth: auth
   });
 
   var response = await drive.files.list({
     pageSize: 20,
-    fields: 'nextPageToken, files(id, name)',
+    fields: "nextPageToken, files(id, name)"
   });
 
   return response;
 }
 
-
 // This function downloads the file with given fileId using google
 // drive APIs
-async function downloadFile(auth, fileName, fileId)
-{
+async function downloadFile(auth, fileName, fileId) {
   const drive = google.drive({
-    version: 'v3',
+    version: "v3",
     auth: auth
   });
 
   var response = await drive.files.export(
-    { fileId,  mimeType: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'},
+    {
+      fileId,
+      mimeType:
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
     { responseType: "stream" }
   );
 
@@ -155,8 +157,8 @@ function downloadDrive() {
   fs.readFile("google_drive_api/credentials.json", (err, content) => {
     if (err) return console.log("Error loading client secret file:", err);
     // Authorize a client with credentials, then call the Google Drive API.
-    credentials = JSON.parse(content)
-    
+    credentials = JSON.parse(content);
+
     const { client_secret, client_id, redirect_uris } = credentials.installed;
     var oAuth2Client = new google.auth.OAuth2(
       client_id,
@@ -167,25 +169,27 @@ function downloadDrive() {
     // Check if we have previously stored a token.
     fs.readFile(TOKEN_PATH, (err, token) => {
       if (err) {
-	// If we don't have the token, we have to get it from google
-	// servers.
-	return getAccessToken(oAuth2Client);
+        // If we don't have the token, we have to get it from google
+        // servers.
+        return getAccessToken(oAuth2Client);
       } else {
-	oAuth2Client.setCredentials(JSON.parse(token));
-	
-	// We have the token and we are ready to download the
-	// files. Before downloading we have to list them though.
-	listFiles(oAuth2Client).then((response) => {
+        oAuth2Client.setCredentials(JSON.parse(token));
 
-	  response.data['files'].forEach(file => {
-	    const fileId = file.id;
-	    const fileName = file.name;
+        // We have the token and we are ready to download the
+        // files. Before downloading we have to list them though.
+        listFiles(oAuth2Client)
+          .then(response => {
+            response.data["files"].forEach(file => {
+              const fileId = file.id;
+              const fileName = file.name;
 
-	    // Download the file
-	    downloadFile(oAuth2Client, fileName, fileId).then().catch(console.error);
-	  });
-	  
-	}).catch(console.error);
+              // Download the file
+              downloadFile(oAuth2Client, fileName, fileId)
+                .then()
+                .catch(console.error);
+            });
+          })
+          .catch(console.error);
       }
     });
   });
@@ -194,46 +198,54 @@ function downloadDrive() {
 // ----------------- Main code -----------------
 
 // TODO: finish to implement this.
-// 
+//
 // This function reads the entire content of the file 'filename' in
 // order to process the lessons that have not yet been processed.
-function processFile(filename) {  
+function processFile(filename) {
   // 1) convert xlsx or xls to JSON
   readXlsxFile(filename, { schema }).then(({ rows, errors }) => {
-
     // 2) get from DB all dates (lessons) which were already processed
-    var processed_dates = [] // ["4-3-2019"] to exclude the fourth of march
+    var processed_dates = []; // ["4-3-2019"] to exclude the fourth of march
 
     // 3) exclude the dates (lessons) that were already processed
-    var rows_to_process = []
+    var rows_to_process = [];
     rows.forEach(row => {
-      var student_date = row['dataLezione'].getDate() + "-" + row['dataLezione'].getMonth() + "-" + row['dataLezione'].getFullYear();
-      var timestamp_date = row['timestamp'].getDate() + "-" + row['timestamp'].getMonth() + "-" + row['timestamp'].getFullYear();
-      
+      var student_date =
+        row["dataLezione"].getDate() +
+        "-" +
+        row["dataLezione"].getMonth() +
+        "-" +
+        row["dataLezione"].getFullYear();
+      var timestamp_date =
+        row["timestamp"].getDate() +
+        "-" +
+        row["timestamp"].getMonth() +
+        "-" +
+        row["timestamp"].getFullYear();
+
       if (!processed_dates.includes(student_date)) {
-	rows_to_process.push(row);
+        rows_to_process.push(row);
       }
     });
 
     // 4) write rows to process in file "rows_to_process.json"
     var file = fs.createWriteStream(DATA_FOLDER + "rows_to_process.json");
-    file.on('error', function(err) {console.log(err); });
+    file.on("error", function(err) {
+      console.log(err);
+    });
     data = JSON.stringify(rows_to_process);
-    file.write(data)
+    file.write(data);
 
     // 5) process the rows in "rows_to_process.json" and write the
     // clusters in file './tmp_data/clusters_results.json'
-    
-    // pythonInvoke.getResults();
 
     // 6) load the file './tmp_data/clusters_results.json' on DB for
     // future querying.
   });
-  
 }
 
 // TODO: implement this.
-// 
+//
 // This is the main function that process the entire contents of the
 // google drive associated to the gmail account
 // torvergatanlp1920@gmail.com.
@@ -251,7 +263,6 @@ function processDrive(filename) {
 
 // ----------------- Database code -----------------
 
-
 // ----------------- RESTful web interface -----------------
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -260,20 +271,19 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use("/lessons", lessonsRoute);
+app.use("/clusters", clustersRoute);
 
-app.get("/", function(req, res) {
-  res.send("Hello World!");
+app.get("/", (req, res) => {
+  res.send(`Homepage, request from ${req.host}`);
 });
 
-/*
-  app.listen(PORT, function() {
+app.listen(PORT, function() {
   console.log(`I'm listening on port : `, PORT);
-  });
-*/
+});
 
 // ----------------- Code that gets executed -----------------
 
 // downloadDrive();
 
 const filename = "tmp_data/2018_2019_FoI Class Feedback Form (Responses).xlsx";
-processFile(filename);
+//sprocessFile(filename);
