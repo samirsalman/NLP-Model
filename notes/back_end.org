@@ -1,0 +1,40 @@
+[2020-03-15 Sun 21:29]
+
+* Notes
+  dependencies for nodejs server
+  #+BEGIN_SRC sh
+    npm install read-excel-file --save  
+    npm install python-shell --save
+    npm install googleapis@39 --save
+    npm install express --save
+    npm install cors --save
+    npm install mongodb --save
+  #+END_SRC
+  
+  dependencies for python script
+  #+BEGIN_SRC sh
+    pip3 install pylanguagetool
+    pip3 install gensim
+  #+END_SRC
+
+  query per prendere documento con ultima data disponibile
+  https://stackoverflow.com/questions/21971710/get-latest-mongodb-record-by-field-of-datetime
+  #+BEGIN_SRC sh
+    db.col.find().sort({"datetime": -1}).limit(1)  
+    db.documents.find({}, {"date":1}).sort({"date": -1}).limit(1)
+  #+END_SRC
+
+  Codice nodejs per ritornare l'ultima data processata presente nel
+  DB.
+  https://www.journaldev.com/6197/mongodb-findone-example#projection-in-mongodb-findone
+  http://mongodb.github.io/node-mongodb-native/3.0/api/Collection.html#findOne
+  https://mongodb.canny.io/mongodb-stitch/p/findone-cant-sort
+  #+BEGIN_SRC js
+    db.collection('documents').findOne(
+      {},
+      {projection:{_id:0, date:1}, sort: {date: -1}},
+      (err,  data) => {
+        console.log(data);      
+      },
+    )
+  #+END_SRC

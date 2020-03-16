@@ -24,6 +24,10 @@ var cors = require("cors");
 // To parse the json received in the body of the http request
 const bodyParser = require("body-parser");
 
+// To deal with DB management
+const MongoClient = require('mongodb').MongoClient;
+const assert = require('assert');
+
 // To access other routes to our server
 const lessonsRoute = require("./api/routes/lessons");
 const clustersRoute = require("./api/routes/clusters");
@@ -201,12 +205,25 @@ function downloadDrive() {
 //
 // This function reads the entire content of the file 'filename' in
 // order to process the lessons that have not yet been processed.
-function processFile(filename) {
+function processFile(db, filename) {
   // 1) convert xlsx or xls to JSON
-  readXlsxFile(filename, { schema }).then(({ rows, errors }) => {
-    // 2) get from DB all dates (lessons) which were already processed
-    var processed_dates = []; // ["4-3-2019"] to exclude the fourth of march
+  readXlsxFile(filename, { schema }).then(async function({ rows, errors }) {
+    
+    // 2) get from DB all dates (lessons) which were already
+    // processed. In particular it loads the latest date processed. We
+    // assume that all dates before that one were already processed.
+    var response = await db.collection('documents').findOne(
+      {},
+      {projection:{_id:0, date:1}, sort: {date: -1}})
 
+    if (response === null) {
+      // old date 
+      response = {"date": "1929-07-07T12:00:00.000Z"}
+    }
+    
+    var latest_processed_date = response['date']
+    console.log(latest_processed_date)
+    
     // 3) exclude the dates (lessons) that were already processed
     var rows_to_process = [];
     rows.forEach(row => {
@@ -223,9 +240,11 @@ function processFile(filename) {
         "-" +
         row["timestamp"].getFullYear();
 
-      if (!processed_dates.includes(student_date)) {
-        rows_to_process.push(row);
+      // check if the date of the lesson has yet to be processed.
+      if (new Date(row['dataLezione']) > new Date(latest_processed_date)) {
+	rows_to_process.push(row);
       }
+
     });
 
     // 4) write rows to process in file "rows_to_process.json"
@@ -235,20 +254,33 @@ function processFile(filename) {
     });
     data = JSON.stringify(rows_to_process);
     file.write(data);
-
+    
     // 5) process the rows in "rows_to_process.json" and write the
     // clusters in file './tmp_data/clusters_results.json'
+    //
+    // NOTE: Need specific model to do this
+    // 
+    // pythonInvoke.getResults()
 
     // 6) load the file './tmp_data/clusters_results.json' on DB for
     // future querying.
+    var json = require('./tmp_data/clusters_results.json');
+    const collection = db.collection('documents');
+    collection.insertMany(json, function(err, result) {
+      if (err) {
+	console.log(err)
+      } else {
+	console.log("[DEBUG]: Added document to DB");
+      }
+    });
+    
   });
 }
 
 // TODO: implement this.
 //
-// This is the main function that process the entire contents of the
-// google drive associated to the gmail account
-// torvergatanlp1920@gmail.com.
+// This is the function that process the entire contents of the google
+// drive associated to the gmail account torvergatanlp1920@gmail.com.
 function processDrive(filename) {
   console.log("STUB: processDrive()!\n");
 
@@ -261,9 +293,20 @@ function processDrive(filename) {
   // 3) delete all .xlsxs files in ./tmp_data.
 }
 
-// ----------------- Database code -----------------
+// TODO: implement this.
+//
+// This is the main function when the server startsup. This function
+// periodically executes the function processDrive().
+function main(){
+  console.log("STUB: processDrive()!\n");
 
-// ----------------- RESTful web interface -----------------
+  // TODO: use set interval
+}
+
+// ----------------- Code that gets executed -----------------
+
+
+// Setup RESTful API endpoints
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -277,13 +320,32 @@ app.get("/", (req, res) => {
   res.send(`Homepage, request from ${req.host}`);
 });
 
-app.listen(PORT, function() {
-  console.log(`I'm listening on port : `, PORT);
+
+// Setup mongoDB connection variables
+// TODO: switch this for remote url when ready
+const MONGODB_URI = 'mongodb://localhost:27017';
+const dbName = 'NLProject1920'
+const client = new MongoClient(MONGODB_URI);
+
+// Connect to db server
+client.connect(function(err) {
+  if(err) {
+    console.log(err);
+  }
+
+  const filename = "tmp_data/2018_2019_FoI Class Feedback Form (Responses).xlsx";  
+  const db = client.db(dbName);
+  processFile(db, filename);
+  
+  app.listen(PORT, function() {
+    console.log(`I'm listening on port : `, PORT);
+  });
 });
 
-// ----------------- Code that gets executed -----------------
 
-// downloadDrive();
 
-const filename = "tmp_data/2018_2019_FoI Class Feedback Form (Responses).xlsx";
-//sprocessFile(filename);
+
+
+
+
+
