@@ -9,23 +9,23 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import nltk
-
 from keras.preprocessing import sequence
 from keras.preprocessing.text import Tokenizer
 from tqdm import tqdm
-
 from nltk.corpus import stopwords
-from nltk.tokenize import RegexpTokenizer 
-
+from nltk.tokenize import RegexpTokenizer
 import os, re, csv, math, codecs
 from subprocess import check_output
-
 import chart_studio.plotly as py
 import plotly.graph_objs as go
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+from nltk.tokenize import RegexpTokenizer
+import os, re, csv, math, codecs
+from subprocess import check_output
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
 
-
-#nltk.download('stopwords')                             <-- Download it if it's your first time using it
+nltk.download('stopwords')                             #<-- Download it if it's your first time using it
 
 sns.set_style("whitegrid")
 np.random.seed(0)
@@ -134,6 +134,9 @@ def fit_PCA(arrays_n_dim):
     final_array_2_components = pca_model.transform(arrays_n_dim)
     
     return pca_model, final_array_2_components
+
+
+
 
 def space_reduce(vector_of_phrase, training_pca):
     vector_of_phrase = vector_of_phrase.reshape(-1,1).transpose()

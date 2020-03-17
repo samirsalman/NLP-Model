@@ -10,6 +10,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import sklearn.cluster.k_means_ as K_Means
 import sys
 
+
 model = Word2Vec.load('./wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m')
 
 global multi_dim  # global variable that represents list of phrases vector
@@ -197,15 +198,13 @@ def make_clusters(K, date_value, col):
         print(e)
 
 
-dataset_path = ""
-if len(sys.argv) == 2:
-    dataset_path = sys.argv[1]
 
 all_dates = []
-getDates(dataset_path)
-all_dates.append(getDates("./dates.json").keys())
+writeAllDates("./dataset.json")
+all_dates.append(list(getDates("./dates.json").keys()))
 print(all_dates)
-make_clusters(3, "3/5/2019", 0)
+for date in range(5):
+    make_clusters(3,all_dates[0][date] , 0)
 # make_clusters(3, "3/5/2019", 1)
 # make_clusters(3, "3/5/2019", 2)
 # create_json()

@@ -9,6 +9,7 @@ from matplotlib import pyplot as plt
 from sklearn.metrics.pairwise import cosine_similarity
 import sklearn.cluster.k_means_ as K_Means
 import sys
+from clustering.FastText_embedding import FastText_Embedding
 
 model = Word2Vec.load(
     './py_process/wiki_iter=5_algorithm=skipgram_window=10_size=300_neg-samples=10.m')
@@ -119,9 +120,22 @@ def load_phrases(path, date_value, col):
                 try:
                     f1 = clean_phrases(corpusJSON[el][col_value])
                     f2 = clean_phrases(corpusJSON[el + 1][col_value])
+                    #f1 = corpusJSON[el][col_value]
+                    #f2 = corpusJSON[el + 1][col_value]
+                    '''
+                    x = get_vector_of_phrase(get_embedding_list_of_message("Spiegazione di bubble sort, selection sort"))
+                    y = space_reduce(x, pca)
+                    '''
                     v1 = phrase2vec(f1)
-                    v2 = phrase2vec(f2)
-                    multi_dim.append(v1)
+                    v2 = phrase2vec(f2) #GETVECTORPHRASE
+                    # v1 = FastText_Embedding.space_reduce(FastText_Embedding.get_vector_of_phrase(
+                    #     FastText_Embedding.get_embedding_list_of_message(f1)),#TRAINED PCA
+                    #      )
+                    # v2 = FastText_Embedding.space_reduce(FastText_Embedding.get_vector_of_phrase(
+                    #     FastText_Embedding.get_embedding_list_of_message(f2)),#TRAINED PCA
+                    #      )
+
+                    multi_dim.append(np.resize(v1, 2))
                     phrases.append(f1)
                     persons.append(corpusJSON[el]["codice"])
                     sim = vectors_similarity(v1, v2)
@@ -149,14 +163,15 @@ def write_json(k_means, centroids, date_value, col):
     results["cendroids"] = []
     results["elements"] = []
 
+
     for i in range(len(k_means.cluster_centers_)):
         print(i)
         results["cendroids"].append({"cluster": i, "phrase": str(
-            phrases[centroids[i]]), "person_id": str(persons[centroids[i]])})
+            phrases[centroids[i]]), "person_id": str(persons[centroids[i]]), "vector":multi_dim[i]})
 
     for i in range(len(k_means.labels_)):
         results["elements"].append({"phrase": phrases[i], "cluster": int(
-            k_means.labels_[i]), "person_id": persons[i]})
+            k_means.labels_[i]), "person_id": persons[i], "vector" : multi_dim[i]})
 
     global jsonResponse
     jsonResponse.append(results)
@@ -175,9 +190,9 @@ def make_clusters(K, dataset, date_value, col):
     try:
         load_phrases(dataset, date_value, col)
         indxes_of_centroid = []
-        X = []
-        for el in multi_dim:
-            X.append(np.resize(el, 2))
+        X = multi_dim
+            #FastText_Embedding.space_reduce(el,#PCA)
+
         X = np.array(X)
         print(X[:, 0])
         plt.scatter(X[:, 0], X[:, 1], label='True Position')
@@ -212,9 +227,12 @@ if len(sys.argv) == 2:
 all_dates = []
 writeAllDates(dataset_path)
 getDates(dataset_path)
-all_dates.append(getDates("./tmp_data//dates.json").keys())
+all_dates.append(list(getDates("./tmp_data//dates.json").keys()))
 print(all_dates)
-make_clusters(3, dataset_path, "2019-03-04T12:00:00.000Z", 0)
+for el in all_dates[0]:
+    make_clusters(3, dataset_path, el, 0)
+    make_clusters(3, dataset_path, el, 1)
+    make_clusters(3, dataset_path, el, 2)
 # make_clusters(3, "3/5/2019", 1)
 # make_clusters(3, "3/5/2019", 2)
 # create_json()
