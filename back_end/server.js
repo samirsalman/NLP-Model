@@ -3,6 +3,8 @@
 // To convert xlsx or xls to JSON
 const readXlsxFile = require("read-excel-file/node");
 
+const hash = require("hash-string");
+
 // To invoke python script
 const pythonInvoke = require("./python_invoke");
 
@@ -25,8 +27,8 @@ var cors = require("cors");
 const bodyParser = require("body-parser");
 
 // To deal with DB management
-const MongoClient = require('mongodb').MongoClient;
-const assert = require('assert');
+const MongoClient = require("mongodb").MongoClient;
+const assert = require("assert");
 
 // To access other routes to our server
 const lessonsRoute = require("./api/routes/lessons");
@@ -208,43 +210,25 @@ function downloadDrive() {
 function processFile(db, filename) {
   // 1) convert xlsx or xls to JSON
   readXlsxFile(filename, { schema }).then(async function({ rows, errors }) {
-    
     // 2) get from DB all dates (lessons) which were already
     // processed. In particular it loads the latest date processed. We
     // assume that all dates before that one were already processed.
-    var response = await db.collection('documents').findOne(
-      {},
-      {projection:{_id:0, date:1}, sort: {date: -1}})
+    const metaDataCollection = db.collection("meta-data");
 
-    if (response === null) {
-      // old date 
-      response = {"date": "1929-07-07T12:00:00.000Z"}
-    }
-    
-    var latest_processed_date = response['date']
-    console.log(latest_processed_date)
-    
+    var response = await metaDataCollection
+      .find({}, { projection: { hash: 1 } })
+      .toArray();
+
+    response = response.map(el => el.hash);
+    console.log(response);
+
     // 3) exclude the dates (lessons) that were already processed
     var rows_to_process = [];
     rows.forEach(row => {
-      var student_date =
-        row["dataLezione"].getDate() +
-        "-" +
-        row["dataLezione"].getMonth() +
-        "-" +
-        row["dataLezione"].getFullYear();
-      var timestamp_date =
-        row["timestamp"].getDate() +
-        "-" +
-        row["timestamp"].getMonth() +
-        "-" +
-        row["timestamp"].getFullYear();
-
-      // check if the date of the lesson has yet to be processed.
-      if (new Date(row['dataLezione']) > new Date(latest_processed_date)) {
-	rows_to_process.push(row);
+      row["hash"] = hash(row["codice"] + row["dataLezione"]).toString();
+      if (!response.includes(row["hash"])) {
+        rows_to_process.push(row);
       }
-
     });
 
     // 4) write rows to process in file "rows_to_process.json"
@@ -254,26 +238,41 @@ function processFile(db, filename) {
     });
     data = JSON.stringify(rows_to_process);
     file.write(data);
-    
+
+    metaDataJSON = rows_to_process.map(el => {
+      return { hash: el.hash, codice: el.codice, data: el.dataLezione };
+    });
+
+    if (metaDataJSON !== null && metaDataJSON.length > 0) {
+      metaDataCollection.insertMany(metaDataJSON, function(err, result) {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log("[DEBUG]: Added meta-data to DB");
+          console.log("Added " + metaDataJSON.length);
+        }
+      });
+    }
+
     // 5) process the rows in "rows_to_process.json" and write the
     // clusters in file './tmp_data/clusters_results.json'
     //
     // NOTE: Need specific model to do this
-    // 
-    // pythonInvoke.getResults()
+    //
+    await pythonInvoke.getResults().on("end", (data, err) => {
+      var json = require("./tmp_data/clusters_results.json");
+      const collection = db.collection("documents");
+      collection.insertMany(json, function(err, result) {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log("[DEBUG]: Added document to DB");
+        }
+      });
+    });
 
     // 6) load the file './tmp_data/clusters_results.json' on DB for
     // future querying.
-    var json = require('./tmp_data/clusters_results.json');
-    const collection = db.collection('documents');
-    collection.insertMany(json, function(err, result) {
-      if (err) {
-	console.log(err)
-      } else {
-	console.log("[DEBUG]: Added document to DB");
-      }
-    });
-    
   });
 }
 
@@ -297,14 +296,13 @@ function processDrive(filename) {
 //
 // This is the main function when the server startsup. This function
 // periodically executes the function processDrive().
-function main(){
+function main() {
   console.log("STUB: processDrive()!\n");
 
   // TODO: use set interval
 }
 
 // ----------------- Code that gets executed -----------------
-
 
 // Setup RESTful API endpoints
 const app = express();
@@ -320,32 +318,25 @@ app.get("/", (req, res) => {
   res.send(`Homepage, request from ${req.host}`);
 });
 
-
 // Setup mongoDB connection variables
 // TODO: switch this for remote url when ready
-const MONGODB_URI = 'mongodb://localhost:27017';
-const dbName = 'NLProject1920'
+const MONGODB_URI =
+  "mongodb+srv://progettoNLP1920:nlpisbad@nlproject1920-zmx1q.mongodb.net/test?retryWrites=true&w=majority";
+const dbName = "NLProject1920";
 const client = new MongoClient(MONGODB_URI);
 
 // Connect to db server
 client.connect(function(err) {
-  if(err) {
+  if (err) {
     console.log(err);
   }
 
-  const filename = "tmp_data/2018_2019_FoI Class Feedback Form (Responses).xlsx";  
+  const filename =
+    "tmp_data/2018_2019_FoI Class Feedback Form (Responses).xlsx";
   const db = client.db(dbName);
   processFile(db, filename);
-  
+
   app.listen(PORT, function() {
     console.log(`I'm listening on port : `, PORT);
   });
 });
-
-
-
-
-
-
-
-

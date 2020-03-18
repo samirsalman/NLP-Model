@@ -175,19 +175,19 @@ def make_clusters(K, date_value, col):
         X = np.array(X)
         print(X[:, 0])
         plt.scatter(X[:, 0], X[:, 1], label='True Position')
-        #plt.show()
+        plt.show()
         k_means = KMeans(n_clusters=K, init='random',
                          n_init=10, max_iter=300,
                          tol=1e-04, random_state=0).fit(X)
 
         plt.scatter(X[:, 0], X[:, 1], c=k_means.labels_, cmap='rainbow')
-        #plt.show()
+        plt.show()
 
         plt.scatter(X[:, 0], X[:, 1], c=k_means.labels_, cmap='rainbow')
         plt.scatter(k_means.cluster_centers_[:, 0], k_means.cluster_centers_[:, 1], s=250, marker='*',
                     c='red', edgecolor='black',
                     label='centroids')
-        #plt.show()
+        plt.show()
         test = {i: np.where(k_means.labels_ == i)[0] for i in range(k_means.n_clusters)}
         for i in test.keys():
             indxes_of_centroid.append(test[i][0])
@@ -203,9 +203,9 @@ all_dates = []
 writeAllDates("./dataset.json")
 all_dates.append(list(getDates("./dates.json").keys()))
 print(all_dates)
-for date in range(5):
-    make_clusters(3,all_dates[0][date] , 0)
-# make_clusters(3, "3/5/2019", 1)
+# for date in range(5):
+#     make_clusters(3,all_dates[0][date] , 0)
+make_clusters(3, "3/5/2019", 1)
 # make_clusters(3, "3/5/2019", 2)
 # create_json()
 # writeAllDates("./dataset.json")

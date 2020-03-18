@@ -24,4 +24,3 @@ function getResults() {
 }
 
 module.exports = { getResults };
-
