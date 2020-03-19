@@ -24,6 +24,7 @@ import os, re, csv, math, codecs
 from subprocess import check_output
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
+import pickle
 
 nltk.download('stopwords')                             #<-- Download it if it's your first time using it
 
@@ -34,21 +35,37 @@ embed_dim = 300
 
 DATA_PATH = './'                                            #<-- Set your datapath
 EMBEDDING_DIR = './'                                        #<-- Set your embedding_path
+PICKLE_MODEL_PAT = './'
+PICKLE_PCA_PAT = './'
 
 tokenizer = RegexpTokenizer(r'\w+')
 stop_words = set(stopwords.words('italian'))
 stop_words.update(['.', ',', '"', "'", ':', ';', '(', ')', '[', ']', '{', '}'])
 
-print('loading word embeddings...')
-embeddings_index = {}
-f = codecs.open(EMBEDDING_DIR+'cc.it.300.vec', encoding='utf-8')
-for line in tqdm(f):
-    values = line.rstrip().rsplit(' ')
-    word = values[0]
-    coefs = np.asarray(values[1:], dtype='float32')
-    embeddings_index[word] = coefs
-f.close()
-print('found %s word vectors' % len(embeddings_index))
+def load_model():
+	if os.path.exists(PICKLE_MODEL_PAT+'model.pickle'):
+		print('loading word embeddings...')
+		embeddings_index = {}
+		f = codecs.open(EMBEDDING_DIR+'cc.it.300.vec', encoding='utf-8')
+		for line in tqdm(f):
+			values = line.rstrip().rsplit(' ')
+			word = values[0]
+			coefs = np.asarray(values[1:], dtype='float32')
+			embeddings_index[word] = coefs
+		f.close()
+		pickle_out = open(PICKLE_MODEL_PAT+"model.pickle", "wb")
+		pickle.dump(embeddings_index, pickle_out)
+		pickle_out.close()
+		print('found %s word vectors' % len(embeddings_index))
+		return embeddings_index
+	else:
+		pickle_in = open(PICKLE_MODEL_PAT+"model.pickle","rb")
+		embeddings_index = pickle.load(pickle_in)
+		print('found %s word vectors' % len(embeddings_index))
+		return embeddings_index
+
+load_model()
+
 
 dataset = pd.read_json (DATA_PATH+'dataset.json')
 
@@ -128,14 +145,19 @@ emb_matrix = get_embedding_matrix(dataset)                              # <-- a 
 #So, we use the PCA algorithm to reduce the dimensions of our vector.
 
 def fit_PCA(arrays_n_dim):
-    pca_model = PCA(n_components = 2)
-    pca_model.fit(arrays_n_dim)
-    
-    final_array_2_components = pca_model.transform(arrays_n_dim)
-    
-    return pca_model, final_array_2_components
-
-
+	if os.path.exists(PICKLE_PCA_PAT+'pca.pickle'):
+		pca_model = PCA(n_components = 2)
+		pca_model.fit(arrays_n_dim)
+		
+		final_array_2_components = pca_model.transform(arrays_n_dim)
+		pickle_out = open(PICKLE_PCA_PAT+'pca.pickle', "wb")
+		pickle.dump(pca_model, pickle_out)
+		pickle_out.close()
+		return pca_model, final_array_2_components
+	else:
+		pickle_in = open(PICKLE_PCA_PAT+'pca.pickle',"rb")
+		pca_model = pickle.load(pickle_in)
+		return pca_model
 
 
 def space_reduce(vector_of_phrase, training_pca):
