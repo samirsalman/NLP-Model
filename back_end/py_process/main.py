@@ -166,11 +166,11 @@ def write_json(k_means, centroids, date_value, col):
     for i in range(len(k_means.cluster_centers_)):
         print(i)
         results["cendroids"].append({"cluster": i, "phrase": str(
-            phrases[centroids[i]]), "person_id": str(persons[centroids[i]]), "vector": multi_dim[i]})
+            phrases[centroids[i]]), "person_id": str(persons[centroids[i]]), "vector": multi_dim[i].tolist()})
 
     for i in range(len(k_means.labels_)):
         results["elements"].append({"phrase": phrases[i], "cluster": int(
-            k_means.labels_[i]), "person_id": persons[i], "vector": multi_dim[i]})
+            k_means.labels_[i]), "person_id": persons[i], "vector": multi_dim[i].tolist()})
 
     global jsonResponse
     jsonResponse.append(results)

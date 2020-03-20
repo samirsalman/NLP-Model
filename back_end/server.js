@@ -146,6 +146,7 @@ async function downloadFile(auth, fileName, fileId) {
     response.data
       .on("end", () => {
         console.log("Done downloading file.");
+        resolve();
       })
       .on("error", err => {
         console.error("Error downloading file.");
@@ -158,46 +159,55 @@ async function downloadFile(auth, fileName, fileId) {
 // This function downloads the entire content of the google drive
 // associated with the gmail account torvergatanlp1920@gmail.com to
 // the folder ./tmp_data
-function downloadDrive() {
+async function downloadDrive() {
   // Load client secrets from a local file.
-  fs.readFile("google_drive_api/credentials.json", (err, content) => {
-    if (err) return console.log("Error loading client secret file:", err);
-    // Authorize a client with credentials, then call the Google Drive API.
+
+  var credentials;
+  var token_data;
+
+  try {
+    // read files
+    var content = fs.readFileSync("google_drive_api/credentials.json");
     credentials = JSON.parse(content);
+    token_data = fs.readFileSync(TOKEN_PATH);
+  } catch (err) {
+    // TODO: better error management
+    console.log(err);
+    return;
+  }
 
-    const { client_secret, client_id, redirect_uris } = credentials.installed;
-    var oAuth2Client = new google.auth.OAuth2(
-      client_id,
-      client_secret,
-      redirect_uris[0]
-    );
+  // set credentials from data obtained from files
+  const { client_secret, client_id, redirect_uris } = credentials.installed;
+  var oAuth2Client = new google.auth.OAuth2(
+    client_id,
+    client_secret,
+    redirect_uris[0]
+  );
 
-    // Check if we have previously stored a token.
-    fs.readFile(TOKEN_PATH, (err, token) => {
-      if (err) {
-        // If we don't have the token, we have to get it from google
-        // servers.
-        return getAccessToken(oAuth2Client);
-      } else {
-        oAuth2Client.setCredentials(JSON.parse(token));
+  oAuth2Client.setCredentials(JSON.parse(token_data));
 
-        // We have the token and we are ready to download the
-        // files. Before downloading we have to list them though.
-        listFiles(oAuth2Client)
-          .then(response => {
-            response.data["files"].forEach(file => {
-              const fileId = file.id;
-              const fileName = file.name;
+  // We have the token and we are ready to download the
+  // files. Before downloading we have to list them though.
+  var response = await listFiles(oAuth2Client);
+  var i;
+  for (i = 0; i < response.data["files"].length; i++) {
+    var fileName = response.data["files"][i].name;
+    var fileId = response.data["files"][i].id;
+    console.log("before downloadFile()");
+    await downloadFile(oAuth2Client, fileName, fileId);
+    console.log("after downloadFile()");
+  }
+}
+async function deleteTempData(pathToFile) {
+  await fs.unlink(pathToFile, function(err) {
+    if (err) {
+      console.log("Error to delete temp files");
+      return false;
+    } else {
+      console.log("Deleted " + pathToFile.toString());
 
-              // Download the file
-              downloadFile(oAuth2Client, fileName, fileId)
-                .then()
-                .catch(console.error);
-            });
-          })
-          .catch(console.error);
-      }
-    });
+      return true;
+    }
   });
 }
 
@@ -208,6 +218,8 @@ function downloadDrive() {
 // This function reads the entire content of the file 'filename' in
 // order to process the lessons that have not yet been processed.
 function processFile(db, filename) {
+  console.log("PROCESS FILE");
+
   // 1) convert xlsx or xls to JSON
   readXlsxFile(filename, { schema }).then(async function({ rows, errors }) {
     // 2) get from DB all dates (lessons) which were already
@@ -224,11 +236,15 @@ function processFile(db, filename) {
 
     // 3) exclude the dates (lessons) that were already processed
     var rows_to_process = [];
+    var j = 0;
     rows.forEach(row => {
-      row["hash"] = hash(row["codice"] + row["dataLezione"]).toString();
-      if (!response.includes(row["hash"])) {
-        rows_to_process.push(row);
+      if (j < 600) {
+        row["hash"] = hash(row["codice"] + row["dataLezione"]).toString();
+        if (!response.includes(row["hash"])) {
+          rows_to_process.push(row);
+        }
       }
+      j += 1;
     });
 
     // 4) write rows to process in file "rows_to_process.json"
@@ -259,7 +275,7 @@ function processFile(db, filename) {
     //
     // NOTE: Need specific model to do this
     //
-    await pythonInvoke.getResults().on("end", (data, err) => {
+    await pythonInvoke.getResults().on("close", (data, err) => {
       var json = require("./tmp_data/clusters_results.json");
       const collection = db.collection("documents");
       collection.insertMany(json, function(err, result) {
@@ -267,12 +283,94 @@ function processFile(db, filename) {
           console.log(err);
         } else {
           console.log("[DEBUG]: Added document to DB");
+          deleteTempData("./tmp_data/rows_to_process.json");
+          deleteTempData("./tmp_data/clusters_results.json");
+          deleteTempData("./tmp_data/data.csv");
+          deleteTempData("./tmp_data/results.csv");
+          deleteTempData("./tmp_data/dates.json");
+          deleteTempData(filename);
         }
       });
     });
 
     // 6) load the file './tmp_data/clusters_results.json' on DB for
     // future querying.
+  });
+}
+
+async function downloadFilesFromDrive() {
+  return fs.readFile("google_drive_api/credentials.json", (err, content) => {
+    if (err) return console.log("Error loading client secret file:", err);
+    // Authorize a client with credentials, then call the Google Drive API.
+    credentials = JSON.parse(content);
+
+    const { client_secret, client_id, redirect_uris } = credentials.installed;
+    var oAuth2Client = new google.auth.OAuth2(
+      client_id,
+      client_secret,
+      redirect_uris[0]
+    );
+
+    fs.readFile(TOKEN_PATH, async (err, token) => {
+      if (err) {
+        // If we don't have the token, we have to get it from google
+        // servers.
+        return getAccessToken(oAuth2Client);
+      } else {
+        oAuth2Client.setCredentials(JSON.parse(token));
+
+        // We have the token and we are ready to download the
+        // files. Before downloading we have to list them though.
+        var response = await listFiles(oAuth2Client).catch(err, () =>
+          console.log(err)
+        );
+        console.log(response);
+        fs.readFile(TOKEN_PATH, async (err, token) => {
+          if (err) {
+            // If we don't have the token, we have to get it from google
+            // servers.
+            return getAccessToken(oAuth2Client);
+          } else {
+            oAuth2Client.setCredentials(JSON.parse(token));
+
+            // We have the token and we are ready to download the
+            // files. Before downloading we have to list them though.
+            var response = await listFiles(oAuth2Client).catch(err, () =>
+              console.log(err)
+            );
+
+            var i = 0;
+            for (j in response.data["files"]) {
+              console.log(response.data["files"][j]);
+
+              var fileId = response.data["files"][j].id;
+              var fileName = response.data["files"][j].name;
+
+              var procedure = await downloadFile(
+                oAuth2Client,
+                fileName,
+                fileId
+              );
+              const dest = fs.createWriteStream(
+                DATA_FOLDER + fileName + ".xlsx"
+              );
+
+              procedure
+                .on("end", () => {
+                  console.log("Done downloading file.");
+                  console.log("FILE DOWNLOAD COMPLETED" + i);
+                  i += 1;
+                })
+                .on("error", err => {
+                  console.error("Error downloading file.");
+                  reject(err);
+                })
+                .pipe(dest);
+            }
+          }
+        });
+      }
+    });
   });
 }
 
@@ -296,10 +394,29 @@ function processDrive(filename) {
 //
 // This is the main function when the server startsup. This function
 // periodically executes the function processDrive().
-function main() {
+async function main() {
   console.log("STUB: processDrive()!\n");
 
   // TODO: use set interval
+  const client = new MongoClient(MONGODB_URI);
+
+  // Connect to db server
+  client.connect(async function(err) {
+    if (err) {
+      console.log(err);
+    }
+
+    await downloadDrive();
+    console.log("after");
+    const filename =
+      "./tmp_data/2018_2019_FoI Class Feedback Form (Responses).xlsx";
+    const db = client.db(dbName);
+    processFile(db, filename);
+
+    app.listen(PORT, function() {
+      console.log(`I'm listening on port : `, PORT);
+    });
+  });
 }
 
 // ----------------- Code that gets executed -----------------
@@ -326,17 +443,4 @@ const dbName = "NLProject1920";
 const client = new MongoClient(MONGODB_URI);
 
 // Connect to db server
-client.connect(function(err) {
-  if (err) {
-    console.log(err);
-  }
-
-  const filename =
-    "tmp_data/2018_2019_FoI Class Feedback Form (Responses).xlsx";
-  const db = client.db(dbName);
-  processFile(db, filename);
-
-  app.listen(PORT, function() {
-    console.log(`I'm listening on port : `, PORT);
-  });
-});
+main();

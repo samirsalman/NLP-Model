@@ -28,4 +28,13 @@ router.get("/:date", (req, res, next) => {
     });
 });
 
+router.get("/students/:id", (req, res, next) => {
+  db.collection("documents")
+    .find({ person_id: { $regex: req.params.id } })
+    .toArray(function(err, result) {
+      if (err) throw err;
+      res.send(result);
+    });
+});
+
 module.exports = router;
