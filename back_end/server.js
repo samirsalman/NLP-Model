@@ -83,7 +83,7 @@ const VALID_EXTENSIONS = [".xlsx", ".xls"];
 // 
 // Per ora esegue una volta al giorno dal momento in cui viene
 // eseguito.
-const TIME_INTERVAL = 1000 * 60;
+const TIME_INTERVAL = 1000 * 60 * 60 * 24
 
 // ----------------- Google drive code -----------------
 
@@ -280,8 +280,7 @@ function processFile(db, filename) {
         if (err) {
           console.log(err);
         } else {
-          console.log("[INFO]: Added meta-data to DB");
-          console.log("Added " + metaDataJSON.length);
+          console.log("[INFO]: Added " + metaDataJSON.length + " meta-data to DB");
         }
       });
     }
@@ -302,7 +301,7 @@ function processFile(db, filename) {
           console.log(err);
         } else {
 	  // 7) delete temp data files
-          console.log("[DEBUG]: Added document to DB");
+          console.log("[INFO]: Added document to DB");
           deleteTempData("./tmp_data/rows_to_process.json");
           deleteTempData("./tmp_data/clusters_results.json");
           deleteTempData("./tmp_data/data.csv");
@@ -338,9 +337,8 @@ async function processDrive(db) {
     }
     // 3) process the files downloaded
     files_to_process.forEach(filename => {
-      console.log("[DEBUG]: Processing file named " + DATA_FOLDER+filename);
-      // TODO: remove this comment to make it working when deploying
-      // processFile(filename);
+      console.log("[INFO]: Processing file named " + DATA_FOLDER+filename);
+      processFile(filename);
     });
   });
 }
