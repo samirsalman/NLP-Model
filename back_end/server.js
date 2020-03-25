@@ -40,7 +40,7 @@ const clustersRoute = require("./api/routes/clusters");
 const DATA_FOLDER = "./tmp_data/";
 
 // schema used to convert .xlsx document into json format.
-const schema = {
+const SCHEMA = {
   Timestamp: {
     prop: "timestamp",
     type: Date
@@ -66,6 +66,24 @@ const schema = {
     type: String
   }
 };
+
+// mongoDB atlas uri
+const MONGODB_URI = "mongodb+srv://progettoNLP1920:nlpisbad@nlproject1920-zmx1q.mongodb.net/test?retryWrites=true&w=majority";
+const DBNAME = "NLProject1920";
+
+// NOTE: sono utilizzate per sapere quali sono i file da processare
+// dopo aver scaricato il contenuto dal drive dalla funzione
+// processDrive().
+const VALID_EXTENSIONS = [".xlsx", ".xls"];
+
+// NOTE: questo è il periodo di intervallo tra un processamento e un
+// altro. Viene espresso in millisecondi, e allo scadere di tale
+// intervallo viene periodicamente eseguita la funzione main(), che a
+// sua volta chiama la funzione processDrive().
+// 
+// Per ora esegue una volta al giorno dal momento in cui viene
+// eseguito.
+const TIME_INTERVAL = 1000 * 60 * 60 * 60 * 24
 
 // ----------------- Google drive code -----------------
 
@@ -145,7 +163,7 @@ async function downloadFile(auth, fileName, fileId) {
 
     response.data
       .on("end", () => {
-        console.log("Done downloading file.");
+        console.log("[INFO] Done downloading file");
         resolve();
       })
       .on("error", err => {
@@ -193,9 +211,9 @@ async function downloadDrive() {
   for (i = 0; i < response.data["files"].length; i++) {
     var fileName = response.data["files"][i].name;
     var fileId = response.data["files"][i].id;
-    console.log("before downloadFile()");
+    // console.log("[INFO] before downloadFile()");
     await downloadFile(oAuth2Client, fileName, fileId);
-    console.log("after downloadFile()");
+    // console.log("[INFO] after downloadFile()");
   }
 }
 async function deleteTempData(pathToFile) {
@@ -213,15 +231,13 @@ async function deleteTempData(pathToFile) {
 
 // ----------------- Main code -----------------
 
-// TODO: finish to implement this.
-//
 // This function reads the entire content of the file 'filename' in
 // order to process the lessons that have not yet been processed.
 function processFile(db, filename) {
   console.log("PROCESS FILE");
 
   // 1) convert xlsx or xls to JSON
-  readXlsxFile(filename, { schema }).then(async function({ rows, errors }) {
+  readXlsxFile(filename, { SCHEMA }).then(async function({ rows, errors }) {
     // 2) get from DB all dates (lessons) which were already
     // processed. In particular it loads the latest date processed. We
     // assume that all dates before that one were already processed.
@@ -264,8 +280,7 @@ function processFile(db, filename) {
         if (err) {
           console.log(err);
         } else {
-          console.log("[DEBUG]: Added meta-data to DB");
-          console.log("Added " + metaDataJSON.length);
+          console.log("[INFO]: Added " + metaDataJSON.length + " meta-data to DB");
         }
       });
     }
@@ -273,16 +288,20 @@ function processFile(db, filename) {
     // 5) process the rows in "rows_to_process.json" and write the
     // clusters in file './tmp_data/clusters_results.json'
     //
-    // NOTE: Need specific model to do this
+    // NOTE: Need specific model on the machine to do this
     //
     await pythonInvoke.getResults().on("close", (data, err) => {
       var json = require("./tmp_data/clusters_results.json");
       const collection = db.collection("documents");
+      
+      // 6) load the file './tmp_data/clusters_results.json' on DB for
+      // future querying.
       collection.insertMany(json, function(err, result) {
         if (err) {
           console.log(err);
         } else {
-          console.log("[DEBUG]: Added document to DB");
+	  // 7) delete temp data files
+          console.log("[INFO]: Added document to DB");
           deleteTempData("./tmp_data/rows_to_process.json");
           deleteTempData("./tmp_data/clusters_results.json");
           deleteTempData("./tmp_data/data.csv");
@@ -292,111 +311,44 @@ function processFile(db, filename) {
         }
       });
     });
-
-    // 6) load the file './tmp_data/clusters_results.json' on DB for
-    // future querying.
   });
 }
 
-async function downloadFilesFromDrive() {
-  return fs.readFile("google_drive_api/credentials.json", (err, content) => {
-    if (err) return console.log("Error loading client secret file:", err);
-    // Authorize a client with credentials, then call the Google Drive API.
-    credentials = JSON.parse(content);
+// This is the function that process the entire contents of the google
+// drive associated to the gmail account torvergatanlp1920@gmail.com.
+async function processDrive(db) {
+  
+  // 1) execute downloadDrive() to download all files from google
+  // drive to ./tmp_data/ folder.
+  await downloadDrive()
 
-    const { client_secret, client_id, redirect_uris } = credentials.installed;
-    var oAuth2Client = new google.auth.OAuth2(
-      client_id,
-      client_secret,
-      redirect_uris[0]
-    );
+  const path = require('path');
+  const files_to_process = [];
+  fs.readdir(DATA_FOLDER, function(err, files) {
+    if(err) {
+      return console.log('Unable to scan directory: ' + err);
+    }
 
-    fs.readFile(TOKEN_PATH, async (err, token) => {
-      if (err) {
-        // If we don't have the token, we have to get it from google
-        // servers.
-        return getAccessToken(oAuth2Client);
-      } else {
-        oAuth2Client.setCredentials(JSON.parse(token));
-
-        // We have the token and we are ready to download the
-        // files. Before downloading we have to list them though.
-        var response = await listFiles(oAuth2Client).catch(err, () =>
-          console.log(err)
-        );
-        console.log(response);
-        fs.readFile(TOKEN_PATH, async (err, token) => {
-          if (err) {
-            // If we don't have the token, we have to get it from google
-            // servers.
-            return getAccessToken(oAuth2Client);
-          } else {
-            oAuth2Client.setCredentials(JSON.parse(token));
-
-            // We have the token and we are ready to download the
-            // files. Before downloading we have to list them though.
-            var response = await listFiles(oAuth2Client).catch(err, () =>
-              console.log(err)
-            );
-
-            var i = 0;
-            for (j in response.data["files"]) {
-              console.log(response.data["files"][j]);
-
-              var fileId = response.data["files"][j].id;
-              var fileName = response.data["files"][j].name;
-
-              var procedure = await downloadFile(
-                oAuth2Client,
-                fileName,
-                fileId
-              );
-              const dest = fs.createWriteStream(
-                DATA_FOLDER + fileName + ".xlsx"
-              );
-
-              procedure
-                .on("end", () => {
-                  console.log("Done downloading file.");
-                  console.log("FILE DOWNLOAD COMPLETED" + i);
-                  i += 1;
-                })
-                .on("error", err => {
-                  console.error("Error downloading file.");
-                  reject(err);
-                })
-                .pipe(dest);
-            }
-          }
-        });
+    // 2) find all downloaded .xlsx files in ./tmp_data
+    for (var i = 0; i < files.length; i++) {
+      if (VALID_EXTENSIONS.includes(path.extname(files[i]))) {
+	files_to_process.push(files[i]);
       }
+    }
+    // 3) process the files downloaded
+    files_to_process.forEach(filename => {
+      console.log("[INFO]: Processing file named " + DATA_FOLDER+filename);
+      processFile(filename);
     });
   });
 }
 
-// TODO: implement this.
-//
-// This is the function that process the entire contents of the google
-// drive associated to the gmail account torvergatanlp1920@gmail.com.
-function processDrive(filename) {
-  console.log("STUB: processDrive()!\n");
 
-  // 1) execute downloadDrive() to download all files from google
-  // drive to ./tmp_data/ folder.
-
-  // 2) find all .xlsx files in ./tmp_data and process each of them
-  // using processFile(filename) function.
-
-  // 3) delete all .xlsxs files in ./tmp_data.
-}
-
-// TODO: implement this.
-//
-// This is the main function when the server startsup. This function
-// periodically executes the function processDrive().
+// This function connects to the db and executes processDrive()
 async function main() {
-  console.log("STUB: processDrive()!\n");
-
+  console.log("STUB: main()!\n");
+  console.log(new Date().toISOString());
+  
   // TODO: use set interval
   const client = new MongoClient(MONGODB_URI);
 
@@ -406,16 +358,8 @@ async function main() {
       console.log(err);
     }
 
-    await downloadDrive();
-    console.log("after");
-    const filename =
-      "./tmp_data/2018_2019_FoI Class Feedback Form (Responses).xlsx";
-    const db = client.db(dbName);
-    processFile(db, filename);
-
-    app.listen(PORT, function() {
-      console.log(`I'm listening on port : `, PORT);
-    });
+    const db = client.db(DBNAME);
+    await processDrive(db);  
   });
 }
 
@@ -435,12 +379,11 @@ app.get("/", (req, res) => {
   res.send(`Homepage, request from ${req.host}`);
 });
 
-// Setup mongoDB connection variables
-// TODO: switch this for remote url when ready
-const MONGODB_URI =
-  "mongodb+srv://progettoNLP1920:nlpisbad@nlproject1920-zmx1q.mongodb.net/test?retryWrites=true&w=majority";
-const dbName = "NLProject1920";
-const client = new MongoClient(MONGODB_URI);
+// This function periodically executes the function main(). The period
+// is controlled by the quantity TIME_INTERVAL, which is expressed in
+// milliseconds. 
+var interval = setInterval(main, TIME_INTERVAL);
 
-// Connect to db server
-main();
+app.listen(PORT, function() {
+  console.log(`I'm listening on port : `, PORT);
+});
