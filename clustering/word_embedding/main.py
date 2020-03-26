@@ -30,15 +30,18 @@ K_Means.euclidean_distances = new_euclidean_distances
 # Take all dates from dataset and write them to file
 def writeAllDates(dataset_file):
     with open(dataset_file, 'r') as dataset:
-        corpusJSON = json.load(dataset)
-        out = open("dates.json", "w+")
-        output = {}
+        try:
+            corpusJSON = json.load(dataset)
+            out = open("./dates.json", "w+")
+            output = {}
 
-        for el in range(len(corpusJSON)):
-            output[corpusJSON[el]["data"]] = output.get(corpusJSON[el]["data"], 0) + 1
-        out.write(json.dumps(output))
-        out.close()
-        return
+            for el in range(len(corpusJSON)):
+                output[corpusJSON[el]["data"]] = output.get(corpusJSON[el]["data"], 0) + 1
+            out.write(json.dumps(output))
+            out.close()
+            return
+        except Exception as e:
+            print(e)
 
 
 # get all saved dates from file
@@ -102,29 +105,44 @@ cols = ["messaggio", "argomento", "chiarimenti"]
 # load all phrases from dataset, passing date and column
 def load_phrases(path, date_value, col):
     i = 0
-    global multi_dim, phrases,persons
-    multi_dim, phrases,persons = [], [], []
+    global multi_dim, phrases, persons
+    multi_dim, phrases, persons = [], [], []
     results = open("./results.csv", "w+", encoding='utf-8')
     results.write("f1,f2,v1,v2,sim\n")
     dataset_output = open("./data.csv", "w+", encoding='utf-8')
     dataset_output.write("f,v\n")
     col_value = cols[col]
 
-    with open(path, 'r') as dataset:
+    with open(path, 'r', encoding="utf8") as dataset:
         corpusJSON = json.load(dataset)
         for el in range(len(corpusJSON)):
             if corpusJSON[el]["data"] == date_value:
                 try:
                     f1 = clean_phrases(corpusJSON[el][col_value])
                     f2 = clean_phrases(corpusJSON[el + 1][col_value])
+                    #f1 = corpusJSON[el][col_value]
+                    #f2 = corpusJSON[el + 1][col_value]
+                    '''
+                    x = get_vector_of_phrase(get_embedding_list_of_message("Spiegazione di bubble sort, selection sort"))
+                    y = space_reduce(x, pca)
+                    '''
                     v1 = phrase2vec(f1)
-                    v2 = phrase2vec(f2)
-                    multi_dim.append(v1)
+                    v2 = phrase2vec(f2)  # GETVECTORPHRASE
+                    # v1 = FastText_Embedding.space_reduce(FastText_Embedding.get_vector_of_phrase(
+                    #     FastText_Embedding.get_embedding_list_of_message(f1)),#TRAINED PCA
+                    #      )
+                    # v2 = FastText_Embedding.space_reduce(FastText_Embedding.get_vector_of_phrase(
+                    #     FastText_Embedding.get_embedding_list_of_message(f2)),#TRAINED PCA
+                    #      )
+
+                    multi_dim.append(np.resize(v1, 2))
                     phrases.append(f1)
                     persons.append(corpusJSON[el]["codice"])
                     sim = vectors_similarity(v1, v2)
-                    results.write(str(f1) + "," + str(f2) + "," + str(v1) + "," + str(v2) + "," + str(sim) + "\n")
-                    dataset_output.write(str(f1) + "," + str(v1).rstrip() + "\n")
+                    results.write(str(f1) + "," + str(f2) + "," +
+                                  str(v1) + "," + str(v2) + "," + str(sim) + "\n")
+                    dataset_output.write(
+                        str(f1) + "," + str(v1).rstrip() + "\n")
 
                 except Exception as e:
                     i += 1
@@ -138,8 +156,8 @@ def load_phrases(path, date_value, col):
 # create the json structure of response
 def write_json(k_means, centroids, date_value, col):
     results = {}
-    global phrases,persons
-    results["id"] = date_value +"-" + str(col)
+    global phrases, persons
+    results["id"] = date_value + "-" + str(col)
     results["col"] = col
     results["date"] = date_value
     results["cendroids"] = []
@@ -147,10 +165,12 @@ def write_json(k_means, centroids, date_value, col):
 
     for i in range(len(k_means.cluster_centers_)):
         print(i)
-        results["cendroids"].append({"cluster": i, "phrase": str(phrases[centroids[i]]), "person_id" : str(persons[centroids[i]])})
+        results["cendroids"].append({"cluster": i, "phrase": str(
+            phrases[centroids[i]]), "person_id": str(persons[centroids[i]]), "vector": multi_dim[centroids[i]].tolist()})
 
     for i in range(len(k_means.labels_)):
-        results["elements"].append({"phrase": phrases[i], "cluster": int(k_means.labels_[i]),"person_id":persons[i]})
+        results["elements"].append({"phrase": phrases[i], "cluster": int(
+            k_means.labels_[i]), "person_id": persons[i], "vector": multi_dim[i].tolist()})
 
     global jsonResponse
     jsonResponse.append(results)
@@ -159,36 +179,37 @@ def write_json(k_means, centroids, date_value, col):
 # write all computed clusters into a json file
 def create_json():
     global jsonResponse
-    file = open("./clusters_results.json", "w+")
+    file = open("./clusters_results.json", "w+", encoding="utf8")
     to_json = json.dumps(jsonResponse)
     file.write(to_json)
 
 
 # function that compute and create clusters
-def make_clusters(K, date_value, col):
+def make_clusters(K, dataset, date_value, col):
     try:
-        load_phrases("./dataset.json", date_value, col)
+        load_phrases(dataset, date_value, col)
         indxes_of_centroid = []
-        X = []
-        for el in multi_dim:
-            X.append(np.resize(el, 2))
+        X = multi_dim
+        # FastText_Embedding.space_reduce(el,#PCA)
+
         X = np.array(X)
         print(X[:, 0])
         plt.scatter(X[:, 0], X[:, 1], label='True Position')
-        plt.show()
+        # plt.show()
         k_means = KMeans(n_clusters=K, init='random',
                          n_init=10, max_iter=300,
                          tol=1e-04, random_state=0).fit(X)
 
         plt.scatter(X[:, 0], X[:, 1], c=k_means.labels_, cmap='rainbow')
-        plt.show()
+        # plt.show()
 
         plt.scatter(X[:, 0], X[:, 1], c=k_means.labels_, cmap='rainbow')
         plt.scatter(k_means.cluster_centers_[:, 0], k_means.cluster_centers_[:, 1], s=250, marker='*',
                     c='red', edgecolor='black',
                     label='centroids')
-        plt.show()
-        test = {i: np.where(k_means.labels_ == i)[0] for i in range(k_means.n_clusters)}
+        # plt.show()
+        test = {i: np.where(k_means.labels_ == i)[
+            0] for i in range(k_means.n_clusters)}
         for i in test.keys():
             indxes_of_centroid.append(test[i][0])
         print(indxes_of_centroid)
@@ -203,9 +224,11 @@ all_dates = []
 writeAllDates("./dataset.json")
 all_dates.append(list(getDates("./dates.json").keys()))
 print(all_dates)
-# for date in range(5):
-#     make_clusters(3,all_dates[0][date] , 0)
-make_clusters(3, "3/5/2019", 1)
+for date in range(3):
+    for j in range(3):
+        make_clusters(3, "./dataset.json", all_dates[0][date], j)
+
+#make_clusters(3, "3/5/2019", 1)
 # make_clusters(3, "3/5/2019", 2)
 # create_json()
 # writeAllDates("./dataset.json")
