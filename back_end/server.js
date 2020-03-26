@@ -83,7 +83,7 @@ const VALID_EXTENSIONS = [".xlsx", ".xls"];
 // 
 // Per ora esegue una volta al giorno dal momento in cui viene
 // eseguito.
-const TIME_INTERVAL = 1000 * 60 * 60 * 60 * 24
+const TIME_INTERVAL = 1000 * 60 * 60 * 24;
 
 // ----------------- Google drive code -----------------
 
