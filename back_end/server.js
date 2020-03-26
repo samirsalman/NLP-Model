@@ -40,7 +40,7 @@ const clustersRoute = require("./api/routes/clusters");
 const DATA_FOLDER = "./tmp_data/";
 
 // schema used to convert .xlsx document into json format.
-const SCHEMA = {
+const schema = {
   Timestamp: {
     prop: "timestamp",
     type: Date
@@ -92,7 +92,7 @@ const SCOPES = ["https://www.googleapis.com/auth/drive.readonly"];
 // The file token.json stores the user's access and refresh tokens, and is
 // created automatically when the authorization flow completes for the first
 // time.
-const TOKEN_PATH = "google_drive_api/token.json";
+const TOKEN_PATH = "./google_keys/token.json"
 
 /**
  * Get and store new token after prompting for user authorization, and then
@@ -185,7 +185,7 @@ async function downloadDrive() {
 
   try {
     // read files
-    var content = fs.readFileSync("google_drive_api/credentials.json");
+    var content = fs.readFileSync("./google_keys/credentials.json");
     credentials = JSON.parse(content);
     token_data = fs.readFileSync(TOKEN_PATH);
   } catch (err) {
@@ -235,9 +235,9 @@ async function deleteTempData(pathToFile) {
 // order to process the lessons that have not yet been processed.
 function processFile(db, filename) {
   console.log("PROCESS FILE");
-
+  
   // 1) convert xlsx or xls to JSON
-  readXlsxFile(filename, { SCHEMA }).then(async function({ rows, errors }) {
+  readXlsxFile(filename, { schema }).then(async function({ rows, errors }) {
     // 2) get from DB all dates (lessons) which were already
     // processed. In particular it loads the latest date processed. We
     // assume that all dates before that one were already processed.
@@ -248,19 +248,16 @@ function processFile(db, filename) {
       .toArray();
 
     response = response.map(el => el.hash);
-    console.log(response);
+    // console.log("[DEBUG]: hash present in DB: + response);
 
     // 3) exclude the dates (lessons) that were already processed
     var rows_to_process = [];
-    var j = 0;
+    
     rows.forEach(row => {
-      if (j < 600) {
-        row["hash"] = hash(row["codice"] + row["dataLezione"]).toString();
-        if (!response.includes(row["hash"])) {
-          rows_to_process.push(row);
-        }
+      row["hash"] = hash(row["codice"] + row["dataLezione"]).toString();
+      if (!response.includes(row["hash"])) {
+        rows_to_process.push(row);
       }
-      j += 1;
     });
 
     // 4) write rows to process in file "rows_to_process.json"
@@ -335,10 +332,13 @@ async function processDrive(db) {
 	files_to_process.push(files[i]);
       }
     }
+
+    console.log(files_to_process);
+    
     // 3) process the files downloaded
     files_to_process.forEach(filename => {
       console.log("[INFO]: Processing file named " + DATA_FOLDER+filename);
-      processFile(filename);
+      processFile(db, DATA_FOLDER+filename);
     });
   });
 }
@@ -346,7 +346,7 @@ async function processDrive(db) {
 
 // This function connects to the db and executes processDrive()
 async function main() {
-  console.log("STUB: main()!\n");
+  console.log("[INFO]: main()!\n");
   console.log(new Date().toISOString());
   
   // TODO: use set interval
