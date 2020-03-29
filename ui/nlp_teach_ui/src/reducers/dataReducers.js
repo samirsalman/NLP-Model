@@ -1,27 +1,26 @@
-const dataReducer = (
-  state = {
-    load: true,
-    data: []
-  },
-  action
-) => {
+import dataJson from "../clusters/clusters_result.json";
+const axios = require("axios");
+
+const INITIAL_STATE = {
+  load: true,
+  data: [],
+  success: false,
+  date: null
+};
+export const dataReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case "LOAD_DATA":
-      loadData(action.date);
-      state.data = action.document;
-      state.load = false;
-      return state;
+      return INITIAL_STATE;
+
+    case "RECEIVE_DATA":
+      return {
+        load: false,
+        data: action.payload,
+        success: true,
+        date: action.date
+      };
 
     default:
       return state;
   }
-};
-
-const loadData = date => {
-  /*getDataFromServer(date).then((el)=>{
-
-        return el;
-
-    })
-    */
 };
